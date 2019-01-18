@@ -1,0 +1,1179 @@
+<html><head><title>Permissions</title><style>
+table{font-family:arial, sans-serif;border-collapse:collapse;}
+td,th{border:1px solid #666666;text-align:left;padding:8px;min-width:45px;}
+th{background-color:#CCCCCC;}
+p{margin:0;}
+tr:nth-child(even){background-color:#D8D8D8;}
+tr:nth-child(odd){background-color:#EEEEEE;}
+td.true{background-color:#72FF85AA;}
+td.false{background-color:#FF6666AA;}
+td.other{background-color:#42A3FFAA;}
+td.error{color:#FF0000;}
+th,td.true,td.false,td.other{text-align:center;}
+</style></head><body><h1>Permissions</h1><h3>Modifying this file won't have any effect, edit ranks.txt!</h3><table>
+<tr><th>Node</th><th>Type</th><th>Player</th><th>OP</th><th>Info (Mouse over for variants)</th></tr>
+<tr>
+<td><code>admin_panel.ftbutilities.crash_reports.delete</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow to delete crash reports, requires admin_panel.ftbutilities.crash_reports.view</p>
+</td></tr>
+<tr>
+<td><code>admin_panel.ftbutilities.crash_reports.view</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow to view crash reports via Admin Panel</p>
+</td></tr>
+<tr>
+<td><code>admin_panel.ftbutilities.edit_world.gamerules</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow to edit gamerules via Admin Panel</p>
+</td></tr>
+<tr>
+<td><code>block.tap</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Node for taping blocks with the tree tap</p>
+</td></tr>
+<tr>
+<td><code>block.wrench</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Node for wrenching blocks</p>
+</td></tr>
+<tr>
+<td><code>command</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission for commands, if FTBUtilities command overriding is enabled. If not, this node will be inactive</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.afk.timer</code></td>
+<td><code>timer</code></td>
+<td class='other' colspan='2'><code>0s</code></td>
+<td title='
+0s to &infin; 
+'>
+<p>AFK 计时</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.cooldown</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>3m</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to &infin; 
+'>
+<p>/back Cooldown Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.infinite</code></td>
+<td><code>bool</code></td>
+<td class='false' colspan='2'><code>false</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow to use 'back' command infinite times</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.warmup</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>5s</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to 1m 
+'>
+<p>/back Warmup Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.badge</code></td>
+<td><code>string</code></td>
+<td class='other' colspan='2'><code>""</code></td>
+<td title='
+'>
+<p>徽章</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.chat.name_format</code></td>
+<td><code>string</code></td>
+<td class='other'><code>"&lt;{name}&gt;"</code></td>
+<td class='other'><code>"&lt;&amp;2{name}&amp;r&gt;"</code></td>
+<td title='
+'>
+<p>permission.ftbutilities.chat.name_format</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.chat.nickname.colors</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow to use formatting codes in nickname, requires ftbutilities.chat.nickname.set</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.chat.nickname.set</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow to change nickname</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.chat.speak</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Controls if player is muted or not</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.chat.text.color</code></td>
+<td><code>enum</code></td>
+<td class='other' colspan='2'><code>white</code></td>
+<td title='
+aqua 
+black 
+blue 
+dark_aqua 
+dark_blue 
+dark_gray 
+dark_green 
+dark_purple 
+dark_red 
+gold 
+gray 
+green 
+light_purple 
+red 
+white 
+yellow 
+'>
+<p>聊天文字颜色</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.chunkloader.load_offline</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Keep loaded chunks working when player goes offline</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.chunkloader.max_chunks</code></td>
+<td><code>int</code></td>
+<td class='other'><code>50</code></td>
+<td class='other'><code>64</code></td>
+<td title='
+0 to 30000 
+'>
+<p>最多可加载区块</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.attack_animals</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow to attack animals in claimed chunks</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.edit</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission for blocks that players can break and place within claimed chunks</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission for blocks that players can right-click within claimed chunks</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.advancedrocketry.airlock_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.acacia</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.balsa</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.baobab</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.cherry</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.chestnut</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.citrus</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.cocobolo</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.ebony</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.giganteum</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.greenheart</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.ipe</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.kapok</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.larch</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.lime</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.mahoe</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.mahogany</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.maple</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.padauk</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.palm</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.papaya</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.pine</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.plum</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.poplar</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.sequoia</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.teak</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.walnut</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.wenge</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.willow</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.forestry.doors.zebrawood</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.ic2.reinforced_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.minecraft.acacia_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.minecraft.anvil</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.minecraft.birch_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.minecraft.crafting_table</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.minecraft.dark_oak_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.minecraft.iron_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.minecraft.jungle_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.minecraft.spruce_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.minecraft.wooden_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.primal.door_corypha</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.primal.door_ironwood</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.primal.door_lacquer</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.primal.door_yew</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.techguns.bunkerdoor</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.bypass_limits</code></td>
+<td><code>bool</code></td>
+<td class='false' colspan='2'><code>false</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow to bypass claiming and loading limits</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.item</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission for items that players can right-click in air within claimed chunks</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.item.minecraft.bucket</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.item.minecraft.end_crystal</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.item.minecraft.lava_bucket</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.item.minecraft.water_bucket</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.max_chunks</code></td>
+<td><code>int</code></td>
+<td class='other'><code>100</code></td>
+<td class='other'><code>1000</code></td>
+<td title='
+0 to 30000 
+'>
+<p>最多可声明区块</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.display.admin_info</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Display 'Admin' in Server Info</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.homes.cooldown</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>5m</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to &infin; 
+'>
+<p>/home Cooldown Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.homes.cross_dim</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Can use /home to teleport to/from another dimension</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.homes.max</code></td>
+<td><code>int</code></td>
+<td class='other'><code>1</code></td>
+<td class='other'><code>100</code></td>
+<td title='
+0 to 30000 
+'>
+<p>最大家数量</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.homes.warmup</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>5s</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to 1m 
+'>
+<p>/home Warmup Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.leaderboard</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission for leaderboards that players can view</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.other_player.claims.claim</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player to claim other team chunks</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.other_player.claims.load</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player to load other team chunks</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.other_player.claims.see_info</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player to see info of other team chunks</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.other_player.claims.unclaim</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player to unclaim other team chunks</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.other_player.claims.unload</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player to unload other team chunks</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.other_player.heal</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow to heal other players</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.other_player.homes.list</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow to list other people homes</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.other_player.homes.teleport</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow to teleport to other people homes</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.rtp.cooldown</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>10m</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to &infin; 
+'>
+<p>permission.ftbutilities.rtp.cooldown</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.rtp.warmup</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>5s</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to 1m 
+'>
+<p>permission.ftbutilities.rtp.warmup</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.spawn.cooldown</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>1m</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to &infin; 
+'>
+<p>/spawn Cooldown Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.spawn.warmup</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>5s</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to 1m 
+'>
+<p>/spawn Warmup Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.tpa.cooldown</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>3m</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to &infin; 
+'>
+<p>/tpa Cooldown Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.tpa.cross_dim</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Can use /tpa to teleport to/from another dimension</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.tpa.warmup</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>5s</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to 1m 
+'>
+<p>/tpa Warmup Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.warps.cooldown</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>1m</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to &infin; 
+'>
+<p>/warp Cooldown Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.warps.warmup</code></td>
+<td><code>timer</code></td>
+<td class='other'><code>5s</code></td>
+<td class='other'><code>0s</code></td>
+<td title='
+0s to 1m 
+'>
+<p>/warp Warmup Timer</p>
+</td></tr>
+</table><br><table><tr><th>Available command nodes</th><th>Usage</th></tr>
+<tr><td><code>command.advancedrocketry.advancedrocketry</code></td><td class='error' title='Invalid usage language key!'>advancedRocketry help</td></tr>
+<tr><td><code>command.advancement</code></td><td>/advancement &lt;grant|revoke|test&gt; &lt;玩家&gt;</td></tr>
+<tr><td><code>command.applecore.hunger</code></td><td>/hunger [玩家ID] &lt;数值&gt;</td></tr>
+<tr><td><code>command.appliedenergistics2.ae2</code></td><td>AE2提供的指令——输入/ae2 list查看指令列表，/ae2 help _____查看指令帮助。</td></tr>
+<tr><td><code>command.astralsorcery.astralsorcery</code></td><td class='error' title='Invalid usage language key!'>/astralsorcery &lt;action&gt; [player] [arguments...]</td></tr>
+<tr><td><code>command.baubles.baubles</code></td><td class='error' title='Invalid usage language key!'>/baubles &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
+<tr><td><code>command.bdlib.dumpregistry</code></td><td>dumpregistry</td></tr>
+<tr><td><code>command.bdlib.oredistribution</code></td><td>/oredistribution &lt;范围&gt; [&lt;最小高度&gt;] [&lt;最大高度&gt;] [--file]</td></tr>
+<tr><td><code>command.betterbuilderswands.wandoops</code></td><td class='error' title='Invalid usage language key!'>/wandOops</td></tr>
+<tr><td><code>command.betterquesting.bq_admin</code></td><td class='error' title='Invalid usage language key!'>/bq_admin edit [true|false], /bq_admin hardcore [true|false], /bq_admin reset [all|&lt;quest_id&gt;] [username|uuid], /bq_admin complete &lt;quest_id&gt; [username|uuid], /bq_admin delete [all|&lt;quest_id&gt;], /bq_admin default [save|load|set] [file_name], /bq_admin lives [add|set|max|default] &lt;value&gt; [username|uuid]</td></tr>
+<tr><td><code>command.betterquesting.bq_user</code></td><td class='error' title='Invalid usage language key!'>/bq_user help, /bq_user refresh, /bq_user hardcore</td></tr>
+<tr><td><code>command.blockdata</code></td><td>/blockdata &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;数据标签&gt;</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.bind</code></td><td class='error' title='Invalid usage language key!'>/bind &lt;玩家&gt;</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network</code></td><td class='error' title='Invalid usage language key!'>/bloodmagic network [吸取(syphon)|添加(add)|查看(get)|填充(fill)|填满(cap)] &lt;玩家&gt; [数量]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.orb</code></td><td class='error' title='Invalid usage language key!'>/bloodmagic orb [设置(set)|查看(get)] &lt;玩家&gt; [等级]</td></tr>
+<tr><td><code>command.bnbgaminglib.bnb</code></td><td>/bnb &lt;hand|hotbar&gt;</td></tr>
+<tr><td><code>command.bonsaitrees.bonsaitrees</code></td><td>/bonsaitrees [子命令，留空显示可用子命令列表]</td></tr>
+<tr><td><code>command.botania.botania-open</code></td><td>&lt;entry&gt;</td></tr>
+<tr><td><code>command.botania.botania-share</code></td><td>&lt;entry&gt;</td></tr>
+<tr><td><code>command.botania_tweaks.botaniatweaks-debug-stats</code></td><td>用法：/botaniatweaks-debug-stats [flowerName | all | total]</td></tr>
+<tr><td><code>command.botania_tweaks.botaniatweaks-reset-stats</code></td><td>用法：/botaniatweaks-reset-stats [flowerName | all]</td></tr>
+<tr><td><code>command.bq_standard.bqs_loot</code></td><td class='error' title='Invalid usage language key!'>/bq_loot default [save|load], /bq_loot delete [all|&lt;loot_index&gt;]</td></tr>
+<tr><td><code>command.brandonscore.bcore_ticktime</code></td><td class='error' title='Invalid usage language key!'>/bcore_ticktime</td></tr>
+<tr><td><code>command.brandonscore.bcore_util</code></td><td class='error' title='Invalid usage language key!'>/bcore_util help</td></tr>
+<tr><td><code>command.cedunleashedcontrol.cuc</code></td><td class='error' title='Invalid usage language key!'>/cuc reload reset time dumpsounds resync killvillagers</td></tr>
+<tr><td><code>command.clear</code></td><td>/clear [玩家] [物品] [数据] [最大量] [数据标签]</td></tr>
+<tr><td><code>command.clone</code></td><td>/clone &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [掩码模式] [复制模式]</td></tr>
+<tr><td><code>command.cofhcore.cofh</code></td><td class='error' title='Invalid usage language key!'>/cofh help</td></tr>
+<tr><td><code>command.cofhworld.cofhworld.list</code></td><td>列出 CoFH World 所有的功能</td></tr>
+<tr><td><code>command.cofhworld.cofhworld.reload</code></td><td>重新载入 CoFH World 配置</td></tr>
+<tr><td><code>command.cofhworld.cofhworld.version</code></td><td>cofhworld.version.usage</td></tr>
+<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | botania | botbrews | botlexcats | botlexentries | botlexpages | botlextypes | botorechid | bugs | chiselGroups | conflict | copy | creativetab | discord | docs | dumpzs | entities | exportzs | hand | help | inventory | jeiCategories | json | liquids | log | materialparts | materials | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | thaumcraftDump | ticmat | wiki | zslint</td></tr>
+<tr><td><code>command.crafttweaker.ctgui</code></td><td class='error' title='Invalid usage language key!'>CTGUI &lt;id&gt;</td></tr>
+<tr><td><code>command.debug</code></td><td>/debug &lt;start|stop&gt;</td></tr>
+<tr><td><code>command.defaultgamemode</code></td><td>/defaultgamemode &lt;模式&gt;</td></tr>
+<tr><td><code>command.difficulty</code></td><td>/difficulty &lt;新的难度&gt;</td></tr>
+<tr><td><code>command.draconicevolution.de_upgrade</code></td><td class='error' title='Invalid usage language key!'>/de_upgrade</td></tr>
+<tr><td><code>command.effect</code></td><td>/effect &lt;玩家&gt; &lt;药水效果&gt; [秒数] [等级] [隐藏粒子] 或 /effect &lt;玩家&gt; clear</td></tr>
+<tr><td><code>command.enchant</code></td><td>/enchant &lt;玩家&gt; &lt;魔咒ID&gt; [等级]</td></tr>
+<tr><td><code>command.enderstorage.enderstorage.clear</code></td><td class='error' title='Invalid usage language key!'>Provides ability to clear a users EnderStorage.</td></tr>
+<tr><td><code>command.enderstorage.enderstorage.help</code></td><td class='error' title='Invalid usage language key!'>Displays help for /EnderStorage commands.</td></tr>
+<tr><td><code>command.entitydata</code></td><td>/entitydata &lt;实体&gt; &lt;数据标签&gt;</td></tr>
+<tr><td><code>command.execute</code></td><td>/execute &lt;实体&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;命令&gt; 或 /execute &lt;实体&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; detect &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;方块&gt; &lt;数据值|-1|状态|*&gt; &lt;命令&gt;|</td></tr>
+<tr><td><code>command.extrautils2.xudebug</code></td><td>xudebug</td></tr>
+<tr><td><code>command.fill</code></td><td>/fill &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;方块名&gt; [数据值|状态] [旧方块处理方式] [数据标签]</td></tr>
+<tr><td><code>command.forestry.forestry</code></td><td class='error' title='Invalid usage language key!'>/forestry help</td></tr>
+<tr><td><code>command.forge.dimensions</code></td><td>用法：/forge dimensions</td></tr>
+<tr><td><code>command.forge.entity.help.list</code></td><td>使用 /forge entity list [过滤器] [维度] 获取符合给定条件的实体信息。</td></tr>
+<tr><td><code>command.forge.entity.list</code></td><td>使用 /forge entity list [过滤器] [维度] 获取符合给定条件的实体信息。</td></tr>
+<tr><td><code>command.forge.generate</code></td><td>用法：/forge gen &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;区块数量&gt; [维度] [间隔]</td></tr>
+<tr><td><code>command.forge.help.dimensions</code></td><td>用法：/forge dimensions</td></tr>
+<tr><td><code>command.forge.help.entity</code></td><td>使用 /forge entity help 显示子命令 entity 的更多信息。</td></tr>
+<tr><td><code>command.forge.help.generate</code></td><td>用法：/forge gen &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;区块数量&gt; [维度] [间隔]</td></tr>
+<tr><td><code>command.forge.help.setdimension</code></td><td>使用 /forge setdim &lt;entity&gt; &lt;维度&gt; [&lt;x&gt; &lt;y&gt; &lt;z&gt;]</td></tr>
+<tr><td><code>command.forge.help.tps</code></td><td>用法：/forge tps [维度]</td></tr>
+<tr><td><code>command.forge.help.track</code></td><td>使用 /forge track help 显示追踪子命令的更多信息。</td></tr>
+<tr><td><code>command.forge.setdimension</code></td><td>使用 /forge setdim &lt;entity&gt; &lt;维度&gt; [&lt;x&gt; &lt;y&gt; &lt;z&gt;]</td></tr>
+<tr><td><code>command.forge.tps</code></td><td>用法：/forge tps [维度]</td></tr>
+<tr><td><code>command.forge.track.entity</code></td><td>commands.forge.tracking.entity.usage</td></tr>
+<tr><td><code>command.forge.track.help.entity</code></td><td>commands.forge.tracking.entity.usage</td></tr>
+<tr><td><code>command.forge.track.help.reset</code></td><td>使用 /forge reset &lt;te|entity&gt;</td></tr>
+<tr><td><code>command.forge.track.help.start</code></td><td>使用 /forge track &lt;te|entity&gt; &lt;持续时间&gt;</td></tr>
+<tr><td><code>command.forge.track.help.te</code></td><td>使用 /forge track te</td></tr>
+<tr><td><code>command.forge.track.reset</code></td><td>使用 /forge reset &lt;te|entity&gt;</td></tr>
+<tr><td><code>command.forge.track.start</code></td><td>使用 /forge track &lt;te|entity&gt; &lt;持续时间&gt;</td></tr>
+<tr><td><code>command.forge.track.te</code></td><td>使用 /forge track te</td></tr>
+<tr><td><code>command.ftblib.my_settings</code></td><td>/my_settings &lt;设置id&gt; [值]</td></tr>
+<tr><td><code>command.ftblib.reload</code></td><td>/reload [*|domain:*|domain:id]</td></tr>
+<tr><td><code>command.ftblib.team.create</code></td><td>/team create &lt;id&gt; [颜色]</td></tr>
+<tr><td><code>command.ftblib.team.create_server_team</code></td><td>commands.team.create_server_team.usage</td></tr>
+<tr><td><code>command.ftblib.team.delete</code></td><td>/team delete &lt;组&gt;</td></tr>
+<tr><td><code>command.ftblib.team.help</code></td><td>/help [页码|命令名称]</td></tr>
+<tr><td><code>command.ftblib.team.join</code></td><td>/team join &lt;组&gt;</td></tr>
+<tr><td><code>command.ftblib.team.kick</code></td><td>/team kick &lt;玩家&gt;</td></tr>
+<tr><td><code>command.ftblib.team.leave</code></td><td>/team leave</td></tr>
+<tr><td><code>command.ftblib.team.request_invite</code></td><td>/team request_invite &lt;组&gt;</td></tr>
+<tr><td><code>command.ftblib.team.settings</code></td><td>/team settings &lt;配置 id&gt; [值]</td></tr>
+<tr><td><code>command.ftblib.team.status</code></td><td>/team status &lt;玩家&gt; [设置的状态]</td></tr>
+<tr><td><code>command.ftblib.team.transfer_ownership</code></td><td>/team transfer_ownership &lt;玩家&gt;</td></tr>
+<tr><td><code>command.ftbutilities.back</code></td><td>/back</td></tr>
+<tr><td><code>command.ftbutilities.backup.help</code></td><td>/help [页码|命令名称]</td></tr>
+<tr><td><code>command.ftbutilities.backup.size</code></td><td>commands.backup.size.usage</td></tr>
+<tr><td><code>command.ftbutilities.backup.start</code></td><td>/backup start [自定义名称]</td></tr>
+<tr><td><code>command.ftbutilities.backup.time</code></td><td>commands.backup.time.usage</td></tr>
+<tr><td><code>command.ftbutilities.chunks.claim</code></td><td>/chunks claim</td></tr>
+<tr><td><code>command.ftbutilities.chunks.help</code></td><td>/help [页码|命令名称]</td></tr>
+<tr><td><code>command.ftbutilities.chunks.load</code></td><td>/chunks load</td></tr>
+<tr><td><code>command.ftbutilities.chunks.unclaim</code></td><td>/chunks unclaim</td></tr>
+<tr><td><code>command.ftbutilities.chunks.unclaim_all</code></td><td>/ chunks unclaim_all [维度] [玩家]</td></tr>
+<tr><td><code>command.ftbutilities.chunks.unclaim_everything</code></td><td>/chunks unclaim_everything [维度]</td></tr>
+<tr><td><code>command.ftbutilities.chunks.unload</code></td><td>/chunks unload [玩家]</td></tr>
+<tr><td><code>command.ftbutilities.chunks.unload_all</code></td><td>/ chunks unload_all [维度] [玩家]</td></tr>
+<tr><td><code>command.ftbutilities.chunks.unload_everything</code></td><td>/chunks unload_everything [维度]</td></tr>
+<tr><td><code>command.ftbutilities.delhome</code></td><td>/delhome [家]</td></tr>
+<tr><td><code>command.ftbutilities.delwarp</code></td><td>/delwarp &lt;传送点&gt;</td></tr>
+<tr><td><code>command.ftbutilities.fly</code></td><td>/fly</td></tr>
+<tr><td><code>command.ftbutilities.heal</code></td><td>/heal [玩家]</td></tr>
+<tr><td><code>command.ftbutilities.home</code></td><td>/home [list|家]</td></tr>
+<tr><td><code>command.ftbutilities.inv.help</code></td><td>/help [页码|命令名称]</td></tr>
+<tr><td><code>command.ftbutilities.inv.load</code></td><td>/inv load &lt;玩家&gt; &lt;id&gt;</td></tr>
+<tr><td><code>command.ftbutilities.inv.save</code></td><td>/inv save &lt;玩家&gt; &lt;id&gt;</td></tr>
+<tr><td><code>command.ftbutilities.inv.view</code></td><td>/inv view &lt;玩家&gt;</td></tr>
+<tr><td><code>command.ftbutilities.kickme</code></td><td>/kickme</td></tr>
+<tr><td><code>command.ftbutilities.killall</code></td><td>/killall [类型] [维度]</td></tr>
+<tr><td><code>command.ftbutilities.leaderboards</code></td><td>/leaderboards [id]</td></tr>
+<tr><td><code>command.ftbutilities.mute</code></td><td>/mute &lt;玩家&gt;</td></tr>
+<tr><td><code>command.ftbutilities.nbtedit.entity</code></td><td>/nbtedit entity &lt;id&gt;</td></tr>
+<tr><td><code>command.ftbutilities.nbtedit.help</code></td><td>/help [页码|命令名称]</td></tr>
+<tr><td><code>command.ftbutilities.nbtedit.item</code></td><td>/nbtedit 物品</td></tr>
+<tr><td><code>command.ftbutilities.nbtedit.player</code></td><td>/nbtedit player &lt;玩家&gt;</td></tr>
+<tr><td><code>command.ftbutilities.nbtedit.tile</code></td><td>/nbtedit tile &lt;x&gt; &lt;y&gt; &lt;z&gt;</td></tr>
+<tr><td><code>command.ftbutilities.nick</code></td><td>/nick &lt;昵称&gt;</td></tr>
+<tr><td><code>command.ftbutilities.ranks.add</code></td><td>/ranks add &lt;id&gt; [父组]</td></tr>
+<tr><td><code>command.ftbutilities.ranks.delete</code></td><td>/ranks delete &lt;等级&gt;</td></tr>
+<tr><td><code>command.ftbutilities.ranks.get</code></td><td>/ranks get [玩家]</td></tr>
+<tr><td><code>command.ftbutilities.ranks.get_permission</code></td><td>/ranks get_permission &lt;玩家&gt; &lt;权限&gt;</td></tr>
+<tr><td><code>command.ftbutilities.ranks.help</code></td><td>/help [页码|命令名称]</td></tr>
+<tr><td><code>command.ftbutilities.ranks.set</code></td><td>/ranks set &lt;玩家&gt; &lt;权限组|none&gt;</td></tr>
+<tr><td><code>command.ftbutilities.ranks.set_permission</code></td><td>/ranks set_permission &lt;权限组&gt; &lt;权限&gt; &lt;true|false|value|none&gt;</td></tr>
+<tr><td><code>command.ftbutilities.rtp</code></td><td>commands.rtp.usage</td></tr>
+<tr><td><code>command.ftbutilities.sethome</code></td><td>/sethome [家]</td></tr>
+<tr><td><code>command.ftbutilities.setwarp</code></td><td>/setwarp &lt;传送点&gt; [x] [y] [z]</td></tr>
+<tr><td><code>command.ftbutilities.spawn</code></td><td>/spawn</td></tr>
+<tr><td><code>command.ftbutilities.tpa</code></td><td>/tpa &lt;玩家&gt;</td></tr>
+<tr><td><code>command.ftbutilities.tpaccept</code></td><td>/tpaccept &lt;玩家&gt;</td></tr>
+<tr><td><code>command.ftbutilities.tpl</code></td><td>/tpl (&lt;x&gt; &lt;y&gt; &lt;z&gt;) | ([who] &lt;玩家&gt;)</td></tr>
+<tr><td><code>command.ftbutilities.trash_can</code></td><td>/trash_can</td></tr>
+<tr><td><code>command.ftbutilities.unmute</code></td><td>/unmute &lt;玩家&gt;</td></tr>
+<tr><td><code>command.ftbutilities.warp</code></td><td>/warp &lt;gui|传送点&gt;</td></tr>
+<tr><td><code>command.function</code></td><td>/function &lt;名称&gt; [if &lt;选择器&gt;|unless &lt;选择器&gt;]</td></tr>
+<tr><td><code>command.gamemode</code></td><td>/gamemode &lt;模式&gt; [玩家]</td></tr>
+<tr><td><code>command.gamerule</code></td><td>/gamerule &lt;规则名称&gt; [值]</td></tr>
+<tr><td><code>command.gamestages.gamestage.add</code></td><td class='error' title='Invalid usage language key!'>/gamestage add &lt;player&gt; &lt;stage&gt;</td></tr>
+<tr><td><code>command.gamestages.gamestage.check</code></td><td class='error' title='Invalid usage language key!'>/gamestage check &lt;player&gt; &lt;stage&gt;</td></tr>
+<tr><td><code>command.gamestages.gamestage.clear</code></td><td class='error' title='Invalid usage language key!'>/gamestage clear &lt;player&gt;</td></tr>
+<tr><td><code>command.gamestages.gamestage.info</code></td><td class='error' title='Invalid usage language key!'>/gamestage info [player]</td></tr>
+<tr><td><code>command.gamestages.gamestage.reloadfakes</code></td><td class='error' title='Invalid usage language key!'>/gamestage reloadfakes</td></tr>
+<tr><td><code>command.gamestages.gamestage.remove</code></td><td class='error' title='Invalid usage language key!'>/gamestage remove &lt;player&gt; &lt;stage&gt;</td></tr>
+<tr><td><code>command.give</code></td><td>/give &lt;玩家&gt; &lt;物品&gt; [数量] [数据值] [数据标签]</td></tr>
+<tr><td><code>command.help</code></td><td>/help [页码|命令名称]</td></tr>
+<tr><td><code>command.ic2.ic2</code></td><td class='error' title='Invalid usage language key!'>/ic2 uu-world-scan &lt;tiny|small|medium|large&gt; | debug (dumpUuValues | resolveIngredient &lt;name&gt; | dumpTextures &lt;name&gt; &lt;size&gt; | dumpLargeGrids | enet (logIssues | logUpdates) (true|false)) | currentItem | itemNameWithVariant | giveCrop &lt;owner&gt; &lt;name&gt; &lt;growth (1-31)&gt; &lt;gain (1-31)&gt; &lt;resistance (1-31)&gt;</td></tr>
+<tr><td><code>command.immersiveengineering.ie.clearshaders</code></td><td class='error' title='Invalid usage language key!'>/ie clearshaders [player name]</td></tr>
+<tr><td><code>command.immersiveengineering.ie.help.clearshaders</code></td><td class='error' title='Invalid usage language key!'>/ie clearshaders [player name]</td></tr>
+<tr><td><code>command.immersiveengineering.ie.help.mineral</code></td><td class='error' title='Invalid usage language key!'>Use "/ie mineral help" for more information</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.get</code></td><td class='error' title='Invalid usage language key!'>/mineral get</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.help.get</code></td><td class='error' title='Invalid usage language key!'>/mineral get</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.help.list</code></td><td class='error' title='Invalid usage language key!'>/mineral list</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.help.set</code></td><td class='error' title='Invalid usage language key!'>/mineral set &lt;mineral name&gt; (surround the name in &lt;angle brackets&gt; if it contains a space)</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.help.setdepletion</code></td><td class='error' title='Invalid usage language key!'>/mineral setDepletion &lt;depletion&gt;</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.list</code></td><td class='error' title='Invalid usage language key!'>/mineral list</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.set</code></td><td class='error' title='Invalid usage language key!'>/mineral set &lt;mineral name&gt; (surround the name in &lt;angle brackets&gt; if it contains a space)</td></tr>
+<tr><td><code>command.immersiveengineering.ie.mineral.setdepletion</code></td><td class='error' title='Invalid usage language key!'>/mineral setDepletion &lt;depletion&gt;</td></tr>
+<tr><td><code>command.immersivepetroleum.ip</code></td><td class='error' title='Invalid usage language key!'>/ip &lt;help|reservoir&gt;</td></tr>
+<tr><td><code>command.jech</code></td><td>/jech [profile] / [verbose true/false]</td></tr>
+<tr><td><code>command.jeresources.profile</code></td><td class='error' title='Invalid usage language key!'>profile [chunks|stop] [all]</td></tr>
+<tr><td><code>command.kill</code></td><td>/kill [玩家|实体]</td></tr>
+<tr><td><code>command.locate</code></td><td>/locate &lt;结构&gt;</td></tr>
+<tr><td><code>command.matteroverdrive.android</code></td><td class='error' title='Invalid usage language key!'>android &lt;command&gt; &lt;value&gt; &lt;player&gt;</td></tr>
+<tr><td><code>command.matteroverdrive.matterregistry</code></td><td class='error' title='Invalid usage language key!'>/matterregistry &lt;subcommand&gt;</td></tr>
+<tr><td><code>command.matteroverdrive.mo_gen</code></td><td class='error' title='Invalid usage language key!'>mo_gen &lt;command&gt; &lt;structure name&gt; &lt;options&gt;</td></tr>
+<tr><td><code>command.matteroverdrive.quest</code></td><td class='error' title='Invalid usage language key!'>quest &lt;action&gt; [parameters] &lt;name&gt; &lt;player&gt;</td></tr>
+<tr><td><code>command.me</code></td><td>/me &lt;动作...&gt;</td></tr>
+<tr><td><code>command.modularmachinery.mm-hand</code></td><td>/mm-hand</td></tr>
+<tr><td><code>command.modularmachinery.mm-syntax</code></td><td>/mm-syntax</td></tr>
+<tr><td><code>command.particle</code></td><td>/particle &lt;粒子名称&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;xd&gt; &lt;yd&gt; &lt;zd&gt; &lt;速度&gt; [数量] [模式] [玩家] [参数]</td></tr>
+<tr><td><code>command.playsound</code></td><td>/playsound &lt;声音&gt; &lt;资源&gt; &lt;玩家&gt; [x] [y] [z] [音量] [音调] [最小音量]</td></tr>
+<tr><td><code>command.primal.primal</code></td><td>/primal recipes &lt;catagory&gt;</td></tr>
+<tr><td><code>command.projecte.projecte.clearknowledge</code></td><td>/projecte clearKnowledge [玩家名] (不加参数则对自己有效)</td></tr>
+<tr><td><code>command.projecte.projecte.reloademc</code></td><td class='error' title='Invalid usage language key!'>/projecte reloadEMC</td></tr>
+<tr><td><code>command.projecte.projecte.removeemc</code></td><td>/projecte removeEMC &lt;未本地化名丨矿物词典名&gt; [元数据]（不加参数则对当前手持物品有效）</td></tr>
+<tr><td><code>command.projecte.projecte.resetemc</code></td><td>/projecte resetEMC &lt;未本地化名丨矿物词典名&gt; [元数据] （不加参数则对当前手持物品有效）</td></tr>
+<tr><td><code>command.projecte.projecte.setemc</code></td><td>/projecte setEMC [未本地化名丨矿物词典名] [元数据] [EMC值] 或 /projecte setEMC [EMC value] （对当前手持物品有效）</td></tr>
+<tr><td><code>command.projecte.projecte.showbag</code></td><td>/projecte showBag &lt;color&gt; &lt;player selector&gt;</td></tr>
+<tr><td><code>command.publish</code></td><td>/publish</td></tr>
+<tr><td><code>command.randomthings.rt</code></td><td class='error' title='Invalid usage language key!'>/rt</td></tr>
+<tr><td><code>command.reborncore.rc_dumpmods</code></td><td>rc_dumpmods</td></tr>
+<tr><td><code>command.reborncore.rc_listrecipes</code></td><td>rc_listRecipes</td></tr>
+<tr><td><code>command.recipe</code></td><td>/recipe &lt;give|take&gt; [玩家] &lt;名字|*&gt;</td></tr>
+<tr><td><code>command.replaceitem</code></td><td>/replaceitem &lt;entity|block&gt; ...</td></tr>
+<tr><td><code>command.researchtable.researchtable</code></td><td>/researchtable &lt;Player&gt; &lt;Research&gt; [count]</td></tr>
+<tr><td><code>command.rftools.rftcfg</code></td><td class='error' title='Invalid usage language key!'>rftcfg &lt;subcommand&gt; &lt;args&gt; (try 'rftcfg help' for more info)</td></tr>
+<tr><td><code>command.rftools.rftdb</code></td><td class='error' title='Invalid usage language key!'>rftdb &lt;subcommand&gt; &lt;args&gt; (try 'rftdb help' for more info)</td></tr>
+<tr><td><code>command.rftools.rftshape</code></td><td class='error' title='Invalid usage language key!'>rftshape &lt;subcommand&gt; &lt;args&gt; (try 'rftshape help' for more info)</td></tr>
+<tr><td><code>command.rftools.rfttp</code></td><td class='error' title='Invalid usage language key!'>rfttp &lt;subcommand&gt; &lt;args&gt; (try 'rfttp help' for more info)</td></tr>
+<tr><td><code>command.say</code></td><td>/say &lt;信息...&gt;</td></tr>
+<tr><td><code>command.scoreboard</code></td><td>/scoreboard &lt;objectives|players|teams&gt; ...</td></tr>
+<tr><td><code>command.seed</code></td><td>/seed</td></tr>
+<tr><td><code>command.setblock</code></td><td>/setblock &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;方块名&gt; [数据值|状态] [旧方块处理方式] [数据标签]</td></tr>
+<tr><td><code>command.setworldspawn</code></td><td>/setworldspawn [&lt;x&gt; &lt;y&gt; &lt;z&gt;]</td></tr>
+<tr><td><code>command.spawnpoint</code></td><td>/spawnpoint [玩家] [&lt;x&gt; &lt;y&gt; &lt;z&gt;]</td></tr>
+<tr><td><code>command.spreadplayers</code></td><td>/spreadplayers &lt;x&gt; &lt;z&gt; &lt;扩散距离&gt; &lt;最远距离&gt; &lt;分组 true|false&gt; &lt;玩家 ...&gt;</td></tr>
+<tr><td><code>command.stats</code></td><td>/stats &lt;entity|block&gt; ...</td></tr>
+<tr><td><code>command.stopsound</code></td><td>/stopsound &lt;玩家&gt; [声音来源] [声音]</td></tr>
+<tr><td><code>command.storagedrawers.storagedrawers</code></td><td>commands.storagedrawers.usage</td></tr>
+<tr><td><code>command.summon</code></td><td>/summon &lt;实体名&gt; [x] [y] [z] [数据标签]</td></tr>
+<tr><td><code>command.techreborn.trdev</code></td><td>用法：/forge &lt;子命令&gt;</td></tr>
+<tr><td><code>command.teleport</code></td><td>/teleport &lt;实体&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;y-rot&gt; &lt;x-rot&gt;]</td></tr>
+<tr><td><code>command.tell</code></td><td>/tell &lt;玩家&gt; &lt;私密信息...&gt;</td></tr>
+<tr><td><code>command.tellraw</code></td><td>/tellraw &lt;玩家&gt; &lt;原始json消息&gt;</td></tr>
+<tr><td><code>command.testfor</code></td><td>/testfor &lt;玩家&gt; [数据标签]</td></tr>
+<tr><td><code>command.testforblock</code></td><td>/testforblock &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;方块名&gt; [数据值|-1|状态|*] [数据标签]</td></tr>
+<tr><td><code>command.testforblocks</code></td><td>/testforblocks &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [模式]</td></tr>
+<tr><td><code>command.thaumcraft.thaumcraft</code></td><td class='error' title='Invalid usage language key!'>/thaumcraft &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
+<tr><td><code>command.time</code></td><td>/time &lt;set|add|query&gt; &lt;值&gt;</td></tr>
+<tr><td><code>command.tinkertoolleveling.leveluptool</code></td><td class='error' title='Invalid usage language key!'>/levelupTool while holding a tinker tool in your hand</td></tr>
+<tr><td><code>command.title</code></td><td>/title &lt;玩家&gt; &lt;title|subtitle|actionbar|clear|reset|times&gt; …</td></tr>
+<tr><td><code>command.toggledownfall</code></td><td>/toggledownfall</td></tr>
+<tr><td><code>command.topaddons.tophelmet</code></td><td class='error' title='Invalid usage language key!'>/tophelmet blacklist &lt;add/remove&gt;</td></tr>
+<tr><td><code>command.tp</code></td><td>/tp [目标玩家] &lt;目的地玩家&gt; 或 /tp [目标] &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;横向朝向&gt; &lt;纵向朝向&gt;]</td></tr>
+<tr><td><code>command.trigger</code></td><td>/trigger &lt;记分项&gt; &lt;add|set&gt; &lt;值&gt;</td></tr>
+<tr><td><code>command.weather</code></td><td>/weather &lt;clear|rain|thunder&gt; [持续的秒数]</td></tr>
+<tr><td><code>command.worldborder</code></td><td>/worldborder &lt;add|set|center|damage|warning|get&gt; ...</td></tr>
+<tr><td><code>command.xnet.xnetcheck</code></td><td>xnetcheck</td></tr>
+<tr><td><code>command.xnet.xnetdump</code></td><td>xnetdump</td></tr>
+<tr><td><code>command.xnet.xnetrebuild</code></td><td>xnetrebuild</td></tr>
+<tr><td><code>command.xp</code></td><td>/xp &lt;经验数量&gt; [玩家] 或 /xp &lt;等级数量&gt;L [玩家]</td></tr>
+<tr><td><code>command.yunomakegoodmap.newspawnplatform</code></td><td>/newSpawnPlatform &lt;platformType&gt; &lt;player&gt;</td></tr>
+<tr><td><code>command.yunomakegoodmap.platform</code></td><td>command.yunmgm.platform.usage</td></tr>
+<tr><td><code>command.zenstages.zenstages</code></td><td class='error' title='Invalid usage language key!'>/zenstages &lt;action&gt; [arguments...]</td></tr>
+</table>
+</body></html>

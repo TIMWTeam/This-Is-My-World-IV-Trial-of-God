@@ -1,0 +1,7 @@
+// This file stores player ranks.
+// 
+// Username: Rank
+// UUID: Rank
+// 
+// For more info visit https://guides.latmod.com/ftbutilities/ranks/
+
