@@ -1,0 +1,11 @@
+
+*.dll
+.minecraft/local/client/ftblib.cfg
+*.json
+*.dat
+*.csv
+*.txt
+*.log
+*.cfg
+*.gz
+*.MF
