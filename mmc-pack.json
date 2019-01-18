@@ -1,0 +1,10 @@
+{
+    "components": [
+        {
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "1.12.2"
+        }
+    ],
+    "formatVersion": 1
+}

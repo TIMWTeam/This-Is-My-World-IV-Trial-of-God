@@ -1,0 +1,177 @@
+body{
+	background-image:url(./image/background.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+hr{
+	border-color: #4bf;
+}
+#right{
+	background-color: rgba(190,245,255,0.4);
+	border-color: #4bf;
+	border-width:2px;
+}
+.left_title li,#top_title li{
+	background-color: rgba(245,245,245,0.4);
+	border-color: rgba(142,229,238,0.6);
+	-webkit-box-shadow:0 0 8px rgba(102,175,233,0.6);
+	color:#00C5CD;
+}
+.left_title li:hover,#top_title li:hover{
+	color:#1E90FF;
+}
+.tool{
+	border-color: #8cf;
+}
+input,select{
+	width:100px;
+	border: 1px solid;
+	border-color: rgba(142,229,238,0.6);
+	border-radius: 3px;
+	padding-left:5px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+input:focus,select :focus{
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+info{
+	color:#1E90FF;
+	font-weight:900;
+	font-size:8px;
+	padding:0px 3px;
+
+}
+.info{
+	position:absolute;
+	background: rgba(229,249,255,0.9);
+	color:#00C5CD;
+	border-style: solid;
+	border-width:1px;
+	border-color: #7cf;
+	border-radius: 5px;
+	padding:5px 7px;
+	white-space: pre;
+	margin-left:70px;
+
+}
+
+button{
+	width: 70px; 
+	height: 28px;
+	border-width: 0px;
+	border-radius: 3px; 
+	background: #1E90FF; 
+	cursor: pointer; 
+	outline: none; 
+	font-family: Microsoft YaHei; 
+	color: white; 
+	font-size: 8px;
+}
+#addbutton{
+	width: 28px; 
+}
+button:hover {
+	background: #5599FF;
+}
+.left_title{
+	padding: 20px 0px;
+}
+#top_title{
+	padding: 0px 20px ;
+}
+
+
+table,td,tr,dl,dt,dd,ul,li{
+	margin:0px;
+	padding:0px;
+	color:#000;
+	text-decoration:none;
+	border-spacing:0px;
+	list-style-type:none;
+}
+aa{
+	font-size:8px;
+	color:#aaa;
+}
+select,input{
+	height:30px;
+}
+a{
+	color:#1E90FF;
+}
+#top_title li{
+	border-width: 1px 1px 0px 1px;
+	border-style: solid;
+	border-radius:5px 5px 0px 0px;
+	padding:3px;
+	margin:0px 2px;
+	cursor:pointer;
+	float:left;
+}
+#left li{
+	border-width: 1px 0px 1px 1px;
+	border-style: solid;
+	border-radius:5px 0px 0px 5px;
+	width:80px;
+	text-align:right;
+	padding:3px 5px;
+	cursor:pointer;
+	margin:2px 0px;
+}
+.tool{
+	border-width: 1px;
+	border-style: solid;
+	margin:10px;
+	padding:10px;
+}
+.tool table tr td{
+	padding:5px;
+}
+.tool table tr td input{
+	width:140px;
+}
+.tool_title{
+	font-size:20px;
+	font-weight:bold;
+}
+#left{
+	float:left;
+}
+#right{
+	float:left;
+	border-style: solid;
+	border-radius:5px;
+	width:900px;
+}
+#print_text{
+	border-color:#aaa;
+	border-width: 1px;
+	border-style: solid;
+	margin:0px 10px 10px 10px ;
+	padding:10px;
+	width:880px;
+	height:300px;
+}
+#Altar table tr td input {
+	width:60px;
+}
+#ArcaneEnsorcellator table tr td input{
+	width:100px;
+}
+aaa{
+	font-size:20px;
+	font-weight:bold;
+}
+#GD_CustuomBees_base tr td input,#GD_CustuomBees_base tr td select{
+	width:140px;
+}
+GD{
+	display:block;white-space: pre;
+}

@@ -1,0 +1,37 @@
+{
+    "multipart": [
+        {   "when": { "OR": [
+                {"north": "none", "east": "none", "south": "none", "west": "none"},
+                {"north": "side", "east": "side" },
+                {"east": "side", "south": "side" },
+                {"south": "side", "west": "side"},
+                {"west": "side", "north": "side"}
+            ]},
+            "apply": { "model": "extraalchemy:blocks/bloodstain_dot" }
+        },
+        {   "when": { "OR": [
+                { "north": "side" },
+                { "north": "none", "east": "none", "south": "side", "west": "none" }
+            ]},
+            "apply": { "model": "extraalchemy:blocks/bloodstain_side0" }
+        },
+        {   "when": { "OR": [
+                { "south": "side" },
+                { "north": "side", "east": "none", "south": "none", "west": "none" }
+            ]},
+            "apply": { "model": "extraalchemy:blocks/bloodstain_side_alt0" }
+        },
+        {   "when": { "OR": [
+                { "east": "side" },
+                { "north": "none", "east": "none", "south": "none", "west": "side" }
+            ]},
+            "apply": { "model": "extraalchemy:blocks/bloodstain_side_alt1", "y": 270 }
+        },
+        {   "when": { "OR": [
+                { "west": "side" },
+                { "north": "none", "east": "side", "south": "none", "west": "none" }
+            ]},
+            "apply": { "model": "extraalchemy:blocks/bloodstain_side1", "y": 270 }
+        }
+    ]
+}

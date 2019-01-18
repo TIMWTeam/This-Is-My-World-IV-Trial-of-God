@@ -1,0 +1,2114 @@
+<!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Trantional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2112" />
+		<script type="text/javascript" src="style\jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="style\tools.js"></script>
+		<script src="https://res.rligry.com/public/tool/clitool.js"></script>
+		<link rel="icon" href="style\image\ctt.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="style\tool.css" />
+		<title>CraftTweakerTool</title>
+	</head>
+	<body>
+		<table style="border-spacing:0px;margin:auto;margin-top:40px">
+			<tr>
+				<td>
+				</td>
+				<td>
+					<!-- 头部标签切换 -->
+					<div id="top">
+						<ul id="top_title">
+								<li class="introduction">介绍</li>
+								<li class="minecraft">原版</li>
+								<li class="thermal">热力膨胀</li>
+								<li class="botania">植物魔法</li>
+								<li class="AA">实用拓展</li>
+								<li class="astralsorcery">星辉魔法</li>
+								<li class="bloodmagic">血魔法</li>
+								<li class="TConstruct">匠魂</li>
+								<li class="forestry">林业</li>
+								<li class="ExU2">实用设备</li>
+								<li class="chise">凿子</li>
+								<li class="GD_bees">GD自定义蜜蜂</li>
+								<li class="SkillAPIedit"><a  href="SkillAPIedit/SkillAPIedit.html">SkillAPIedit</a></li>
+						</ul>
+						<div style="clear:both;"></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td style="vertical-align: top;">
+					<!-- 左侧标签切换 -->
+					<div id="left">
+						<!-- 介绍 -->
+						<ul class="left_title" id="introduction">
+								<li class="introduction_1">简介</li>
+								<li class="introduction_2">使用方式</li>
+								<li class="introduction_3">常用命令</li>
+								<li class="introduction_4">更新日志</li>
+						</ul>
+						<!-- 原版 -->
+						<ul class="left_title" id="minecraft">
+								<li class="craft">合成台</li>
+								<li class="furnace">熔炉</li>
+								<li class="fuel">燃料</li>
+								<li class="ore">矿物辞典</li>
+								<li class="seeddrop">打草掉落</li>
+						</ul>
+						<!-- 植物魔法 -->
+						<ul class="left_title" id="botania">
+								<li class="ElvenTrading">精灵交易</li>
+								<li class="ManaInfusion">魔力池</li>
+								<li class="Orechid">凝矿兰</li>
+								<li class="PetalApothecary">花药台</li>
+								<li class="PureDaisy">白雏菊</li>
+								<li class="RuneAltar">符文祭坛</li>
+						</ul>
+						<!-- 实用拓展 -->
+						<ul class="left_title" id="AA">
+								<li class="AA_AtomicReconstructor">原子再构机</li>
+								<li class="AA_BallofFur">毛球</li>
+								<li class="AA_Compost">堆肥机</li>
+								<li class="AA_Crusher">磨粉机</li>
+								<li class="AA_Empowerer">充能台</li>
+								<li class="AA_MiningLens">矿工透镜</li>
+								<li class="AA_OilGenerator">原油发电机</li>
+								<li class="AA_TreasureChest">海底宝藏</li>
+						</ul>
+						<!-- 热力膨胀 -->
+						<ul class="left_title" id="thermal">
+								<li class="AlchemicalImbuer">药水酿造机</li>
+								<li class="ArcaneEnsorcellator">附魔机</li>
+								<li class="CentrifugalSeperator">离心机</li>
+								<li class="Compactor">压缩机</li>
+								<li class="EnergeticInfuser">能量灌注机</li>
+								<li class="FluidTransposer1">流体转置机</li>
+								<li class="FluidTransposer2">流体转置机</li>
+								<li class="Refinery">流体精炼机</li>
+								<li class="InductionSmelter">感应炉</li>
+								<li class="TE_Crucible">熔岩炉</li>
+								<li class="TE_Furnace">红石炉</li>
+								<li class="TE_Insolator">有机灌注机</li>
+								<li class="TE_Pulverizer">磨粉机</li>
+								<li class="TE_Sawmill">锯木机</li>
+						</ul>
+						<!-- 星辉魔法 -->
+						<ul class="left_title" id="astralsorcery">
+								<li class="Altar">星辉合成</li>
+								<li class="Grindstone">砂轮</li>
+								<li class="Lightwell">聚星缸</li>
+								<li class="StarlightInfusion">星能聚合器</li>
+								<li class="StarlightTransmutation">星辉转化</li>
+						</ul>
+						<!-- 血魔法 -->
+						<ul class="left_title" id="bloodmagic">
+								<li class="AlchemyArray">炼金法阵</li>
+								<li class="AlchemyTable">炼金桌</li>
+								<li class="TartaricForge">炼狱熔炉</li>
+								<li class="BloodAltar">血之祭坛</li>
+						</ul>
+						<!-- 匠魂 -->
+						<ul class="left_title" id="TConstruct">
+								<li class="TiC_Melting">匠魂冶炼炉</li>
+								<li class="TiC_Alloying">融合合金</li>
+								<li class="TiC_Casting">铸件/盆</li>
+								<li class="TiC_Drying">晾干架</li>
+								<li class="TiC_Fuel">燃料</li>
+						</ul>
+						<!-- 林业 -->
+						<ul class="left_title" id="forestry">
+								<li class="FR_Carpenter">木工机</li>
+								<li class="FR_Centrifuge">离心机</li>
+								<li class="FR_Fermenter">发酵机</li>
+								<li class="FR_Moistener">加湿器</li>
+								<li class="FR_Squeezer">榨汁机</li>
+								<li class="FR_Still">蒸馏器</li>
+								<li class="FR_Thermionic">热电子加工</li>
+						</ul>
+						<!-- EXU2 -->
+						<ul class="left_title" id="ExU2">
+								<li class="ExU2_Resonator">共振仪</li>
+								<li class="ExU2_Crusher">粉碎机</li>
+						</ul>
+						<!-- 凿子 -->
+						<ul class="left_title" id="chise">
+								<li class="Chise">编辑</li>
+						</ul>
+						<!-- GD自定义蜜蜂 -->
+						<ul class="left_title" id="GD_bees">
+								<li class="GD_synopsis">说明</li>
+								<li class="GD_Branches">编辑分支</li>
+								<li class="GD_CustuomBees">编辑蜜蜂</li>
+								<li class="GD_FlowerAllele">采蜜对象</li>
+								<li class="GD_Recipes">蜜蜂杂交</li>
+						</ul>
+						<div style="clear:both;"></div>
+					</div>
+				</td>
+				<td>
+					<div id="right">
+						<!-- 右侧命令导出区域 -->
+						<div>
+						
+							<!-- 介绍 说明 -->
+							<div class="tool" id="introduction_1">
+								<GD>    本网站是以HTML+JavaScript为基础，为CraftTweaker所编写的辅助代码生成工具。</GD>
+								<GD>    内容以MC版本1.12为主，由于版本更迭，部分模组内容已经无法向下兼容，例如：TiC2，TE5。因此，所有内容请以<br>CraftTweaker的<a target="_blank" href="https://crafttweaker.readthedocs.io/">wiki</a>为准。</GD>
+								<hr>
+								<GD>    目前已支持模块：</GD>
+								<GD>        原版(Miencraft)    热力膨胀(ThermalExpansion)    植物魔法(Botania)    实用拓展(ActuallyAdditions)</GD>
+								<GD>        星辉魔法(AstralSorcery)    血魔法(BloodMagic)    匠魂(TConstruct)    林业(Forestry)    实用设备(ExtraUtils)</GD>
+								<GD>        凿子(Chise)    </GD>
+								<GD>    计划支持模块：</GD>
+								<GD>        神秘时代(Thaumcraft)    沉浸工程(ImmersiveEngineering)    工业先锋(IndustrialForegoing)    </GD>
+								<GD>        应用能源2(AppliedEnergistics2)    游戏阶段(GameStage)    </GD>
+								<GD style="color:#1E90FF;">    PS：仅依靠我独自一人编写代码进展有限，如果可以的话希望能有更多人能帮助我。</GD>
+								<hr>
+								<GD>    BUG提交、提供代码帮助，请使用邮箱联系：dapengyifeng@qq.com</GD>
+								<GD>    更多联系方式：<a target="_blank" href="http://space.bilibili.com/1943482">B站空间</a>    QQ交流群：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=cf694b14db52f7c8831f9cc5a90ffd2a2b4597657fec218bfe3d776fb3efdd3b">374169802</a></GD>
+							</div>
+							<!-- 介绍 使用方式 -->
+							<div class="tool" id="introduction_2">
+								<GD>    简单的使用介绍推广视频(<a target="_blank" href="https://www.bilibili.com/video/av38959219">av38959219</a>)，本处为文字介绍。</GD>
+								<hr>
+								<GD style="font-weight:900">1.下载模组</GD>
+								<GD>	该工具依赖于模组CraftTweaker，因此请先下载模组并放置在.minecraft/mods文件夹内。</GD>
+								<GD>		MTlib（前置）</GD>
+								<GD>		crafttweaker（配方修改）</GD>
+								<GD>		modtweaker（更多模组配方兼容）</GD>
+								<GD>		下载地址：https://minecraft.curseforge.com/</GD>
+								<GD>		CurseForge访问过慢？请安装【ABP插件】<a target="_blank" href="https://www.bilibili.com/video/av18375586">av18375586</a>有介绍怎么安装</GD>
+								<hr>
+								<GD style="font-weight:900">2.创建脚本文件</GD>
+								<GD>	在正式进行配方修改前，你需要创建一个脚本文件({minecraft}/scripts/[name].zs)。</GD>
+								<GD>		1.scripts文件夹将会在模组安置好后，首次启动游戏自动生成。</GD>
+								<GD>		2.zs脚本文件可以先创建txt文本文档，将后缀名改为.zs结尾。</GD>
+								<GD>		3.该脚本文件可以创建多份，[name]为玩家自定义名称，但应保持纯英文格式。</GD>
+								<hr>
+								<GD style="font-weight:900">3.编写脚本内容</GD>
+								<GD>	在本网站寻找到想要编辑的配方模块后，并在输入框内填入物品标签，非可选标志为必填项，删除功能默认填输出框。</GD>
+								<GD>		物品标签：在游戏内手持物品，输入/ct hand指令即可进入粘贴板，Ctrl+V即可粘贴。</GD>
+								<GD>			基本格式：&lt;minecraft:stone&gt;</GD>
+								<GD>		流体标签：在游戏输入/ct liquids后将输出所有流体名称到.minecraft/crafttweaker.log文件内末尾。</GD>
+								<GD>			基本格式：&lt;liquid:water&gt;</GD>
+								<GD>		矿辞标签：获取方式与物品标签一致，需在聊天栏内手动点击获取。</GD>
+								<GD>			基本格式：&lt;ore:logWood&gt;</GD>
+								<GD>			PS1：善用矿辞标签，可以简化合成。</GD>
+								<GD>			PS2：物品输入栏基本兼容，少部分配方不兼容。输出栏内不可兼容。</GD>
+								<hr>
+								<GD style="font-weight:900">4.脚本生效</GD>
+								<GD>	1.12由于mojang的负优化，无法热启动重置脚本配方，必须重启游戏生效。</GD>
+								<GD>	1.10及以下版本，输入/mt reload即可重载配方，使脚本生效。</GD>
+								<hr>
+								<GD style="font-weight:900">5.更多详细内容</GD>
+								<GD>	本页仅做简单介绍，更多详细语法例如物品NBT，循环语句，更多配方命令请前往wiki查询。</GD>
+								<GD>	MineTweaker：<a target="_blank" href="http://minetweaker3.powerofbytes.com/wiki/Main_Page">wiki</a></GD>
+								<GD>		介绍：CT的前身，1.7.10版本资料内容丰富，并且wiki文档阅读起来比CT的wiki更舒服，新人入坑推荐先看这个。</GD>
+								<GD>	CraftTweaker：<a target="_blank" href="https://crafttweaker.readthedocs.io/en/latest/">wiki</a></GD>
+								<GD>		介绍：MT的继承者，1.7.10基本与MT功能一致，但wiki内容以无1.7.10内容。</GD>
+								<GD>			wiki介绍多以1.10以上为主，但因内容过于详细显得烦杂，新人入坑还是建议先看MT的wiki。</GD>
+								<GD>		PS：右下角可以切换中文文档，但尚未齐全。</GD>
+							</div>
+							<!-- 介绍 常用命令 -->
+							<div class="tool" id="introduction_3">
+								<GD>    本页面介绍一些CraftTweaker的常用命令。</GD>
+								<GD>	命令前缀：/minetweaker 或 /crafttweaker，效果一致可共用。可简写为/mt 或 /ct</GD>
+								<hr>
+								<GD>    /ct help：帮助界面，显示所有命令用法。（内容为英文）</GD>
+								<GD>    /ct hand：输出手持物品信息</GD>
+								<GD>    /ct inventory：将背包内所有物品的信息输出到[.minecraft/crafttweaker.log]文件内。</GD>
+								<GD>    /ct liquids：将所有流体信息输出到[.minecraft/crafttweaker.log]文件内。</GD>
+								<GD>    /ct oredict：将所有矿物辞典输出到[.minecraft/crafttweaker.log]文件内。</GD>
+								<GD>    /ct recipes：将所有合成台配方输出到[.minecraft/crafttweaker.log]文件内。</GD>
+							</div>
+							<!-- 介绍 更新日志 -->
+							<div class="tool" id="introduction_4">
+								<GD>    本页为更新日志，将按时间顺序从下往上呈现。</GD>
+								<hr>
+								<GD>    2018-12-26 v1.0.1 </GD>
+								<GD>	    1.进行漏洞补正。</GD>
+								<GD>	    2.新增介绍模块：简介、使用方式、常用命令、更新日志。</GD>
+								<GD>	    3.工具右下角新增版本号说明。</GD>
+								<GD>	    4.添加网页图标，网页名称。</GD>
+								<hr>
+								<GD>    2018-12-25 v1.0.0 </GD>
+								<GD>	    正式发布，进行视频，媒体网页宣传。</GD>
+								<GD>	    目前已有模块：</GD>
+								<GD>		原版(Miencraft)    热力膨胀(ThermalExpansion)    植物魔法(Botania)    匠魂(TConstruct)    </GD>
+								<GD>		实用拓展(ActuallyAdditions)    星辉魔法(AstralSorcery)    血魔法(BloodMagic)    林业(Forestry)    </GD>
+								<GD>		实用设备(ExtraUtils)    凿子(Chise)</GD>
+							</div>
+							<!-- 原版 合成台 -->
+							<div class="tool" id="craft">
+								<table>
+									<tr>
+										<td>合成表</td>
+										<td><input style="display:none;" id="craft_hide"></td>
+									</tr>
+									<tr>
+										<td><input id="craftinput1"></td>
+										<td><input id="craftinput2"></td>
+										<td><input id="craftinput3"></td>
+										<td>输出物品</td>
+									</tr>
+									<tr>
+										<td><input id="craftinput4"></td>
+										<td><input id="craftinput5"></td>
+										<td><input id="craftinput6"></td>
+										<td><input id="craftoutput"></td>
+									</tr>
+									<tr>
+										<td><input id="craftinput7"></td>
+										<td><input id="craftinput8"></td>
+										<td><input id="craftinput9"></td>
+									</tr>
+									<tr>
+										<td>
+											<button onclick="craft_suffix('.anyDamage()')">无视耐久</button>
+											<button onclick="craft_suffix('.reuse()')">退回物品</button>
+										</td>
+										<td>
+											<button onclick="craft_suffix('.transformReplace('+$('#craft_replace').val()+')')">退回物品</button>
+											<input id="craft_replace" style="width:65px">
+										</td>
+										<td>
+											<button onclick="craft_suffix('.transformDamage('+$('#craft_damage').val()+')')">消耗耐久</button>
+											<input  type="number" id="craft_damage" style="width:65px">
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="craft_add(1)">有序合成</button>
+											<button class="output" onclick="craft_add(2)">无序合成</button>
+											<button class="output" onclick="craft_remove(1)">删除有序</button>
+											<button class="output" onclick="craft_remove(2)">删除无序</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 原版 熔炉 -->
+							<div class="tool" id="furnace">
+								<table>
+									<tr>
+										<td>输入</td>
+										<td>输出</td>
+										<td>经验球</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('furnace','furnace.addRecipe(','3')">添加配方</button>
+											<button class="output" onclick="general('furnace','furnace.remove(','1')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 原版 燃料 -->
+							<div class="tool" id="fuel">
+								<table>
+									<tr>
+										<td>物品名称</td>
+										<td>持续时间<info>[i]</info><div class="info">为0时，删除燃料</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('fuel','furnace.setFuel(','0')">添加配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 原版 矿物辞典 -->
+							<div class="tool" id="ore">
+								<table>
+									<tr>
+										<td>辞典名称<input  id="ore_name" style="width:65px"></td>
+									</tr>
+									<tr>
+										<td style="width:800px;"><input id="general_output0"><button id="addbutton" onclick="addtable(this,'output')">+</button></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('ore',$('#ore_name').val()+'.add(','1')">添加</button>
+											<button class="output" onclick="general('ore',$('#ore_name').val()+'.addItems(','1')">添加多条</button>
+											<button class="output" onclick="general('ore',$('#ore_name').val()+'.remove(','1')">删除</button>
+											<button class="output" onclick="general('ore',$('#ore_name').val()+'.removeItems(','1')">删除多条</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 原版 打草掉落 -->
+							<div class="tool" id="seeddrop">
+								<table>
+									<tr>
+										<td>掉落物</td>
+										<td>权重</td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('seeddrop','vanilla.seeds.addSeed(','0')">添加配方</button>
+											<button class="output" onclick="general('seeddrop','vanilla.seeds.removeSeed(','-1')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 药水酿造机 -->
+							<div class="tool" id="AlchemicalImbuer">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输入液体</td>
+										<td>输出液体</td>
+										<td>需要能量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra1" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('AlchemicalImbuer','mods.thermalexpansion.Imbuer.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('AlchemicalImbuer','mods.thermalexpansion.Imbuer.removeRecipe(','-3')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填输入物品和输入液体</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 附魔机 -->
+							<div class="tool" id="ArcaneEnsorcellator">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输入物品</td>
+										<td>附魔ID</td>
+										<td>能量消耗</td>
+										<td>经验消耗</td>
+										<td>授权<info>[i]</info><div class="info">boolean值<br>  默认为false</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_output0" class="ArcaneID"></td>
+										<td><input id="general_extra1" type="number"></td>
+										<td><input id="general_extra2" type="number"></td>
+										<td><input id="general_extra3"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('ArcaneEnsorcellator','mods.thermalexpansion.Enchanter.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('ArcaneEnsorcellator','mods.thermalexpansion.Enchanter.removeRecipe(','-3')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填2个输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 离心机 -->
+							<div class="tool" id="CentrifugalSeperator">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td colspan="4">输出物品 <info>[i]</info><div class="info">可选内容<br>    可设置返回概率<br>  例1：(&lt;minecraft:gold_ingot&gt;*5) %10<br>  例2：&lt;minecraft:gold_ingot&gt; %10</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_output1"></td>
+										<td><input id="general_output2"></td>
+										<td><input id="general_output3"></td>
+									</tr>
+									<tr>
+										<td>输出流体</td>
+										<td>能量消耗</td>
+									</tr>
+									<tr>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_extra1" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('CentrifugalSeperator','mods.thermalexpansion.Centrifuge.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('CentrifugalSeperator','mods.thermalexpansion.Centrifuge.removeRecipe(','-2')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 压缩机 -->
+							<div class="tool" id="Compactor">
+								<table>
+									<tr>
+										<td>模式</td>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>消耗能量</td>
+									</tr>
+									<tr>
+										<td>
+											<select id="Compactor_type" default="addMintRecipe">
+												<option value ="MintRecipe">普通模式</option>
+												<option value ="PressRecipe">齿轮模式</option>
+												<option value ="StorageRecipe">铸币模式</option>
+											</select>
+										</td>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('Compactor','mods.thermalexpansion.Compactor.add'+$('#Compactor_type').val()+'(','2')">添加配方</button>
+											<button class="output" onclick="general('Compactor','mods.thermalexpansion.Compactor.remove'+$('#Compactor_type').val()+'(','-2')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 能量灌注 -->
+							<div class="tool" id="EnergeticInfuser">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>消耗能量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('EnergeticInfuser','mods.thermalexpansion.Infuser.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('EnergeticInfuser','mods.thermalexpansion.Infuser.removeRecipe(','-2')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 流体转置机-空置 -->
+							<div class="tool" id="FluidTransposer1">
+								<table>
+									<tr>
+										<td colspan="4" class="tool_title">流体转置机-空置模式</td>
+									</tr>
+									<tr>
+										<td>输入物品</td>
+										<td>输出液体</td>
+										<td>消耗能量</td>
+										<td colspan="3">返回物品<info>[i]</info><div class="info">可选内容<br>    可设置返回概率<br>  例：&lt;minecraft:stone&gt; %10</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number"></td>
+										<td><input id="general_extra1"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('FluidTransposer1','mods.thermalexpansion.Transposer.addExtractRecipe(','2')">空置物品</button>
+											<button class="output" onclick="general('FluidTransposer1','mods.thermalexpansion.Transposer.removeExtractRecipe(','-2')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 流体转置机-灌注 -->
+							<div class="tool" id="FluidTransposer2">
+								<table>
+									<tr>
+										<td colspan="4" class="tool_title">流体转置机-灌注模式</td>
+									</tr>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>消耗流体</td>
+										<td>消耗能量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_extra1" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('FluidTransposer2','mods.thermalexpansion.Transposer.addFillRecipe(','2')">灌注物品</button>
+											<button class="output" onclick="general('FluidTransposer2','mods.thermalexpansion.Transposer.removeFillRecipe(','-3')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填 输入物品 和 消耗流体</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 流体精炼机 -->
+							<div class="tool" id="Refinery">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输入流体</td>
+										<td>输出流体</td>
+										<td>消耗能量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra1" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('Refinery','mods.thermalexpansion.Refinery.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('Refinery','mods.thermalexpansion.Refinery.removeRecipe(','-4')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填 输入流体</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 感应炉 -->
+							<div class="tool" id="InductionSmelter">
+								<table>
+									<tr>
+										<td>输入物品1</td>
+										<td>输入物品2</td>
+										<td>输出物品</td>
+										<td>消耗能量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra1" type="number"></td>
+									</tr>
+									<tr>
+										<td>副产物<info>[i]</info><div class="info">可选</div></td>
+										<td>产出几率<info>[i]</info><div class="info">可选<br>  int值</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_extra2"></td>
+										<td><input id="general_extra3" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('InductionSmelter','mods.thermalexpansion.InductionSmelter.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('InductionSmelter','mods.thermalexpansion.InductionSmelter.removeRecipe(','-3')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填 输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 熔岩炉 -->
+							<div class="tool" id="TE_Crucible">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出流体</td>
+										<td>消耗能量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('TE_Crucible','mods.thermalexpansion.Crucible.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('TE_Crucible','mods.thermalexpansion.Crucible.removeRecipe(','-2')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填 输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 红石炉 -->
+							<div class="tool" id="TE_Furnace">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>消耗能量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('TE_Furnace','mods.thermalexpansion.RedstoneFurnace.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('TE_Furnace','mods.thermalexpansion.RedstoneFurnace.removeRecipe(','-2')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填 输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 有机灌注机 -->
+							<div class="tool" id="TE_Insolator">
+								<table>
+									<tr>
+										<td>输入物品1</td>
+										<td>输入物品2</td>
+										<td>输出物品</td>
+										<td>消耗能量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra1" type="number"></td>
+									</tr>
+									<tr>
+										<td>副产物<info>[i]</info><div class="info">可选</div></td>
+										<td>产出几率<info>[i]</info><div class="info">可选<br>  int值</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_extra2"></td>
+										<td><input id="general_extra3" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('TE_Insolator','mods.thermalexpansion.Insolator.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('TE_Insolator','mods.thermalexpansion.Insolator.removeRecipe(','-3')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填 输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 磨粉机 -->
+							<div class="tool" id="TE_Pulverizer">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>消耗能量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td>副产物<info>[i]</info><div class="info">可选</div></td>
+										<td>产出几率<info>[i]</info><div class="info">可选<br>  int值</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_extra1"></td>
+										<td><input id="general_extra2" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('TE_Pulverizer','mods.thermalexpansion.Pulverizer.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('TE_Pulverizer','mods.thermalexpansion.Pulverizer.removeRecipe(','-2')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填 输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 热力膨胀 锯木机 -->
+							<div class="tool" id="TE_Sawmill">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>消耗能量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td>副产物<info>[i]</info><div class="info">可选</div></td>
+										<td>产出几率<info>[i]</info><div class="info">可选<br>  int值</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_extra1"></td>
+										<td><input id="general_extra2" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('TE_Sawmill','mods.thermalexpansion.Sawmill.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('TE_Sawmill','mods.thermalexpansion.Sawmill.removeRecipe(','-2')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填 输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 实用拓展 原子再构机 -->
+							<div class="tool" id="AA_AtomicReconstructor">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>消耗能量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('AA_AtomicReconstructor','mods.actuallyadditions.AtomicReconstructor.addRecipe(','2')">添加配方</button>
+											<button class="output" onclick="general('AA_AtomicReconstructor','mods.actuallyadditions.AtomicReconstructor.removeRecipe(','-1')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 实用拓展 毛球 -->
+							<div class="tool" id="AA_BallofFur">
+								<table>
+									<tr>
+										<td>产出物品</td>
+										<td>几率</td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('AA_BallofFur','mods.actuallyadditions.AtomicReconstructor.addRecipe(','0')">添加配方</button>
+											<button class="output" onclick="general('AA_BallofFur','mods.actuallyadditions.AtomicReconstructor.removeRecipe(','-1')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 实用拓展 堆肥机 -->
+							<div class="tool" id="AA_Compost">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+									</tr>
+									<tr>
+										<td><input id="general_input"></td>
+										<td><input id="general_output"></td>
+									</tr>
+									<tr>
+										<td>显示贴图</td>
+										<td>显示贴图</td>
+									</tr>
+									<tr>
+										<td><input id="general_inimage"></td>
+										<td><input id="general_outimage"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="AA_Compost('AA_BallofFur','mods.actuallyadditions.AtomicReconstructor.addRecipe(','0')">添加配方</button>
+											<button class="output" onclick="general('AA_Compost','mods.actuallyadditions.AtomicReconstructor.removeRecipe(','-1')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 实用拓展 磨粉机 -->
+							<div class="tool" id="AA_Crusher">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output1"></td>
+									</tr>
+									<tr>
+										<td>副产物<info>[i]</info><div class="info">可选</div></td>
+										<td>产出几率<info>[i]</info><div class="info">可选<br>  int值</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_extra1" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('AA_Crusher','mods.actuallyadditions.Crusher.addRecipe(','3')">添加配方</button>
+											<button class="output" onclick="general('AA_Crusher','mods.actuallyadditions.Crusher.removeRecipe(','-1')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 实用拓展 充能台 -->
+							<div class="tool" id="AA_Empowerer">
+								<table>
+									<tr>
+										<td>充能台物品</td>
+										<td>输出物品</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+									</tr>
+									<tr>
+										<td>展示台1号</td>
+										<td>展示台2号</td>
+										<td>展示台3号</td>
+										<td>展示台4号</td>
+									</tr>
+									<tr>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_extra1"></td>
+										<td><input id="general_extra2"></td>
+										<td><input id="general_extra3"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('AA_Empowerer','mods.actuallyadditions.Crusher.addRecipe(','3')">添加配方</button>
+											<button class="output" onclick="general('AA_Empowerer','mods.actuallyadditions.Crusher.removeRecipe(','-1')">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 实用拓展 矿工透镜 -->
+							<div class="tool" id="AA_MiningLens">
+								<table>
+									<tr>
+										<td>矿物</td>
+										<td>权重</td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('AA_MiningLens','mods.actuallyadditions.MiningLens.addStoneOre(','0')">普通矿物</button>
+											<button class="output" onclick="general('AA_MiningLens','mods.actuallyadditions.MiningLens.addNetherOre(','0')">地狱矿物</button>
+											<button class="output" onclick="general('AA_MiningLens','mods.actuallyadditions.MiningLens.removeStoneOre(','-1')">普通删除</button>
+											<button class="output" onclick="general('AA_MiningLens','mods.actuallyadditions.MiningLens.removeNetherOre(','-1')">地狱删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 实用拓展 原油发电机 -->
+							<div class="tool" id="AA_OilGenerator">
+								<table>
+									<tr>
+										<td>流体名称</td>
+										<td>发电量</td>
+										<td>持续时间<info>[i]</info><div class="info">可选<br>  不填则默认100tick</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('AA_OilGenerator','mods.actuallyadditions.MiningLens.addStoneOre(','3')">添加</button>
+											<button class="output" onclick="general('AA_OilGenerator','mods.actuallyadditions.MiningLens.addNetherOre(','-1')">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 实用拓展 海底宝藏 -->
+							<div class="tool" id="AA_TreasureChest">
+								<table>
+									<tr>
+										<td>物品名称</td>
+										<td>几率</td>
+										<td>最小数量</td>
+										<td>最大数量</td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_extra1"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('AA_TreasureChest','mods.actuallyadditions.TreasureChest.addLoot(','2')">添加</button>
+											<button class="output" onclick="general('AA_TreasureChest','mods.actuallyadditions.TreasureChest.removeLoot(','-1')">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 植物魔法 精灵交易 -->
+							<div class="tool" id="ElvenTrading">
+								<table>
+									<tr>
+										<td>输入</td>
+										<td style="width:800px;"><input id="general_input0"><button id="addbutton" onclick="addtable(this,'input')">+</button></td>
+									</tr>
+									<tr>
+										<td>输出</td>
+										<td><input id="general_output0"><button id="addbutton" onclick="addtable(this,'output')">+</button></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('ElvenTrading','mods.botania.ElvenTrade.addRecipe(',0)">添加</button>
+											<button class="output" onclick="general('ElvenTrading','mods.botania.ElvenTrade.removeRecipe(','-1')">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 植物魔法 魔力池 -->
+							<div class="tool" id="ManaInfusion">
+								<table>
+									<tr>
+										<td>输入</td>
+										<td>输出</td>
+										<td>魔力量</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('ManaInfusion','mods.botania.ManaInfusion.addInfusion(',2)">魔力灌注</button>
+											<button class="output" onclick="general('ManaInfusion','mods.botania.ManaInfusion.addAlchemy(',2)">炼金催化</button>
+											<button class="output" onclick="general('ManaInfusion','mods.botania.ManaInfusion.addConjuration(',2)">魔力复制</button>
+											<button class="output" onclick="general('ManaInfusion','mods.botania.ManaInfusion.removeRecipe(','-1')">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 植物魔法 凝矿兰 -->
+							<div class="tool" id="Orechid">
+								<table>
+									<tr>
+										<td>输入</td>
+										<td>权重</td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('Orechid','mods.botania.Orechid.addOre(',0)">添加</button>
+											<button class="output" onclick="general('Orechid','mods.botania.Orechid.removeOre(','-1')">删除</button>
+											<button class="output" onclick="general('Orechid','mods.botania.OrechidIgnem.addOre(',0)">炎矿兰加</button>
+											<button class="output" onclick="general('Orechid','mods.botania.OrechidIgnem.removeOre(','-1')">炎矿兰删</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 植物魔法 花药台 -->
+							<div class="tool" id="PetalApothecary">
+								<table>
+									<tr>
+										<td>输出</td>
+										<td><input id="general_output0"></td>
+									</tr>
+									<tr>
+										<td>输入</td>
+										<td style="width:800px;">
+											<input id="general_input0"><input id="general_input01"><input id="general_input02"><input id="general_input03"><input id="general_input04"><button id="addbutton" onclick="addtable(this,'input')">+</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('PetalApothecary','mods.botania.Apothecary.addRecipe(',0)">添加</button>
+											<button class="output" onclick="general('PetalApothecary','mods.botania.Apothecary.removeRecipe(','-1')">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 植物魔法 白雏菊 -->
+							<div class="tool" id="PureDaisy">
+								<table>
+									<tr>
+										<td>输入</td>
+										<td>输出</td>
+										<td>时间<info>[i]</info><div class="info">可选<br>    数值*0.4=秒<br>  例：150为60秒</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('PureDaisy','mods.botania.PureDaisy.addRecipe(',3)">添加</button>
+											<button class="output" onclick="general('PureDaisy','mods.botania.PureDaisy.removeRecipe(','-1')">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 植物魔法 符文祭坛 -->
+							<div class="tool" id="RuneAltar">
+								<table>
+									<tr>
+										<td>输出</td>
+										<td><input id="general_output0"></td>
+									</tr>
+									<tr>
+										<td>输入</td>
+										<td style="width:800px;">
+											<input id="general_input0"><input id="general_input01"><input id="general_input02"><input id="general_input03"><input id="general_input04"><button id="addbutton" onclick="addtable(this,'input')">+</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('RuneAltar','mods.botania.RuneAltar.addRecipe(',0)">添加</button>
+											<button class="output" onclick="general('RuneAltar','mods.botania.RuneAltar.removeRecipe(','-1')">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 血魔法 炼金法阵 -->
+							<div class="tool" id="AlchemyArray">
+								<table>
+									<tr>
+										<td>输入</td>
+										<td>催化</td>
+										<td>输出</td>
+										<td>炼金阵图案<info>[i]</info><div class="info">可选</div></td>
+									</tr>
+									<tr>
+										<td><input id="bloodmagic_AlchemyArray_input"></td>
+										<td><input id="bloodmagic_AlchemyArray_catalyst"></td>
+										<td><input id="bloodmagic_AlchemyArray_output"></td>
+										<td><input id="bloodmagic_AlchemyArray_textureLocation"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="bloodmagic_AlchemyArray()">完成</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 血魔法 炼金桌 -->
+							<div class="tool" id="AlchemyTable">
+								<table>
+									<tr>
+										<td>输出</td>
+										<td><input id="general_output0"></td>
+									</tr>
+									<tr>
+										<td>输入</td>
+										<td style="width:800px;">
+											<input id="general_input0"><input id="general_input1"><input id="general_input2">
+											<br/><input id="general_input3"><input id="general_input4"><input id="general_input5">
+										</td>
+									</tr>
+									<tr>
+										<td>消耗</td>
+										<td colspan="4"><input id="general_extra0" type="number">
+											时间<input id="general_extra1" type="number">
+											等级<input id="general_extra2" type="number">
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('AlchemyTable','mods.bloodmagic.AlchemyTable.addRecipe(',2)">添加</button>
+											<button class="output" onclick="general('AlchemyTable','mods.bloodmagic.AlchemyTable.removeRecipe(',-2)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填输入栏</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 血魔法 炼狱熔炉 -->
+							<div class="tool" id="TartaricForge">
+								<table>
+									<tr>
+										<td>输出</td>
+										<td><input id="general_output0"></td>
+									</tr>
+									<tr>
+										<td>输入</td>
+										<td style="width:800px;">
+											<input id="general_input0"><input id="general_input1"><input id="general_input2"><input id="general_input3">
+										</td>
+									</tr>
+									<tr>
+										<td>最小</td>
+										<td colspan="4"><input id="general_extra0" type="number">
+											消耗<input id="general_extra1" type="number">
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('TartaricForge','mods.bloodmagic.TartaricForge.addRecipe(',2)">添加</button>
+											<button class="output" onclick="general('TartaricForge','mods.bloodmagic.TartaricForge.removeRecipe(',-2)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填输入栏</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 血魔法 血之祭坛 -->
+							<div class="tool" id="BloodAltar">
+								<table>
+									<tr>
+										<td>输入</td>
+										<td>输出</td>
+										<td>等级<info>[i]</info><div class="info">初始等级为0</div></td>
+										<td>总消耗</td>
+										<td>每次消耗</td>
+										<td>每次损失<info>[i]</info><div class="info">祭坛干枯后每次损失数值</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number" style="width:100px;"></td>
+										<td><input id="general_extra1" type="number" style="width:100px;"></td>
+										<td><input id="general_extra2" type="number" style="width:100px;"></td>
+										<td><input id="general_extra3" type="number" style="width:100px;"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('BloodAltar','mods.bloodmagic.BloodAltar.addRecipe(',2)">添加</button>
+											<button class="output" onclick="general('BloodAltar','mods.bloodmagic.BloodAltar.removeRecipe(',-2)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填输入栏</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 星辉魔法 祭坛 -->
+							<div class="tool" id="Altar">
+								<table>
+									<tr>
+										<td>祭坛等级</td>
+										<td>
+											<select default="1" id="Altar_level">
+												<option value ="1">1级祭坛</option>
+												<option value ="2">2级祭坛</option>
+												<option value ="3">3级祭坛</option>
+												<option value ="4">4级祭坛</option>
+											</select>
+										</td>
+										<td></td>
+										<td><input id="Altar_input9" class="Altar_tire2"></td>
+										<td><input id="Altar_input13" class="Altar_tire3"></td>
+										<td><input id="Altar_input21" class="Altar_tire4"></td>
+										<td><input id="Altar_input14" class="Altar_tire3"></td>
+										<td><input id="Altar_input10" class="Altar_tire2"></td>
+									</tr>
+									<tr>
+										<td>合成注册<info>[i]</info><div class="info">开启F3，JEI查看该物品合成时会在最下面一行显示<br>  格式：astralsorcery:shaped/internal/altar/collectircrystal</div></td>
+										<td><input id="Altar_text" style="width:80px;"></td>
+										<td></td>
+										<td><input id="Altar_input15" class="Altar_tire3"></td>
+										<td><input id="Altar_input0"></td>
+										<td><input id="Altar_input1"></td>
+										<td><input id="Altar_input2"></td>
+										<td><input id="Altar_input16" class="Altar_tire3"></td>
+									</tr>
+										<td>光辉等级</td>
+										<td><input id="Altar_light" style="width:80px;" type="number"></td>
+										<td></td>
+										<td><input id="Altar_input22" class="Altar_tire4"></td>
+										<td><input id="Altar_input3"></td>
+										<td><input id="Altar_input4"></td>
+										<td><input id="Altar_input5"></td>
+										<td><input id="Altar_input23" class="Altar_tire4"></td>
+										<td><input id="Altar_output"></td>
+									<tr>
+										<td>合成时间</td>
+										<td><input id="Altar_time" style="width:80px;" type="number"></td>
+										<td></td>
+										<td><input id="Altar_input17" class="Altar_tire3"></td>
+										<td><input id="Altar_input6"></td>
+										<td><input id="Altar_input7"></td>
+										<td><input id="Altar_input8"></td>
+										<td><input id="Altar_input18" class="Altar_tire3"></td>
+									</tr>
+									<tr>
+										<td><Altar  class="Altar_tire4">绑定星座</Altar></td>
+										<td>
+											<select id="Altar_Constellation" default="" style="width:80px;" class="Altar_tire4">
+												<option value ="">不选择</option>
+												<option value ="discidia">非攻座</option>
+												<option value ="armara">遁甲座</option>
+												<option value ="vicio">虚御座</option>
+												<option value ="aevitas">生息座</option>
+												<option value ="evorsio">解离座</option>
+												<option value ="lucerna">圣芒座</option>
+												<option value ="mineralis">晶金座</option>
+												<option value ="horologium">时钟座</option>
+												<option value ="octans">南极座</option>
+												<option value ="bootes">牧夫座</option>
+												<option value ="fornax">天炉座</option>
+												<option value ="pelotrio">唤生座</option>
+												<option value ="gelu">寒冰座</option>
+												<option value ="ulteria">避役座</option>
+												<option value ="alcara">振变座</option>
+												<option value ="vorux">贪狼座</option>
+											</select>
+										</td>
+										<td></td>
+										<td><input id="Altar_input11" class="Altar_tire2"></td>
+										<td><input id="Altar_input19" class="Altar_tire3"></td>
+										<td><input id="Altar_input24" class="Altar_tire4"></td>
+										<td><input id="Altar_input20" class="Altar_tire3"></td>
+										<td><input id="Altar_input12" class="Altar_tire2"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="Altar(1)">添加</button>
+											<button class="output" onclick="Altar(2)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 星辉魔法 砂轮 -->
+							<div class="tool" id="Grindstone">
+								<table>
+									<tr>
+										<td>输入</td>
+										<td>输出</td>
+										<td>双倍概率<info>[i]</info><div class="info">可选</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('Grindstone','mods.astralsorcery.Grindstone.addRecipe(',3)">添加</button>
+											<button class="output" onclick="general('Grindstone','mods.astralsorcery.Grindstone.removeRecipe(',-1)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 星辉魔法 聚星缸 -->
+							<div class="tool" id="Lightwell">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出液体</td>
+										<td>产出效率</td>
+										<td>破碎几率<info>[i]</info><div class="info">为1时不会破碎</div></td>
+										<td>颜色代码</td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0" type="number"></td>
+										<td><input id="general_extra1" type="number"></td>
+										<td><input id="general_extra2" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('Lightwell','mods.astralsorcery.Lightwell.addLiquefaction(',2)">添加</button>
+											<button class="output" onclick="general('Lightwell','mods.astralsorcery.Lightwell.removeLiquefaction(',0)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 星辉魔法 星能聚合器 -->
+							<div class="tool" id="StarlightInfusion">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>消耗多次<info>[i]</info><div class="info">bool值：ture或false<br>  为ture时，每格星能液都有几率消耗</div></td>
+										<td>消耗几率</td>
+										<td>制作时间</td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_extra1" type="number"></td>
+										<td><input id="general_extra2" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('StarlightInfusion','mods.astralsorcery.StarlightInfusion.addInfusion(',2)">添加</button>
+											<button class="output" onclick="general('StarlightInfusion','mods.astralsorcery.StarlightInfusion.removeInfusion(',-2)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 星辉魔法 星辉转换 -->
+							<div class="tool" id="StarlightTransmutation">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>时间</td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('StarlightTransmutation','mods.astralsorcery.LightTransmutation.addTransmutation(',2)">添加</button>
+											<button class="output" onclick="general('StarlightTransmutation','mods.astralsorcery.LightTransmutation.removeTransmutation(',-2)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 匠魂 匠魂冶炼炉 -->
+							<div class="tool" id="TiC_Melting">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出液体</td>
+										<td>温度<info>[i]</info><div class="info">可选</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0" type="number"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('TiC_Melting','mods.tconstruct.Melting.addRecipe(',3)">添加</button>
+											<button class="output" onclick="general('TiC_Melting','mods.tconstruct.Melting.removeRecipe(',-1)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><info>[例]</info><div class="info">添加:<br>  mods.tconstruct.Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int temp);<br>  mods.tconstruct.Melting.addRecipe(&lt;liquid:molten_gold&gt; * 144,&lt;minecraft:gold_ingot&gt;);<br>  mods.tconstruct.Melting.addRecipe(&lt;liquid:molten_iron&gt; * 144,&lt;minecraft:iron_ingot&gt;, 500);<br>删除:<br>  mods.tconstruct.Melting.removeRecipe(ILiquidStack output, @Optional IItemStack input);<br>  mods.tconstruct.Melting.removeRecipe(&lt;liquid:molten_iron&gt;);<br>  mods.tconstruct.Melting.removeRecipe(&lt;liquid:molten_iron&gt;, &lt;minecraft:iron_ingot&gt;);</div></td>
+									</tr>
+									<tr>
+										<td>实体贴图</td>
+										<td>熔融液体</td>
+									</tr>
+									<tr>
+										<td><input id="TiC_Melting0"></td>
+										<td><input id="TiC_Melting1"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="TiC_Melting('0')">添加</button>
+											<button class="output" onclick="TiC_Melting('1')">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><info>[例]</info><div class="info">添加<br>  addEntityMelting(IEntityDefinition entity, ILiquidStack stack);<br>  可以覆盖现有的配方，并不需要先删除它！<br>  mods.tconstruct.Melting.addEntityMelting(&lt;entity:minecraft:sheep&gt;, &lt;liquid:cryotheum&gt;);<br>  mods.tconstruct.Melting.addEntityMelting(&lt;entity:minecraft:villager&gt;, &lt;liquid:cryotheum&gt;);<br>删除<br>  removeEntityMelting(IEntityDefinition entity);<br>  mods.tconstruct.Melting.removeEntityMelting(&lt;entity:minecraft:villager&gt;);</div></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 匠魂 融合合金 -->
+							<div class="tool" id="TiC_Alloying">
+								<table>
+									<tr>
+										<td width="80px">输出流体</td>
+										<td><input id="general_output0"></td>
+									</tr>
+									<tr>
+										<td>输入液体</td>
+										<td><input id="general_input0"><button id="addbutton" onclick="addtable(this,'input')">+</button></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('TiC_Alloying','mods.tconstruct.Alloy.addRecipe(',0)">添加</button>
+											<button class="output" onclick="general('TiC_Alloying','mods.tconstruct.Alloy.removeRecipe(',-2)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><info>[例]</info><div class="info">添加<br>  mods.tconstruct.Alloy.addRecipe(ILiquidStack output, ILiquidStack[] inputs);<br>  mods.tconstruct.Alloy.addRecipe(&lt;liquid:water&gt; * 10, [&lt;liquid:lava&gt; * 10, &lt;liquid:molten_iron&gt; * 5]);<br>删除<br>  mods.tconstruct.Alloy.removeRecipe(ILiquidStack output, @ILiquidStack[] inputs);<br>  mods.tconstruct.Alloy.removeRecipe(&lt;liquid:water&gt;);<br>  mods.tconstruct.Alloy.removeRecipe(&lt;liquid:water&gt;, [&lt;liquid:lava&gt;, &lt;liquid:molten_iron&gt;]);</div></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 匠魂 铸件/盆 -->
+							<div class="tool" id="TiC_Casting">
+								<table>
+									<tr>
+										<td>浇筑类型</td>
+										<td>模具</td>
+										<td>输出物品</td>
+										<td>输出流体</td>
+										<td>流体数量</td>
+									</tr>
+									<tr>
+										<td>
+											<select id="TiC_Casting_type">
+												<option value="Table">铸件</option>
+												<option value="Basin">盆</option>
+											</select>
+										</td>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_extra1"></td>
+									</tr>
+									<tr>
+										<td>消耗模具</td>
+										<td>冷却时间<info>[i]</info><div class="info">可选</div></td>
+									</tr>
+									<tr>
+										<td>
+											<select id="general_extra2">
+												<option value="false">否</option>
+												<option value="true">是</option>
+											</select></td>
+										<td><input id="general_extra3"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('TiC_Casting','mods.tconstruct.Casting.add'+$('#TiC_Casting_type').val()+'Recipe(',2)">添加</button>
+											<button class="output" onclick="general('TiC_Casting','mods.tconstruct.Casting.remove'+$('#TiC_Casting_type').val()+'Recipe(',-1)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><info>[例]</info><div class="info">添加<br>  mods.tconstruct.Casting.addBasinRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);<br>  mods.tconstruct.Casting.addBasinRecipe(&lt;minecraft:gold_ingot&gt;, &lt;minecraft:iron_ingot&gt;, &lt;liquid:molten_gold&gt;, 30, true);<br>  mods.tconstruct.Casting.addBasinRecipe(&lt;minecraft:gold_ingot&gt;, &lt;minecraft:iron_ingot&gt;, &lt;liquid:molten_gold&gt;, 30, true, 200);<br>删除<br>  mods.tconstruct.Casting.removeBasinRecipe(IItemStack output,@ ILiquidStack input);<br>  mods.tconstruct.Casting.removeBasinRecipe(&lt;minecraft:gold_ingot&gt;);<br>  mods.tconstruct.Casting.removeBasinRecipe(&lt;minecraft:gold_ingot&gt;, &lt;liquid:molten_gold&gt;);</div></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 匠魂 晾干架 -->
+							<div class="tool" id="TiC_Drying">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>需要时间</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('TiC_Drying','mods.tconstruct.Drying.addRecipe(',2)">添加</button>
+											<button class="output" onclick="general('TiC_Drying','mods.tconstruct.Drying.removeRecipe(',1)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><info>[例]</info><div class="info">添加<br>  mods.tconstruct.Casting.addBasinRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);<br>  mods.tconstruct.Casting.addBasinRecipe(&lt;minecraft:gold_ingot&gt;, &lt;minecraft:iron_ingot&gt;, &lt;liquid:molten_gold&gt;, 30, true);<br>  mods.tconstruct.Casting.addBasinRecipe(&lt;minecraft:gold_ingot&gt;, &lt;minecraft:iron_ingot&gt;, &lt;liquid:molten_gold&gt;, 30, true, 200);<br>删除<br>  mods.tconstruct.Casting.removeBasinRecipe(IItemStack output,@ ILiquidStack input);<br>  mods.tconstruct.Casting.removeBasinRecipe(&lt;minecraft:gold_ingot&gt;);<br>  mods.tconstruct.Casting.removeBasinRecipe(&lt;minecraft:gold_ingot&gt;, &lt;liquid:molten_gold&gt;);</div></td>
+									</tr>
+								</table>
+							</div>
+
+							<!-- 匠魂 燃料 -->
+							<div class="tool" id="TiC_Fuel">
+								<table>
+									<tr>
+										<td>燃料名称</td>
+										<td>持续时间<info>[i]</info><div class="info">每单位持续多少tick</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_input0"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('TiC_Fuel','mods.tconstruct.Fuel.registerFuel(',0)">添加</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><info>[例]</info><div class="info">mods.tconstruct.Fuel.registerFuel(ILiquidStack fuel, int duration);<br>mods.tconstruct.Fuel.registerFuel(&lt;liquid:water&gt; * 2, 300);</div></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 林业 木工机 -->
+							<div class="tool" id="FR_Carpenter">
+								<table>
+									<tr>
+										<td>合成表</td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_input1"></td>
+										<td><input id="general_input2"></td>
+									</tr>
+									<tr>
+										<td><input id="general_input3"></td>
+										<td><input id="general_input4"></td>
+										<td><input id="general_input5"></td>
+										<td><input id="general_output0"></td>
+									</tr>
+									<tr>
+										<td><input id="general_input6"></td>
+										<td><input id="general_input7"></td>
+										<td><input id="general_input8"></td>
+									</tr>
+									<tr>
+										<td>加工时间</td>
+										<td>消耗液体<info>[i]</info><div class="info">可选</div></td>
+										<td>额外耗材<info>[i]</info><div class="info">可选<br>  如果启用，则必须输入流体</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_extra1"></td>
+										<td><input id="general_extra2"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="FR_Carpenter('0')">添加</button>
+											<button class="output" onclick="FR_Carpenter('1')">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填 输出物品 和 消耗液体[可选]</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 林业 离心机 -->
+							<div class="tool" id="FR_Centrifuge">
+								<table>
+									<tr>
+										<td  style="width:150px;">输入物品</td>
+										<td  style="width:150px;">加工时间</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0"></td>
+									</tr>
+									<tr>
+										<td>输出物品</td>
+									</tr>
+									<tr>
+										<td colspan="4"><input id="general_output0"><button id="addbutton" onclick="addtable(this,'output')">+</button></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('FR_Centrifuge','mods.forestry.Centrifuge.addRecipe(',2)">添加</button>
+											<button class="output" onclick="general('FR_Centrifuge','mods.forestry.Centrifuge.removeRecipe(',-2)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4"><aa>注:删除请填 输入物品</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 林业 发酵机 -->
+							<div class="tool" id="FR_Fermenter">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输入流体</td>
+										<td>流体消耗量</td>
+										<td>输出倍率</td>
+										<td>输出流体<info>[i]</info><div class="info">输出量=输入流体消耗量*输出倍率</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_extra1"></td>
+										<td><input id="general_extra2"></td>
+										<td><input id="general_output0"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('FR_Fermenter','mods.forestry.Fermenter.addRecipe(',2)">添加</button>
+											<button class="output" onclick="general('FR_Fermenter','mods.forestry.Centrifuge.removeRecipe(',-2)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<info>[例]</info><div class="info">mods.forestry.Fermenter.addRecipe(ILiquidStack fluidOutput, IItemStack resource, ILiquidStack fluidInput, int fermentationValue, float fluidOutputModifier);<br>mods.forestry.Fermenter.addRecipe(&lt;liquid:lava&gt;, &lt;minecraft:obsidian&gt;, &lt;liquid:water&gt;, 1000, 0.5);</div>
+											<aa>注:删除请填 输入物品</aa>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 林业 加湿器 -->
+							<div class="tool" id="FR_Moistener">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>加工时间</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('FR_Moistener','mods.forestry.Moistener.addRecipe(',2)">添加</button>
+											<button class="output" onclick="general('FR_Moistener','mods.forestry.Moistener.removeRecipe(',-1)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<info>[例]</info><div class="info">mods.forestry.Moistener.addRecipe(IItemStack output, IItemStack input, int packagingTime); <br>mods.forestry.Moistener.addRecipe(&lt;minecraft:mycelium&gt;, &lt;minecraft:grass&gt;, 60); </div>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 林业 压榨机 -->
+							<div class="tool" id="FR_Squeezer">
+								<table>
+									<tr>
+										<td>输入物品</td>
+									</tr>
+									<tr>
+										<td colspan="2"><input id="general_input0"><button id="addbutton" onclick="addtable(this,'input')">+</button></td>
+									</tr>
+									<tr>
+										<td>输出流体</td>
+										<td>加工时间</td>
+									</tr>
+									<tr>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0"></td>
+									</tr>
+									<tr>
+										<td>额外产物<info>[i]</info><div class="info">可选<br>  例：&lt;minecraft:redstone&gt; % 20</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_extra1"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('FR_Squeezer','mods.forestry.Moistener.addRecipe(',2)">添加</button>
+											<button class="output" onclick="general('FR_Squeezer','mods.forestry.Moistener.removeRecipe(',-1)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<info>[例]</info><div class="info">mods.forestry.Squeezer.addRecipe(ILiquidStack fluidOutput, IItemStack[] ingredients, int timePerItem, @Optional WeightedItemStack itemOutput);<br>mods.forestry.Squeezer.addRecipe(&lt;liquid:lava&gt;, [&lt;minecraft:redstone&gt;], 120);<br>mods.forestry.Squeezer.addRecipe(&lt;liquid:lava&gt;, [&lt;minecraft:obsidian&gt;], 120, &lt;minecraft:redstone&gt; % 20);</div>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 林业 蒸馏器 -->
+							<div class="tool" id="FR_Still">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>加工时间</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('FR_Still','mods.forestry.Still.addRecipe(',2)">添加</button>
+											<button class="output" onclick="general('FR_Still','mods.forestry.Still.removeRecipe(',1)">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<info>[例]</info><div class="info">添加:<br>  mods.forestry.Moistener.addRecipe(IItemStack output, IItemStack input, int packagingTime); <br>  mods.forestry.Moistener.addRecipe(&lt;minecraft:mycelium&gt;, &lt;minecraft:grass&gt;, 60); <br>删除:<br>  mods.forestry.Still.removeRecipe(ILiquidStack output, @Optional ILiquidStack fluidInput);<br>  mods.forestry.Still.removeRecipe(&lt;liquid:bio.ethanol&gt;);<br>  mods.forestry.Still.removeRecipe(&lt;liquid:refinedcanolaoil&gt;,&lt;liquid:canolaoil&gt;);</div>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 林业 热电子加工 -->
+							<div class="tool" id="FR_Thermionic">
+								<table>
+									<tr>
+										<td>合成表</td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_input1"></td>
+										<td><input id="general_input2"></td>
+									</tr>
+									<tr>
+										<td><input id="general_input3"></td>
+										<td><input id="general_input4"></td>
+										<td><input id="general_input5"></td>
+										<td><input id="general_output0"></td>
+									</tr>
+									<tr>
+										<td><input id="general_input6"></td>
+										<td><input id="general_input7"></td>
+										<td><input id="general_input8"></td>
+									</tr>
+									<tr>
+										<td>消耗液体</td>
+										<td>额外耗材<info>[i]</info><div class="info">可选</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_extra1"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="FR_Thermionic('0')">添加</button>
+											<button class="output" onclick="FR_Thermionic('1')">删除</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<info>[例]</info><div class="info">添加:<br>  mods.forestry.ThermionicFabricator.addCast(IItemStack output, IIngredient[][] ingredients, ILiquidStack liquidStack, @Optional IItemStack plan);<br>  mods.forestry.ThermionicFabricator.addCast(&lt;minecraft:glass_pane&gt; * 4, [[null,null,null],[null,null,null],[null,null,null]], &lt;liquid: glass&gt; * 200);<br>  mods.forestry.ThermionicFabricator.addCast(&lt;minecraft:stained_glass:3&gt;, [[null,null,null],[null,null,null],[null,null,null]], &lt;liquid: glass&gt; * 144, &lt;forestry:wax_cast&gt;);<br>删除:<br>  mods.forestry.ThermionicFabricator.removeCast(IIngredient product);<br>  mods.forestry.ThermionicFabricator.removeCast(&lt;forestry:thermionic_tubes:5&gt;);</div>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 更多实用设备 共振仪  -->
+							<div class="tool" id="ExU2_Resonator">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+										<td>消耗GP</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+										<td><input id="general_extra0"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('ExU2_Resonator','mods.extrautils2.Resonator.add(',2)">添加方块</button>
+											<button class="output" onclick="general('ExU2_Resonator','mods.extrautils2.Resonator.remove(',-1)">删除方块</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 更多实用设备 粉碎机  -->
+							<div class="tool" id="ExU2_Crusher">
+								<table>
+									<tr>
+										<td>输入物品</td>
+										<td>输出物品</td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+									</tr>
+									<tr>
+										<td>额外产物<info>[i]</info><div class="info">可选</div></td>
+										<td>产出几率<info>[i]</info><div class="info">可选<br>  例：0.1</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_extra0"></td>
+										<td><input id="general_extra1"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('ExU2_Crusher','mods.extrautils2.Crusher.add(',3)">添加配方</button>
+											<button class="output" onclick="general('ExU2_Crusher','mods.extrautils2.Crusher.remove(',-1)">删除配方</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 凿子  -->
+							<div class="tool" id="Chise">
+								<table>
+									<tr>
+										<td>方块标签</td>
+										<td>方块组名称<info>[i]</info><div class="info">格式："名称"<br>    使用/ct chiselGroups导出<br>  "dirt"</div></td>
+									</tr>
+									<tr>
+										<td><input id="general_input0"></td>
+										<td><input id="general_output0"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="general('Chise','mods.chisel.Carving.addVariation(',0)">添加方块</button>
+											<button class="output" onclick="general('Chise','mods.chisel.Carving.removeVariation(',0)">删除方块</button>
+											<button class="output" onclick="general('Chise','mods.chisel.Groups.addGroup(',-1)">添加组</button>
+											<button class="output" onclick="general('Chise','mods.chisel.Groups.removeGroup(',-1)">删除组</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+									<tr>
+										<td><aa>编辑组别请输入组名</aa></td>
+									</tr>
+								</table>
+							</div>
+							<!-- 自定义蜜蜂 说明 -->
+							<div class="tool" id="GD_synopsis">
+								<GD>该模块为Gendustry（基因工程）所提供的的自定义蜜蜂编辑内容，并非crafttweaker功能。</GD>
+								<hr>
+								<GD style="font-weight:900">1.创建配置文件</GD>
+								<GD>	在正式进行自定义蜜蜂前，你需要创建一个配置文件({minecraft}/config/gendustry/[name].cfg)。</GD>
+								<GD>	[name]为玩家自定义名称，但应保持纯英文格式。</GD>
+								<GD>	打开[name].cfg并在其中输入：</GD>
+								<GD style="color:#3af">        if HaveForestryModule Bees &lt;&lt;&gt;&gt;</GD>
+								<GD>	之后所有自定义蜜蜂内容都写在<< >> 之内</GD>
+								<hr>
+								<GD style="font-weight:900">2.添加本地化内容 </GD>
+								<GD>	所添加的本地化内容至少应有英语（美国）的本地化。你也可以添加其他语言的本地化。 </GD>
+								<GD>	本地化内容应该在{minecraft}/config/gendustry/{name}.{code}.lang中。</GD>
+								<GD>		格式与Minecraft本地化相同，英语（美国）是“en_us”等，中文则是“zh_cn”。</GD>
+								<GD>		{name}可以是任何东西，但是为了方便，应该匹配自定义内容的配置文件的名称。 </GD>
+								<GD>	本地化内容遵循标准的{key}={value}的格式，具体如下：</GD>
+								<GD>		gendustry.honeycomb.{name}.name – 蜂窝名字</GD>
+								<GD>		gendustry.honeydrop.{name}.name – 蜂蜜滴名字</GD>
+								<GD>		gendustry.bees.species.{name} – 蜜蜂名字</GD>
+								<GD>		gendustry.bees.species.{name}.description – 蜜蜂描述（显示在分析仪中）</GD>
+								<GD>		gendustry.allele.flowers.{name} – 采蜜对象名字</GD>
+								<hr>
+								<GD style="font-weight:900">注意事项：</GD>
+								<GD>	1.7.10的中文的本地化比较特殊，需要使用Unicode编码，请配合中文转Unicode编码的工具使用</GD>
+							</div>
+							<!-- 自定义蜜蜂 分支 -->
+							<div class="tool" id="GD_Branches">
+								<table>
+									<tr>
+										<td>分支名称</td>
+										<td>UID<info>[i]</info><div class="info">格式：[String].[String]<br>    例：custom.nidzero</div></td>
+										<td>属名</td>
+									</tr>
+									<tr>
+										<td><input id="GD_Branches1"></td>
+										<td><input id="GD_Branches2"></td>
+										<td><input id="GD_Branches3"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="GD_Branches()">添加</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 自定义蜜蜂 编辑蜜蜂 -->
+							<div class="tool" id="GD_CustuomBees">
+								<table id="GD_CustuomBees_base">
+									<tr>
+										<td>UID</td>
+										<td>蜜蜂作者</td>
+									</tr>
+									<tr>
+										<td><input id="GD_base_UID"></td>
+										<td><input id="GD_base_Authority"></td>
+									</tr>
+									<tr>
+										<td>显性基因</td>
+										<td>是否发光</td>
+										<td>轮廓颜色<info>[i]</info><div class="info">hex值<br>  例：0x000000</div></td>
+										<td>内部颜色<info>[i]</info><div class="info">hex值<br>  例：0x000000</div></td>
+										<td>是否隐藏</td>
+									</tr>
+									<tr>
+										<td><select  id="GD_base_Dominant"><option value="Yes">是</option><option value="No">否</option></select></td>
+										<td><select  id="GD_base_Glowing"><option value="No">否</option><option value="Yes">是</option></select></td>
+										<td><input id="GD_base_PrimaryColor"></td>
+										<td><input id="GD_base_SecondaryColor"></td>
+										<td><select  id="GD_base_Secret"><option value="No">否</option><option value="Yes">是</option></select></td>
+									</tr>
+									<tr>
+										<td>适宜湿度</td>
+										<td>适宜温度</td>
+										<td>只夜间工作</td>
+										<td>属名</td>
+										<td>所属分支</td>
+									</tr>
+									<tr>
+										<td><select  id="GD_base_Humidity"><option value="Arid">干旱</option><option value="Normal">普通</option><option value="Damp">潮湿</option></select></td>
+										<td><select  id="GD_base_Temperature"><option value="Icy">严寒</option><option value="Cold">寒冷</option><option value="Normal">普通</option><option value="Warm">温暖</option><option value="Hot">炙热</option><option value="Hellish">地狱</option></select></td>
+										<td><select  id="GD_base_Nocturnal"><option value="No">否</option><option value="Yes">是</option></select></td>
+										<td><input id="GD_base_Binominal"></td>
+										<td><input id="GD_base_Branch"></td>
+									</tr>
+									<tr>
+										<td>普通产物<info>[i]</info><div class="info">格式：[chance]% {type}:{modid}:{blockname}@{meta}<br>  [chance]%是产物产出的概率，没有则不填<br>  {type} 是产物种类。物品填I，方块填B，gendustry创造的物品则填S<br>案例：B:chisel:netherrack@10</div></td>
+										<td colspan="4"><input id="GD_base_Products" style="width:590px;"></td>
+									</tr>
+									<tr>
+										<td>特殊产物<info>[i]</info><div class="info">同上</div></td>
+										<td colspan="4"><input id="GD_base_Specialty" style="width:590px;"></td>
+									</tr>
+									<tr>
+										<td>继承属性<info>[i]</info><div class="info">以下将会使用基因UID<br>可使用/dumpalleles导出</div></td>
+										<td>蜜蜂寿命</td>
+										<td>生育能力</td>
+										<td>夜行性</td>
+										<td>穴居性</td>
+									</tr>
+									<tr>
+										<td><input id="GD_base_Base"></td>
+										<td><input id="GD_base_Lifespan"></td>
+										<td><input id="GD_base_Fertility"></td>
+										<td><select  id="GD_base_Never"><option value="forestry.boolFalse">否</option><option value="forestry.boolTrue">是</option></select></td>
+										<td><select  id="GD_base_Cave_Dwelling"><option value="forestry.boolFalse">否</option><option value="forestry.boolTrue">是</option></select></td>
+									</tr>
+									<tr>
+										<td>湿度适应性</td>
+										<td>温度适应性</td>
+										<td>耐雨飞行性</td>
+										<td>工作速度</td>
+										<td>授粉速度</td>
+									</tr>
+									<tr>
+										<td><select id="GD_base_Humidity_Tolerance" default="forestry.toleranceNone"><option value="forestry.toleranceNone">(无)</option><option value="forestry.toleranceBoth1">(全1)</option><option value="forestry.toleranceBoth2">(全2)</option><option value="forestry.toleranceBoth3">(全3)</option><option value="forestry.toleranceBoth4">(全4)</option><option value="forestry.toleranceBoth5">(全5)</option><option value="forestry.toleranceDown1">(降1)</option><option value="forestry.toleranceDown2">(降2)</option><option value="forestry.toleranceDown3">(降3)</option><option value="forestry.toleranceDown4">(降4)</option><option value="forestry.toleranceDown5">(降5)</option><option value="forestry.toleranceUp1">(加1)</option><option value="forestry.toleranceUp2">(加2)</option><option value="forestry.toleranceUp3">(加3)</option><option value="forestry.toleranceUp4">(加4)</option><option value="forestry.toleranceUp5">(加5)</option></select></td>
+										<td><select id="GD_base_Temperature_Tolerance" default="forestry.toleranceNone"><option value="forestry.toleranceNone">(无)</option><option value="forestry.toleranceBoth1">(全1)</option><option value="forestry.toleranceBoth2">(全2)</option><option value="forestry.toleranceBoth3">(全3)</option><option value="forestry.toleranceBoth4">(全4)</option><option value="forestry.toleranceBoth5">(全5)</option><option value="forestry.toleranceDown1">(降1)</option><option value="forestry.toleranceDown2">(降2)</option><option value="forestry.toleranceDown3">(降3)</option><option value="forestry.toleranceDown4">(降4)</option><option value="forestry.toleranceDown5">(降5)</option><option value="forestry.toleranceUp1">(加1)</option><option value="forestry.toleranceUp2">(加2)</option><option value="forestry.toleranceUp3">(加3)</option><option value="forestry.toleranceUp4">(加4)</option><option value="forestry.toleranceUp5">(加5)</option></select></td>
+										<td><select  id="GD_base_Tolerant_Flyer"><option value="forestry.boolFalse">否</option><option value="forestry.boolTrue">是</option></select></td>
+										<td><input id="GD_base_Speed"></td>
+										<td><input id="GD_base_Flowering"></td>
+									</tr>
+									<tr>
+										<td>采蜜对象</td>
+										<td>活动范围</td>
+										<td>特殊效果</td>
+									</tr>
+									<tr>
+										<td><input id="GD_base_Flower"></td>
+										<td><input id="GD_base_Territory"></td>
+										<td><input id="GD_base_Effect"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="GD_CustuomBees()">添加</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 自定义蜜蜂 采蜜对象 -->
+							<div class="tool" id="GD_FlowerAllele">
+								<table>
+									<tr>
+										<td>UID</td>
+										<td>基因属性</td>
+										<td>采蜜花朵</td>
+										<td>扩散方块</td>
+									</tr>
+									<tr>
+										<td><input id="GD_FlowerAllele_UID"></td>
+										<td><select  id="GD_FlowerAllele_vaidvalue"><option value="Dominant">显性</option><option value="Recessive">隐性</option></select></td>
+										<td><input id="GD_FlowerAllele_Accepts"></td>
+										<td><input id="GD_FlowerAllele_Spread"></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="GD_FlowerAllele()">添加</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 自定义蜜蜂 蜜蜂杂交 -->
+							<div class="tool" id="GD_Recipes">
+								<table>
+									<tr>
+										<td>蜜蜂品种1</td>
+										<td>蜜蜂品种2</td>
+										<td>突变品种</td>
+										<td>突变几率</td>
+										<td>是否隐藏</td>
+									</tr>
+									<tr>
+										<td><input id="GD_Recipes_UID1"></td>
+										<td><input id="GD_Recipes_UID2"></td>
+										<td><input id="GD_Recipes_UID3"></td>
+										<td><input id="GD_Recipes_Probability" type="number"></td>
+										<td><select id="GD_Recipes_secret" default="1"><option value="1">否</option><option value="0">是</option></select></td>
+									</tr>
+									<tr>
+										<td colspan="4">
+											<button class="output" onclick="GD_Recipes($('#GD_Recipes_secret').val())">添加</button>
+											<button class="clear">重置</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 命令输出栏 -->
+							<div id="textarea">
+								<textarea id="print_text"></textarea>
+							</div>
+							<div style="text-align:right;margin:-5px 10px 10px 10px;color:#1E90FF;">
+								版本：1.0.1 &nbsp;&nbsp; 制作者：忆晨de尘 （<a target="_blank" href="http://space.bilibili.com/1943482">BiliBili 1943482</a>）
+							</div>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+
+
+
+
+
+
