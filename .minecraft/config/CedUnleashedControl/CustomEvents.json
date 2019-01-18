@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "name": "Example Event",
+      "startingTick": 192000,
+      "actions": [
+        {
+          "type": "SPAWN",
+          "data": "minecraft:zombie",
+          "delay": 100,
+          "minCount": 1,
+          "maxCount": 1,
+          "minRadius": 1,
+          "maxRadius": 20
+        }
+      ]
+    }
+  ]
+}

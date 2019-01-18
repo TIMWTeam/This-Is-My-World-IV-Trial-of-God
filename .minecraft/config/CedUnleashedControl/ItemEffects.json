@@ -1,0 +1,39 @@
+{
+    "effects" : [
+        {
+            "itemname":"minecraft:torch",
+            "itemeffects": [
+                {"value":"fire", "duration":10}
+            ]
+        },
+        {
+            "itemname":"minecraft:dirt",
+            "itemeffects": [
+                {"value":"poison", "level":2},
+                {"value":"blindness", "level":1}
+            ],
+            "trigger":"holding"
+        },
+        {
+            "itemname":"minecraft:iron_helmet",
+            "itemeffects":[
+                {"value":"night_vision"}
+            ],
+            "trigger":"armor"
+        },
+        {
+            "itemname":"minecraft:stone",
+            "itemeffects":[
+                {"value":"explode", "level":5, "chance":0.1}
+            ],
+            "trigger":"break"
+        },
+        {
+            "itemname":"minecraft:bread",
+            "itemeffects":[
+                {"value":"Regeneration", "level":1, "duration":"10"}
+            ],
+            "trigger":"use"
+        }
+    ]
+}
