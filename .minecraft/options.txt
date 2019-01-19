@@ -168,6 +168,7 @@ key_key.toolProfileChange:43
 key_key.armorProfileChange:43:ALT
 key_key.toggleFlight:0
 key_key.toggleDislocator:0
+key_keys.techreborn.config:25
 key_key.i18nmod.main_key.desc:29
 key_key.i18nmod.report_key.desc:37
 key_key.i18nmod.weblate_key.desc:38
@@ -185,6 +186,7 @@ key_key.debugDumpNBTBlock:0
 key_invtweaks.key.sort:19
 key_key.modifier:13
 key_key.submode:0
+key_overloaded.key.noclip:47
 key_key.plustic_release_entity.desc:11
 key_key.plustic_toggle_gui.desc:23
 key_key.plustic_set_portal.desc:49
