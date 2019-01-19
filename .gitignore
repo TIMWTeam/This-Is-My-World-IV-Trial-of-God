@@ -28,3 +28,5 @@ natives/SAPIWrapper_x86.dll
 .minecraft/*.txt
 .minecraft/launcher_profiles.json
 .minecraft/config/jei/worldSettings.cfg
+.minecraft/backups/*.zip
+.minecraft/local/ftbutilities/backups.json
