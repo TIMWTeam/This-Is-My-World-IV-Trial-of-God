@@ -135,3 +135,5 @@ natives/SAPIWrapper_x86.dll
 .minecraft/saves/新的世界/advRocketry/DIM-2/data/capabilities.dat
 .minecraft/saves/新的世界/advancements/6fef980a-9be9-46df-a5d5-5b576e6d02e9.json
 *.bak
+.minecraft/backups/*.zip
+.minecraft/local/ftbutilities/backups.json
