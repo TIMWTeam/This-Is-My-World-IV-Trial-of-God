@@ -34,3 +34,4 @@ natives/SAPIWrapper_x86.dll
 .minecraft/config/theoneprobe.cfg
 .minecraft/config/InvTweaks.cfg
 .minecraft/config/smoothfont/**
+.minecraft/config/JustEnoughCharacters.cfg
