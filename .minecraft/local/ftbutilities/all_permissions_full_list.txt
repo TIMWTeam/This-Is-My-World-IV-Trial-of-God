@@ -1,4 +1,4 @@
-12406 nodes in total
+12408 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -7488,6 +7488,8 @@ ftbutilities.claims.item.chisel.wool_purple: ALL
 ftbutilities.claims.item.chisel.wool_red: ALL
 ftbutilities.claims.item.chisel.wool_white: ALL
 ftbutilities.claims.item.chisel.wool_yellow: ALL
+ftbutilities.claims.item.contenttweaker.airproof_bottle: ALL
+ftbutilities.claims.item.contenttweaker.bottle_of_air: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_air: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_lifeessence: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_ordo: ALL

@@ -8,3 +8,6 @@
 <ore:button>.add(<minecraft:lever>);
 <ore:plate>.add(<minecraft:wooden_pressure_plate>);
 <ore:plate>.add(<minecraft:stone_pressure_plate>);
+
+<ore:glass_bottle>.add(<minecraft:glass_bottle>);
+<ore:bottle_of_air>.add(<contenttweaker:bottle_of_air>);
