@@ -35,3 +35,5 @@ natives/SAPIWrapper_x86.dll
 .minecraft/config/InvTweaks.cfg
 .minecraft/config/smoothfont/**
 .minecraft/config/JustEnoughCharacters.cfg
+instance.cfg
+instance.cfg
