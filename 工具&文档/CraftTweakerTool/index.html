@@ -226,6 +226,12 @@
 							<div class="tool" id="introduction_4">
 								<GD>    本页为更新日志，将按时间顺序从下往上呈现。</GD>
 								<hr>
+								<GD>    2019-02-15 v1.0.2 </GD>
+								<GD>	    1.修复实用拓展（AA）充能台语法错误。</GD>
+								<GD>	    2.修复植物魔法（botania）精灵门语法错误。</GD>
+								<GD>	    3.修复植物魔法（botania）符文祭坛缺少魔力值输入框。</GD>
+								<hr>
+								<hr>
 								<GD>    2018-12-26 v1.0.1 </GD>
 								<GD>	    1.进行漏洞补正。</GD>
 								<GD>	    2.新增介绍模块：简介、使用方式、常用命令、更新日志。</GD>
@@ -995,11 +1001,11 @@
 								<table>
 									<tr>
 										<td>输入</td>
-										<td style="width:800px;"><input id="general_input0"><button id="addbutton" onclick="addtable(this,'input')">+</button></td>
+										<td style="width:800px;"><input id="general_input0"><input id="general_input1"><button id="addbutton" onclick="addtable(this,'input')">+</button></td>
 									</tr>
 									<tr>
 										<td>输出</td>
-										<td><input id="general_output0"><button id="addbutton" onclick="addtable(this,'output')">+</button></td>
+										<td><input id="general_output0"><input id="general_output1"><button id="addbutton" onclick="addtable(this,'output')">+</button></td>
 									</tr>
 									<tr>
 										<td colspan="4">
@@ -1114,8 +1120,14 @@
 										</td>
 									</tr>
 									<tr>
+										<td>魔力消耗</td>
+										<td>
+											<input id="general_extra0">
+										</td>
+									</tr>
+									<tr>
 										<td colspan="4">
-											<button class="output" onclick="general('RuneAltar','mods.botania.RuneAltar.addRecipe(',0)">添加</button>
+											<button class="output" onclick="general('RuneAltar','mods.botania.RuneAltar.addRecipe(',2)">添加</button>
 											<button class="output" onclick="general('RuneAltar','mods.botania.RuneAltar.removeRecipe(','-1')">删除</button>
 											<button class="clear">重置</button>
 										</td>
@@ -2096,7 +2108,7 @@
 								<textarea id="print_text"></textarea>
 							</div>
 							<div style="text-align:right;margin:-5px 10px 10px 10px;color:#1E90FF;">
-								版本：1.0.1 &nbsp;&nbsp; 制作者：忆晨de尘 （<a target="_blank" href="http://space.bilibili.com/1943482">BiliBili 1943482</a>）
+								版本：1.0.2 &nbsp;&nbsp; 制作者：忆晨de尘 （<a target="_blank" href="http://space.bilibili.com/1943482">BiliBili 1943482</a>）
 							</div>
 						</div>
 					</div>

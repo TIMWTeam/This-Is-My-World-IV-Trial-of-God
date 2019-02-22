@@ -131,6 +131,7 @@ key_neat.keybind.toggle:0
 key_key.open_terminal.desc:0
 key_key.open_magnet.desc:0
 key_key.switch_magnet_mode.desc:0
+key_key.xtones.scroll:42
 key_smoothfont.key.guiOpen:199
 key_key.cofh.multimode:211
 key_key.toggle_focus.desc:15
@@ -176,6 +177,13 @@ key_key.i18nmod.mcmod_key.desc:50
 key_key.i18nmod.reload_key.desc:19
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
+key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
+key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
+key_key.integratedterminals.terminal.tab.next:15
+key_key.integratedterminals.terminal.tab.previous:15:SHIFT
+key_key.integratedterminals.terminal.craftinggrid.clearplayer:46
+key_key.integratedterminals.terminal.craftinggrid.clearstorage:46:SHIFT
+key_key.integratedterminals.terminal.craftinggrid.balance:48
 key_Open Matter Scanner GUI:46
 key_Android Ability key:45
 key_Android Switch Ability key:19
