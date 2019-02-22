@@ -1,9 +1,13 @@
-var stone=<mysticalagriculture:stone_essence>;
-var fire=<mysticalagriculture:fire_essence>;
-var water=<mysticalagriculture:water_essence>;
-var dirt=<mysticalagriculture:dirt_essence>;
-var wood=<mysticalagriculture:wood_essence>;
-var philo=<projecte:item.pe_philosophers_stone>;
+import mods.integrateddynamics.DryingBasin;
+import mods.integrateddynamics.MechanicalDryingBasin;
+
+var stone = <mysticalagriculture:stone_essence>;
+var fire = <mysticalagriculture:fire_essence>;
+var water = <mysticalagriculture:water_essence>;
+var dirt = <mysticalagriculture:dirt_essence>;
+var wood = <mysticalagriculture:wood_essence>;
+var air = <contenttweaker:cropessence_air>;
+var philo = <projecte:item.pe_philosophers_stone>;
 
 recipes.remove(<projecte:item.pe_philosophers_stone>);
 //------------------essence------------------
@@ -17,6 +21,9 @@ recipes.addShapeless(water*4, [philo,<minecraft:water_bucket>]);
 recipes.addShapeless(fire*4, [philo,<minecraft:lava_bucket>]);
 recipes.addShapeless(dirt, [philo,<minecraft:dirt>,<minecraft:dirt>,<minecraft:dirt>]);
 recipes.addShapeless(dirt, [philo,<minecraft:grass>]);
+//air
+recipes.addShapeless(air,[philo,<contenttweaker:bottle_of_air>.transformReplace(<minecraft:glass_bottle>),<contenttweaker:bottle_of_air>.transformReplace(<minecraft:glass_bottle>),<contenttweaker:bottle_of_air>.transformReplace(<minecraft:glass_bottle>),<contenttweaker:bottle_of_air>.transformReplace(<minecraft:glass_bottle>)]);
+recipes.addShapeless(<contenttweaker:airproof_bottle>, [philo,<minecraft:glass_bottle>]);
 
 //------------------material------------------
 recipes.addShaped(<randomthings:naturecore>, [[dirt,stone,dirt],[stone,philo,stone],[dirt,stone,dirt]]);
@@ -36,6 +43,8 @@ mods.tconstruct.Drying.removeRecipe(<minecraft:leather>);
 mods.botania.ManaInfusion.removeRecipe(<minecraft:leather>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<minecraft:leather>);
 mods.thermalexpansion.RedstoneFurnace.removeRecipe(<minecraft:rotten_flesh>);
+DryingBasin.removeRecipesWithOutput(<minecraft:leather>, null);
+MechanicalDryingBasin.removeRecipesWithOutput(<minecraft:leather>, null);
 mods.bloodmagic.AlchemyTable.removeRecipe([<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:flint>,<minecraft:water_bucket>]);
 recipes.addShapeless(<minecraft:leather>*3,[<ore:toolWorkBlade>,<primal:hide_tanned>]);
 mods.bloodmagic.AlchemyArray.addRecipe(<primal:pelt_animal_large>, <primal:thatching_wet>, <bloodmagic:component:22>,"bloodmagic:textures/models/AlchemyArrays/bloodmagic:textures/models/AlchemyArrays/elementalaffinitysigil.png");

@@ -36,4 +36,11 @@ natives/SAPIWrapper_x86.dll
 .minecraft/config/smoothfont/**
 .minecraft/config/JustEnoughCharacters.cfg
 instance.cfg
-instance.cfg
+.minecraft/options.txt
+.minecraft/optionsof.txt
+.vs/ProjectSettings.json
+*.sqlite
+.vs/VSWorkspaceState.json
+.minecraft/registry.dump
+.minecraft/options.txt
+.minecraft/optionsof.txt

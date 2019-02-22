@@ -37,3 +37,4 @@ events.onPlayerRespawn(function(event as crafttweaker.event.PlayerRespawnEvent){
 		}
 	}
 });
+  
