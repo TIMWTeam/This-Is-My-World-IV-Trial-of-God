@@ -44,3 +44,9 @@ instance.cfg
 .minecraft/registry.dump
 .minecraft/options.txt
 .minecraft/optionsof.txt
+.minecraft/config/AppliedEnergistics2/VersionChecker.cfg
+.minecraft/config/IC2.ini
+.minecraft/config/AppliedEnergistics2/VersionChecker.cfg
+.minecraft/config/splash.properties
+.minecraft/config/thaumicjei_itemstack_aspects.json
+.minecraft/config/thaumicjei_itemstack_aspects.json
