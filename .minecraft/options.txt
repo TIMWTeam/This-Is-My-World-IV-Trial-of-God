@@ -46,7 +46,7 @@ useNativeTransport:true
 entityShadows:false
 mainHand:right
 attackIndicator:1
-showSubtitles:false
+showSubtitles:true
 realmsNotifications:true
 enableWeakAttacks:false
 autoJump:false
@@ -94,6 +94,11 @@ key_Hub Expand Key:45
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:48
+key_pe.key.armor_toggle:81
+key_pe.key.charge:76
+key_pe.key.extra_function:79
+key_pe.key.fire_projectile:80
+key_pe.key.mode:75
 key_psiaddons.misc.keybinding.slot0:0
 key_psiaddons.misc.keybinding.slot1:0
 key_psiaddons.misc.keybinding.slot2:0
@@ -115,11 +120,6 @@ key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
-key_pe.key.armor_toggle:81
-key_pe.key.charge:76
-key_pe.key.extra_function:79
-key_pe.key.fire_projectile:80
-key_pe.key.mode:75
 key_key.next_item.desc:0
 key_key.previous_item.desc:0
 key_key.open_danknull.desc:0
@@ -128,9 +128,7 @@ key_key.ftbutilities.warp:35
 key_key.ftbutilities.nbt:49:ALT
 key_ingameinfoxml.key.toggle:0
 key_neat.keybind.toggle:0
-key_key.open_terminal.desc:0
-key_key.open_magnet.desc:0
-key_key.switch_magnet_mode.desc:0
+key_key.open_wct.desc:0
 key_key.xtones.scroll:42
 key_smoothfont.key.guiOpen:199
 key_key.cofh.multimode:211
@@ -143,9 +141,17 @@ key_key.jei.showUses:22
 key_key.jei.recipeBack:14
 key_key.jei.previousPage:201
 key_key.jei.nextPage:209
+key_key.jei.bookmark:30
+key_key.jei.toggleBookmarkOverlay:0
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:33
 key_nei.options.keys.gui.botania_corporea_request:46
+key_key.modeSwitch:34
+key_key.rangeChange:19
+key_key.undoKey:22
+key_key.anchorKey:35
+key_key.fuzzyKey:0
+key_key.connectedarea:0
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.rotate_counter_clockwise:0
 key_key.craftingtweaks.balance:0
@@ -177,6 +183,10 @@ key_key.i18nmod.mcmod_key.desc:50
 key_key.i18nmod.reload_key.desc:19
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
+key_Mekanism 模式切换:50
+key_Mekanism 装甲模式切换:34
+key_Mekanism 步行模式切换:35
+key_Mekanism 声音:22
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_key.integratedterminals.terminal.tab.next:15
@@ -217,15 +227,15 @@ key_向左旋转火箭:30
 key_向上移动火箭:44
 key_向下移动火箭:45
 key_key.control:29
-soundCategory_master:0.08609272
-soundCategory_music:0.1971831
+soundCategory_master:0.105960265
+soundCategory_music:1.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.0
 soundCategory_block:1.0
 soundCategory_hostile:0.0
 soundCategory_neutral:0.0
-soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_player:0.0
+soundCategory_ambient:0.0
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true
