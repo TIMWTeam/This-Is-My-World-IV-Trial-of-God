@@ -8,8 +8,8 @@
 .minecraft/assets/**
 .minecraft/libraries/**
 .minecraft/versions/**
-.minecraft/saves/**
 .minecraft/crash-reports/**
+.minecraft/saves/魔改用存档/**
 .minecraft/logs/**
 .minecraft/BotaniaVars.dat
 .minecraft/.mixin.out/audit/mixin_implementation_report.csv
@@ -57,3 +57,6 @@ instance.cfg
 .minecraft/config/AppliedEnergistics2/VersionChecker.cfg
 .minecraft/config/splash.properties
 instance.cfg
+.minecraft/config/thaumicjei_itemstack_aspects.json
+.minecraft/config/thaumicjei_itemstack_aspects.json
+.minecraft/config/thaumicjei_itemstack_aspects.json
