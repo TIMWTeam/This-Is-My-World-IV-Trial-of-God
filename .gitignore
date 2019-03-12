@@ -60,3 +60,7 @@ instance.cfg
 .minecraft/config/thaumicjei_itemstack_aspects.json
 .minecraft/config/thaumicjei_itemstack_aspects.json
 .minecraft/config/thaumicjei_itemstack_aspects.json
+.minecraft/config/IC2.ini
+.minecraft/config/splash.properties
+.minecraft/config/AppliedEnergistics2/VersionChecker.cfg
+*.bak

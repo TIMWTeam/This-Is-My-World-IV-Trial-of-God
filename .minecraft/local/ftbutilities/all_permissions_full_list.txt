@@ -1,4 +1,4 @@
-13014 nodes in total
+13019 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -7812,10 +7812,15 @@ ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
 ftbutilities.claims.item.contenttweaker.airproof_bottle: ALL
 ftbutilities.claims.item.contenttweaker.bottle_of_air: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_air: ALL
+ftbutilities.claims.item.contenttweaker.cropessence_fire: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_lifeessence: ALL
+ftbutilities.claims.item.contenttweaker.cropessence_liquid: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_ordo: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_perditio: ALL
+ftbutilities.claims.item.contenttweaker.cropessence_terra: ALL
 ftbutilities.claims.item.contenttweaker.feature: ALL
+ftbutilities.claims.item.contenttweaker.purgatory_dust: ALL
+ftbutilities.claims.item.contenttweaker.refining_gold_liquid: ALL
 ftbutilities.claims.item.danknull.dank_null: ALL
 ftbutilities.claims.item.danknull.dank_null_panel: ALL
 ftbutilities.claims.item.danknull.danknull_dock: ALL
