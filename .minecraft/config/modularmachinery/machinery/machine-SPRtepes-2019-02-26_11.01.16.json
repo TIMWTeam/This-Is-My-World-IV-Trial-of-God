@@ -1,0 +1,266 @@
+{
+	"registryname": "will_condenser",
+    "localizedname": "意志凝结器",
+    "parts": [
+        {
+            "x": 7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumcraft:pillar_eldritch@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thaumcraft:stone_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thaumcraft:stone_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thaumcraft:stone_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumcraft:pillar_eldritch@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thaumcraft:stone_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thaumcraft:stone_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thaumcraft:stone_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thaumcraft:pillar_eldritch@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thaumcraft:stone_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thaumcraft:stone_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -2,
+            "nbt": {"id":"bloodmagic:blood_tank","capacity":"16000"},
+            "elements": [
+                "bloodmagic:blood_tank@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thaumcraft:stone_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thaumcraft:pillar_eldritch@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -1,
+            "nbt": {"Items":[{"Slot":"0b","ForgeCaps":{"astralsorcery:cap_item_amulet_holder":{}},"id":"bloodmagic:blood_orb","Count":"1b","tag":{"orb":"bloodmagic:apprentice"},"Damage":"0s"}],"id":"thaumcraft:tilepedestal"},
+            "elements": [
+                "thaumcraft:pedestal_eldritch@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "nbt": {"Items":[{"Slot":"0b","ForgeCaps":{"astralsorcery:cap_item_amulet_holder":{}},"id":"bloodmagic:blood_orb","Count":"1b","tag":{"orb":"bloodmagic:apprentice"},"Damage":"0s"}],"id":"thaumcraft:tilepedestal"},
+            "elements": [
+                "thaumcraft:pedestal_eldritch@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "bloodmagic:inversion_pillar_end@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -3,
+            "nbt": {"Items":[{"Slot":"0b","ForgeCaps":{"astralsorcery:cap_item_amulet_holder":{}},"id":"bloodmagic:blood_orb","Count":"1b","tag":{"orb":"bloodmagic:apprentice"},"Damage":"0s"}],"id":"thaumcraft:tilepedestal"},
+            "elements": [
+                "thaumcraft:pedestal_eldritch@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "bloodmagic:inversion_pillar_end@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "nbt": {"Items":[{"Slot":"0b","ForgeCaps":{"astralsorcery:cap_item_amulet_holder":{}},"id":"bloodmagic:blood_orb","Count":"1b","tag":{"orb":"bloodmagic:apprentice"},"Damage":"0s"}],"id":"thaumcraft:tilepedestal"},
+            "elements": [
+                "thaumcraft:pedestal_eldritch@0"
+            ]
+        }
+    ]}
