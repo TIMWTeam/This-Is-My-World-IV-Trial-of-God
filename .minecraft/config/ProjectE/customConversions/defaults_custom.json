@@ -1,17 +1,9 @@
 {
-  "comment": "Default values for non-OreDictionary vanilla items",
-  "comment_1": "This file is only shown as an example, it will be regenerated every time mapping occurs in order to let us",
-  "comment_2": "change default values. To specify your own custom values use a separate JSON or the /projecte commands ingame",
   "groups": {
     "default": {
       "comment": "Default conversion group",
       "conversions": [
         {
-          "output": "minecraft:grass|0",
-          "ingredients": {
-            "minecraft:dirt|0": 2
-          }
-        }, {
           "output": "minecraft:grass|0",
           "ingredients": {
             "minecraft:dirt|0": 2
@@ -32,24 +24,6 @@
         {
           "output": "minecraft:grass_path|0",
           "ingredients": [ "minecraft:grass|0" ]
-        },
-        {
-          "output": "minecraft:iron_horse_armor|0",
-          "ingredients": {
-            "minecraft:iron_ingot|0": 8
-          }
-        },
-        {
-          "output": "minecraft:golden_horse_armor|0",
-          "ingredients": {
-            "minecraft:gold_ingot|0": 8
-          }
-        },
-        {
-          "output": "minecraft:diamond_horse_armor|0",
-          "ingredients": {
-            "minecraft:diamond|0": 8
-          }
         }
       ]
     },
@@ -251,8 +225,8 @@
       "minecraft:prismarine_shard|0": 256,
       "minecraft:prismarine_crystals|0": 512,
       "minecraft:dye|0": 16,
-      "minecraft:dye|3": 128,
-      "minecraft:dye|4": 864,
+      "minecraft:dye|3": 16,
+      "minecraft:dye|4": 16,
       "minecraft:enchanted_book|0": 2048,
       "minecraft:emerald|0": 16384,
       "minecraft:nether_star|0": 139264,

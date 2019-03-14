@@ -1,4 +1,4 @@
-13019 nodes in total
+13010 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -10752,15 +10752,6 @@ ftbutilities.claims.item.primal.bronze_dust: ALL
 ftbutilities.claims.item.primal.bronze_ingot: ALL
 ftbutilities.claims.item.primal.bronze_nugget: ALL
 ftbutilities.claims.item.primal.bronze_plate: ALL
-ftbutilities.claims.item.primal.bucket_cinis: ALL
-ftbutilities.claims.item.primal.bucket_cinis_milk: ALL
-ftbutilities.claims.item.primal.bucket_cinis_soft: ALL
-ftbutilities.claims.item.primal.bucket_clay: ALL
-ftbutilities.claims.item.primal.bucket_clay_milk: ALL
-ftbutilities.claims.item.primal.bucket_clay_soft: ALL
-ftbutilities.claims.item.primal.bucket_terra: ALL
-ftbutilities.claims.item.primal.bucket_terra_milk: ALL
-ftbutilities.claims.item.primal.bucket_terra_soft: ALL
 ftbutilities.claims.item.primal.calcified_paraffin: ALL
 ftbutilities.claims.item.primal.carbon_plate: ALL
 ftbutilities.claims.item.primal.carbonate_slack: ALL
@@ -13049,7 +13040,6 @@ command.brandonscore.bcore_ticktime
 command.brandonscore.bcore_util
 command.buildinggadgets.deleteblockmaps
 command.buildinggadgets.findblockmaps
-command.cedunleashedcontrol.cuc
 command.clear
 command.clone
 command.cofhcore.cofh

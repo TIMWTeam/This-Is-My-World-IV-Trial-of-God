@@ -1,28 +1,31 @@
 import mods.integrateddynamics.DryingBasin;
 import mods.integrateddynamics.MechanicalDryingBasin;
 
-var terra = <contenttweaker:cropessence_terra>;
-var air = <contenttweaker:cropessence_air>;
-var liquid = <contenttweaker:cropessence_liquid>;
+var earth = <contenttweaker:cropessence_earth>;
+var wind = <contenttweaker:cropessence_wind>;
+var water = <contenttweaker:cropessence_water>;
 var fire = <contenttweaker:cropessence_fire>;
 var philo = <projecte:item.pe_philosophers_stone>;
 //--------------------base--------------------
+recipes.addShapeless(<minecraft:cobblestone>, [philo,<ore:stone>]);
 recipes.addShapeless(<minecraft:dirt>, [philo,<ore:cobblestone>]);
 recipes.addShapeless(<minecraft:sand>, [philo,<minecraft:dirt>]);
-recipes.addShapeless(<minecraft:cobblestone>, [philo,<ore:sand>]);
-<ore:terra>.addItems([<minecraft:dirt>,<minecraft:sand>,<minecraft:cobblestone>]);
+recipes.addShapeless(<minecraft:stone>, [philo,<ore:sand>]);
+<ore:earth>.addItems([<minecraft:dirt>,<minecraft:sand>,<minecraft:cobblestone>,<minecraft:stone>]);
+
+
 
 //------------------essence------------------
-//terra
-recipes.addShaped(terra, [[<ore:terra>,<ore:terra>,<ore:terra>],[<ore:terra>,philo,<ore:terra>],[<ore:terra>,<ore:terra>,<ore:terra>]]);
+//earth
+recipes.addShaped(earth, [[<ore:earth>,<ore:earth>,<ore:earth>],[<ore:earth>,philo,<ore:earth>],[<ore:earth>,<ore:earth>,<ore:earth>]]);
 
-//liquid
+//water
 
 //fire
 
-//air
-recipes.addShapeless(air,[philo,<contenttweaker:bottle_of_air>.transformReplace(<minecraft:glass_bottle>),<contenttweaker:bottle_of_air>.transformReplace(<minecraft:glass_bottle>),<contenttweaker:bottle_of_air>.transformReplace(<minecraft:glass_bottle>),<contenttweaker:bottle_of_air>.transformReplace(<minecraft:glass_bottle>)]);
-recipes.addShapeless(<contenttweaker:airproof_bottle>, [philo,<minecraft:glass_bottle>]);
+//wind
+recipes.addShapeless(wind,[philo,<contenttweaker:bottle_of_wind>.transformReplace(<minecraft:glass_bottle>),<contenttweaker:bottle_of_wind>.transformReplace(<minecraft:glass_bottle>),<contenttweaker:bottle_of_wind>.transformReplace(<minecraft:glass_bottle>),<contenttweaker:bottle_of_wind>.transformReplace(<minecraft:glass_bottle>)]);
+recipes.addShapeless(<contenttweaker:windproof_bottle>, [philo,<minecraft:glass_bottle>]);
 
 //------------------material------------------
 //log
@@ -30,10 +33,10 @@ recipes.addShapeless(<contenttweaker:airproof_bottle>, [philo,<minecraft:glass_b
 //ingot
 
 //redstone
-recipes.addShaped(<minecraft:redstone>, [[<minecraft:wooden_button>,<minecraft:wooden_button>,<minecraft:wooden_button>],[<minecraft:wooden_button>,philo,<minecraft:wooden_button>],[<minecraft:wooden_button>,<minecraft:wooden_button>,<minecraft:wooden_button>]]);
-recipes.addShaped(<minecraft:redstone>, [[null,<minecraft:wooden_pressure_plate>,null],[<minecraft:wooden_pressure_plate>,philo,<minecraft:wooden_pressure_plate>],[null,<minecraft:wooden_pressure_plate>,null]]);
-recipes.addShapeless(<minecraft:redstone>*8, [philo,<minecraft:light_weighted_pressure_plate>]);
-recipes.addShapeless(<minecraft:redstone>*2, [philo,<minecraft:heavy_weighted_pressure_plate>]);
+recipes.addShaped(<minecraft:redstone>, [[<ore:button>,<ore:button>,<ore:button>],[<ore:button>,philo,<ore:button>],[<ore:button>,<ore:button>,<ore:button>]]);
+recipes.addShaped(<minecraft:redstone>, [[null,<ore:plate>,null],[<ore:plate>,philo,<ore:plate>],[null,<ore:plate>,null]]);
+recipes.addShapeless(<minecraft:redstone>*4, [philo,<minecraft:light_weighted_pressure_plate>]);
+recipes.addShapeless(<minecraft:redstone>*8, [philo,<minecraft:heavy_weighted_pressure_plate>]);
 //glowstone
 recipes.addShaped(<minecraft:glowstone_dust>*4,  [[null,<randomthings:advancedredstonetorch_on>,null],[<randomthings:advancedredstonetorch_on>,philo,<randomthings:advancedredstonetorch_on>],[null,<randomthings:advancedredstonetorch_on>,null]]);
 
@@ -50,7 +53,15 @@ mods.bloodmagic.AlchemyTable.removeRecipe([<minecraft:rotten_flesh>,<minecraft:r
 mods.bloodmagic.AlchemyArray.addRecipe(<primal:hide_raw>, <primal:thatching_wet>, <bloodmagic:component:22>,"bloodmagic:textures/models/AlchemyArrays/bloodmagic:textures/models/AlchemyArrays/elementalaffinitysigil.png");
 mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>);
 
+//-------------------tools-------------------
+recipes.removeByRecipeName("appliedenergistics2:misc/grindstone");
+recipes.addShaped(<appliedenergistics2:grindstone>, [[<ore:stone>, <ore:gearWood>, <ore:stone>], [<minecraft:flint>, <ore:stone>, <minecraft:flint>], [<ore:cobblestone>, <minecraft:flint>, <ore:cobblestone>]]);
+
+recipes.removeByRecipeName("primal:flint_shears");
+
+//recipes.addShaped(<extraalchemy:alchemy_array_transmute>, [[earth, <ore:dustGold>, wind], [<extraalchemy:blood_bottle>, philo, <extraalchemy:blood_bottle>], [water, <ore:dustGold>, fire]]);
+
 //------------------nether------------------
-mods.tconstruct.Casting.addBasinRecipe(<minecraft:netherrack>,<ore:cobblestone>,<liquid:lava>,100,true,20);
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:netherrack>,<ore:cobblestone>,<water:lava>,100,true,20);
 
 
