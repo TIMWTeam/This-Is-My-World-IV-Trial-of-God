@@ -57,11 +57,11 @@ mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>);
 recipes.removeByRecipeName("appliedenergistics2:misc/grindstone");
 recipes.addShaped(<appliedenergistics2:grindstone>, [[<ore:stone>, <ore:gearWood>, <ore:stone>], [<minecraft:flint>, <ore:stone>, <minecraft:flint>], [<ore:cobblestone>, <minecraft:flint>, <ore:cobblestone>]]);
 
-recipes.removeByRecipeName("primal:flint_shears");
+recipes.addShaped(<actuallyadditions:block_fishing_net>, [[<ore:cordageGeneral>, <ore:slatWood>, <ore:cordageGeneral>], [null, <ore:slatWood>]]);
 
 //recipes.addShaped(<extraalchemy:alchemy_array_transmute>, [[earth, <ore:dustGold>, wind], [<extraalchemy:blood_bottle>, philo, <extraalchemy:blood_bottle>], [water, <ore:dustGold>, fire]]);
 
 //------------------nether------------------
-mods.tconstruct.Casting.addBasinRecipe(<minecraft:netherrack>,<ore:cobblestone>,<water:lava>,100,true,20);
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:netherrack>,<ore:cobblestone>,<liquid:lava>,100,true,20);
 
 

@@ -11,20 +11,20 @@ cropessence_fire.maxStackSize=64;
 cropessence_fire.rarity="rare";
 cropessence_fire.register();
 
-var cropessence_terra=VanillaFactory.createItem("cropessence_terra");
-cropessence_terra.maxStackSize=64;
-cropessence_terra.rarity="rare";
-cropessence_terra.register();
+var cropessence_earth=VanillaFactory.createItem("cropessence_earth");
+cropessence_earth.maxStackSize=64;
+cropessence_earth.rarity="rare";
+cropessence_earth.register();
 
-var cropessence_liquid=VanillaFactory.createItem("cropessence_liquid");
-cropessence_liquid.maxStackSize=64;
-cropessence_liquid.rarity="rare";
-cropessence_liquid.register();
+var cropessence_water=VanillaFactory.createItem("cropessence_water");
+cropessence_water.maxStackSize=64;
+cropessence_water.rarity="rare";
+cropessence_water.register();
 
-var cropessence_air=VanillaFactory.createItem("cropessence_air");
-cropessence_air.maxStackSize=64;
-cropessence_air.rarity="rare";
-cropessence_air.register();
+var cropessence_wind=VanillaFactory.createItem("cropessence_wind");
+cropessence_wind.maxStackSize=64;
+cropessence_wind.rarity="rare";
+cropessence_wind.register();
 
 var cropessence_ordo=VanillaFactory.createItem("cropessence_ordo");
 cropessence_ordo.maxStackSize=64;
@@ -59,25 +59,25 @@ refining_gold_liquid.register();
 
 
 
-var bottle_of_air=VanillaFactory.createItem("bottle_of_air");
-bottle_of_air.maxStackSize=64;
-bottle_of_air.rarity="rare";
-bottle_of_air.itemRightClick = function(stack, world, player, hand) {
+var bottle_of_wind=VanillaFactory.createItem("bottle_of_wind");
+bottle_of_wind.maxStackSize=64;
+bottle_of_wind.rarity="rare";
+bottle_of_wind.itemRightClick = function(stack, world, player, hand) {
 	if (!world.remote) { 
 		player.give(<ore:glass_bottle>.firstItem);
 		stack.shrink(1);
 	}
 	return "SUCCESS";
 };
-bottle_of_air.register();
+bottle_of_wind.register();
 
-var airproof_bottle=VanillaFactory.createItem("airproof_bottle");
-airproof_bottle.maxStackSize=64;
-airproof_bottle.itemRightClick = function(stack, world, player, hand) {
+var windproof_bottle=VanillaFactory.createItem("windproof_bottle");
+windproof_bottle.maxStackSize=64;
+windproof_bottle.itemRightClick = function(stack, world, player, hand) {
 	if (!world.remote) { 
-		player.give(<ore:bottle_of_air>.firstItem);
+		player.give(<ore:bottle_of_wind>.firstItem);
 		stack.shrink(1);
 	}
 	return "SUCCESS";
 };
-airproof_bottle.register();
+windproof_bottle.register();

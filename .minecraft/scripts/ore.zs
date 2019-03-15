@@ -10,4 +10,4 @@
 <ore:plate>.add(<minecraft:stone_pressure_plate>);
 
 <ore:glass_bottle>.add(<minecraft:glass_bottle>);
-<ore:bottle_of_air>.add(<contenttweaker:bottle_of_air>);
+<ore:bottle_of_air>.add(<contenttweaker:bottle_of_wind>);
