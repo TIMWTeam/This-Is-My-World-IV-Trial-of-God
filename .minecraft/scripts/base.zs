@@ -11,7 +11,7 @@ recipes.addShapeless(<minecraft:cobblestone>, [philo,<ore:stone>]);
 recipes.addShapeless(<minecraft:dirt>, [philo,<ore:cobblestone>]);
 recipes.addShapeless(<minecraft:sand>, [philo,<minecraft:dirt>]);
 recipes.addShapeless(<minecraft:stone>, [philo,<ore:sand>]);
-<ore:earth>.addItems([<minecraft:dirt>,<minecraft:sand>,<minecraft:cobblestone>,<minecraft:stone>]);
+
 
 
 
@@ -60,6 +60,8 @@ recipes.addShaped(<appliedenergistics2:grindstone>, [[<ore:stone>, <ore:gearWood
 recipes.addShaped(<actuallyadditions:block_fishing_net>, [[<ore:cordageGeneral>, <ore:slatWood>, <ore:cordageGeneral>], [null, <ore:slatWood>]]);
 
 //recipes.addShaped(<extraalchemy:alchemy_array_transmute>, [[earth, <ore:dustGold>, wind], [<extraalchemy:blood_bottle>, philo, <extraalchemy:blood_bottle>], [water, <ore:dustGold>, fire]]);
+
+//
 
 //------------------nether------------------
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:netherrack>,<ore:cobblestone>,<liquid:lava>,100,true,20);

@@ -11,3 +11,6 @@
 
 <ore:glass_bottle>.add(<minecraft:glass_bottle>);
 <ore:bottle_of_air>.add(<contenttweaker:bottle_of_wind>);
+
+<ore:earth>.addItems([<minecraft:dirt>,<minecraft:sand>,<minecraft:cobblestone>,<minecraft:stone>]);
+<ore:fertilizer>.addItems([<primal:ash_common>,<forestry:ash>]);
