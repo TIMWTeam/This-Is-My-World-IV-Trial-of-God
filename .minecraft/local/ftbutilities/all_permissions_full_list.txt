@@ -1,4 +1,4 @@
-13010 nodes in total
+13006 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -904,6 +904,7 @@ ftbutilities.claims.block.edit.compactmachines3.redstonetunnel: OP
 ftbutilities.claims.block.edit.compactmachines3.tunnel: OP
 ftbutilities.claims.block.edit.compactmachines3.wall: OP
 ftbutilities.claims.block.edit.compactmachines3.wallbreakable: OP
+ftbutilities.claims.block.edit.contenttweaker.machine_frame: OP
 ftbutilities.claims.block.edit.danknull.danknull_dock: OP
 ftbutilities.claims.block.edit.draconicevolution.celestial_manipulator: OP
 ftbutilities.claims.block.edit.draconicevolution.chaos_crystal: OP
@@ -1005,8 +1006,6 @@ ftbutilities.claims.block.edit.extrautils2.playerchest: OP
 ftbutilities.claims.block.edit.extrautils2.powerbattery: OP
 ftbutilities.claims.block.edit.extrautils2.poweroverload: OP
 ftbutilities.claims.block.edit.extrautils2.powertransmitter: OP
-ftbutilities.claims.block.edit.extrautils2.quarry: OP
-ftbutilities.claims.block.edit.extrautils2.quarryproxy: OP
 ftbutilities.claims.block.edit.extrautils2.rainbowgenerator: OP
 ftbutilities.claims.block.edit.extrautils2.redorchid: OP
 ftbutilities.claims.block.edit.extrautils2.redstoneclock: OP
@@ -4090,6 +4089,7 @@ ftbutilities.claims.block.interact.compactmachines3.redstonetunnel: OP
 ftbutilities.claims.block.interact.compactmachines3.tunnel: OP
 ftbutilities.claims.block.interact.compactmachines3.wall: OP
 ftbutilities.claims.block.interact.compactmachines3.wallbreakable: OP
+ftbutilities.claims.block.interact.contenttweaker.machine_frame: OP
 ftbutilities.claims.block.interact.danknull.danknull_dock: OP
 ftbutilities.claims.block.interact.draconicevolution.celestial_manipulator: OP
 ftbutilities.claims.block.interact.draconicevolution.chaos_crystal: OP
@@ -4191,8 +4191,6 @@ ftbutilities.claims.block.interact.extrautils2.playerchest: OP
 ftbutilities.claims.block.interact.extrautils2.powerbattery: OP
 ftbutilities.claims.block.interact.extrautils2.poweroverload: OP
 ftbutilities.claims.block.interact.extrautils2.powertransmitter: OP
-ftbutilities.claims.block.interact.extrautils2.quarry: OP
-ftbutilities.claims.block.interact.extrautils2.quarryproxy: OP
 ftbutilities.claims.block.interact.extrautils2.rainbowgenerator: OP
 ftbutilities.claims.block.interact.extrautils2.redorchid: OP
 ftbutilities.claims.block.interact.extrautils2.redstoneclock: OP
@@ -7818,6 +7816,7 @@ ftbutilities.claims.item.contenttweaker.cropessence_perditio: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_water: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_wind: ALL
 ftbutilities.claims.item.contenttweaker.feature: ALL
+ftbutilities.claims.item.contenttweaker.machine_frame: ALL
 ftbutilities.claims.item.contenttweaker.purgatory_dust: ALL
 ftbutilities.claims.item.contenttweaker.refining_gold_liquid: ALL
 ftbutilities.claims.item.contenttweaker.windproof_bottle: ALL
@@ -7994,7 +7993,6 @@ ftbutilities.claims.item.extrabotany.trophy: ALL
 ftbutilities.claims.item.extrabotany.ultimatehammer: ALL
 ftbutilities.claims.item.extrautils2.analogcrafter: ALL
 ftbutilities.claims.item.extrautils2.angelblock: ALL
-ftbutilities.claims.item.extrautils2.angelring: ALL
 ftbutilities.claims.item.extrautils2.bagofholding: ALL
 ftbutilities.claims.item.extrautils2.biomemarker: ALL
 ftbutilities.claims.item.extrautils2.book: ALL
@@ -8057,8 +8055,6 @@ ftbutilities.claims.item.extrautils2.powerbattery: ALL
 ftbutilities.claims.item.extrautils2.powermanager: ALL
 ftbutilities.claims.item.extrautils2.poweroverload: ALL
 ftbutilities.claims.item.extrautils2.powertransmitter: ALL
-ftbutilities.claims.item.extrautils2.quarry: ALL
-ftbutilities.claims.item.extrautils2.quarryproxy: ALL
 ftbutilities.claims.item.extrautils2.rainbowgenerator: ALL
 ftbutilities.claims.item.extrautils2.redorchid: ALL
 ftbutilities.claims.item.extrautils2.redstoneclock: ALL

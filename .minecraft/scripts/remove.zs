@@ -11,7 +11,8 @@ recipes.removeByRecipeName("thaumcraft:ironplate");
 recipes.removeByRecipeName("primal:plate");
 recipes.removeByRecipeName("primal:plate_1");
 
+recipes.removeByRecipeName("bronze_ingot");
+
 //misc
 recipes.removeByRecipeName("actuallyadditions:recipes148");
-
 
