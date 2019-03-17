@@ -1,0 +1,11 @@
+
+recipes.remove(<libvulpes:productrod:*>);
+
+
+
+
+
+
+
+
+
