@@ -64,4 +64,12 @@
 			<itemStack>libvulpes:productingot 1 7</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="600" power ="150">
+		<input>
+			<itemStack>projectred-core:resource_item 1 250</itemStack>
+		</input>
+		<output>
+			<itemStack>projectred-core:resource_item 1 300</itemStack>
+		</output>
+	</Recipe>
 </Recipes>
