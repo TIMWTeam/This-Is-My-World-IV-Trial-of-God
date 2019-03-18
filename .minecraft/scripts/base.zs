@@ -65,7 +65,7 @@ recipes.addShaped(<actuallyadditions:block_fishing_net>, [[<ore:cordageGeneral>,
 
 //------------------nether------------------
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:netherrack>,<ore:cobblestone>,<liquid:lava>,100,true,20);
-mods.bloodmagic.BloodAltar.addRecipe(<minecraft:soul_sand>,<ore:sand>,0,2000,50,5);
+mods.bloodmagic.BloodAltar.addRecipe(<minecraft:soul_sand>,<minecraft:sand>,0,2000,50,5);
 
 //-------------------misc-------------------
 recipes.replaceAllOccurences(<ore:paper>, <minecraft:paper>);
