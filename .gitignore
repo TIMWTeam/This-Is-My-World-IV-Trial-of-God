@@ -42,3 +42,4 @@ instance.cfg
 
 //白名单
 !.minecraft/saves/TIMW建筑/**
+*.bak

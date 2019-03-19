@@ -1,4 +1,4 @@
-13723 nodes in total
+13740 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1113,6 +1113,9 @@ ftbutilities.claims.block.edit.extendedcrafting.table_basic: OP
 ftbutilities.claims.block.edit.extendedcrafting.table_elite: OP
 ftbutilities.claims.block.edit.extendedcrafting.table_ultimate: OP
 ftbutilities.claims.block.edit.extendedcrafting.trimmed: OP
+ftbutilities.claims.block.edit.extraalchemy.alchemical_dissovent: OP
+ftbutilities.claims.block.edit.extraalchemy.alchemy_array_transmute: OP
+ftbutilities.claims.block.edit.extraalchemy.bloodstain: OP
 ftbutilities.claims.block.edit.extrabotany.blockorichalcos: OP
 ftbutilities.claims.block.edit.extrabotany.cocoondesire: OP
 ftbutilities.claims.block.edit.extrabotany.elfjar: OP
@@ -4468,6 +4471,9 @@ ftbutilities.claims.block.interact.extendedcrafting.table_basic: OP
 ftbutilities.claims.block.interact.extendedcrafting.table_elite: OP
 ftbutilities.claims.block.interact.extendedcrafting.table_ultimate: OP
 ftbutilities.claims.block.interact.extendedcrafting.trimmed: OP
+ftbutilities.claims.block.interact.extraalchemy.alchemical_dissovent: OP
+ftbutilities.claims.block.interact.extraalchemy.alchemy_array_transmute: OP
+ftbutilities.claims.block.interact.extraalchemy.bloodstain: OP
 ftbutilities.claims.block.interact.extrabotany.blockorichalcos: OP
 ftbutilities.claims.block.interact.extrabotany.cocoondesire: OP
 ftbutilities.claims.block.interact.extrabotany.elfjar: OP
@@ -8615,6 +8621,17 @@ ftbutilities.claims.item.extendedcrafting.table_basic: ALL
 ftbutilities.claims.item.extendedcrafting.table_elite: ALL
 ftbutilities.claims.item.extendedcrafting.table_ultimate: ALL
 ftbutilities.claims.item.extendedcrafting.trimmed: ALL
+ftbutilities.claims.item.extraalchemy.alchemy_array_transmute: ALL
+ftbutilities.claims.item.extraalchemy.blood_bottle: ALL
+ftbutilities.claims.item.extraalchemy.coal_dust: ALL
+ftbutilities.claims.item.extraalchemy.dagger: ALL
+ftbutilities.claims.item.extraalchemy.essence_earth: ALL
+ftbutilities.claims.item.extraalchemy.essence_fire: ALL
+ftbutilities.claims.item.extraalchemy.essence_life: ALL
+ftbutilities.claims.item.extraalchemy.essence_water: ALL
+ftbutilities.claims.item.extraalchemy.essence_wind: ALL
+ftbutilities.claims.item.extraalchemy.item_alchemical_dissovent: ALL
+ftbutilities.claims.item.extraalchemy.transmute_dust: ALL
 ftbutilities.claims.item.extrabotany.achilleshield: ALL
 ftbutilities.claims.item.extrabotany.binder: ALL
 ftbutilities.claims.item.extrabotany.blockorichalcos: ALL
