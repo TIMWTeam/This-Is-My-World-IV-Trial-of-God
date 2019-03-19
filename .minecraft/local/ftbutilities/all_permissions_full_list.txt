@@ -1,4 +1,4 @@
-13722 nodes in total
+13843 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -2313,6 +2313,42 @@ ftbutilities.claims.block.edit.mysticalmechanics.creative_mech_source: OP
 ftbutilities.claims.block.edit.mysticalmechanics.gearbox_frame: OP
 ftbutilities.claims.block.edit.mysticalmechanics.mergebox_frame: OP
 ftbutilities.claims.block.edit.notenoughwands.lightblock: OP
+ftbutilities.claims.block.edit.opencomputers.adapter: OP
+ftbutilities.claims.block.edit.opencomputers.assembler: OP
+ftbutilities.claims.block.edit.opencomputers.cable: OP
+ftbutilities.claims.block.edit.opencomputers.capacitor: OP
+ftbutilities.claims.block.edit.opencomputers.carpetedcapacitor: OP
+ftbutilities.claims.block.edit.opencomputers.case1: OP
+ftbutilities.claims.block.edit.opencomputers.case2: OP
+ftbutilities.claims.block.edit.opencomputers.case3: OP
+ftbutilities.claims.block.edit.opencomputers.casecreative: OP
+ftbutilities.claims.block.edit.opencomputers.chameliumblock: OP
+ftbutilities.claims.block.edit.opencomputers.charger: OP
+ftbutilities.claims.block.edit.opencomputers.disassembler: OP
+ftbutilities.claims.block.edit.opencomputers.diskdrive: OP
+ftbutilities.claims.block.edit.opencomputers.endstone: OP
+ftbutilities.claims.block.edit.opencomputers.geolyzer: OP
+ftbutilities.claims.block.edit.opencomputers.hologram1: OP
+ftbutilities.claims.block.edit.opencomputers.hologram2: OP
+ftbutilities.claims.block.edit.opencomputers.keyboard: OP
+ftbutilities.claims.block.edit.opencomputers.microcontroller: OP
+ftbutilities.claims.block.edit.opencomputers.motionsensor: OP
+ftbutilities.claims.block.edit.opencomputers.netsplitter: OP
+ftbutilities.claims.block.edit.opencomputers.powerconverter: OP
+ftbutilities.claims.block.edit.opencomputers.powerdistributor: OP
+ftbutilities.claims.block.edit.opencomputers.print: OP
+ftbutilities.claims.block.edit.opencomputers.printer: OP
+ftbutilities.claims.block.edit.opencomputers.rack: OP
+ftbutilities.claims.block.edit.opencomputers.raid: OP
+ftbutilities.claims.block.edit.opencomputers.redstone: OP
+ftbutilities.claims.block.edit.opencomputers.relay: OP
+ftbutilities.claims.block.edit.opencomputers.robot: OP
+ftbutilities.claims.block.edit.opencomputers.robotafterimage: OP
+ftbutilities.claims.block.edit.opencomputers.screen1: OP
+ftbutilities.claims.block.edit.opencomputers.screen2: OP
+ftbutilities.claims.block.edit.opencomputers.screen3: OP
+ftbutilities.claims.block.edit.opencomputers.transposer: OP
+ftbutilities.claims.block.edit.opencomputers.waypoint: OP
 ftbutilities.claims.block.edit.overloaded.compressed_cobblestone: OP
 ftbutilities.claims.block.edit.overloaded.compressed_dirt: OP
 ftbutilities.claims.block.edit.overloaded.compressed_gravel: OP
@@ -2367,6 +2403,7 @@ ftbutilities.claims.block.edit.pressure.router: OP
 ftbutilities.claims.block.edit.pressure.sluice: OP
 ftbutilities.claims.block.edit.pressure.tank_block: OP
 ftbutilities.claims.block.edit.pressure.tank_controller: OP
+ftbutilities.claims.block.edit.pressure.tank_data_port: OP
 ftbutilities.claims.block.edit.pressure.tank_filter: OP
 ftbutilities.claims.block.edit.pressure.tank_fluid_access: OP
 ftbutilities.claims.block.edit.pressure.tank_fluid_input: OP
@@ -5668,6 +5705,42 @@ ftbutilities.claims.block.interact.mysticalmechanics.creative_mech_source: OP
 ftbutilities.claims.block.interact.mysticalmechanics.gearbox_frame: OP
 ftbutilities.claims.block.interact.mysticalmechanics.mergebox_frame: OP
 ftbutilities.claims.block.interact.notenoughwands.lightblock: OP
+ftbutilities.claims.block.interact.opencomputers.adapter: OP
+ftbutilities.claims.block.interact.opencomputers.assembler: OP
+ftbutilities.claims.block.interact.opencomputers.cable: OP
+ftbutilities.claims.block.interact.opencomputers.capacitor: OP
+ftbutilities.claims.block.interact.opencomputers.carpetedcapacitor: OP
+ftbutilities.claims.block.interact.opencomputers.case1: OP
+ftbutilities.claims.block.interact.opencomputers.case2: OP
+ftbutilities.claims.block.interact.opencomputers.case3: OP
+ftbutilities.claims.block.interact.opencomputers.casecreative: OP
+ftbutilities.claims.block.interact.opencomputers.chameliumblock: OP
+ftbutilities.claims.block.interact.opencomputers.charger: OP
+ftbutilities.claims.block.interact.opencomputers.disassembler: OP
+ftbutilities.claims.block.interact.opencomputers.diskdrive: OP
+ftbutilities.claims.block.interact.opencomputers.endstone: OP
+ftbutilities.claims.block.interact.opencomputers.geolyzer: OP
+ftbutilities.claims.block.interact.opencomputers.hologram1: OP
+ftbutilities.claims.block.interact.opencomputers.hologram2: OP
+ftbutilities.claims.block.interact.opencomputers.keyboard: OP
+ftbutilities.claims.block.interact.opencomputers.microcontroller: OP
+ftbutilities.claims.block.interact.opencomputers.motionsensor: OP
+ftbutilities.claims.block.interact.opencomputers.netsplitter: OP
+ftbutilities.claims.block.interact.opencomputers.powerconverter: OP
+ftbutilities.claims.block.interact.opencomputers.powerdistributor: OP
+ftbutilities.claims.block.interact.opencomputers.print: OP
+ftbutilities.claims.block.interact.opencomputers.printer: OP
+ftbutilities.claims.block.interact.opencomputers.rack: OP
+ftbutilities.claims.block.interact.opencomputers.raid: OP
+ftbutilities.claims.block.interact.opencomputers.redstone: OP
+ftbutilities.claims.block.interact.opencomputers.relay: OP
+ftbutilities.claims.block.interact.opencomputers.robot: OP
+ftbutilities.claims.block.interact.opencomputers.robotafterimage: OP
+ftbutilities.claims.block.interact.opencomputers.screen1: OP
+ftbutilities.claims.block.interact.opencomputers.screen2: OP
+ftbutilities.claims.block.interact.opencomputers.screen3: OP
+ftbutilities.claims.block.interact.opencomputers.transposer: OP
+ftbutilities.claims.block.interact.opencomputers.waypoint: OP
 ftbutilities.claims.block.interact.overloaded.compressed_cobblestone: OP
 ftbutilities.claims.block.interact.overloaded.compressed_dirt: OP
 ftbutilities.claims.block.interact.overloaded.compressed_gravel: OP
@@ -5722,6 +5795,7 @@ ftbutilities.claims.block.interact.pressure.router: OP
 ftbutilities.claims.block.interact.pressure.sluice: OP
 ftbutilities.claims.block.interact.pressure.tank_block: OP
 ftbutilities.claims.block.interact.pressure.tank_controller: OP
+ftbutilities.claims.block.interact.pressure.tank_data_port: OP
 ftbutilities.claims.block.interact.pressure.tank_filter: OP
 ftbutilities.claims.block.interact.pressure.tank_fluid_access: OP
 ftbutilities.claims.block.interact.pressure.tank_fluid_input: OP
@@ -8159,6 +8233,7 @@ ftbutilities.claims.item.contenttweaker.feature: ALL
 ftbutilities.claims.item.contenttweaker.machine_frame: ALL
 ftbutilities.claims.item.contenttweaker.purgatory_dust: ALL
 ftbutilities.claims.item.contenttweaker.refining_gold_liquid: ALL
+ftbutilities.claims.item.contenttweaker.wafer_silicon: ALL
 ftbutilities.claims.item.contenttweaker.windproof_bottle: ALL
 ftbutilities.claims.item.danknull.dank_null: ALL
 ftbutilities.claims.item.danknull.dank_null_panel: ALL
@@ -11255,6 +11330,51 @@ ftbutilities.claims.item.notenoughwands.protection_wand: ALL
 ftbutilities.claims.item.notenoughwands.swapping_wand: ALL
 ftbutilities.claims.item.notenoughwands.teleportation_wand: ALL
 ftbutilities.claims.item.notenoughwands.wandcore: ALL
+ftbutilities.claims.item.opencomputers.adapter: ALL
+ftbutilities.claims.item.opencomputers.assembler: ALL
+ftbutilities.claims.item.opencomputers.cable: ALL
+ftbutilities.claims.item.opencomputers.capacitor: ALL
+ftbutilities.claims.item.opencomputers.card: ALL
+ftbutilities.claims.item.opencomputers.carpetedcapacitor: ALL
+ftbutilities.claims.item.opencomputers.case1: ALL
+ftbutilities.claims.item.opencomputers.case2: ALL
+ftbutilities.claims.item.opencomputers.case3: ALL
+ftbutilities.claims.item.opencomputers.casecreative: ALL
+ftbutilities.claims.item.opencomputers.chameliumblock: ALL
+ftbutilities.claims.item.opencomputers.charger: ALL
+ftbutilities.claims.item.opencomputers.component: ALL
+ftbutilities.claims.item.opencomputers.disassembler: ALL
+ftbutilities.claims.item.opencomputers.diskdrive: ALL
+ftbutilities.claims.item.opencomputers.endstone: ALL
+ftbutilities.claims.item.opencomputers.geolyzer: ALL
+ftbutilities.claims.item.opencomputers.hologram1: ALL
+ftbutilities.claims.item.opencomputers.hologram2: ALL
+ftbutilities.claims.item.opencomputers.hoverboots: ALL
+ftbutilities.claims.item.opencomputers.keyboard: ALL
+ftbutilities.claims.item.opencomputers.material: ALL
+ftbutilities.claims.item.opencomputers.microcontroller: ALL
+ftbutilities.claims.item.opencomputers.misc: ALL
+ftbutilities.claims.item.opencomputers.motionsensor: ALL
+ftbutilities.claims.item.opencomputers.netsplitter: ALL
+ftbutilities.claims.item.opencomputers.powerconverter: ALL
+ftbutilities.claims.item.opencomputers.powerdistributor: ALL
+ftbutilities.claims.item.opencomputers.print: ALL
+ftbutilities.claims.item.opencomputers.printer: ALL
+ftbutilities.claims.item.opencomputers.rack: ALL
+ftbutilities.claims.item.opencomputers.raid: ALL
+ftbutilities.claims.item.opencomputers.redstone: ALL
+ftbutilities.claims.item.opencomputers.relay: ALL
+ftbutilities.claims.item.opencomputers.robot: ALL
+ftbutilities.claims.item.opencomputers.robotafterimage: ALL
+ftbutilities.claims.item.opencomputers.screen1: ALL
+ftbutilities.claims.item.opencomputers.screen2: ALL
+ftbutilities.claims.item.opencomputers.screen3: ALL
+ftbutilities.claims.item.opencomputers.storage: ALL
+ftbutilities.claims.item.opencomputers.tool: ALL
+ftbutilities.claims.item.opencomputers.transposer: ALL
+ftbutilities.claims.item.opencomputers.upgrade: ALL
+ftbutilities.claims.item.opencomputers.waypoint: ALL
+ftbutilities.claims.item.opencomputers.wrench: ALL
 ftbutilities.claims.item.overloaded.compressed_cobblestone: ALL
 ftbutilities.claims.item.overloaded.compressed_dirt: ALL
 ftbutilities.claims.item.overloaded.compressed_gravel: ALL
@@ -11342,6 +11462,7 @@ ftbutilities.claims.item.pressure.router: ALL
 ftbutilities.claims.item.pressure.sluice: ALL
 ftbutilities.claims.item.pressure.tank_block: ALL
 ftbutilities.claims.item.pressure.tank_controller: ALL
+ftbutilities.claims.item.pressure.tank_data_port: ALL
 ftbutilities.claims.item.pressure.tank_filter: ALL
 ftbutilities.claims.item.pressure.tank_fluid_access: ALL
 ftbutilities.claims.item.pressure.tank_fluid_input: ALL
@@ -13905,6 +14026,13 @@ command.me
 command.mekanism.mk
 command.modularmachinery.mm-hand
 command.modularmachinery.mm-syntax
+command.opencomputers.oc_debugnanomachines
+command.opencomputers.oc_debugwhitelist
+command.opencomputers.oc_nanomachines
+command.opencomputers.oc_preventdisassembling
+command.opencomputers.oc_renderwirelessnetwork
+command.opencomputers.oc_senddebugmessage
+command.opencomputers.oc_spawncomputer
 command.particle
 command.playsound
 command.primal.primal

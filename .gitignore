@@ -39,3 +39,6 @@ instance.cfg
 .minecraft/config/IC2.ini
 .minecraft/config/splash.properties
 .minecraft/config/thaumicjei_itemstack_aspects.json
+
+//白名单
+!.minecraft/saves/TIMW建筑/**

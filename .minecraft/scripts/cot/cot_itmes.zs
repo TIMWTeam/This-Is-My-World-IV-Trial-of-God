@@ -56,7 +56,10 @@ refining_gold_liquid.maxStackSize=64;
 refining_gold_liquid.rarity="rare";
 refining_gold_liquid.register();
 
-
+var wafer_silicon=VanillaFactory.createItem("wafer_silicon");
+wafer_silicon.maxStackSize=64;
+wafer_silicon.rarity="rare";
+wafer_silicon.register();
 
 
 var bottle_of_wind=VanillaFactory.createItem("bottle_of_wind");

@@ -30,4 +30,13 @@
 			<fluidStack>hydrogen 100</fluidStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="100" power ="200">
+		<input>
+			<fluidStack>brine 1000</fluidStack>
+		</input>
+		<output>
+			<fluidStack>liquidchlorine 100</fluidStack>
+			<fluidStack>fluidhydrogen  100</fluidStack>
+		</output>
+	</Recipe>
 </Recipes>
