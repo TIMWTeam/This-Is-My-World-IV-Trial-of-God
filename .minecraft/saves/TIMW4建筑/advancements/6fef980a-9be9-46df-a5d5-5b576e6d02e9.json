@@ -1,0 +1,20 @@
+{
+  "triumph:example/root": {
+    "criteria": {
+      "location": "2019-03-19 22:03:52 +0800"
+    },
+    "done": true
+  },
+  "triumph:example/example_location_worldtype": {
+    "criteria": {
+      "superflat": "2019-03-19 22:03:52 +0800"
+    },
+    "done": true
+  },
+  "triumph:vanilla/adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2019-03-19 22:03:52 +0800"
+    },
+    "done": false
+  }
+}
