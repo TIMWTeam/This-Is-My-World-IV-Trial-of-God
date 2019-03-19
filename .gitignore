@@ -6,19 +6,20 @@
 *.sqlite
 *.bak
 .minecraft/backups/*.zip
+.minecraft/saves/*.zip
 
 //指定目录忽略
-.minecraft/.mixin.out/**
-.minecraft/assets/**
-.minecraft/config/smoothfont/**
-.minecraft/crash-reports/**
-.minecraft/libraries/**
-.minecraft/logs/**
-.minecraft/local/**
-.minecraft/saves/**
-.minecraft/versions/**
-.vs/**
-natives/**
+.minecraft/.mixin.out/
+.minecraft/assets/
+.minecraft/config/smoothfont/
+.minecraft/crash-reports/
+.minecraft/libraries/
+.minecraft/logs/
+.minecraft/local/
+.minecraft/saves/魔改用存档
+.minecraft/versions/
+.vs/
+natives/
 
 //特定文件忽略
 instance.cfg
