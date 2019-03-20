@@ -1,0 +1,47 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "overloaded",
+      "path": "nether_star_block"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 200,
+      "oreName": "<ore:oreDilithium>"
+    },
+    {
+      "weight": 200,
+      "oreName": "<ore:oreTritanium>"
+    },
+    {
+      "weight": 200,
+      "oreName": "<ore:oreTungsten>"
+    },
+    {
+      "weight": 200,
+      "oreName": "<ore:orePlatinum>"
+    },
+    {
+      "weight": 200,
+      "oreName": "<ore:oreTitaniumIron>"
+    },
+    {
+      "weight": 200,
+      "oreName": "<ore:oreDimensionalShard>"
+    },
+    {
+      "weight": 200,
+      "oreName": "<ore:oreDraconium>"
+    },
+    {
+      "weight": 200,
+      "oreName": "<ore:oreUranium>"
+    }
+  ],
+  "explosionStrength": 18.0,
+  "radius": 6,
+  "maxWeight": 1600,
+  "version": 3
+}

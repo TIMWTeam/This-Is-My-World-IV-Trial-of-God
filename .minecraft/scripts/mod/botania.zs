@@ -15,12 +15,14 @@ mods.botania.Orechid.removeOre(<ore:oreCinnabar>);
 mods.botania.Orechid.removeOre(<ore:oreTungsten>);
 mods.botania.Orechid.removeOre(<ore:oreCertusQuartz>);
 mods.botania.Orechid.removeOre(<ore:oreAmber>);
+mods.botania.Orechid.removeOre(<ore:oreEmerald>);
 mods.botania.Orechid.addOre(<ore:oreOverworldQuartz>,1000);
 mods.botania.Orechid.addOre(<ore:oreCrystal>,1500);
 mods.botania.OrechidIgnem.addOre(<ore:orePyrite>,4000);
 mods.botania.OrechidIgnem.addOre(<ore:oreSphalerite>,3000);
 mods.botania.OrechidIgnem.addOre(<ore:oreArdite>,1000);
 mods.botania.OrechidIgnem.addOre(<ore:oreCobalt>,1000);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherCinnabar>,3000);
 
 
 

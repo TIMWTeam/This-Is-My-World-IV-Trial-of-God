@@ -1,0 +1,35 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "botania",
+      "path": "storage"
+    },
+    "meta": 1
+  },
+  "components": [
+    {
+      "weight": 100,
+      "oreName": "blockDawnstone"
+    },
+    {
+      "weight": 100,
+      "oreName": "blockBM_meteors"
+    },
+    {
+      "weight": 100,
+      "oreName": "blockAE_meteors"
+    },
+    {
+      "weight": 400,
+      "oreName": "blockBot_meteors"
+    },
+    {
+      "weight": 600,
+      "oreName": "blockAA_meteors"
+    }
+  ],
+  "explosionStrength": 15.0,
+  "radius": 5,
+  "maxWeight": 1300,
+  "version": 2
+}

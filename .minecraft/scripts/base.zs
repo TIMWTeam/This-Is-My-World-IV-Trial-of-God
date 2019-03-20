@@ -69,3 +69,11 @@ mods.bloodmagic.BloodAltar.addRecipe(<minecraft:soul_sand>, <minecraft:sand>, 0,
 
 //-------------------misc-------------------
 recipes.replaceAllOccurences(<ore:paper>, <minecraft:paper>);
+recipes.addShaped(<thermalfoundation:material:800> * 2, [[<ore:toolHammer>],[<ore:plankWood>]]);
+
+
+
+
+
+
+
