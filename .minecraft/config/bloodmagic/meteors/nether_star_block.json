@@ -1,47 +1,47 @@
 {
   "catalystStack": {
     "registryName": {
-      "domain": "overloaded",
-      "path": "nether_star_block"
+      "domain": "extendedcrafting",
+      "path": "storage"
     },
-    "meta": 0
+    "meta": 2
   },
   "components": [
     {
       "weight": 200,
-      "oreName": "<ore:oreDilithium>"
+      "oreName": "oreDilithium"
     },
     {
       "weight": 200,
-      "oreName": "<ore:oreTritanium>"
+      "oreName": "oreTritanium"
     },
     {
       "weight": 200,
-      "oreName": "<ore:oreTungsten>"
+      "oreName": "oreTungsten"
     },
     {
       "weight": 200,
-      "oreName": "<ore:orePlatinum>"
+      "oreName": "orePlatinum"
     },
     {
       "weight": 200,
-      "oreName": "<ore:oreTitaniumIron>"
+      "oreName": "oreTitaniumIron"
     },
     {
       "weight": 200,
-      "oreName": "<ore:oreDimensionalShard>"
+      "oreName": "oreDimensionalShard_meteors"
     },
     {
       "weight": 200,
-      "oreName": "<ore:oreDraconium>"
+      "oreName": "oreDraconium_meteors"
     },
     {
       "weight": 200,
-      "oreName": "<ore:oreUranium>"
+      "oreName": "oreUranium"
     }
   ],
-  "explosionStrength": 18.0,
-  "radius": 6,
+  "explosionStrength": 42.0,
+  "radius": 7,
   "maxWeight": 1600,
   "version": 3
 }

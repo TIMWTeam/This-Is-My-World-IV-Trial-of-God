@@ -27,8 +27,20 @@
 //meteors-block
 <ore:blockBM_meteors>.add(<bloodmagic:decorative_brick:2>);
 <ore:blockAE_meteors>.add(<appliedenergistics2:fluix_block>);
-<ore:blockBot_meteors>.addItems([<botania:storage>,<botania:storage:2>,<botania:storage:3>,<botania:storage:4>]);
-<ore:blockAA_meteors>.addItems([<actuallyadditions:block_crystal_empowered:5>,<actuallyadditions:block_crystal_empowered:4>,<actuallyadditions:block_crystal_empowered:3>,<actuallyadditions:block_crystal_empowered:2>,<actuallyadditions:block_crystal_empowered:1>,<actuallyadditions:block_crystal_empowered>]);
+<ore:blockBot_meteors0>.add(<botania:storage>);
+<ore:blockBot_meteors1>.add(<botania:storage:2>);
+<ore:blockBot_meteors2>.add(<botania:storage:3>);
+<ore:blockBot_meteors3>.add(<botania:storage:4>);
+<ore:blockAA_meteors0>.add(<actuallyadditions:block_crystal_empowered:5>);
+<ore:blockAA_meteors1>.add(<actuallyadditions:block_crystal_empowered:4>);
+<ore:blockAA_meteors2>.add(<actuallyadditions:block_crystal_empowered:3>);
+<ore:blockAA_meteors3>.add(<actuallyadditions:block_crystal_empowered:2>);
+<ore:blockAA_meteors4>.add(<actuallyadditions:block_crystal_empowered:1>);
+<ore:blockAA_meteors5>.add(<actuallyadditions:block_crystal_empowered>);
+<ore:oreDimensionalShard_meteors>.add(<rftools:dimensional_shard_ore>);
+<ore:oreDraconium_meteors>.add(<draconicevolution:draconium_ore>);
+//<ore:blockDimensionalShard><ore:blockDraconium>
+
 
 
 //misc

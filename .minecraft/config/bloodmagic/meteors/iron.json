@@ -64,8 +64,8 @@
       "oreName": "blockQuartz"
     }
   ],
-  "explosionStrength": 24.0,
-  "radius": 8,
+  "explosionStrength": 54.0,
+  "radius": 9,
   "maxWeight": 1300,
   "version": 2
 }

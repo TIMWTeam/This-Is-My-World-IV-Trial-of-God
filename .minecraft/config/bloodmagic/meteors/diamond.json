@@ -44,7 +44,7 @@
       "oreName": "blockAmber"
     }
   ],
-  "explosionStrength": 15.0,
+  "explosionStrength": 30.0,
   "radius": 5,
   "maxWeight": 2200,
   "version": 3

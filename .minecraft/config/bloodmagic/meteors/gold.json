@@ -40,8 +40,8 @@
       "oreName": "oreCoal"
     }
   ],
-  "explosionStrength": 18.0,
-  "radius": 6,
+  "explosionStrength": 66.0,
+  "radius": 11,
   "maxWeight": 650,
   "version": 3
 }

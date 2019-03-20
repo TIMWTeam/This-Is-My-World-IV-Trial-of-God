@@ -20,15 +20,47 @@
       "oreName": "blockAE_meteors"
     },
     {
-      "weight": 400,
-      "oreName": "blockBot_meteors"
+      "weight": 100,
+      "oreName": "blockBot_meteors0"
     },
     {
-      "weight": 600,
-      "oreName": "blockAA_meteors"
+      "weight": 100,
+      "oreName": "blockBot_meteors1"
+    },
+    {
+      "weight": 100,
+      "oreName": "blockBot_meteors2"
+    },
+    {
+      "weight": 100,
+      "oreName": "blockBot_meteors3"
+    },
+    {
+      "weight": 100,
+      "oreName": "blockAA_meteors0"
+    },
+    {
+      "weight": 100,
+      "oreName": "blockAA_meteors1"
+    },
+    {
+      "weight": 100,
+      "oreName": "blockAA_meteors2"
+    },
+    {
+      "weight": 100,
+      "oreName": "blockAA_meteors3"
+    },
+    {
+      "weight": 100,
+      "oreName": "blockAA_meteors4"
+    },
+    {
+      "weight": 100,
+      "oreName": "blockAA_meteors5"
     }
   ],
-  "explosionStrength": 15.0,
+  "explosionStrength": 30.0,
   "radius": 5,
   "maxWeight": 1300,
   "version": 2
