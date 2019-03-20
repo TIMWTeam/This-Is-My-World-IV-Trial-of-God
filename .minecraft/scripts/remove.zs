@@ -11,9 +11,13 @@ recipes.removeByRecipeName("thaumcraft:ironplate");
 recipes.removeByRecipeName("primal:plate");
 recipes.removeByRecipeName("primal:plate_1");
 recipes.removeByRecipeName("bronze_ingot");
+//remove stick
+recipes.remove(<advancedrocketry:productrod:1>);
+recipes.remove(<advancedrocketry:productrod>);
 
 //misc
 recipes.removeByRecipeName("actuallyadditions:recipes148");
+recipes.remove(<actuallyadditions:item_mining_lens>);
 
 //machine frame
 recipes.remove(<teslacorelib:machine_case>);
@@ -31,12 +35,8 @@ recipes.remove(<overloaded:energy_core>);
 recipes.remove(<overloaded:fluid_core>);
 recipes.remove(<overloaded:item_core>);
 
-
-
-
-
-
-
+recipes.remove(<industrialforegoing:laser_base>);
+recipes.remove(<industrialforegoing:laser_drill>);
 
 
 
