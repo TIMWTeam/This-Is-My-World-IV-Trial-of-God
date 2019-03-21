@@ -84,3 +84,33 @@ windproof_bottle.itemRightClick = function(stack, world, player, hand) {
 	return "SUCCESS";
 };
 windproof_bottle.register();
+
+
+var silicon_low_purity = VanillaFactory.createItem("silicon_low_purity");
+silicon_low_purity.rarity = "rare";
+silicon_low_purity.register();
+
+var silicon_high_purity = VanillaFactory.createItem("silicon_high_purity");
+silicon_high_purity.rarity = "rare";
+silicon_high_purity.register();
+
+
+var silicon_chlorine = VanillaFactory.createItem("silicon_chlorine");
+silicon_chlorine.rarity = "rare";
+silicon_chlorine.register();
+
+var rough_silicon_plate = VanillaFactory.createItem("rough_silicon_plate");
+rough_silicon_plate.rarity = "rare";
+rough_silicon_plate.register();
+
+var refined_silicon_plate = VanillaFactory.createItem("refined_silicon_plate");
+refined_silicon_plate.rarity = "rare";
+refined_silicon_plate.register();
+
+var basic_circuit = VanillaFactory.createItem("basic_circuit");
+basic_circuit.rarity = "rare";
+basic_circuit.register();
+
+var advanced_circuit = VanillaFactory.createItem("advanced_circuit");
+advanced_circuit.rarity = "rare";
+advanced_circuit.register();

@@ -208,4 +208,28 @@
 			<itemStack>advancedrocketry:beaconfinder</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="400" power ="1">
+		<input>
+			<itemStack>contenttweaker:rough_silicon_plate</itemStack>
+			<itemStack>immersiveengineering:material 1 26</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<oreDict>cableCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:basic_circuit</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="400" power ="1">
+		<input>
+			<itemStack>contenttweaker:refined_silicon_plate</itemStack>
+			<itemStack>immersiveengineering:material 1 26</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>minecraft:glowstone_dust</itemStack>
+			<oreDict>sheetPlastic</oreDict>
+			<oreDict>cableGold</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:advanced_circuit</itemStack>
+		</output>
+	</Recipe>
 </Recipes>
