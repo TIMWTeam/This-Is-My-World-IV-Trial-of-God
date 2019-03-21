@@ -15,4 +15,18 @@ mods.thermalexpansion.Refinery.addRecipe(<liquid:lifeessence> * 1000, null, <liq
 mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lifeessence> * 1600, <tconstruct:edible:3>, 4500);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:lifeessence> * 10000, <contenttweaker:cropessence_lifeessence>, 20000);
 
+
 //base
+recipes.addShaped(<bloodmagic:demon_crucible>,[[<ore:gemDiamond>,null,<ore:gemDiamond>],[<ore:gemLapis>,<bloodarsenal:slate>,<ore:gemLapis>],[<bloodarsenal:slate>,<minecraft:cauldron>,<bloodarsenal:slate>]]);
+
+
+
+
+
+
+
+
+
+
+
+
