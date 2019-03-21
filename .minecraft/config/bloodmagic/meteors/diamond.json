@@ -42,10 +42,14 @@
     {
       "weight": 200,
       "oreName": "blockAmber"
+    },
+    {
+      "weight": 200,
+      "oreName": "blockAE_meteors"
     }
   ],
   "explosionStrength": 30.0,
-  "radius": 5,
-  "maxWeight": 2200,
+  "radius": 4,
+  "maxWeight": 2400,
   "version": 3
 }

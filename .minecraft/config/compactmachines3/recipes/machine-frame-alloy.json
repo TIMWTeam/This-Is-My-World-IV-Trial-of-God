@@ -1,0 +1,54 @@
+{
+  "name": "custom:machine-frame-alloy",
+  "target-item": "ic2:resource",
+  "target-meta": 13,
+  "target-count": 4,
+
+  "duration": 600,
+
+  "catalyst": "minecraft:ender_pearl",
+
+  "input-types": {
+    "i": { "id": "contenttweaker:block_carbon" },
+    "s": { "id": "contenttweaker:block_alloy" }
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["s","s","s","s","s"],
+      ["s","i","i","i","s"],
+      ["s","i","i","i","s"],
+      ["s","i","i","i","s"],
+      ["s","s","s","s","s"]
+    ],
+    [
+      ["s","i","i","i","s"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["s","i","i","i","s"]
+    ],
+    [
+      ["s","i","i","i","s"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["s","i","i","i","s"]
+    ],
+    [
+      ["s","i","i","i","s"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["s","i","i","i","s"]
+    ],
+    [
+      ["s","s","s","s","s"],
+      ["s","i","i","i","s"],
+      ["s","i","i","i","s"],
+      ["s","i","i","i","s"],
+      ["s","s","s","s","s"]
+    ]
+  ]
+}

@@ -38,10 +38,14 @@
     {
       "weight": 20,
       "oreName": "oreCoal"
+    },
+    {
+      "weight": 20,
+      "oreName": "blockAE_meteors"
     }
   ],
   "explosionStrength": 66.0,
-  "radius": 11,
-  "maxWeight": 650,
+  "radius": 9,
+  "maxWeight": 750,
   "version": 3
 }

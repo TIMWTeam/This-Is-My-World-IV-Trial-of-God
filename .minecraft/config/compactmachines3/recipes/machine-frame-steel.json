@@ -1,0 +1,54 @@
+{
+  "name": "custom:machine-frame-steel",
+  "target-item": "mekanism:basicblock",
+  "target-meta": 8,
+  "target-count": 6,
+
+  "duration": 400,
+
+  "catalyst": "minecraft:ender_pearl",
+
+  "input-types": {
+    "i": { "id": "immersiveengineering:sheetmetal:9" },
+    "s": { "id": "immersiveengineering:sheetmetal:8" }
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["s","s","s","s","s"],
+      ["s","i","i","i","s"],
+      ["s","i","i","i","s"],
+      ["s","i","i","i","s"],
+      ["s","s","s","s","s"]
+    ],
+    [
+      ["s","i","i","i","s"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["s","i","i","i","s"]
+    ],
+    [
+      ["s","i","i","i","s"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["s","i","i","i","s"]
+    ],
+    [
+      ["s","i","i","i","s"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["i","_","_","_","i"],
+      ["s","i","i","i","s"]
+    ],
+    [
+      ["s","s","s","s","s"],
+      ["s","i","i","i","s"],
+      ["s","i","i","i","s"],
+      ["s","i","i","i","s"],
+      ["s","s","s","s","s"]
+    ]
+  ]
+}

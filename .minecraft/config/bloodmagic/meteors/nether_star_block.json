@@ -38,10 +38,14 @@
     {
       "weight": 200,
       "oreName": "oreUranium"
+    },
+    {
+      "weight": 200,
+      "oreName": "blockAE_meteors"
     }
   ],
   "explosionStrength": 42.0,
-  "radius": 7,
-  "maxWeight": 1600,
+  "radius": 6,
+  "maxWeight": 1800,
   "version": 3
 }

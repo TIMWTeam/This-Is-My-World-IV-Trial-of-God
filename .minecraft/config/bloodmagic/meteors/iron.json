@@ -62,10 +62,14 @@
     {
       "weight": 30,
       "oreName": "blockQuartz"
+    },
+    {
+      "weight": 100,
+      "oreName": "blockAE_meteors"
     }
   ],
   "explosionStrength": 54.0,
-  "radius": 9,
-  "maxWeight": 1300,
+  "radius": 7,
+  "maxWeight": 1400,
   "version": 2
 }

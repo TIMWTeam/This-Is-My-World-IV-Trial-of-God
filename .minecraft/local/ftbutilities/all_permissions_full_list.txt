@@ -1,4 +1,4 @@
-13740 nodes in total
+13749 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -904,7 +904,10 @@ ftbutilities.claims.block.edit.compactmachines3.redstonetunnel: OP
 ftbutilities.claims.block.edit.compactmachines3.tunnel: OP
 ftbutilities.claims.block.edit.compactmachines3.wall: OP
 ftbutilities.claims.block.edit.compactmachines3.wallbreakable: OP
-ftbutilities.claims.block.edit.contenttweaker.machine_frame: OP
+ftbutilities.claims.block.edit.contenttweaker.block_alloy: OP
+ftbutilities.claims.block.edit.contenttweaker.block_carbon: OP
+ftbutilities.claims.block.edit.contenttweaker.block_iron: OP
+ftbutilities.claims.block.edit.contenttweaker.block_steel: OP
 ftbutilities.claims.block.edit.danknull.danknull_dock: OP
 ftbutilities.claims.block.edit.draconicevolution.celestial_manipulator: OP
 ftbutilities.claims.block.edit.draconicevolution.chaos_crystal: OP
@@ -4262,7 +4265,10 @@ ftbutilities.claims.block.interact.compactmachines3.redstonetunnel: OP
 ftbutilities.claims.block.interact.compactmachines3.tunnel: OP
 ftbutilities.claims.block.interact.compactmachines3.wall: OP
 ftbutilities.claims.block.interact.compactmachines3.wallbreakable: OP
-ftbutilities.claims.block.interact.contenttweaker.machine_frame: OP
+ftbutilities.claims.block.interact.contenttweaker.block_alloy: OP
+ftbutilities.claims.block.interact.contenttweaker.block_carbon: OP
+ftbutilities.claims.block.interact.contenttweaker.block_iron: OP
+ftbutilities.claims.block.interact.contenttweaker.block_steel: OP
 ftbutilities.claims.block.interact.danknull.danknull_dock: OP
 ftbutilities.claims.block.interact.draconicevolution.celestial_manipulator: OP
 ftbutilities.claims.block.interact.draconicevolution.chaos_crystal: OP
@@ -8153,6 +8159,10 @@ ftbutilities.claims.item.compactmachines3.tunnel: ALL
 ftbutilities.claims.item.compactmachines3.tunneltool: ALL
 ftbutilities.claims.item.compactmachines3.wall: ALL
 ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
+ftbutilities.claims.item.contenttweaker.block_alloy: ALL
+ftbutilities.claims.item.contenttweaker.block_carbon: ALL
+ftbutilities.claims.item.contenttweaker.block_iron: ALL
+ftbutilities.claims.item.contenttweaker.block_steel: ALL
 ftbutilities.claims.item.contenttweaker.bottle_of_wind: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_earth: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_fire: ALL
@@ -8162,7 +8172,6 @@ ftbutilities.claims.item.contenttweaker.cropessence_perditio: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_water: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_wind: ALL
 ftbutilities.claims.item.contenttweaker.feature: ALL
-ftbutilities.claims.item.contenttweaker.machine_frame: ALL
 ftbutilities.claims.item.contenttweaker.purgatory_dust: ALL
 ftbutilities.claims.item.contenttweaker.refining_gold_liquid: ALL
 ftbutilities.claims.item.contenttweaker.wafer_silicon: ALL

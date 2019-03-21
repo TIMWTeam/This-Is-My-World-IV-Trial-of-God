@@ -39,6 +39,7 @@
 <ore:blockAA_meteors5>.add(<actuallyadditions:block_crystal_empowered>);
 <ore:oreDimensionalShard_meteors>.add(<rftools:dimensional_shard_ore>);
 <ore:oreDraconium_meteors>.add(<draconicevolution:draconium_ore>);
+<ore:blockAE_meteors>.add(<appliedenergistics2:sky_stone_block>);
 //<ore:blockDimensionalShard><ore:blockDraconium>
 
 
