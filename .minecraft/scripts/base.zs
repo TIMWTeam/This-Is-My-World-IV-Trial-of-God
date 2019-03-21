@@ -68,7 +68,7 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:netherrack>, <ore:cobblestone>
 mods.bloodmagic.BloodAltar.addRecipe(<minecraft:soul_sand>, <minecraft:sand>, 0, 2000, 50, 5);
 
 //-------------------misc-------------------
-recipes.replaceAllOccurences(<ore:paper>, <minecraft:paper>);
+recipes.replaceAllOccurences(<minecraft:paper>,<ore:paper>);
 recipes.addShaped(<thermalfoundation:material:800> * 2, [[<ore:toolHammer>],[<ore:plankWood>]]);
 
 

@@ -24,6 +24,21 @@ mods.botania.OrechidIgnem.addOre(<ore:oreArdite>,1000);
 mods.botania.OrechidIgnem.addOre(<ore:oreCobalt>,1000);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherCinnabar>,3000);
 
+//remove
+mods.botania.Apothecary.removeRecipe("loonium");
+mods.botania.Apothecary.removeRecipe("orechid");
+
+
+//PetalApothecary
+mods.botania.Apothecary.addRecipe("orechid",[<botania:manaresource:6>,<botania:petal:8> ,<botania:petal:8> ,<botania:petal:14>, <botania:petal:4>, <botania:petal:13>]);
+
+
+
+
+//manaPool
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:1>,<evilcraft:blood_orb>,50000);
+
+
 
 
 
