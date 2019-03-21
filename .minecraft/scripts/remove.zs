@@ -1,23 +1,25 @@
 //PE
 recipes.removeByRecipeName("projecte:philstone_smelt_minecraft_emerald_ore_32767");
 recipes.removeByRecipeName("projecte:conversions/iron_to_ender_pearl");
+recipes.removeByRecipeName("projecte:conversions/iron_to_gold");
+recipes.removeByRecipeName("projecte:conversions/gold_to_iron");
 recipes.removeByRecipeName("projecte:conversions/gold_to_diamond");
-recipes.removeByRecipeName("projecte:conversions/emerald_to_diamond");
+recipes.removeByRecipeName("projecte:conversions/diamond_to_gold");
+recipes.removeByRecipeName("projecte:conversions/diamond_to_iron");
 recipes.removeByRecipeName("projecte:conversions/diamond_to_emerald");
+recipes.removeByRecipeName("projecte:conversions/emerald_to_diamond");
 recipes.removeByRegex("projecte:philstone_smelt*");
-recipes.removeByRegex("unidict:ingotiron_x*");
-recipes.removeByRegex("unidict:ingotgold_x*");
-
-
-
 
 //remove plate
 recipes.remove(<ic2:forge_hammer>);
 recipes.removeByRegex("immersiveengineering:material/plate_*");
+recipes.removeByRegex("immersiveengineering:compat/plate_*");
+recipes.removeByRegex("immersiveengineering:hammercrushing_*");
 recipes.removeByRecipeName("thaumcraft:ironplate");
 recipes.removeByRecipeName("primal:plate");
 recipes.removeByRecipeName("primal:plate_1");
 recipes.removeByRecipeName("bronze_ingot");
+
 
 //remove stick
 recipes.remove(<advancedrocketry:productrod:1>);
