@@ -101,4 +101,20 @@
 			<itemStack>advancedrocketry:planks 6</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="300" power ="100">
+		<input>
+			<itemStack>contenttweaker:silicon_low_purity</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:rough_silicon_plate 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="100">
+		<input>
+			<itemStack>contenttweaker:silicon_high_purity</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:refined_silicon_plate 4</itemStack>
+		</output>
+	</Recipe>
 </Recipes>
