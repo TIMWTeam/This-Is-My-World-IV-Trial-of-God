@@ -70,6 +70,7 @@ mods.bloodmagic.BloodAltar.addRecipe(<minecraft:soul_sand>, <minecraft:sand>, 0,
 //-------------------misc-------------------
 recipes.replaceAllOccurences(<minecraft:paper>,<ore:paper>);
 recipes.addShaped(<thermalfoundation:material:800> * 2, [[<ore:toolHammer>],[<ore:plankWood>]]);
+recipes.addShaped(<minecraft:beacon>,[[<ore:paneGlassColorless>,<astralsorcery:itemcraftingcomponent:3>,<ore:paneGlassColorless>],[<ore:paneGlassColorless>,<bloodmagic:activation_crystal>,<ore:paneGlassColorless>],[<ore:obsidian>,<ore:obsidian>,<ore:obsidian>]]);
 
 
 

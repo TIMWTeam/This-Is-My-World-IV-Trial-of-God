@@ -16,9 +16,10 @@ mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lifeessence> * 1600, <
 mods.thermalexpansion.Crucible.addRecipe(<liquid:lifeessence> * 10000, <contenttweaker:cropessence_lifeessence>, 20000);
 
 
-//base
+//misc
 recipes.addShaped(<bloodmagic:demon_crucible>,[[<ore:gemDiamond>,null,<ore:gemDiamond>],[<ore:gemLapis>,<bloodarsenal:slate>,<ore:gemLapis>],[<bloodarsenal:slate>,<minecraft:cauldron>,<bloodarsenal:slate>]]);
-
+recipes.removeByRecipeName("bloodmagic:lava_crystal");
+mods.bloodmagic.AlchemyArray.addRecipe(<bloodmagic:lava_crystal>, <bloodmagic:component:1>, <minecraft:diamond>,"bloodmagic:textures/models/alchemyarrays/lavasigil.png");
 
 
 

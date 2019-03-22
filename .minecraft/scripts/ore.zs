@@ -46,12 +46,13 @@
 <ore:crystalCinnabar>.add(<thaumcraft:quicksilver>);
 <ore:itemCinnabar>.add(<thaumcraft:quicksilver>);
 <ore:blockAmber>.add(<thaumcraft:amber_block>);
+<ore:scribing>.addItems([<botania:manainkwell:150>,<evilcraft:veined_scribing_tools>,<thaumcraft:scribing_tools>]);
 
 //silicon
 <ore:circuitBasic>.add(<contenttweaker:basic_circuit>);
 <ore:circuitAdvanced>.add(<contenttweaker:advanced_circuit>);
 
-<ore:wireCopper>.addItems([<techreborn:cable>,<ic2:cable>]);
-<ore:wireGold>.addItems([<techreborn:cable:2>, <ic2:cable:2>]);
+<ore:wireCopper>.addItems([<techreborn:cable>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})]);
+<ore:wireGold>.addItems([<techreborn:cable:2>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})]);
 
 //<ore:itemRubber>.add(<techguns:itemshared:55>);

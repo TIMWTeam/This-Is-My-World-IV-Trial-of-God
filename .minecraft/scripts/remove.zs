@@ -56,6 +56,7 @@ recipes.removeByRecipeName("actuallyadditions:recipes23");
 recipes.removeByRecipeName("mekanism:paper");
 recipes.removeByRecipeName("endercore:shapeless_paper");
 recipes.removeByRecipeName("primal:paper");
+recipes.remove(<thermalfoundation:upgrade:*>);
 
 
 

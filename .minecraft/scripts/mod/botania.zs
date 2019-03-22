@@ -1,9 +1,15 @@
+
+//misc
 recipes.removeByRecipeName("botania:fertilizer_powder");
 recipes.removeByRecipeName("botania:fertilizer_dye");
 recipes.addShapeless(<botania:fertilizer>, [<ore:fertilizer>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>]);
 recipes.addShapeless(<botania:fertilizer>, [<ore:fertilizer>, <minecraft:dye:11>, <minecraft:dye:11>, <minecraft:dye:1>, <minecraft:dye:1>]);
 
+recipes.removeByRecipeName("botania:terraplate");
+recipes.addShaped(<botania:terraplate>,[[<ore:ingotAstralStarmetal>,<ore:ingotAstralStarmetal>,<ore:ingotAstralStarmetal>],[<ore:runeAirB>,<ore:blockBot_meteors0>,<ore:runeFireB>],[<ore:runeEarthB>,<ore:runeManaB>,<ore:runeWaterB>]]);
 
+
+//orechid
 mods.botania.Orechid.removeOre(<ore:orePlatinum>);
 mods.botania.Orechid.removeOre(<ore:oreMithril>);
 mods.botania.Orechid.removeOre(<ore:oreGalena>);
