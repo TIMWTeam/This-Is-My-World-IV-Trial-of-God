@@ -9,8 +9,8 @@
   "catalyst": "minecraft:ender_pearl",
 
   "input-types": {
-    "i": { "id": "immersiveengineering:sheetmetal:9" },
-    "s": { "id": "immersiveengineering:sheetmetal:8" }
+    "i": { "id": "immersiveengineering:sheetmetal", "meta":"9" },
+    "s": { "id": "immersiveengineering:sheetmetal", "meta":"8"  }
   },
 
   "symmetrical": true,
