@@ -8561,6 +8561,7 @@ ftbutilities.claims.item.extendedcrafting.table_basic: ALL
 ftbutilities.claims.item.extendedcrafting.table_elite: ALL
 ftbutilities.claims.item.extendedcrafting.table_ultimate: ALL
 ftbutilities.claims.item.extendedcrafting.trimmed: ALL
+ftbutilities.claims.item.extraalchemy.alchemical_dissovent: ALL
 ftbutilities.claims.item.extraalchemy.alchemy_array_transmute: ALL
 ftbutilities.claims.item.extraalchemy.blood_bottle: ALL
 ftbutilities.claims.item.extraalchemy.coal_dust: ALL
@@ -8570,7 +8571,6 @@ ftbutilities.claims.item.extraalchemy.essence_fire: ALL
 ftbutilities.claims.item.extraalchemy.essence_life: ALL
 ftbutilities.claims.item.extraalchemy.essence_water: ALL
 ftbutilities.claims.item.extraalchemy.essence_wind: ALL
-ftbutilities.claims.item.extraalchemy.item_alchemical_dissovent: ALL
 ftbutilities.claims.item.extraalchemy.transmute_dust: ALL
 ftbutilities.claims.item.extrabotany.achilleshield: ALL
 ftbutilities.claims.item.extrabotany.binder: ALL

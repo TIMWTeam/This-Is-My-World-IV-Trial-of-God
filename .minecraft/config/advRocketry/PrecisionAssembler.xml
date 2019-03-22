@@ -208,25 +208,25 @@
 			<itemStack>advancedrocketry:beaconfinder</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="400" power ="1">
+	<Recipe timeRequired="400" power ="256">
 		<input>
 			<itemStack>contenttweaker:rough_silicon_plate</itemStack>
-			<itemStack>immersiveengineering:material 1 26</itemStack>
-			<itemStack>minecraft:redstone</itemStack>
-			<oreDict>cableCopper</oreDict>
+			<itemStack>immersiveengineering:material 2 26</itemStack>
+			<itemStack>minecraft:redstone 4 0</itemStack>
+			<oreDict>wireCopper 6</oreDict>
 		</input>
 		<output>
 			<itemStack>contenttweaker:basic_circuit</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="400" power ="1">
+	<Recipe timeRequired="800" power ="2048">
 		<input>
 			<itemStack>contenttweaker:refined_silicon_plate</itemStack>
-			<itemStack>immersiveengineering:material 1 26</itemStack>
-			<itemStack>minecraft:redstone</itemStack>
-			<itemStack>minecraft:glowstone_dust</itemStack>
-			<oreDict>sheetPlastic</oreDict>
-			<oreDict>cableGold</oreDict>
+			<itemStack>immersiveengineering:material 4 26</itemStack>
+			<itemStack>minecraft:redstone 6 0</itemStack>
+			<itemStack>minecraft:glowstone_dust 6 0</itemStack>
+			<oreDict>sheetPlastic 4</oreDict>
+			<oreDict>wireGold 8</oreDict>
 		</input>
 		<output>
 			<itemStack>contenttweaker:advanced_circuit</itemStack>
