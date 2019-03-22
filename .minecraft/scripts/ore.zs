@@ -53,4 +53,5 @@
 
 <ore:wireCopper>.addItems([<techreborn:cable>,<ic2:cable>]);
 <ore:wireGold>.addItems([<techreborn:cable:2>, <ic2:cable:2>]);
+
 //<ore:itemRubber>.add(<techguns:itemshared:55>);

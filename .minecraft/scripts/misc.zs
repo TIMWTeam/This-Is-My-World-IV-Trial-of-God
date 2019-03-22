@@ -1,8 +1,10 @@
 mods.jei.JEI.addDescription(<contenttweaker:windproof_bottle>, "除了看起来更精细以外并看不出有什么特别的瓶子，但相信的心就是你的魔法！右键将风封入其中。");
-mods.jei.JEI.addDescription(<astralsorcery:blockcustomsandore>, "星能液与熔岩接触所生成的沙子中，极低概率会出现这种砂岩。");
 <contenttweaker:bottle_of_wind>.addTooltip(format.lightPurple("慢着，风也是空气，那瓶子里原来装的是什么？？"));
+mods.jei.JEI.addDescription(<astralsorcery:blockcustomsandore>, "星能液与熔岩接触所生成的沙子中，极低概率会出现这种砂岩。");
 <astralsorcery:blockcustomsandore>.addTooltip(format.lightPurple("星能液与熔岩所产生的沙子中，极低概率产生"));
-
+mods.jei.JEI.addDescription(<advanced_solar_panels:machines>, "这个物品的所有配方都能够正常使用，但是无法通过JEI查询。通过配置文件，你可以找到他所能转换的所有配方。");
+<advanced_solar_panels:machines>.addTooltip(format.lightPurple("配方实际存在，但无法显示"));
+<thermalfoundation:ore:7>.addTooltip(format.lightPurple("配方实际存在，但无法显示"));
 //Cost reduction
 recipes.remove(<rftools:powercell>);
 recipes.remove(<rftools:crafter1>);
