@@ -1,0 +1,50 @@
+gamestage：可以为玩家划分各种”阶段“，依赖于附属，每种不同的阶段将会控制事件是否可以执行。
+指令：
+	/gamestage add <player> <stage> 赋予玩家某个阶段权限
+	/gamestage remove <player> <stage> 删除玩家某个阶段权限
+	/gamestage clear <player> 清除玩家的所有阶段
+	/gamestage info <player> 显示玩家的所有阶段
+
+Mob Stages：控制怪物生成，当怪物尝试生成时会判断附近是否有玩家拥有某个“阶段“，如果没有则不会生成。
+	为“某个”阶段添加属于这个阶段的生物，可指定维度
+		mods.MobStages.addStage(String stage, String entityId);
+		mods.MobStages.addStage(String stage, String entityId, int dimension);
+			例：mods.MobStages.addStage（“one”，“minecraft：spider”，-1）;当玩家拥有“one”阶段时，蜘蛛在下界生成
+	当不属于“某个”阶段时，添加替代的生成（可选）
+		mods.MobStages.addReplacement(String entityId, String replacementId);
+	设置怪物生成时，检索玩家的半径大小（可选）
+		mods.MobStages.addRange(String entityId, int range);
+	设置该生物是否可以无视阶段进行生成
+		mods.MobStages.toggleSpawners(String entityId, boolean allow);
+
+Dimension Stages：控制维度传送权限，如果玩家没有这个“阶段”，将无法传送到该维度。
+	为“某个”阶段添加这个维度
+		mods.DimensionStages.addDimensionStage(String stage, int dimensionId);
+
+Recipe Stages：控制合成权限，当玩家尝试合成某个物品时将会判断玩家是否拥有某个“阶段”，如果没有将无法合成。
+	mods.recipestages.Recipes.addShaped(String stage, IItemStack output, IIngredient[][] ingredients);
+	mods.recipestages.Recipes.addShaped(String recipeName, String stage, IItemStack output, IIngredient[][] ingredients);
+		例1：mods.recipestages.Recipes.addShaped("one", <minecraft:iron_leggings>,[[<minecraft:iron_ingot>]]);
+		例2：mods.recipestages.Recipes.addShaped("test", "one",  <minecraft:iron_leggings>,[[<minecraft:iron_ingot>]]);
+
+
+ResearchTable：研究台，玩家可以通过这个方块进行物品的研究，达成研究条件后将触发一些事件
+	指令：
+		/researchtable @p all 0 清除所有进度
+	添加类别：
+		var researchType = mods.ResearchTable.addCategory(IItemStack input);
+	添加研究：
+		mods.ResearchTable.builder(String researchName, researchType) 
+			.setIcons(IItemStack input)				//图标
+			.setTitle(String researchTitle)				//标题
+			.setDescription(String researchTxet)			//描述
+			.addCondition(IItemStack input)			//条件-提供物品
+			.addCondition(Fluidstack  input)			//条件-提供流体
+			.addEnergyCondition(int rfcount)			//条件-提供RF
+			.setRewardStages(String stageName)		//获得-阶段名
+			.setRewardCommands(String command )		//获得-控制台输出命令（例：（“/ say \”@已经超神了！\“”）)
+			.setRewardItems(IItemStack out1,out2,……)	//获得-物品，可以是多个
+			//.setNoMaxCount()						//可选-可进行次数
+			.build();								//结束-必须以这为结尾
+
+
