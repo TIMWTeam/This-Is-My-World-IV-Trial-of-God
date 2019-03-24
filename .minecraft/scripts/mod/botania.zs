@@ -30,20 +30,25 @@ mods.botania.OrechidIgnem.addOre(<ore:oreArdite>,1000);
 mods.botania.OrechidIgnem.addOre(<ore:oreCobalt>,1000);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherCinnabar>,3000);
 
-//altar
-recipes.remove(<botania:altar>);
-recipes.addShaped(<botania:altar>,[[<bloodmagic:slate:1>,<botania:petal:*>,<bloodmagic:slate:1>],[null,<bloodmagic:blood_rune>,null],[<bloodmagic:blood_rune>,<bloodmagic:blood_rune>,<bloodmagic:blood_rune>]]);
 
-//remove
-mods.botania.Apothecary.removeRecipe("loonium");
-mods.botania.Apothecary.removeRecipe("orechid");
 
 //PetalApothecary
+recipes.remove(<botania:altar>);
+recipes.addShaped(<botania:altar>,[[<bloodmagic:slate:1>,<botania:petal:*>,<bloodmagic:slate:1>],[null,<bloodmagic:blood_rune>,null],[<bloodmagic:blood_rune>,<bloodmagic:blood_rune>,<bloodmagic:blood_rune>]]);
+mods.botania.Apothecary.removeRecipe("loonium");
+mods.botania.Apothecary.removeRecipe("orechid");
 mods.botania.Apothecary.addRecipe("orechid",[<bloodmagic:item_demon_crystal>,<botania:manaresource:6>,<botania:petal:8> ,<botania:petal:8> ,<botania:petal:14>, <botania:petal:4>, <botania:petal:13>]);
+
 
 //manaPool
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource:1>,<evilcraft:blood_orb>,50000);
 
+
+//RuneAltar
+mods.botania.RuneAltar.addRecipe(<botania:rune>*2,[<extraalchemy:essence_water>, <minecraft:fishing_rod>, <minecraft:dye:15>, <botania:manaresource:23>, <botania:manaresource>],20000);
+mods.botania.RuneAltar.addRecipe(<botania:rune:1>*2,[ <extraalchemy:essence_fire>, <minecraft:netherbrick>, <minecraft:gunpowder>, <botania:manaresource:23>, <botania:manaresource>],20000);
+mods.botania.RuneAltar.addRecipe(<botania:rune:2>*2,[<extraalchemy:essence_earth>, <minecraft:stone>, <minecraft:coal_block>, <botania:manaresource:23>, <botania:manaresource>],20000);
+mods.botania.RuneAltar.addRecipe(<botania:rune:3>*2,[<extraalchemy:essence_wind>, <minecraft:carpet>, <minecraft:string>, <botania:manaresource:23>, <botania:manaresource>],20000);
 
 
 

@@ -20,9 +20,9 @@ recipes.addShaped("one", <projecte:item.pe_philosophers_stone>, [[<projecte:item
 				var maxHealth = player.getAttribute("generic.maxHealth").getBaseValue() - 4;
 				player.getAttribute("generic.maxHealth").setBaseValue(maxHealth);
 				var mData = {"PlayerPersisted": {"ycmaxhealth" : maxHealth} } as IData;
-			var playerdate =player.data + mData;
-			player.update(playerdate);
-		}
+				var playerdate =player.data + mData;
+				player.update(playerdate);
+			}
 	} as IRecipeAction
 );
 
@@ -30,7 +30,6 @@ events.onPlayerRespawn(function(event as crafttweaker.event.PlayerRespawnEvent) 
 	if (!event.player.world.isRemote()) {
 		var mData = event.player.data.PlayerPersisted;
 		if(!isNull(mData.ycmaxhealth)) {
-			event.player.sendChat(mData.ycmaxhealth);
 			event.player.getAttribute("generic.maxHealth").setBaseValue(mData.ycmaxhealth);
 			event.player.sendChat("<YiChen_> RUA!!!");
 		}

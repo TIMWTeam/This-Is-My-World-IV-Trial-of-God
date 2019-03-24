@@ -1,7 +1,7 @@
 {
   "name": "custom:machine-frame-iron",
-  "target-item": "teslacorelib:machine_case",
-  "target-meta": 0,
+  "target-item": "ic2:resource",
+  "target-meta": 12,
   "target-count": 8,
 
   "duration": 200,
