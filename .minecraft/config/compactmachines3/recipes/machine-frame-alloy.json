@@ -1,7 +1,7 @@
 {
   "name": "custom:machine-frame-alloy",
-  "target-item": "ic2:resource",
-  "target-meta": 13,
+  "target-item": "thermalexpansion:frame",
+  "target-meta": 0,
   "target-count": 4,
 
   "duration": 600,

@@ -61,8 +61,3 @@ mods.immersiveengineering.MetalPress.addRecipe(<ic2:cable:2>.withTag({type: 2 as
 
 
 
-
-
-
-
-

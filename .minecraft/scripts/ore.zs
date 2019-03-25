@@ -46,6 +46,8 @@
 <ore:itemCinnabar>.add(<thaumcraft:quicksilver>);
 <ore:blockAmber>.add(<thaumcraft:amber_block>);
 <ore:scribing>.addItems([<botania:manainkwell:150>,<evilcraft:veined_scribing_tools>,<thaumcraft:scribing_tools>]);
+<ore:plateCarbon>.remove(<techguns:itemshared:53>);
+<ore:plateCarbon>.add(<ic2:crafting:15>);
 
 //liquid
 mods.industrialforegoing.FluidDictionary.add("blood", "evilcraftblood", 1);

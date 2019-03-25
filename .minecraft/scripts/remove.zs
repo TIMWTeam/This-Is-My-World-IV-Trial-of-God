@@ -27,6 +27,34 @@ recipes.removeByRecipeName("bronze_ingot");
 recipes.remove(<advancedrocketry:productrod:1>);
 recipes.remove(<advancedrocketry:productrod>);
 
+//remove gear
+recipes.remove(<redstonearsenal:material:96>);
+recipes.remove(<thermalfoundation:material:24>);
+recipes.remove(<thermalfoundation:material:25>);
+recipes.remove(<thermalfoundation:material:26>);
+recipes.remove(<thermalfoundation:material:27>);
+recipes.remove(<thermalfoundation:material:256>);
+recipes.remove(<thermalfoundation:material:257>);
+recipes.remove(<thermalfoundation:material:258>);
+recipes.remove(<thermalfoundation:material:259>);
+recipes.remove(<thermalfoundation:material:260>);
+recipes.remove(<thermalfoundation:material:261>);
+recipes.remove(<thermalfoundation:material:262>);
+recipes.remove(<thermalfoundation:material:263>);
+recipes.remove(<thermalfoundation:material:264>);
+recipes.remove(<thermalfoundation:material:288>);
+recipes.remove(<thermalfoundation:material:289>);
+recipes.remove(<thermalfoundation:material:290>);
+recipes.remove(<thermalfoundation:material:291>);
+recipes.remove(<thermalfoundation:material:292>);
+recipes.remove(<thermalfoundation:material:293>);
+recipes.remove(<thermalfoundation:material:294>);
+recipes.remove(<thermalfoundation:material:295>);
+recipes.remove(<libvulpes:productgear:7>);
+recipes.remove(<advancedrocketry:productgear:1>);
+recipes.remove(<advancedrocketry:productgear>);
+recipes.removeByRegex("jaopca:item_gear*");
+
 //machine frame
 recipes.remove(<teslacorelib:machine_case>);
 recipes.remove(<ic2:resource:12>);
