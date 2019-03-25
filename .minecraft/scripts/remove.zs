@@ -46,9 +46,6 @@ recipes.remove(<overloaded:item_core>);
 recipes.remove(<industrialforegoing:laser_base>);
 recipes.remove(<industrialforegoing:laser_drill>);
 
-
-
-
 //misc
 recipes.remove(<actuallyadditions:item_mining_lens>);
 recipes.remove(<bloodmagic:decorative_brick:2>);
@@ -60,7 +57,6 @@ recipes.removeByRecipeName("endercore:shapeless_paper");
 recipes.removeByRecipeName("primal:paper");
 recipes.remove(<thermalfoundation:upgrade:*>);
 recipes.remove(<notenoughwands:acceleration_wand>);
-
-
+recipes.removeByRecipeName("techguns:itemshared_62_copperwire");
 
 

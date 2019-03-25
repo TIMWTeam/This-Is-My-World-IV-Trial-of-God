@@ -74,7 +74,6 @@
   "thermalexpansion": "5.5.2",
   "projectred-integration": "4.9.1.92",
   "mekanismtools": "9.4.11",
-  "norecipebook": "1.2.1",
   "libvulpes": "0.3.0.-45",
   "extrabotany": "48",
   "oredictinit": "1.12.2-2.2.1.71",

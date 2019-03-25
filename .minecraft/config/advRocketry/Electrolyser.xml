@@ -23,7 +23,7 @@
 <Recipes useDefault="true">
 	<Recipe timeRequired="100" power ="20">
 		<input>
-			<fluidStack>water 10</fluidStack>
+			<fluidStack>water 100</fluidStack>
 		</input>
 		<output>
 			<fluidStack>oxygen 100</fluidStack>
@@ -35,8 +35,8 @@
 			<fluidStack>brine 1000</fluidStack>
 		</input>
 		<output>
-			<fluidStack>liquidchlorine 100</fluidStack>
-			<fluidStack>fluidhydrogen  100</fluidStack>
+			<fluidStack>liquidchlorine 10</fluidStack>
+			<fluidStack>liquidhydrogen 10</fluidStack>
 		</output>
 	</Recipe>
 </Recipes>

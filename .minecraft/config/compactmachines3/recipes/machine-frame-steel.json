@@ -6,7 +6,7 @@
 
   "duration": 400,
 
-  "catalyst": "minecraft:ender_pearl",
+  "catalyst": "actuallyadditions:item_crystal_empowered",
 
   "input-types": {
     "i": { "id": "immersiveengineering:sheetmetal", "meta":"9" },

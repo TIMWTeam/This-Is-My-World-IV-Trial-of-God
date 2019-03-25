@@ -16,6 +16,9 @@ recipes.remove(<actuallyadditions:block_heat_collector>);
 recipes.remove(<actuallyadditions:block_coal_generator>);
 recipes.remove(<actuallyadditions:block_oil_generator>);
 recipes.remove(<industrialforegoing:fluiddictionary_converter>);
+
+recipes.replaceAllOccurences(<teslacorelib:machine_case>, <ic2:resource:12>);
+
 recipes.addShaped(<teslacorelib:machine_case>,[[<ore:plateIron>,<ore:plateIron>,<ore:plateIron>],[<ore:plateIron>,null,<ore:plateIron>],[<ore:plateIron>,<ore:plateIron>,<ore:plateIron>]]);
 recipes.addShaped(<rftools:coalgenerator>,[[<ore:clumpFuel>,<minecraft:redstone_torch>,<ore:clumpFuel>],[<ore:clumpFuel>,<teslacorelib:machine_case>,<ore:clumpFuel>],[<ore:clumpFuel>,<minecraft:redstone_torch>,<ore:clumpFuel>]]);
 recipes.addShaped(<rftools:powercell>, [[<ore:ingotSteel>, <ore:blockRedstone>, <ore:ingotSteel>], [<ore:blockRedstone>, <teslacorelib:machine_case>, <ore:blockRedstone>], [<ore:ingotSteel>, <ore:blockRedstone>, <ore:ingotSteel>]]);

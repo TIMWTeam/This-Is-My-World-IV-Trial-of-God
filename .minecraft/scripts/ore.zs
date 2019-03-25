@@ -40,7 +40,6 @@
 <ore:oreDimensionalShard_meteors>.add(<rftools:dimensional_shard_ore>);
 <ore:oreDraconium_meteors>.add(<draconicevolution:draconium_ore>);
 <ore:blockAE_meteors>.add(<appliedenergistics2:sky_stone_block>);
-//<ore:blockDimensionalShard><ore:blockDraconium>
 
 //misc
 <ore:crystalCinnabar>.add(<thaumcraft:quicksilver>);
@@ -48,11 +47,22 @@
 <ore:blockAmber>.add(<thaumcraft:amber_block>);
 <ore:scribing>.addItems([<botania:manainkwell:150>,<evilcraft:veined_scribing_tools>,<thaumcraft:scribing_tools>]);
 
+//liquid
+mods.industrialforegoing.FluidDictionary.add("blood", "evilcraftblood", 1);
+mods.industrialforegoing.FluidDictionary.add("blood", "lifeessence", 10);
+mods.industrialforegoing.FluidDictionary.add("evilcraftblood", "lifeessence", 10);
+
 //silicon
 <ore:circuitBasic>.add(<contenttweaker:basic_circuit>);
 <ore:circuitAdvanced>.add(<contenttweaker:advanced_circuit>);
 
-<ore:wireCopper>.addItems([<techreborn:cable>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})]);
-<ore:wireGold>.addItems([<techreborn:cable:2>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})]);
+//wire
+recipes.replaceAllOccurences(<techreborn:cable>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}));
+recipes.replaceAllOccurences(<techreborn:cable:1>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}));
+recipes.replaceAllOccurences(<techreborn:cable:2>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}));
+recipes.replaceAllOccurences(<techreborn:cable:3>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}));
 
+recipes.replaceAllOccurences(<techreborn:cable:5>,<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}));
+recipes.replaceAllOccurences(<techreborn:cable:6>,<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}));
+recipes.replaceAllOccurences(<techreborn:cable:7>,<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}));
 //<ore:itemRubber>.add(<techguns:itemshared:55>);
