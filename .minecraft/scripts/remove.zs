@@ -1,3 +1,5 @@
+#priority 943
+
 //PE
 recipes.removeByRecipeName("projecte:philstone_smelt_minecraft_emerald_ore_32767");
 recipes.removeByRecipeName("projecte:conversions/iron_to_ender_pearl");
@@ -57,7 +59,7 @@ recipes.removeByRecipeName("mekanism:paper");
 recipes.removeByRecipeName("endercore:shapeless_paper");
 recipes.removeByRecipeName("primal:paper");
 recipes.remove(<thermalfoundation:upgrade:*>);
-
+recipes.remove(<notenoughwands:acceleration_wand>);
 
 
 
