@@ -37,7 +37,7 @@ events.onPlayerRespawn(function(event as crafttweaker.event.PlayerRespawnEvent) 
 });
 
 //health
-recipes.addShaped("two", <randomthings:naturecore>, [[<contenttweaker:cropessence_earth>, <contenttweaker:cropessence_earth>, <contenttweaker:cropessence_earth>], [<contenttweaker:cropessence_earth>, <projecte:item.pe_philosophers_stone>, <contenttweaker:cropessence_earth>], [<contenttweaker:cropessence_earth>, <contenttweaker:cropessence_earth>, <contenttweaker:cropessence_earth>]],
+recipes.addShaped("two", <randomthings:naturecore>, [[<extraalchemy:essence_earth>, <extraalchemy:essence_earth>, <extraalchemy:essence_earth>], [<extraalchemy:essence_earth>, <projecte:item.pe_philosophers_stone>, <extraalchemy:essence_earth>], [<extraalchemy:essence_earth>, <extraalchemy:essence_earth>, <extraalchemy:essence_earth>]],
 	function(out, ins, cInfo) {
 			return out;
 	} as IRecipeFunction,
