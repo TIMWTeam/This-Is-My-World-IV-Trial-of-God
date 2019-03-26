@@ -1,6 +1,6 @@
 {
     "registryname": "starlight_condenser_2",
-    "localizedname": "Starlight Condenser",
+    "localizedname": "Starlight Condenser Tier 2",
     "parts": [
         {
             "x": -1,
@@ -11,30 +11,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "botania:custombrick@15"
-            ]
-        },
-        {
             "x": 1,
             "y": 0,
             "z": 0,
@@ -43,43 +19,75 @@
             ]
         },
         {
-            "x": 2,
+            "x": -3,
             "y": 0,
             "z": 0,
             "elements": [
-                "botania:custombrick@15"
+                "xtones:zane@0"
             ]
         },
         {
-            "x": 0,
+            "x": 3,
             "y": 0,
-            "z": -4,
+            "z": 0,
             "elements": [
-                "botania:custombrick@10"
+                "xtones:zane@0"
             ]
         },
         {
-            "x": 0,
-            "y": 2,
-            "z": -3,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": -4,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": -3,
+            "x": 1,
+            "y": 4,
+            "z": -2,
             "elements": [
                 "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "botania:custombrick@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": -2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": -1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "botania:custombrick@5"
             ]
         },
         {
@@ -87,420 +95,164 @@
             "y": 9,
             "z": 0,
             "elements": [
-                "xtones:glaxx@7"
+                "xtones:zane@0"
             ]
         },
         {
-            "x": 3,
-            "y": -1,
+            "x": 2,
+            "y": 9,
             "z": 0,
             "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "xtones:zane@0"
+                "botania:custombrick@13"
             ]
         },
         {
             "x": -2,
-            "y": 5,
-            "z": 2,
+            "y": 1,
+            "z": 0,
             "elements": [
-                "xtones:zane@0"
+                "botania:custombrick@8"
             ]
         },
         {
             "x": -1,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -3,
             "y": 1,
             "z": 0,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 1,
             "elements": [
                 "botania:custombrick@5"
             ]
         },
         {
-            "x": 1,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "xtones:azur@13"
-            ]
-        },
-        {
             "x": 0,
-            "y": -1,
+            "y": 1,
             "z": 0,
             "elements": [
                 "modulardiversity:blockdaylightdetector@0"
             ]
         },
         {
-            "x": 2,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 0,
+            "x": 1,
             "y": 1,
             "z": 0,
-            "elements": [
-                "modulardiversity:blockmanaoutputhatch@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "xtones:azur@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 1,
             "elements": [
                 "botania:custombrick@5"
             ]
         },
         {
-            "x": -3,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 3,
+            "x": 2,
             "y": 1,
             "z": 0,
             "elements": [
-                "xtones:zane@0"
+                "botania:custombrick@8"
             ]
         },
         {
-            "x": -1,
-            "y": -1,
-            "z": 3,
+            "x": 0,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "botania:custombrick@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": -2,
             "elements": [
                 "xtones:zane@0"
             ]
         },
         {
             "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": -4,
+            "y": 18,
+            "z": 0,
             "elements": [
                 "botania:custombrick@10"
             ]
         },
         {
-            "x": 0,
-            "y": 9,
-            "z": -3,
+            "x": -2,
+            "y": 13,
+            "z": -1,
             "elements": [
                 "xtones:glaxx@7"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "xtones:zane@0"
             ]
         },
         {
             "x": -2,
-            "y": 0,
-            "z": -3,
+            "y": 10,
+            "z": 0,
             "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": -4,
-            "elements": [
-                "xtones:glaxx@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": -3,
-            "elements": [
-                "xtones:glaxx@7"
+                "botania:custombrick@7"
             ]
         },
         {
             "x": 0,
             "y": 10,
-            "z": -2,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
             "z": 0,
             "elements": [
                 "xtones:zane@0"
             ]
         },
         {
-            "x": -2,
-            "y": 3,
+            "x": 0,
+            "y": 2,
             "z": 0,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 2,
             "elements": [
                 "xtones:zane@0"
             ]
         },
         {
-            "x": 2,
-            "y": -1,
+            "x": 0,
+            "y": 0,
             "z": -3,
             "elements": [
-                "xtones:zane@0"
+                "modulardiversity:blockmanaoutputhatch@0"
             ]
         },
         {
-            "x": 2,
-            "y": 3,
-            "z": 0,
+            "x": 0,
+            "y": 0,
+            "z": 3,
             "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": -1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "xtones:zane@0"
+                "modulardiversity:blockmanaoutputhatch@0"
             ]
         },
         {
             "x": -2,
-            "y": -1,
-            "z": 2,
+            "y": 12,
+            "z": -1,
             "elements": [
-                "xtones:zane@0"
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "botania:custombrick@15"
             ]
         },
         {
             "x": -1,
-            "y": 1,
-            "z": 3,
+            "y": 11,
+            "z": 0,
             "elements": [
-                "xtones:zane@0"
+                "xtones:azur@12"
             ]
         },
         {
             "x": 0,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": -1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": -4,
-            "elements": [
-                "xtones:glaxx@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": -3,
-            "elements": [
-                "xtones:glaxx@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": -2,
-            "elements": [
-                "xtones:glaxx@7"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
+            "y": 11,
             "z": 0,
             "elements": [
                 "xtones:zane@0"
@@ -508,14 +260,102 @@
         },
         {
             "x": 0,
-            "y": 4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "botania:custombrick@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "botania:custombrick@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": -2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
             "z": 0,
             "elements": [
                 "botania:pylon@1"
             ]
         },
         {
-            "x": 3,
+            "x": -2,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "botania:custombrick@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "botania:custombrick@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 0,
             "y": 4,
             "z": 0,
             "elements": [
@@ -524,38 +364,54 @@
         },
         {
             "x": 2,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "botania:custombrick@10"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "botania:custombrick@10"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": -4,
-            "elements": [
-                "xtones:glaxx@7"
-            ]
-        },
-        {
-            "x": 0,
             "y": 6,
-            "z": -3,
+            "z": 1,
             "elements": [
                 "xtones:glaxx@7"
             ]
         },
         {
-            "x": 0,
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 1,
             "y": 8,
             "z": -2,
             "elements": [
@@ -563,48 +419,224 @@
             ]
         },
         {
-            "x": 0,
-            "y": 12,
-            "z": -4,
-            "elements": [
-                "botania:custombrick@10"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
+            "x": -2,
+            "y": 10,
             "z": -1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "botania:custombrick@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "botania:custombrick@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
             "elements": [
                 "xtones:zane@0"
             ]
         },
         {
             "x": 2,
-            "y": -1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "botania:custombrick@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "botania:custombrick@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "botania:custombrick@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
             "z": -2,
             "elements": [
                 "xtones:zane@0"
             ]
         },
         {
-            "x": -3,
-            "y": -1,
+            "x": 1,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "botania:custombrick@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 15,
+            "z": -2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "botania:custombrick@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "botania:custombrick@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
             "z": 1,
             "elements": [
                 "xtones:zane@0"
@@ -612,47 +644,79 @@
         },
         {
             "x": -2,
-            "y": 1,
-            "z": 2,
+            "y": 0,
+            "z": -1,
             "elements": [
                 "xtones:zane@0"
             ]
         },
         {
-            "x": -1,
-            "y": 3,
-            "z": 3,
+            "x": 2,
+            "y": 0,
+            "z": 1,
             "elements": [
                 "xtones:zane@0"
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 3,
+            "x": 2,
+            "y": 6,
+            "z": -2,
             "elements": [
                 "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "botania:custombrick@15"
             ]
         },
         {
             "x": 1,
-            "y": 3,
-            "z": 3,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "botania:custombrick@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": -2,
             "elements": [
                 "xtones:zane@0"
             ]
         },
         {
             "x": 0,
-            "y": 1,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
             "z": 2,
             "elements": [
                 "botania:custombrick@13"
@@ -660,370 +724,138 @@
         },
         {
             "x": 0,
-            "y": -1,
+            "y": 9,
             "z": 1,
             "elements": [
-                "xtones:azur@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "botania:custombrick@15"
+                "xtones:azur@12"
             ]
         },
         {
             "x": 2,
-            "y": 1,
+            "y": 11,
             "z": 2,
             "elements": [
                 "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": -4,
-            "elements": [
-                "xtones:glaxx@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": -3,
-            "elements": [
-                "botania:custombrick@5"
             ]
         },
         {
             "x": 0,
             "y": 7,
-            "z": -2,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": -1,
-            "elements": [
-                "xtones:glaxx@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 11,
-            "z": -4,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 6,
             "z": 0,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "botania:custombrick@15"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
             "elements": [
                 "xtones:zane@0"
             ]
         },
         {
             "x": 2,
-            "y": 0,
+            "y": 9,
             "z": 1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 0,
             "elements": [
                 "botania:custombrick@15"
             ]
         },
         {
             "x": 0,
-            "y": 2,
-            "z": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "botania:custombrick@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -2,
             "elements": [
                 "xtones:glaxx@7"
             ]
         },
         {
             "x": 0,
-            "y": 4,
-            "z": -3,
+            "y": 5,
+            "z": -2,
             "elements": [
-                "botania:custombrick@5"
+                "botania:custombrick@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": -2,
+            "elements": [
+                "xtones:zane@0"
             ]
         },
         {
             "x": 0,
-            "y": 6,
-            "z": -2,
+            "y": 16,
+            "z": 0,
             "elements": [
-                "botania:custombrick@5"
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "xtones:zane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "xtones:glaxx@7"
             ]
         },
         {
             "x": 0,
             "y": 8,
-            "z": -1,
+            "z": 0,
             "elements": [
-                "botania:custombrick@5"
+                "xtones:zane@0"
             ]
         },
         {
-            "x": 0,
+            "x": 2,
             "y": 10,
-            "z": -4,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
             "z": 1,
             "elements": [
-                "botania:custombrick@10"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
+                "xtones:glaxx@7"
             ]
         },
         {
             "x": 2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "botania:custombrick@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "xtones:azur@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "botania:custombrick@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": -4,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": -3,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": -4,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 11,
-            "z": -3,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": 0,
             "y": 8,
             "z": 0,
             "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "xtones:zane@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "botania:custombrick@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "botania:custombrick@15"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "botania:custombrick@5"
+                "botania:custombrick@8"
             ]
         }
     ]}
