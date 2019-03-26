@@ -56,14 +56,7 @@
 			<itemStack>advancedrocketry:productingot 2 1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="100" power ="10">
-		<input>
-			<oreDict>oreRutile</oreDict>
-		</input>
-		<output>
-			<itemStack>libvulpes:productingot 1 7</itemStack>
-		</output>
-	</Recipe>
+
 	<Recipe timeRequired="600" power ="150">
 		<input>
 			<itemStack>projectred-core:resource_item 1 250</itemStack>

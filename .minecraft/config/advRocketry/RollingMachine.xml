@@ -126,7 +126,7 @@
 			<fluidStack>water 100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 1 7</itemStack>
+			<itemStack>techguns:itemshared 1 54</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">

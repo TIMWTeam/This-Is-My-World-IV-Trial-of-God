@@ -28,6 +28,7 @@ recipes.remove(<advancedrocketry:productrod:1>);
 recipes.remove(<advancedrocketry:productrod>);
 
 //remove gear
+mods.thermalexpansion.Compactor.removeGearRecipe(<evilcraft:dark_gem>);
 recipes.remove(<redstonearsenal:material:96>);
 recipes.remove(<thermalfoundation:material:24>);
 recipes.remove(<thermalfoundation:material:25>);
