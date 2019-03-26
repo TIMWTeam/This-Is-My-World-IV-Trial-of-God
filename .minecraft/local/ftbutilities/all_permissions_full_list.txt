@@ -1,4 +1,4 @@
-13644 nodes in total
+13638 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -906,8 +906,6 @@ ftbutilities.claims.block.edit.compactmachines3.wall: OP
 ftbutilities.claims.block.edit.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.edit.contenttweaker.block_alloy: OP
 ftbutilities.claims.block.edit.contenttweaker.block_carbon: OP
-ftbutilities.claims.block.edit.contenttweaker.block_iron: OP
-ftbutilities.claims.block.edit.contenttweaker.block_steel: OP
 ftbutilities.claims.block.edit.danknull.danknull_dock: OP
 ftbutilities.claims.block.edit.draconicevolution.celestial_manipulator: OP
 ftbutilities.claims.block.edit.draconicevolution.chaos_crystal: OP
@@ -4267,8 +4265,6 @@ ftbutilities.claims.block.interact.compactmachines3.wall: OP
 ftbutilities.claims.block.interact.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.interact.contenttweaker.block_alloy: OP
 ftbutilities.claims.block.interact.contenttweaker.block_carbon: OP
-ftbutilities.claims.block.interact.contenttweaker.block_iron: OP
-ftbutilities.claims.block.interact.contenttweaker.block_steel: OP
 ftbutilities.claims.block.interact.danknull.danknull_dock: OP
 ftbutilities.claims.block.interact.draconicevolution.celestial_manipulator: OP
 ftbutilities.claims.block.interact.draconicevolution.chaos_crystal: OP
@@ -8088,8 +8084,6 @@ ftbutilities.claims.item.contenttweaker.advanced_circuit: ALL
 ftbutilities.claims.item.contenttweaker.basic_circuit: ALL
 ftbutilities.claims.item.contenttweaker.block_alloy: ALL
 ftbutilities.claims.item.contenttweaker.block_carbon: ALL
-ftbutilities.claims.item.contenttweaker.block_iron: ALL
-ftbutilities.claims.item.contenttweaker.block_steel: ALL
 ftbutilities.claims.item.contenttweaker.bottle_of_wind: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_earth: ALL
 ftbutilities.claims.item.contenttweaker.cropessence_fire: ALL

@@ -1,2 +1,2 @@
 //MetalPress
-mods.techguns.MetalPress.removeRecipe(<techguns:itemshared:47>);
+mods.techguns.MetalPress.removeRecipe(<techguns:itemshared:53>);

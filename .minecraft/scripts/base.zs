@@ -1,8 +1,8 @@
 //--------------------base--------------------
-var earth = <contenttweaker:cropessence_earth>;
-var wind = <contenttweaker:cropessence_wind>;
-var water = <contenttweaker:cropessence_water>;
-var fire = <contenttweaker:cropessence_fire>;
+var earth = <extraalchemy:essence_earth>;
+var wind = <extraalchemy:essence_wind>;
+var water = <extraalchemy:essence_water>;
+var fire = <extraalchemy:essence_fire>;
 var philo = <projecte:item.pe_philosophers_stone>;
 //--------------------earth--------------------
 recipes.addShapeless(<minecraft:cobblestone>, [philo, <ore:stone>]);

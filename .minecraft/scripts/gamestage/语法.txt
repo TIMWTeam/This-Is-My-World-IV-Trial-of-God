@@ -38,13 +38,16 @@ ResearchTable：研究台，玩家可以通过这个方块进行物品的研究�
 			.setIcons(IItemStack input)				//图标
 			.setTitle(String researchTitle)				//标题
 			.setDescription(String researchTxet)			//描述
+			.setRequiredResearches(researchName)		//条件-前置研究名
+			.setRequiredStages(stageName)			//条件-前置阶段名
 			.addCondition(IItemStack input)			//条件-提供物品
 			.addCondition(Fluidstack  input)			//条件-提供流体
 			.addEnergyCondition(int rfcount)			//条件-提供RF
 			.setRewardStages(String stageName)		//获得-阶段名
 			.setRewardCommands(String command )		//获得-控制台输出命令（例：（“/ say \”@已经超神了！\“”）)
 			.setRewardItems(IItemStack out1,out2,……)	//获得-物品，可以是多个
-			//.setNoMaxCount()						//可选-可进行次数
+			.setMaxCount()							//可选-可进行次数
+			.setNoMaxCount()						//可选-不限制最大次数
 			.build();								//结束-必须以这为结尾
 
 
