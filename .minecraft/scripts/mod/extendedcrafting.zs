@@ -11,13 +11,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <ic2:resource:13>, [
 //EnderCrafting
 
 recipes.remove(<industrialforegoing:black_hole_unit>);
-mods.extendedcrafting.EnderCrafting.addShaped(0, <industrialforegoing:black_hole_unit>, [
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialforegoing:black_hole_unit>, [
 	[<extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>], 
 	[<ore:pearlEnderEye>, <ore:enderpearl>, <ore:pearlEnderEye>], 
 	[<ore:chest>, <compactmachines3:machine:5>, <ore:chest>]
 ]);
 recipes.remove(<industrialforegoing:black_hole_tank>);
-mods.extendedcrafting.EnderCrafting.addShaped(0, <industrialforegoing:black_hole_tank>, [
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialforegoing:black_hole_tank>, [
 	[<extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>], 
 	[<ore:pearlEnderEye>, <ore:enderpearl>, <ore:pearlEnderEye>], 
 	[<minecraft:bucket>, <compactmachines3:machine:5>, <minecraft:bucket>]
