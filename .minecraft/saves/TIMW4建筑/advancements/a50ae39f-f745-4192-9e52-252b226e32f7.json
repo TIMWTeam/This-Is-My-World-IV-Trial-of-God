@@ -1,0 +1,38 @@
+{
+  "triumph:example/root": {
+    "criteria": {
+      "location": "2019-03-26 21:39:15 +0800"
+    },
+    "done": true
+  },
+  "triumph:example/example_left_click_block": {
+    "criteria": {
+      "clickedBlock": "2019-03-27 21:28:35 +0800"
+    },
+    "done": true
+  },
+  "triumph:example/example_location_worldtype": {
+    "criteria": {
+      "superflat": "2019-03-26 21:39:15 +0800"
+    },
+    "done": true
+  },
+  "triumph:vanilla/story/mine_stone": {
+    "criteria": {
+      "get_stone": "2019-03-26 21:41:45 +0800"
+    },
+    "done": true
+  },
+  "triumph:vanilla/adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2019-03-26 21:39:15 +0800"
+    },
+    "done": false
+  },
+  "triumph:vanilla/story/root": {
+    "criteria": {
+      "crafting_table": "2019-03-26 21:57:35 +0800"
+    },
+    "done": true
+  }
+}

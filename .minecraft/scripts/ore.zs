@@ -79,3 +79,16 @@ recipes.replaceAllOccurences(<techreborn:cable:5>,<ic2:cable>.withTag({type: 0 a
 recipes.replaceAllOccurences(<techreborn:cable:6>,<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}));
 recipes.replaceAllOccurences(<techreborn:cable:7>,<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}));
 //<ore:itemRubber>.add(<techguns:itemshared:55>);
+//flower
+<ore:minecraft_flower>.add(<minecraft:yellow_flower>,<minecraft:red_flower>,<minecraft:red_flower:1>,<minecraft:red_flower:2>,<minecraft:red_flower:3>,<minecraft:red_flower:4>,<minecraft:red_flower:5>,<minecraft:red_flower:6>,<minecraft:red_flower:7>,<minecraft:red_flower:8>);
+
+
+
+
+
+
+
+
+
+
+

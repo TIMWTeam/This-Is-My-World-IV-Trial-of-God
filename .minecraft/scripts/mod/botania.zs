@@ -51,5 +51,3 @@ mods.botania.RuneAltar.addRecipe(<botania:rune:2>*2,[<extraalchemy:essence_earth
 mods.botania.RuneAltar.addRecipe(<botania:rune:3>*2,[<extraalchemy:essence_wind>, <minecraft:carpet>, <minecraft:string>, <botania:manaresource:23>, <botania:manaresource>],20000);
 
 
-
-
