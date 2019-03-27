@@ -1,3 +1,3 @@
 
 //Compactor
-mods.thermalexpansion.Compactor.removePressRecipe(<advancedrocketry:misc:1>);
+//mods.thermalexpansion.Compactor.removePressRecipe(<advancedrocketry:misc:1>);

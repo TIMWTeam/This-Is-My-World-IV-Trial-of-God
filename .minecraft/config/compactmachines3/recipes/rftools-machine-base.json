@@ -1,0 +1,32 @@
+{
+  "name": "custom:machine-frame-steel",
+  "target-item": "rftools:machine_base",
+  "target-meta": 0,
+  "target-count": 8,
+
+  "duration": 400,
+
+  "catalyst": "minecraft:ender_pearl",
+
+  "input-types": {
+    "s": { "id": "immersiveengineering:sheetmetal", "meta":"8"  }
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["s","s","s","s","s"],
+      ["s","s","s","s","s"],
+      ["s","s","s","s","s"],
+      ["s","s","s","s","s"],
+      ["s","s","s","s","s"]
+    ],
+    [
+      ["s","s","s","s","s"],
+      ["s","s","s","s","s"],
+      ["s","s","s","s","s"],
+      ["s","s","s","s","s"],
+      ["s","s","s","s","s"]
+    ]
+  ]
+}

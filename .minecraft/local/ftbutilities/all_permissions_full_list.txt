@@ -1,4 +1,4 @@
-14391 nodes in total
+14393 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -8615,7 +8615,9 @@ ftbutilities.claims.item.contenttweaker.basic_circuit: ALL
 ftbutilities.claims.item.contenttweaker.block_alloy: ALL
 ftbutilities.claims.item.contenttweaker.block_carbon: ALL
 ftbutilities.claims.item.contenttweaker.bottle_of_wind: ALL
+ftbutilities.claims.item.contenttweaker.dirty_blood: ALL
 ftbutilities.claims.item.contenttweaker.feature: ALL
+ftbutilities.claims.item.contenttweaker.pure_starlight: ALL
 ftbutilities.claims.item.contenttweaker.purgatory_dust: ALL
 ftbutilities.claims.item.contenttweaker.refined_silicon_plate: ALL
 ftbutilities.claims.item.contenttweaker.refining_gold_liquid: ALL

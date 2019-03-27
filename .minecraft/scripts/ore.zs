@@ -60,6 +60,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<techguns:itemshared:54>, <ore:in
 furnace.remove(<ore:ingotTitanium>);
 furnace.remove(<libvulpes:productingot:7>);
 mods.tconstruct.Melting.removeRecipe(<liquid:titanium>);
+<ore:ingotCarbon>.remove(<advancedrocketry:misc:1>);
 //liquid
 mods.industrialforegoing.FluidDictionary.add("blood", "evilcraftblood", 1);
 mods.industrialforegoing.FluidDictionary.add("blood", "lifeessence", 10);

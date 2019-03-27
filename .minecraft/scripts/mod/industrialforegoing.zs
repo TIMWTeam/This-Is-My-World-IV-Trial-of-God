@@ -131,7 +131,7 @@ recipes.addShaped(<industrialforegoing:oredictionary_converter>,[[<ore:blockGold
 recipes.remove(<industrialforegoing:fluid_crafter>);
 recipes.addShaped(<industrialforegoing:fluid_crafter>,[[<ore:plateIron>,<ore:workbench>,<ore:plateIron>],[<minecraft:bucket>,<teslacorelib:machine_case>,<minecraft:bucket>],[<ore:plateIron>,<thermalfoundation:material:24>,<ore:plateIron>]]);
 
-recipes.remove(<industrialforegoing:fluid_crafter>);
+recipes.remove(<industrialforegoing:fluid_pump>);
 recipes.addShaped(<industrialforegoing:fluid_pump>,[[<ore:plateIron>,<minecraft:bucket>,<ore:plateIron>],[<minecraft:bucket>,<ic2:resource:12>,<minecraft:bucket>],[<ore:plateIron>,<thermalfoundation:material:25>,<ore:plateIron>]]);
 
 recipes.remove(<industrialforegoing:wither_builder>);
@@ -236,4 +236,5 @@ recipes.addShaped(<industrialforegoing:sludge_refiner>,[[<thermalfoundation:mate
 recipes.remove(<industrialforegoing:tree_fluid_extractor>);
 recipes.addShaped(<industrialforegoing:tree_fluid_extractor>,[[<thermalfoundation:material:32>,<minecraft:furnace>,<thermalfoundation:material:32>],[<thermalfoundation:material:24>,<ic2:resource:12>,<thermalfoundation:material:24>],[<thermalfoundation:material:32>,<minecraft:redstone>,<thermalfoundation:material:32>]]);
 
-
+recipes.remove(<industrialforegoing:mob_detector>);
+recipes.addShaped(<industrialforegoing:mob_detector>,[[<thermalfoundation:material:32>,<thermalfoundation:material:32>,<thermalfoundation:material:32>],[<minecraft:observer>,<ic2:resource:12>,<minecraft:observer>],[<minecraft:repeater>,<minecraft:comparator>,<minecraft:repeater>]]);
