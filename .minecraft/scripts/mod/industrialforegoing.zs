@@ -77,7 +77,6 @@ mods.industrialforegoing.Extractor.remove(<forestry:logs.6:3>);
 mods.industrialforegoing.Extractor.remove(<forestry:logs.7>);
 mods.industrialforegoing.Extractor.remove(<forestry:logs.fireproof.0>);
 
-
 mods.industrialforegoing.Extractor.add(<minecraft:log2:1>, <liquid:resin> * 2);
 mods.industrialforegoing.Extractor.add(<minecraft:log2>, <liquid:resin> * 2);
 mods.industrialforegoing.Extractor.add(<minecraft:log:3>, <liquid:resin> * 2);
@@ -88,6 +87,10 @@ mods.industrialforegoing.Extractor.add(<techreborn:rubber_log>, <liquid:resin> *
 mods.industrialforegoing.Extractor.add(<ic2:rubber_wood>, <liquid:resin> * 10);
 mods.industrialforegoing.Extractor.add(<integrateddynamics:menril_log>, <liquid:menrilresin> * 2);
 mods.industrialforegoing.Extractor.add(<integrateddynamics:menril_log_filled>, <liquid:menrilresin> * 10);
+
+//misc
+recipes.remove(<industrialforegoing:protein_reactor>);
+recipes.addShaped(<teslacorelib:base_addon>,[[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>],[<minecraft:redstone>,<contenttweaker:basic_circuit>,<minecraft:redstone>],[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>]]);
 
 //machine-craft
 recipes.remove(<industrialforegoing:protein_reactor>);

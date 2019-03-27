@@ -62,7 +62,6 @@ recipes.remove(<ic2:resource:12>);
 recipes.remove(<ic2:resource:13>);
 recipes.remove(<techreborn:machine_frame>);
 recipes.remove(<mekanism:basicblock:8>);
-recipes.remove(<extrautils2:machine>);
 recipes.remove(<rftools:machine_frame>);
 recipes.remove(<rftools:machine_base>);
 recipes.remove(<thermalexpansion:frame>);
@@ -76,11 +75,8 @@ recipes.remove(<industrialforegoing:laser_base>);
 recipes.remove(<industrialforegoing:laser_drill>);
 
 //misc
-recipes.remove(<actuallyadditions:item_mining_lens>);
 recipes.remove(<bloodmagic:decorative_brick:2>);
-recipes.removeByRecipeName("actuallyadditions:recipes148");
 recipes.removeByRecipeName("minecraft:paper");
-recipes.removeByRecipeName("actuallyadditions:recipes23");
 recipes.removeByRecipeName("mekanism:paper");
 recipes.removeByRecipeName("endercore:shapeless_paper");
 recipes.removeByRecipeName("primal:paper");
