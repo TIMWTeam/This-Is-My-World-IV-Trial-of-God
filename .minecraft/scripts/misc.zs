@@ -5,6 +5,7 @@ mods.jei.JEI.addDescription(<astralsorcery:blockcustomsandore>, "星能液与熔
 mods.jei.JEI.addDescription(<advanced_solar_panels:machines>, "这个物品的所有配方都能够正常使用，但是无法通过JEI查询。通过配置文件，你可以找到他所能转换的所有配方。");
 <advanced_solar_panels:machines>.addTooltip(format.lightPurple("配方实际存在，但无法显示"));
 <ic2:misc_resource:1>.addTooltip(format.lightPurple("铁矿在分子重组仪内"));
+<contenttweaker:pure_starlight>.addTooltip(format.gold("拿在手上你似乎感觉到了一丝的寒冷"));
 //Cost reduction
 recipes.remove(<rftools:coalgenerator>);
 recipes.remove(<rftools:powercell>);
