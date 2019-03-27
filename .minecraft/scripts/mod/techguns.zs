@@ -1,4 +1,8 @@
 import crafttweaker.item.IItemStack;
+
+//misc
+recipes.addShapeless(<techguns:itemshared:105>,[<minecraft:nether_star>,<techguns:itemshared:104>]);
+
 //MetalPress
 mods.techguns.MetalPress.removeRecipe(<techguns:itemshared:64>);
 
