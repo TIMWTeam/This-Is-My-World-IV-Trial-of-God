@@ -88,3 +88,27 @@ mods.industrialforegoing.Extractor.add(<techreborn:rubber_log>, <liquid:resin> *
 mods.industrialforegoing.Extractor.add(<ic2:rubber_wood>, <liquid:resin> * 10);
 mods.industrialforegoing.Extractor.add(<integrateddynamics:menril_log>, <liquid:menrilresin> * 2);
 mods.industrialforegoing.Extractor.add(<integrateddynamics:menril_log_filled>, <liquid:menrilresin> * 10);
+
+
+
+//machine-craft
+
+
+
+recipes.addShaped(<industrialforegoing:resourceful_furnace>,[[<ore:plateIron>,<minecraft:bucket>,<ore:plateIron>],[<minecraft:furnace>,<minecraft:furnace>,<minecraft:furnace>],[<ore:plateIron>,<ore:gearGold>,<ore:plateIron>]]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
