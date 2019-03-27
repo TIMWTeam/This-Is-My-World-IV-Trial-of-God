@@ -119,3 +119,8 @@ var pure_starlight = VanillaFactory.createItem("pure_starlight");
 pure_starlight.maxStackSize = 64;
 pure_starlight.rarity = "rare";
 pure_starlight.register();
+
+var dirty_blood = VanillaFactory.createItem("dirty_blood");
+dirty_blood.maxStackSize = 64;
+dirty_blood.rarity = "rare";
+dirty_blood.register();
