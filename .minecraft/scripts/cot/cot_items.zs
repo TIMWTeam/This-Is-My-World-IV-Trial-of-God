@@ -6,40 +6,6 @@ import mods.contenttweaker.Item;
 import crafttweaker.item.IItemStack;
 import mods.contenttweaker.IItemRightClick;
 
-var cropessence_fire = VanillaFactory.createItem("cropessence_fire");
-cropessence_fire.maxStackSize = 64;
-cropessence_fire.rarity = "rare";
-cropessence_fire.register();
-
-var cropessence_earth = VanillaFactory.createItem("cropessence_earth");
-cropessence_earth.maxStackSize = 64;
-cropessence_earth.rarity = "rare";
-cropessence_earth.register();
-
-var cropessence_water = VanillaFactory.createItem("cropessence_water");
-cropessence_water.maxStackSize = 64;
-cropessence_water.rarity = "rare";
-cropessence_water.register();
-
-var cropessence_wind = VanillaFactory.createItem("cropessence_wind");
-cropessence_wind.maxStackSize = 64;
-cropessence_wind.rarity = "rare";
-cropessence_wind.register();
-
-var cropessence_ordo = VanillaFactory.createItem("cropessence_ordo");
-cropessence_ordo.maxStackSize = 64;
-cropessence_ordo.rarity = "rare";
-cropessence_ordo.register();
-
-var cropessence_perditio = VanillaFactory.createItem("cropessence_perditio");
-cropessence_perditio.maxStackSize = 64;
-cropessence_perditio.rarity = "rare";
-cropessence_perditio.register();
-
-var cropessence_lifeessence = VanillaFactory.createItem("cropessence_lifeessence");
-cropessence_lifeessence.maxStackSize = 64;
-cropessence_lifeessence.rarity = "rare";
-cropessence_lifeessence.register();
 
 var purgatory_dust = VanillaFactory.createItem("purgatory_dust");
 purgatory_dust.maxStackSize = 64;

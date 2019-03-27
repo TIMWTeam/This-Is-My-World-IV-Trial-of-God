@@ -48,7 +48,18 @@
 <ore:scribing>.addItems([<botania:manainkwell:150>,<evilcraft:veined_scribing_tools>,<thaumcraft:scribing_tools>]);
 <ore:plateCarbon>.remove(<techguns:itemshared:53>);
 <ore:plateCarbon>.add(<ic2:crafting:15>);
-
+<ore:oreTitanium>.remove(<libvulpes:ore0:8>);
+<ore:ingotTitanium>.remove(<libvulpes:productingot:7>);
+<ore:ingotTitanium>.remove(<techreborn:ingot:14>);
+<ore:plateTitanium>.remove(<libvulpes:productplate:7>);
+<ore:plateTitanium>.remove(<techreborn:plates:30>);
+recipes.replaceAllOccurences(<ore:ingotTitanium>, <techguns:itemshared:85>);
+recipes.replaceAllOccurences(<ore:plateTitanium>, <techguns:itemshared:54>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:30>);
+mods.immersiveengineering.MetalPress.addRecipe(<techguns:itemshared:54>, <ore:ingotTitanium>, <immersiveengineering:mold>, 2000);
+furnace.remove(<ore:ingotTitanium>);
+furnace.remove(<libvulpes:productingot:7>);
+mods.tconstruct.Melting.removeRecipe(<liquid:titanium>);
 //liquid
 mods.industrialforegoing.FluidDictionary.add("blood", "evilcraftblood", 1);
 mods.industrialforegoing.FluidDictionary.add("blood", "lifeessence", 10);

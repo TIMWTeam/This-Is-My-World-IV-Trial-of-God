@@ -106,7 +106,7 @@
 			<oreDict>blockTitanium</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 4 7</itemStack>
+			<itemStack>techguns:itemshared 4 54</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
