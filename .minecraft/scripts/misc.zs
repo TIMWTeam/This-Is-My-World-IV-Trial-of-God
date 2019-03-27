@@ -1,11 +1,12 @@
-mods.jei.JEI.addDescription(<contenttweaker:windproof_bottle>, "除了看起来更精细以外并看不出有什么特别的瓶子，但相信的心就是你的魔法！右键将风封入其中。");
-<contenttweaker:bottle_of_wind>.addTooltip(format.lightPurple("慢着，风也是空气，那瓶子里原来装的是什么？？"));
-mods.jei.JEI.addDescription(<astralsorcery:blockcustomsandore>, "星能液与熔岩接触所生成的沙子中，极低概率会出现这种砂岩。");
-<astralsorcery:blockcustomsandore>.addTooltip(format.lightPurple("星能液与熔岩所产生的沙子中，极低概率产生"));
-mods.jei.JEI.addDescription(<advanced_solar_panels:machines>, "这个物品的所有配方都能够正常使用，但是无法通过JEI查询。通过配置文件，你可以找到他所能转换的所有配方。");
-<advanced_solar_panels:machines>.addTooltip(format.lightPurple("配方实际存在，但无法显示"));
-<ic2:misc_resource:1>.addTooltip(format.lightPurple("铁矿在分子重组仪内"));
-<contenttweaker:pure_starlight>.addTooltip(format.gold("拿在手上你似乎感觉到了一丝的寒冷"));
+//key放在了材质包:contenttweaker/lang/zh_cn.lang内
+mods.jei.JEI.addDescription(<contenttweaker:windproof_bottle>, "key.misc_01.jei");
+<contenttweaker:bottle_of_wind>.addTooltip(format.lightPurple("key.misc_01.tooltip"));
+mods.jei.JEI.addDescription(<astralsorcery:blockcustomsandore>, "key.misc_02.jei");
+<astralsorcery:blockcustomsandore>.addTooltip(format.lightPurple("key.misc_02.tooltip"));
+mods.jei.JEI.addDescription(<advanced_solar_panels:machines>, "key.misc_03.jei");
+<advanced_solar_panels:machines>.addTooltip(format.lightPurple("key.misc_03.tooltip"));
+<ic2:misc_resource:1>.addTooltip(format.lightPurple("key.misc_04.tooltip"));
+<contenttweaker:pure_starlight>.addTooltip(format.gold("key.misc_05.tooltip"));
 //Cost reduction
 recipes.remove(<rftools:coalgenerator>);
 recipes.remove(<rftools:powercell>);
@@ -31,6 +32,36 @@ recipes.addShaped(<actuallyadditions:block_oil_generator>, [[<ore:cobblestone>, 
 recipes.addShaped(<actuallyadditions:block_coal_generator>, [[<ore:cobblestone>, <ore:clumpFuel>, <ore:cobblestone>], [<ore:cobblestone>, <teslacorelib:machine_case>, <ore:cobblestone>], [<ore:cobblestone>, <ore:clumpFuel>, <ore:cobblestone>]]);
 recipes.addShaped(<actuallyadditions:block_heat_collector>, [[<minecraft:iron_bars>, <minecraft:repeater>, <minecraft:iron_bars>], [<techguns:itemshared:68>, <teslacorelib:machine_case>, <techguns:itemshared:68>], [<minecraft:iron_bars>, <actuallyadditions:item_crystal:5>, <minecraft:iron_bars>]]);
 recipes.addShaped(<industrialforegoing:fluiddictionary_converter>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:blockGlass>, <teslacorelib:machine_case>, <ore:blockGlass>], [<minecraft:bucket>, <projecte:item.pe_philosophers_stone>, <minecraft:bucket>]]);
+
+
+//block_breaker
+recipes.remove(<randomthings:blockbreaker>);
+recipes.remove(<embers:breaker>);
+recipes.remove(<industrialforegoing:block_destroyer>);
+recipes.remove(<actuallyadditions:block_directional_breaker>);
+recipes.remove(<actuallyadditions:block_phantom_breaker>);
+recipes.remove(<integratedtunnels:part_importer_world_block_item>);
+recipes.remove(<extrautils2:miner>);
+<ore:block_breaker>.addItems([<actuallyadditions:block_breaker>,<embers:breaker>,<industrialforegoing:block_destroyer>,<randomthings:blockbreaker>]);
+recipes.addShapeless(<industrialforegoing:block_destroyer>, [<ore:block_breaker>]);
+recipes.addShapeless(<actuallyadditions:block_breaker>, [<ore:block_breaker>]);
+recipes.addShapeless(<embers:breaker>, [<ore:block_breaker>]);
+recipes.addShapeless(<randomthings:blockbreaker>, [<ore:block_breaker>]);
+recipes.addShapeless(<extrautils2:miner>, [<ore:block_breaker>,<extrautils2:ingredients>]);
+recipes.addShapeless(<integratedtunnels:part_importer_world_block_item>, [<integratedtunnels:part_importer_item_item>,<ore:block_breaker>,<integrateddynamics:logic_director>]);
+recipes.addShapeless(<actuallyadditions:block_phantom_breaker>, [<ore:block_breaker>,<actuallyadditions:block_phantomface>]);
+recipes.addShaped(<actuallyadditions:block_directional_breaker>, [[<ore:block_breaker>,<ore:block_breaker>,<ore:block_breaker>],[null,<actuallyadditions:block_phantomface>,null]]);
+
+//block_placer
+recipes.remove(<industrialforegoing:block_placer>);
+recipes.remove(<actuallyadditions:block_phantom_placer>);
+recipes.remove(<integratedtunnels:part_exporter_world_block_item>);
+<ore:block_placer>.addItems([<actuallyadditions:block_placer>,<industrialforegoing:block_placer>]);
+recipes.addShapeless(<actuallyadditions:block_placer>, [<ore:block_placer>]);
+recipes.addShapeless(<industrialforegoing:block_placer>, [<ore:block_placer>]);
+recipes.addShapeless(<actuallyadditions:block_phantom_placer>, [<ore:block_placer>,<actuallyadditions:block_phantomface>]);
+recipes.addShapeless(<integratedtunnels:part_exporter_world_block_item>, [<integratedtunnels:part_exporter_item_item>,<ore:block_placer>,<integrateddynamics:logic_director>]);
+
 
 
 
