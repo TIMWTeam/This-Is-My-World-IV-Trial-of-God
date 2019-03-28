@@ -90,3 +90,8 @@ var dirty_blood = VanillaFactory.createItem("dirty_blood");
 dirty_blood.maxStackSize = 64;
 dirty_blood.rarity = "rare";
 dirty_blood.register();
+
+var hypocritical_world = VanillaFactory.createItem("hypocritical_world");
+hypocritical_world.maxStackSize = 64;
+hypocritical_world.rarity = "rare";
+hypocritical_world.register();
