@@ -81,6 +81,14 @@ var advanced_circuit = VanillaFactory.createItem("advanced_circuit");
 advanced_circuit.rarity = "rare";
 advanced_circuit.register();
 
+var elite_circuit = VanillaFactory.createItem("elite_circuit");
+elite_circuit.rarity = "rare";
+elite_circuit.register();
+
+var ultimate_circuit = VanillaFactory.createItem("ultimate_circuit");
+ultimate_circuit.rarity = "rare";
+ultimate_circuit.register();
+
 var pure_starlight = VanillaFactory.createItem("pure_starlight");
 pure_starlight.maxStackSize = 64;
 pure_starlight.rarity = "rare";

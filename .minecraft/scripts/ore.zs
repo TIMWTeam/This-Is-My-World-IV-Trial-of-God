@@ -61,6 +61,7 @@ furnace.remove(<ore:ingotTitanium>);
 furnace.remove(<libvulpes:productingot:7>);
 mods.tconstruct.Melting.removeRecipe(<liquid:titanium>);
 <ore:ingotCarbon>.remove(<advancedrocketry:misc:1>);
+
 //liquid
 mods.industrialforegoing.FluidDictionary.add("blood", "evilcraftblood", 1);
 mods.industrialforegoing.FluidDictionary.add("blood", "lifeessence", 10);
@@ -69,6 +70,13 @@ mods.industrialforegoing.FluidDictionary.add("evilcraftblood", "lifeessence", 10
 //silicon
 <ore:circuitBasic>.add(<contenttweaker:basic_circuit>);
 <ore:circuitAdvanced>.add(<contenttweaker:advanced_circuit>);
+<ore:circuitElite>.add(<contenttweaker:elite_circuit>);
+<ore:circuitUltimate>.add(<contenttweaker:ultimate_circuit>);
+<ore:circuitBasic>.removeItems([<techguns:itemshared:65>,<techreborn:part:29>,<mekanism:controlcircuit>]);
+<ore:circuitAdvanced>.removeItems([<mekanism:controlcircuit:1>,<techreborn:part:30>,<techreborn:plates:30>,<ic2:crafting:2>]);
+<ore:circuitElite>.removeItems([<mekanism:controlcircuit:2>,<techreborn:part:1>,<techguns:itemshared:66>]);
+<ore:circuitUltimate>.remove([<mekanism:controlcircuit:3>]);
+
 
 //wire
 recipes.replaceAllOccurences(<techreborn:cable>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}));

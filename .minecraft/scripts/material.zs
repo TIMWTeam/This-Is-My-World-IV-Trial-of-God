@@ -1,6 +1,6 @@
 import mods.techguns.ChemLab;
 
-//silicon-硅
+//silicon-硅-电路板
 <ore:dustSalt>.add(<immersiveengineering:material:24>);
 furnace.remove(<projectred-core:resource_item:300>);
 recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "brine", Amount: 1000}),[[null,<ore:dustSalt>,null],[<ore:dustSalt>,<minecraft:water_bucket>,<ore:dustSalt>],[null,<ore:dustSalt>,null]]);
@@ -13,7 +13,6 @@ mods.mekanism.reaction.addRecipe(<contenttweaker:silicon_low_purity>, <liquid:li
 recipes.replaceAllOccurences(<ore:circuitBasic>, <contenttweaker:basic_circuit>);
 recipes.replaceAllOccurences(<ore:circuitAdvanced>, <contenttweaker:advanced_circuit>);
 
-
 //液态煤炭
 mods.immersiveengineering.Refinery.addRecipe(<liquid:crude_oil> * 8, <liquid:coal> * 8, <liquid:ethanol> * 16, 2048);
 
@@ -23,12 +22,13 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:crude_oil> * 8, <liquid:coa
 
 //rubber-橡胶
 furnace.remove(<techreborn:part:32>);
+furnace.remove(<techguns:itemshared:55>);
 furnace.addRecipe(<techreborn:part:32>,<ic2:crafting>,1);
 <ore:itemRubber>.remove(<techreborn:part:32>);
 ChemLab.removeRecipe(<techguns:itemshared:95>,null);
 ChemLab.removeRecipe(<techguns:itemshared:96>,null);
 ChemLab.addRecipe(<thermalfoundation:material:771>,1,<minecraft:dirt>,0,<liquid:resin>*250,false,null,<liquid:liquidethene>*10,60);
-ChemLab.addRecipe(<minecraft:dirt>,0,<minecraft:dirt>,0,<liquid:resin>*100,false,<techguns:itemshared:96>,<liquid:water>*0,100);
+ChemLab.addRecipe(<minecraft:dirt>,0,<minecraft:dirt>,0,<liquid:resin>*100,false,<mekanism:polyethene>,<liquid:water>*0,100);
 ChemLab.addRecipe(<mekanism:polyethene>,1,<minecraft:dirt>,0,<liquid:liquidethene>*10,false, <techguns:itemshared:55> ,<liquid:water>*0,100);
 recipes.remove(<mekanism:polyethene:2>);
 mods.mekanism.enrichment.removeRecipe(<mekanism:polyethene>);
@@ -40,7 +40,7 @@ mods.mekanism.reaction.addRecipe(<mekanism:biofuel>, <liquid:water>*10, <gas:hyd
 mods.mekanism.reaction.addRecipe(<mekanism:substrate>, <liquid:gasoline>*10, <gas:ethene>*1000, <techguns:itemshared:55> , <gas:oxygen>*20, 5000, 200);
 recipes.replaceAllOccurences(<mekanism:polyethene:2>, <techguns:itemshared:55>);
 
-//wire
+//wire-导线
 recipes.remove(<techreborn:cable>);
 recipes.remove(<techreborn:cable:1>);
 recipes.remove(<techreborn:cable:2>);

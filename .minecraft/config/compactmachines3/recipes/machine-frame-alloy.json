@@ -6,7 +6,7 @@
 
   "duration": 600,
 
-  "catalyst": "contenttweaker:basic_circuit",
+  "catalyst": "contenttweaker:elite_circuit",
 
   "input-types": {
     "i": { "id": "contenttweaker:block_carbon" },
