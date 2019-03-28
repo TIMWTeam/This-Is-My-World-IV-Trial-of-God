@@ -17,7 +17,7 @@ mods.astralsorcery.Grindstone.addRecipe(<minecraft:glass>,<evilcraft:blood_orb>)
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("custom:altar/blockwell",<astralsorcery:blockwell>,100,100,[<astralsorcery:blockmarble:6>,null,<astralsorcery:blockmarble:6>,<astralsorcery:blockmarble:4>,<astralsorcery:itemrockcrystalsimple>,<astralsorcery:blockmarble:4>,<astralsorcery:itemrockcrystalsimple>,<astralsorcery:blockmarble:6>,<astralsorcery:itemrockcrystalsimple>]);
 
 //pure starlight
-mods.astralsorcery.Altar.addAttunmentAltarRecipe("null",<contenttweaker:pure_starlight>,200,120,[null,<astralsorcery:itemcraftingcomponent:2>,null,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemtunedcelestialcrystal>,<astralsorcery:itemcraftingcomponent:2>,null,<astralsorcery:itemcraftingcomponent:2>,null,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>]);
+mods.astralsorcery.Altar.addAttunmentAltarRecipe("pure_starlight",<contenttweaker:pure_starlight>,200,120,[null,<astralsorcery:itemcraftingcomponent:2>,null,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemtunedcelestialcrystal>,<astralsorcery:itemcraftingcomponent:2>,null,<astralsorcery:itemcraftingcomponent:2>,null,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>]);
 
 
 
