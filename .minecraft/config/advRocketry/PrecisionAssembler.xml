@@ -262,12 +262,12 @@
 	
 	<Recipe timeRequired="200" power ="256">
 		<input>
-			<itemStack>contenttweaker:basic_circuit 1</itemStack>
+			<itemStack>contenttweaker:basic_circuit</itemStack>
 			<oreDict>plateInvar 4</oreDict>
 			<oreDict>gearCopper 2</oreDict>
 			<oreDict>dustRedstone 6</oreDict>
 			<oreDict>wireCopper 8</oreDict>
-			<itemStack>actuallyadditions:item_crystal_empowered 4</itemStack>
+			<itemStack>mekanism:controlcircuit</itemStack>
 		</input>
 		<output>
 			<itemStack>thermalfoundation:upgrade</itemStack>
@@ -276,25 +276,26 @@
 	
 	<Recipe timeRequired="300" power ="512">
 		<input>
-			<itemStack>contenttweaker:advanced_circuit 1</itemStack>
+			<itemStack>contenttweaker:advanced_circuit</itemStack>
 			<oreDict>plateElectrum 4</oreDict>
 			<oreDict>gearSilver 2</oreDict>
 			<oreDict>blockGlassHardened 4</oreDict>
 			<oreDict>wireGold 8</oreDict>
+			<itemStack>mekanism:controlcircuit 1 1</itemStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:upgrade 1</itemStack>
+			<itemStack>thermalfoundation:upgrade 1 1</itemStack>
 		</output>
 	</Recipe>
 	
 	<Recipe timeRequired="400" power ="2048">
 		<input>
 			<itemStack>contenttweaker:elite_circuit 1</itemStack>
-			<itemStack>actuallyadditions:item_crystal_empowered 4 2</itemStack>
 			<oreDict>plateSignalum 4</oreDict>
 			<oreDict>gearElectrumFlux 2</oreDict>
 			<oreDict>blockGlassHardened 4</oreDict>
 			<oreDict>fiberCarbon 8</oreDict>
+			<itemStack>mekanism:controlcircuit 1 2</itemStack>
 		</input>
 		<output>
 			<itemStack>thermalfoundation:upgrade 1 2</itemStack>
@@ -304,10 +305,11 @@
 	<Recipe timeRequired="600" power ="8196">
 		<input>
 			<itemStack>contenttweaker:ultimate_circuit 2</itemStack>
+			<oreDict>plateMithril 4</oreDict>
 			<oreDict>gearEnderium 2</oreDict>
 			<oreDict>dustPyrotheum 4</oreDict>
-			<itemStack>actuallyadditions:item_crystal_empowered 4 4</itemStack>
 			<itemStack>techguns:itemshared 8 69</itemStack>
+			<itemStack>mekanism:controlcircuit 1 3</itemStack>
 		</input>
 		<output>
 			<itemStack>thermalfoundation:upgrade 1 3</itemStack>
