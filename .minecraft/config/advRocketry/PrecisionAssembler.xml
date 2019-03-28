@@ -208,11 +208,12 @@
 			<itemStack>advancedrocketry:beaconfinder</itemStack>
 		</output>
 	</Recipe>
+
 	<Recipe timeRequired="400" power ="256">
 		<input>
 			<itemStack>contenttweaker:rough_silicon_plate</itemStack>
 			<itemStack>immersiveengineering:material 1 26</itemStack>
-			<itemStack>minecraft:redstone 2 0</itemStack>
+			<itemStack>minecraft:redstone 2</itemStack>
 			<oreDict>wireCopper 6</oreDict>
 		</input>
 		<output>
@@ -223,8 +224,8 @@
 		<input>
 			<itemStack>contenttweaker:rough_silicon_plate</itemStack>
 			<itemStack>immersiveengineering:material 2 26</itemStack>
-			<itemStack>minecraft:redstone 2 0</itemStack>
-			<itemStack>minecraft:glowstone_dust 2 0</itemStack>
+			<itemStack>minecraft:redstone 2</itemStack>
+			<itemStack>minecraft:glowstone_dust 2</itemStack>
 			<oreDict>sheetPlastic 2</oreDict>
 			<oreDict>wireGold 6</oreDict>
 		</input>
@@ -252,7 +253,7 @@
 			<itemStack>minecraft:redstone 4</itemStack>
 			<itemStack>minecraft:glowstone_dust 4</itemStack>
 			<itemStack>techguns:itemshared 2 54</itemStack>
-			<oreDict>alloyUltimate 2</oreDict><mekanism:>
+			<oreDict>alloyUltimate 2</oreDict>
 		</input>
 		<output>
 			<itemStack>contenttweaker:ultimate_circuit</itemStack>
@@ -261,7 +262,7 @@
 	
 	<Recipe timeRequired="200" power ="256">
 		<input>
-			<itemStack>contenttweaker:basic_circuit</itemStack>
+			<itemStack>contenttweaker:basic_circuit 1</itemStack>
 			<oreDict>plateInvar 4</oreDict>
 			<oreDict>gearCopper 2</oreDict>
 			<oreDict>dustRedstone 6</oreDict>
@@ -275,23 +276,23 @@
 	
 	<Recipe timeRequired="300" power ="512">
 		<input>
-			<itemStack>contenttweaker:advanced_circuit</itemStack>
+			<itemStack>contenttweaker:advanced_circuit 1</itemStack>
 			<oreDict>plateElectrum 4</oreDict>
 			<oreDict>gearSilver 2</oreDict>
 			<oreDict>blockGlassHardened 4</oreDict>
 			<oreDict>wireGold 8</oreDict>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:upgrade 1 1</itemStack>
+			<itemStack>thermalfoundation:upgrade 1</itemStack>
 		</output>
 	</Recipe>
 	
 	<Recipe timeRequired="400" power ="2048">
 		<input>
-			<itemStack>contenttweaker:elite_circuit</itemStack>
+			<itemStack>contenttweaker:elite_circuit 1</itemStack>
+			<itemStack>actuallyadditions:item_crystal_empowered 4 2</itemStack>
 			<oreDict>plateSignalum 4</oreDict>
 			<oreDict>gearElectrumFlux 2</oreDict>
-			<itemStack>actuallyadditions:item_crystal_empowered 4 2</itemStack>
 			<oreDict>blockGlassHardened 4</oreDict>
 			<oreDict>fiberCarbon 8</oreDict>
 		</input>
