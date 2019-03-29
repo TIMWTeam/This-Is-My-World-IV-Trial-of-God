@@ -1,4 +1,4 @@
-14394 nodes in total
+14382 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1496,11 +1496,7 @@ ftbutilities.claims.block.edit.extrabotany.trophy: OP
 ftbutilities.claims.block.edit.extrautils2.analogcrafter: OP
 ftbutilities.claims.block.edit.extrautils2.angelblock: OP
 ftbutilities.claims.block.edit.extrautils2.chunkloader: OP
-ftbutilities.claims.block.edit.extrautils2.compressedcobblestone: OP
-ftbutilities.claims.block.edit.extrautils2.compresseddirt: OP
-ftbutilities.claims.block.edit.extrautils2.compressedgravel: OP
 ftbutilities.claims.block.edit.extrautils2.compressednetherrack: OP
-ftbutilities.claims.block.edit.extrautils2.compressedsand: OP
 ftbutilities.claims.block.edit.extrautils2.crafter: OP
 ftbutilities.claims.block.edit.extrautils2.creativechest: OP
 ftbutilities.claims.block.edit.extrautils2.creativeenergy: OP
@@ -5011,11 +5007,7 @@ ftbutilities.claims.block.interact.extrabotany.trophy: OP
 ftbutilities.claims.block.interact.extrautils2.analogcrafter: OP
 ftbutilities.claims.block.interact.extrautils2.angelblock: OP
 ftbutilities.claims.block.interact.extrautils2.chunkloader: OP
-ftbutilities.claims.block.interact.extrautils2.compressedcobblestone: OP
-ftbutilities.claims.block.interact.extrautils2.compresseddirt: OP
-ftbutilities.claims.block.interact.extrautils2.compressedgravel: OP
 ftbutilities.claims.block.interact.extrautils2.compressednetherrack: OP
-ftbutilities.claims.block.interact.extrautils2.compressedsand: OP
 ftbutilities.claims.block.interact.extrautils2.crafter: OP
 ftbutilities.claims.block.interact.extrautils2.creativechest: OP
 ftbutilities.claims.block.interact.extrautils2.creativeenergy: OP
@@ -9362,11 +9354,7 @@ ftbutilities.claims.item.extrautils2.boomerang: ALL
 ftbutilities.claims.item.extrautils2.chickenring: ALL
 ftbutilities.claims.item.extrautils2.chunkloader: ALL
 ftbutilities.claims.item.extrautils2.compoundbow: ALL
-ftbutilities.claims.item.extrautils2.compressedcobblestone: ALL
-ftbutilities.claims.item.extrautils2.compresseddirt: ALL
-ftbutilities.claims.item.extrautils2.compressedgravel: ALL
 ftbutilities.claims.item.extrautils2.compressednetherrack: ALL
-ftbutilities.claims.item.extrautils2.compressedsand: ALL
 ftbutilities.claims.item.extrautils2.contract: ALL
 ftbutilities.claims.item.extrautils2.crafter: ALL
 ftbutilities.claims.item.extrautils2.creativechest: ALL
@@ -14597,6 +14585,9 @@ command.rftools.rftcfg
 command.rftools.rftdb
 command.rftools.rftshape
 command.rftools.rfttp
+command.ruins.parseruin
+command.ruins.testruin
+command.ruins.undoruin
 command.say
 command.scoreboard
 command.seed

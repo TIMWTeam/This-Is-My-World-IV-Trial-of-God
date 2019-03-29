@@ -3,8 +3,8 @@ import mods.techguns.ChemLab;
 //silicon-硅-电路板
 <ore:dustSalt>.add(<immersiveengineering:material:24>);
 furnace.remove(<projectred-core:resource_item:300>);
-recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "brine", Amount: 1000}),[[null,<ore:dustSalt>,null],[<ore:dustSalt>,<minecraft:water_bucket>,<ore:dustSalt>],[null,<ore:dustSalt>,null]]);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:brine>*10, <liquid:water>*10, [<ore:dustSalt>], 512);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:772>*2, <overloaded:compressed_sand>, 4096, <mekanism:salt>*2, 0.5);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:brine>*100, <liquid:water>*100, [<ore:dustSalt>], 5120);
 mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:silicon_low_purity>, <projectred-core:resource_item:250>, 2000);
 mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:300>, <projectred-core:resource_item:250>, <immersiveengineering:material:7>, 200, 512);
 ChemLab.addRecipe(<contenttweaker:silicon_low_purity>,1,<minecraft:dirt>,0,<liquid:liquidchlorine>*10,false,<contenttweaker:silicon_chlorine>*1,<liquid:water>*0,100);
@@ -12,6 +12,10 @@ ChemLab.addRecipe(<contenttweaker:silicon_chlorine>,1,<minecraft:dirt>,0,<liquid
 mods.mekanism.reaction.addRecipe(<contenttweaker:silicon_low_purity>, <liquid:liquidchlorine>*10, <gas:hydrogen>*1000, <contenttweaker:silicon_high_purity> * 1, <gas:hydrogenchloride>, 5000, 20);
 recipes.replaceAllOccurences(<ore:circuitBasic>, <contenttweaker:basic_circuit>);
 recipes.replaceAllOccurences(<ore:circuitAdvanced>, <contenttweaker:advanced_circuit>);
+recipes.replaceAllOccurences(<ic2:crafting:2>, <contenttweaker:advanced_circuit>);
+recipes.remove(<ic2:crafting:1>);
+recipes.remove(<ic2:crafting:2>);
+recipes.addShapeless(<ic2:crafting:2>, [<contenttweaker:advanced_circuit>]);
 
 //液态煤炭
 mods.immersiveengineering.Refinery.addRecipe(<liquid:crude_oil> * 8, <liquid:coal> * 8, <liquid:ethanol> * 16, 2048);

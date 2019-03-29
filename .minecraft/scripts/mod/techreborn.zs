@@ -1,5 +1,8 @@
 
 //misc
+recipes.remove(<techreborn:ore:1>);
+recipes.remove(<techreborn:part:29>);
+recipes.remove(<techreborn:part:30>);
 furnace.remove(<techreborn:ingot:19>);
 recipes.remove(<techreborn:ingot:21>);
 recipes.addShaped(<techreborn:ingot:21>*5,[[<ore:ingotTungstensteel>,<ore:ingotTungstensteel>,<ore:ingotTungstensteel>],[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>],[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);

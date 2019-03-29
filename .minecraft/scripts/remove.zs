@@ -83,5 +83,5 @@ recipes.removeByRecipeName("primal:paper");
 recipes.remove(<thermalfoundation:upgrade:*>);
 recipes.remove(<notenoughwands:acceleration_wand>);
 recipes.removeByRecipeName("techguns:itemshared_62_copperwire");
-
+recipes.remove(<overloaded:nether_star_block>);
 
