@@ -42,6 +42,8 @@
 <ore:blockAE_meteors>.add(<appliedenergistics2:sky_stone_block>);
 
 //misc
+<ore:dustSalt>.add(<immersiveengineering:material:24>);
+<ore:dustSalt>.add(<techreborn:dust:44>);
 <ore:crystalCinnabar>.add(<thaumcraft:quicksilver>);
 <ore:itemCinnabar>.add(<thaumcraft:quicksilver>);
 <ore:blockAmber>.add(<thaumcraft:amber_block>);

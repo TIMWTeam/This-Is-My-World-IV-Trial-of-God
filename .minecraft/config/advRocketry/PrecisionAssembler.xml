@@ -279,7 +279,7 @@
 			<itemStack>contenttweaker:advanced_circuit</itemStack>
 			<oreDict>plateElectrum 4</oreDict>
 			<oreDict>gearSilver 2</oreDict>
-			<oreDict>blockGlassHardened 4</oreDict>
+			<oreDict>dustGlowstone 4</oreDict>
 			<oreDict>wireGold 8</oreDict>
 			<itemStack>mekanism:controlcircuit 1 1</itemStack>
 		</input>

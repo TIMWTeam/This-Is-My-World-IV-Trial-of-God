@@ -1,12 +1,15 @@
 //key放在了材质包:contenttweaker/lang/zh_cn.lang内
 mods.jei.JEI.addDescription(<contenttweaker:windproof_bottle>, "key.misc_01.jei");
-<contenttweaker:bottle_of_wind>.addTooltip(format.lightPurple("key.misc_01.tooltip"));
 mods.jei.JEI.addDescription(<astralsorcery:blockcustomsandore>, "key.misc_02.jei");
-<astralsorcery:blockcustomsandore>.addTooltip(format.lightPurple("key.misc_02.tooltip"));
 mods.jei.JEI.addDescription(<advanced_solar_panels:machines>, "key.misc_03.jei");
-<advanced_solar_panels:machines>.addTooltip(format.lightPurple("key.misc_03.tooltip"));
-<ic2:misc_resource:1>.addTooltip(format.lightPurple("key.misc_04.tooltip"));
-<contenttweaker:pure_starlight>.addTooltip(format.gold("key.misc_05.tooltip"));
+<contenttweaker:bottle_of_wind>.addTooltip(format.lightPurple("慢着，风也是空气，那瓶子里原来装的是什么？？"));
+<astralsorcery:blockcustomsandore>.addTooltip(format.lightPurple("星能液与熔岩所产生的沙子中，极低概率产生"));
+<advanced_solar_panels:machines>.addTooltip(format.lightPurple("配方实际存在，但无法显示"));
+<ic2:misc_resource:1>.addTooltip(format.lightPurple("在分子重组仪内放入铁矿获得"));
+<thermalfoundation:ore:7>.addTooltip(format.lightPurple("在分子重组仪内放入铁矿获得"));
+<contenttweaker:pure_starlight>.addTooltip(format.gold("拿在手上你似乎感觉到了一丝的寒冷"));
+<industrialforegoing:petrified_fuel_generator>.addTooltip(format.lightPurple("核能火力发电机（雾）"));
+
 //Cost reduction
 recipes.remove(<rftools:coalgenerator>);
 recipes.remove(<rftools:powercell>);

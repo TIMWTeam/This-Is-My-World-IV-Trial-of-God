@@ -1,9 +1,9 @@
 import crafttweaker.item.IItemStack;
 //misc
 recipes.removeByRecipeName("enderio:end_steel_chassis");
-recipes.addShaped(<enderio:item_material:66>,[[<enderio:block_end_iron_bars>,<ore:ingotEndSteel>,<enderio:block_end_iron_bars>],[<ore:ingotEndSteel>,<contenttweaker:advanced_circuit>,<ore:ingotEndSteel>],[<enderio:block_end_iron_bars>,<ore:ingotEndSteel>,<enderio:block_end_iron_bars>]]);
+recipes.addShaped(<enderio:item_material:66>,[[<enderio:block_end_iron_bars>,<ore:ingotEndSteel>,<enderio:block_end_iron_bars>],[<ore:ingotEndSteel>,<contenttweaker:elite_circuit>,<ore:ingotEndSteel>],[<enderio:block_end_iron_bars>,<ore:ingotEndSteel>,<enderio:block_end_iron_bars>]]);
 recipes.removeByRecipeName("enderio:simple_chassis");
-recipes.addShaped(<enderio:item_material>,[[<ore:barsIron>,<ore:ingotIron>,<ore:barsIron>],[<ore:ingotIron>,<contenttweaker:basic_circuit>,<ore:ingotIron>],[<ore:barsIron>,<ore:ingotIron>,<ore:barsIron>]]);
+recipes.addShaped(<enderio:item_material>,[[<ore:barsIron>,<ore:ingotIron>,<ore:barsIron>],[<ore:ingotIron>,<contenttweaker:advanced_circuit>,<ore:ingotIron>],[<ore:barsIron>,<ore:ingotIron>,<ore:barsIron>]]);
 recipes.remove(<enderio:item_material:9>);
 recipes.remove(<enderio:item_material:10>);
 recipes.replaceAllOccurences(<enderio:item_material:11>, <ore:gearIron>);
