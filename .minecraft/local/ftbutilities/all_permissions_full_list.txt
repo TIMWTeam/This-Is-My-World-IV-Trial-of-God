@@ -1,4 +1,4 @@
-14393 nodes in total
+14394 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -8616,16 +8616,17 @@ ftbutilities.claims.item.contenttweaker.block_alloy: ALL
 ftbutilities.claims.item.contenttweaker.block_carbon: ALL
 ftbutilities.claims.item.contenttweaker.bottle_of_wind: ALL
 ftbutilities.claims.item.contenttweaker.dirty_blood: ALL
+ftbutilities.claims.item.contenttweaker.elite_circuit: ALL
 ftbutilities.claims.item.contenttweaker.feature: ALL
+ftbutilities.claims.item.contenttweaker.hypocritical_world: ALL
 ftbutilities.claims.item.contenttweaker.pure_starlight: ALL
 ftbutilities.claims.item.contenttweaker.purgatory_dust: ALL
 ftbutilities.claims.item.contenttweaker.refined_silicon_plate: ALL
-ftbutilities.claims.item.contenttweaker.refining_gold_liquid: ALL
 ftbutilities.claims.item.contenttweaker.rough_silicon_plate: ALL
 ftbutilities.claims.item.contenttweaker.silicon_chlorine: ALL
 ftbutilities.claims.item.contenttweaker.silicon_high_purity: ALL
 ftbutilities.claims.item.contenttweaker.silicon_low_purity: ALL
-ftbutilities.claims.item.contenttweaker.wafer_silicon: ALL
+ftbutilities.claims.item.contenttweaker.ultimate_circuit: ALL
 ftbutilities.claims.item.contenttweaker.windproof_bottle: ALL
 ftbutilities.claims.item.danknull.dank_null: ALL
 ftbutilities.claims.item.danknull.dank_null_panel: ALL

@@ -169,7 +169,6 @@ recipes.addShaped(<industrialforegoing:ore_sieve>,[[<thermalfoundation:material:
 
 recipes.remove(<industrialforegoing:petrified_fuel_generator>);
 recipes.addShaped(<industrialforegoing:petrified_fuel_generator>,[[<ore:plateIron>,<thermalexpansion:dynamo:3>,<ore:plateIron>],[<thermalfoundation:material:25>,<ic2:te:24>,<thermalfoundation:material:25>],[<ore:plateIron>,<minecraft:furnace>,<ore:plateIron>]]);
-<industrialforegoing:petrified_fuel_generator>.addTooltip(format.lightPurple("key.if_machine_01.tooltip"));
 
 recipes.remove(<rftools:spawner>);
 recipes.remove(<industrialforegoing:mob_duplicator>);
@@ -204,7 +203,7 @@ recipes.remove(<industrialforegoing:water_condensator>);
 recipes.addShaped(<industrialforegoing:water_condensator>,[[<thermalfoundation:material:32>,<minecraft:bucket>,<thermalfoundation:material:32>],[<minecraft:piston>,<teslacorelib:machine_case>,<minecraft:piston>],[<thermalfoundation:material:32>,<minecraft:bucket>,<thermalfoundation:material:32>]]);
 recipes.addShapeless(<industrialforegoing:water_condensator>, [<thermalexpansion:device>]);
 recipes.addShapeless(<forestry:raintank>, [<industrialforegoing:water_condensator>]);
-recipes.addShapeless(<industrialforegoing:water_condensator>, [<forestry:raintank>]);
+recipes.addShapeless(<thermalexpansion:device>, [<forestry:raintank>]);
 
 recipes.remove(<industrialforegoing:animal_stock_increaser>);
 recipes.addShaped(<industrialforegoing:animal_stock_increaser>,[[<thermalfoundation:material:32>,<minecraft:golden_apple>,<thermalfoundation:material:32>],[<minecraft:golden_carrot>,<ic2:resource:12>,<minecraft:golden_carrot>],[<ore:dyePurple>,<thermalfoundation:material:24>,<ore:dyePurple>]]);

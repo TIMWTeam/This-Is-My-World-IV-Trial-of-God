@@ -6,7 +6,7 @@
 
   "duration": 200,
 
-  "catalyst": "minecraft:ender_pearl",
+  "catalyst": "contenttweaker:basic_circuit",
 
   "input-types": {
     "i": { "id": "immersiveengineering:sheetmetal", "meta":"9" }

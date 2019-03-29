@@ -65,4 +65,13 @@
 			<itemStack>projectred-core:resource_item 1 300</itemStack>
 		</output>
 	</Recipe>
+	
+	<Recipe timeRequired="400" power ="205">
+		<input>
+			<itemStack>techreborn:ingot 1 21</itemStack>
+		</input>
+		<output>
+			<itemStack>techreborn:ingot 1 20</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

@@ -6,7 +6,7 @@
 
   "duration": 400,
 
-  "catalyst": "actuallyadditions:item_crystal_empowered",
+  "catalyst": "contenttweaker:advanced_circuit",
 
   "input-types": {
     "i": { "id": "immersiveengineering:sheetmetal", "meta":"9" },
