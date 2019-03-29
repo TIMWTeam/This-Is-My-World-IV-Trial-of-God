@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack;
 recipes.remove(<techguns:itemshared:65>);
 recipes.remove(<techguns:itemshared:66>);
 recipes.addShapeless(<techguns:itemshared:105>,[<minecraft:nether_star>,<techguns:itemshared:104>]);
+recipes.addShapeless(<techguns:itemshared:98>,[<ic2:nuclear>]);
 
 //MetalPress
 mods.techguns.MetalPress.removeRecipe(<techguns:itemshared:64>);
@@ -16,6 +17,22 @@ var outputs1 = [<ic2:purified:6>*2] as IItemStack[];
 mods.techguns.ReactionChamber.addRecipe("Uranium",<ic2:resource:4>,<liquid:creeper_acid>,outputs1,<techguns:itemshared:104>,7, 4, 7, 0, 4, 1000,0.0, "EXPLOSION_LOW", 25000);
 mods.techguns.ReactionChamber.removeRecipe(<immersiveengineering:metal:14>, <liquid:water>);
 
+
+//machine-craft
+recipes.remove(<techguns:basicmachine:2>);
+recipes.addShaped(<techguns:basicmachine:2>,[[<ore:ingotIron>,<minecraft:chest>,<ore:ingotIron>],[<minecraft:glass_bottle>,<ic2:resource:12>,<minecraft:glass_bottle>],[<ore:ingotIron>,<techguns:itemshared:70>,<ore:ingotIron>]]);
+
+recipes.remove(<techguns:multiblockmachine>);
+recipes.addShaped(<techguns:multiblockmachine>*4,[[<techreborn:plates:32>,<techguns:itemshared:59>,<techreborn:plates:32>],[<contenttweaker:elite_circuit>,<ic2:resource:13>,<contenttweaker:elite_circuit>],[<techreborn:plates:32>,<techguns:itemshared:53>,<techreborn:plates:32>]]);
+
+recipes.remove(<techguns:multiblockmachine:2>);
+recipes.addShaped(<techguns:multiblockmachine:2>,[[null,<ore:blockGlassHardened>,null],[<contenttweaker:ultimate_circuit>,<techguns:multiblockmachine>,<contenttweaker:ultimate_circuit>],[null,<ore:blockGlassHardened>,null]]);
+
+recipes.remove(<techguns:multiblockmachine:3>);
+recipes.addShaped(<techguns:multiblockmachine:3>*9,[[<techguns:itemshared:55>,<techguns:itemshared:59>,<techguns:itemshared:55>],[<contenttweaker:elite_circuit>,<ic2:resource:13>,<contenttweaker:elite_circuit>],[<techguns:itemshared:55>,<techguns:itemshared:53>,<techguns:itemshared:55>]]);
+
+recipes.remove(<techguns:multiblockmachine:5>);
+recipes.addShaped(<techguns:multiblockmachine:5>,[[null,<ore:blockGlassHardened>,null],[<contenttweaker:ultimate_circuit>,<techguns:multiblockmachine:3>,<contenttweaker:ultimate_circuit>],[null,<ore:blockGlassHardened>,null]]);
 
 
 

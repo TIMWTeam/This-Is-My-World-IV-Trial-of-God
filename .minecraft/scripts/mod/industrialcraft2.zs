@@ -3,11 +3,14 @@
 recipes.remove(<ic2:crafting:4>);
 recipes.remove(<ic2:ingot>);
 recipes.replaceAllOccurences(<ic2:crafting:4>, <techreborn:plates:37>);
-<ore:plateIridiumAlloy>.add(<ic2:crafting:4>);
-
+recipes.replaceAllOccurences(<ore:plateIridiumAlloy>, <techreborn:plates:37>);
+<ore:plateIridiumAlloy>.remove(<ic2:crafting:4>);
 //你尘鸽又不是什么恶魔，自动化的方案还是会给的
 mods.immersiveengineering.BottlingMachine.addRecipe(<ic2:resource:11>, <ic2:scaffold:2>, <liquid:concrete>*250);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:concrete>*1000, <liquid:water>*250, [<ic2:dust:15>, <ic2:dust:15>, <minecraft:sand>, <minecraft:gravel>], 2048);
+recipes.remove(<ic2:nuclear:4>);
+recipes.addShaped(<ic2:nuclear:4>,[[<ic2:nuclear:2>,<ic2:nuclear:2>,<ic2:nuclear:2>],[<ic2:nuclear:3>,<ic2:nuclear:3>,<ic2:nuclear:3>],[<ic2:nuclear:2>,<ic2:nuclear:2>,<ic2:nuclear:2>]]);
+recipes.addShaped(<ic2:resource:4>*8,[[<ic2:misc_resource:3>,null,<ic2:misc_resource:3>],[<ic2:misc_resource:3>,null,<ic2:misc_resource:3>],[<ic2:misc_resource:3>,<ic2:misc_resource:3>,<ic2:misc_resource:3>]]);
 
 //machine-craft
 recipes.remove(<ic2:resource:24>);

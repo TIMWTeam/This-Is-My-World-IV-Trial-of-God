@@ -15,4 +15,12 @@ recipes.addShaped(<mekanism:machineblock:8>,[[<ore:ingotIron>,<minecraft:furnace
 recipes.remove(<mekanism:machineblock2:4>);
 recipes.addShaped(<mekanism:machineblock2:4>.withTag({mekData: {}}),[[<ore:ingotIron>,<mekanism:electrolyticcore>,<ore:ingotIron>],[<minecraft:redstone>,<mekanism:basicblock:8>,<minecraft:redstone>],[<ore:ingotIron>,<minecraft:redstone>,<ore:ingotIron>]]);
 
+recipes.remove(<mekanismgenerators:generator:10>);
+recipes.addShaped(<mekanismgenerators:generator:10>*2,[[<ore:ingotOsmium>,<bigreactors:turbinehousing>,<ore:ingotOsmium>],[<bigreactors:turbinehousing>,<ore:ingotOsmium>,<bigreactors:turbinehousing>],[<ore:ingotOsmium>,<bigreactors:turbinehousing>,<ore:ingotOsmium>]]);
+
+recipes.remove(<mekanismgenerators:reactor:1>);
+recipes.addShaped(<mekanismgenerators:reactor:1>*2,[[<mekanism:basicblock:8>,<bigreactors:reactorcasing>,<mekanism:basicblock:8>],[<bigreactors:reactorcasing>,<mekanism:controlcircuit:3>,<bigreactors:reactorcasing>],[<mekanism:basicblock:8>,<bigreactors:reactorcasing>,<mekanism:basicblock:8>]]);
+
+
+
 

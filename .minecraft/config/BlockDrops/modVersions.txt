@@ -104,7 +104,7 @@
   "p455w0rdslib": "2.0.36",
   "astralsorcery": "1.10.3",
   "enderiointegrationforestry": "5.0.40",
-  "modularmachinery": "1.9.4",
+  "modularmachinery": "1.9.5",
   "rftools": "7.59",
   "extendedcrafting": "1.5.0",
   "cofhcore": "4.6.1",
