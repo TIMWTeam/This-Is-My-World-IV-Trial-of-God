@@ -37,7 +37,9 @@ mods.thaumcraft.Crucible.registerRecipe("Shimmerleaf", "", <thaumcraft:shimmerle
 mods.thaumcraft.Crucible.registerRecipe("Vishroom", "", <thaumcraft:vishroom>, <ore:mushroomAny>, [<aspect:vitium>*4]);
 //Cinderpearl
 mods.thaumcraft.Crucible.registerRecipe("Cinderpearl", "", <thaumcraft:cinderpearl>, <minecraft:tallgrass:1>, [<aspect:ignis>*8]);
-
+//
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("infusion_matrix", "", 60, [<aspect:perditio>,<aspect:aer>,<aspect:terra>,<aspect:ignis>,<aspect:aqua>,<aspect:ordo>],<thaumcraft:infusion_matrix>, [[<thaumcraft:stone_arcane_brick>,<bloodmagic:slate:2>,<thaumcraft:stone_arcane_brick>],[<bloodmagic:slate:2>,<minecraft:ender_pearl>,<bloodmagic:slate:2>],[<thaumcraft:stone_arcane_brick>,<bloodmagic:slate:2>,<thaumcraft:stone_arcane_brick>]]);
 
 
 
