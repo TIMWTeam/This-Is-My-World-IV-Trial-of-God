@@ -10,6 +10,8 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<ic2:resource:11>, <ic2:scaf
 mods.immersiveengineering.Mixer.addRecipe(<liquid:concrete>*1000, <liquid:water>*250, [<ic2:dust:15>, <ic2:dust:15>, <minecraft:sand>, <minecraft:gravel>], 2048);
 recipes.remove(<ic2:nuclear:4>);
 recipes.addShaped(<ic2:nuclear:4>,[[<ic2:nuclear:2>,<ic2:nuclear:2>,<ic2:nuclear:2>],[<ic2:nuclear:3>,<ic2:nuclear:3>,<ic2:nuclear:3>],[<ic2:nuclear:2>,<ic2:nuclear:2>,<ic2:nuclear:2>]]);
+recipes.remove(<ic2:nuclear:10>);
+recipes.addShaped(<ic2:nuclear:10>,[[<thermalfoundation:material:32>,<thermalfoundation:material:32>,<thermalfoundation:material:32>],[<ic2:nuclear:3>,<ic2:nuclear:3>,<ic2:nuclear:3>],[<thermalfoundation:material:32>,<thermalfoundation:material:32>,<thermalfoundation:material:32>]]);
 recipes.addShaped(<ic2:resource:4>*8,[[<ic2:misc_resource:3>,null,<ic2:misc_resource:3>],[<ic2:misc_resource:3>,null,<ic2:misc_resource:3>],[<ic2:misc_resource:3>,<ic2:misc_resource:3>,<ic2:misc_resource:3>]]);
 
 //machine-craft
