@@ -34,77 +34,77 @@ recipes.addShaped(<advancedrocketry:spaceboots>,[[null,<ore:stickIron>,null],[<o
 
 //material-all
 var material =	[<redstonearsenal:material:224>,
-                    <matteroverdrive:tritanium_ingot>,
-                    <minecraft:dye:4>,
-                    <mekanism:ingot>,
-                    <thermalfoundation:material:160>,
-                    <mekanism:ingot:3>,
-                    <thermalfoundation:material:163>,
-                    <mekanism:ingot:1>,
-                    <thaumcraft:ingot:1>,
-                    <thaumcraft:ingot>,
-                    <extrabotany:material:5>,
-                    <botania:manaresource>,
-                    <botania:manaresource:7> ] as IItemStack[];
+			<matteroverdrive:tritanium_ingot>,
+			<minecraft:dye:4>,
+			<mekanism:ingot>,
+			<thermalfoundation:material:160>,
+			<mekanism:ingot:3>,
+			<thermalfoundation:material:163>,
+			<mekanism:ingot:1>,
+			<thaumcraft:ingot:1>,
+			<thaumcraft:ingot>,
+			<extrabotany:material:5>,
+			<botania:manaresource>,
+			<botania:manaresource:7> ] as IItemStack[];
 var helmet =	[<redstonearsenal:armor.helmet_flux>,
-                    <matteroverdrive:tritanium_helmet>,
-                    <mekanismtools:lapislazulihelmet>,
-                    <mekanismtools:obsidianhelmet>,
-                    <mekanismtools:steelhelmet>,
-                    <mekanismtools:glowstonehelmet>,
-                    <mekanismtools:bronzehelmet>,
-                    <mekanismtools:osmiumhelmet>,
-                    <thaumcraft:void_helm>,
-                    <thaumcraft:thaumium_helm>,
-                    <extrabotany:shadowwarriorhelm>,
-                    <botania:manasteelhelm>,
-                    <botania:elementiumhelm> ] as IItemStack[];
+			<matteroverdrive:tritanium_helmet>,
+			<mekanismtools:lapislazulihelmet>,
+			<mekanismtools:obsidianhelmet>,
+			<mekanismtools:steelhelmet>,
+			<mekanismtools:glowstonehelmet>,
+			<mekanismtools:bronzehelmet>,
+			<mekanismtools:osmiumhelmet>,
+			<thaumcraft:void_helm>,
+			<thaumcraft:thaumium_helm>,
+			<extrabotany:shadowwarriorhelm>,
+			<botania:manasteelhelm>,
+			<botania:elementiumhelm> ] as IItemStack[];
 var chest =	[<redstonearsenal:armor.plate_flux>,
-                    <matteroverdrive:tritanium_chestplate>,
-                    <mekanismtools:lapislazulichestplate>,
-                    <mekanismtools:obsidianchestplate>,
-                    <mekanismtools:steelchestplate>,
-                    <mekanismtools:glowstonechestplate>,
-                    <mekanismtools:bronzechestplate>,
-                    <mekanismtools:osmiumchestplate>,
-                    <thaumcraft:void_chest>,
-                    <thaumcraft:thaumium_chest>,
-                    <extrabotany:shadowwarriorchest>,
-                    <botania:manasteelchest>,
-                    <botania:elementiumchest>] as IItemStack[];
+			<matteroverdrive:tritanium_chestplate>,
+			<mekanismtools:lapislazulichestplate>,
+			<mekanismtools:obsidianchestplate>,
+			<mekanismtools:steelchestplate>,
+			<mekanismtools:glowstonechestplate>,
+			<mekanismtools:bronzechestplate>,
+			<mekanismtools:osmiumchestplate>,
+			<thaumcraft:void_chest>,
+			<thaumcraft:thaumium_chest>,
+			<extrabotany:shadowwarriorchest>,
+			<botania:manasteelchest>,
+			<botania:elementiumchest>] as IItemStack[];
 var legs =	[<redstonearsenal:armor.legs_flux>,
-                    <matteroverdrive:tritanium_leggings>,
-                    <mekanismtools:lapislazulileggings>,
-                    <mekanismtools:obsidianleggings>,
-                    <mekanismtools:steelleggings>,
-                    <mekanismtools:glowstoneleggings>,
-                    <mekanismtools:bronzeleggings>,
-                    <mekanismtools:osmiumleggings>,
-                    <thaumcraft:void_legs>,
-                    <thaumcraft:thaumium_legs>,
-                    <extrabotany:shadowwarriorlegs>,
-                    <botania:manasteellegs>,
-                    <botania:elementiumlegs> ] as IItemStack[];
+			<matteroverdrive:tritanium_leggings>,
+			<mekanismtools:lapislazulileggings>,
+			<mekanismtools:obsidianleggings>,
+			<mekanismtools:steelleggings>,
+			<mekanismtools:glowstoneleggings>,
+			<mekanismtools:bronzeleggings>,
+			<mekanismtools:osmiumleggings>,
+			<thaumcraft:void_legs>,
+			<thaumcraft:thaumium_legs>,
+			<extrabotany:shadowwarriorlegs>,
+			<botania:manasteellegs>,
+			<botania:elementiumlegs> ] as IItemStack[];
 var boots =	[<redstonearsenal:armor.boots_flux>,
-                    <matteroverdrive:tritanium_boots>,
-                    <mekanismtools:lapislazuliboots>,
-                    <mekanismtools:obsidianboots>,
-                    <mekanismtools:steelboots>,
-                    <mekanismtools:glowstoneboots>,
-                    <mekanismtools:bronzeboots>,
-                    <mekanismtools:osmiumboots>,
-                    <thaumcraft:void_boots>,
-                    <thaumcraft:thaumium_boots>,
-                    <extrabotany:shadowwarriorboots>,
-                    <botania:manasteelboots>,
-                    <botania:elementiumboots>] as IItemStack[];
+			<matteroverdrive:tritanium_boots>,
+			<mekanismtools:lapislazuliboots>,
+			<mekanismtools:obsidianboots>,
+			<mekanismtools:steelboots>,
+			<mekanismtools:glowstoneboots>,
+			<mekanismtools:bronzeboots>,
+			<mekanismtools:osmiumboots>,
+			<thaumcraft:void_boots>,
+			<thaumcraft:thaumium_boots>,
+			<extrabotany:shadowwarriorboots>,
+			<botania:manasteelboots>,
+			<botania:elementiumboots>] as IItemStack[];
 for i, mat in material {
-    recipes.remove(helmet[i]);
-    recipes.remove(chest[i]);
-    recipes.remove(legs[i]);
-    recipes.remove(boots[i]);
-    recipes.addShaped(helmet[i], [[mat,mat,mat],[mat,<minecraft:leather_helmet>,mat]]);
-    recipes.addShaped(chest[i], [[mat,<minecraft:leather_chestplate>,mat],[mat,mat,mat],[mat,mat,mat]]);
-    recipes.addShaped(legs[i], [[mat,mat,mat],[mat,<minecraft:leather_leggings>,mat],[mat,null,mat]]);
-    recipes.addShaped(boots[i], [[mat,null,mat],[mat,<minecraft:leather_boots>,mat]]);
+	recipes.remove(helmet[i]);
+	recipes.remove(chest[i]);
+	recipes.remove(legs[i]);
+	recipes.remove(boots[i]);
+	recipes.addShaped(helmet[i], [[mat,mat,mat],[mat,<minecraft:leather_helmet>,mat]]);
+	recipes.addShaped(chest[i], [[mat,<minecraft:leather_chestplate>,mat],[mat,mat,mat],[mat,mat,mat]]);
+	recipes.addShaped(legs[i], [[mat,mat,mat],[mat,<minecraft:leather_leggings>,mat],[mat,null,mat]]);
+	recipes.addShaped(boots[i], [[mat,null,mat],[mat,<minecraft:leather_boots>,mat]]);
 }

@@ -21,6 +21,13 @@ mods.extendedcrafting.EnderCrafting.addShaped(<industrialforegoing:black_hole_ta
 	[<minecraft:bucket>, <compactmachines3:machine:5>, <minecraft:bucket>]
 ]);
 
+recipes.remove(<botania:blackholetalisman>);
+mods.extendedcrafting.EnderCrafting.addShaped(<botania:blackholetalisman>, [
+	[<ore:nuggetElvenElementium>, <ore:nuggetElvenElementium>, <ore:nuggetElvenElementium>], 
+	[<ore:nuggetElvenElementium>, <industrialforegoing:black_hole_unit>, <ore:nuggetElvenElementium>], 
+	[<ore:nuggetElvenElementium>, <ore:nuggetElvenElementium>, <ore:nuggetElvenElementium>]
+]);
+
 //TableCrafting 0=任意合成台，1-4为指定级别合成台
 mods.extendedcrafting.TableCrafting.addShaped(0, <ic2:resource:13>, [
 	[<ore:plateInvar>, <ore:plateInvar>, <ore:sheetPlastic>, <ore:plateInvar>, <ore:plateInvar>], 

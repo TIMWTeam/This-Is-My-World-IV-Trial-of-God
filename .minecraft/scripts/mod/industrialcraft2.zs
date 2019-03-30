@@ -12,7 +12,21 @@ recipes.remove(<ic2:nuclear:4>);
 recipes.addShaped(<ic2:nuclear:4>,[[<ic2:nuclear:2>,<ic2:nuclear:2>,<ic2:nuclear:2>],[<ic2:nuclear:3>,<ic2:nuclear:3>,<ic2:nuclear:3>],[<ic2:nuclear:2>,<ic2:nuclear:2>,<ic2:nuclear:2>]]);
 recipes.remove(<ic2:nuclear:10>);
 recipes.addShaped(<ic2:nuclear:10>,[[<thermalfoundation:material:32>,<thermalfoundation:material:32>,<thermalfoundation:material:32>],[<ic2:nuclear:3>,<ic2:nuclear:3>,<ic2:nuclear:3>],[<thermalfoundation:material:32>,<thermalfoundation:material:32>,<thermalfoundation:material:32>]]);
+
+//UU
+mods.mekanism.combiner.removeRecipe(<draconicevolution:draconium_ore>);
+mods.mekanism.combiner.removeRecipe(<rftools:dimensional_shard_ore>);
+mods.mekanism.combiner.removeRecipe(<techreborn:ore:8>);
+mods.mekanism.combiner.removeRecipe(<ic2:resource:4>);
+mods.mekanism.combiner.removeRecipe(<thermalfoundation:ore:7>);
 recipes.addShaped(<ic2:resource:4>*8,[[<ic2:misc_resource:3>,null,<ic2:misc_resource:3>],[<ic2:misc_resource:3>,null,<ic2:misc_resource:3>],[<ic2:misc_resource:3>,<ic2:misc_resource:3>,<ic2:misc_resource:3>]]);
+recipes.addShaped(<thermalfoundation:ore:7>,[[<ic2:misc_resource:3>,<ic2:misc_resource:3>,<ic2:misc_resource:3>],[null,<ic2:misc_resource:3>,null],[<ic2:misc_resource:3>,<ic2:misc_resource:3>,<ic2:misc_resource:3>]]);
+recipes.addShaped(<matteroverdrive:dilithium_ore>*64,[[<ic2:misc_resource:3>,<ic2:misc_resource:3>]]);
+recipes.addShaped(<matteroverdrive:tritanium_ore>*128,[[<ic2:misc_resource:3>,null,<ic2:misc_resource:3>]]);
+recipes.addShaped(<techreborn:ore:8>*32,[[<ic2:misc_resource:3>],[<ic2:misc_resource:3>]]);
+recipes.addShaped(<techguns:basicore:3>*32,[[<ic2:misc_resource:3>,null],[null,<ic2:misc_resource:3>]]);
+recipes.addShaped(<rftools:dimensional_shard_ore>*64,[[<ic2:misc_resource:3>,null,null],[null,null,<ic2:misc_resource:3>]]);
+recipes.addShaped(<draconicevolution:draconium_ore>*48,[[<ic2:misc_resource:3>],[<ic2:misc_resource:3>]]);
 
 //machine-craft
 recipes.remove(<ic2:resource:24>);
@@ -34,7 +48,6 @@ recipes.addShaped(<ic2:te:89>,[[<ic2:wrench>],[<ic2:te:88>],[<contenttweaker:adv
 recipes.addShaped(<ic2:te:92>,[[<thermalfoundation:material:328>,<contenttweaker:elite_circuit>,<thermalfoundation:material:328>],[<ic2:resource:13>,<ic2:lapotron_crystal:26>,<ic2:resource:13>],[<thermalfoundation:material:328>,<contenttweaker:elite_circuit>,<thermalfoundation:material:328>]]);
 
 recipes.addShapeless(<ic2:te:93>,[<ic2:te:89>,<ic2:misc_resource:3>]);
-
 
 
 

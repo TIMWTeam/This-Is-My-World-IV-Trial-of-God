@@ -26,17 +26,18 @@ for i, block in blocks {
     mods.botania.ElvenTrade.addRecipe([crystals[i]],[clusters[i]]);
 }
 //Silverwood
-mods.thaumcraft.Crucible.registerRecipe("Silverwood_lod", "", <thaumcraft:log_silverwood>, <ore:logWood>, [<aspect:herba>*8,<aspect:auram>*5]);
-mods.thaumcraft.Infusion.registerRecipe("Silverwood", "", <thaumcraft:sapling_silverwood>, 10, [<aspect:auram>*32, <aspect:victus>*32,<aspect:herba>*16], <thaumcraft:sapling_greatwood>, [<thaumcraft:log_silverwood>,<thaumcraft:log_silverwood>,<thaumcraft:shimmerleaf>,<thaumcraft:shimmerleaf>,<thaumcraft:quicksilver>,<thaumcraft:quicksilver>]);
+mods.thaumcraft.Crucible.registerRecipe("Silverwood_lod", "", <thaumcraft:log_silverwood>, <ore:logWood>, [<aspect:herba>*40,<aspect:auram>*10]);
+mods.thaumcraft.Infusion.registerRecipe("Silverwood", "", <thaumcraft:sapling_silverwood>, 10, [<aspect:auram>*64, <aspect:victus>*32,<aspect:herba>*32], <thaumcraft:sapling_greatwood>, [<thaumcraft:log_silverwood>,<thaumcraft:log_silverwood>,<thaumcraft:shimmerleaf>,<thaumcraft:shimmerleaf>,<thaumcraft:quicksilver>,<thaumcraft:quicksilver>]);
 //Greatwood
-mods.thaumcraft.Crucible.registerRecipe("Greatwood_lod", "", <thaumcraft:log_greatwood>, <ore:logWood>, [<aspect:herba>*8,<aspect:victus>*5]);
-mods.thaumcraft.Infusion.registerRecipe("Greatwood", "", <thaumcraft:sapling_greatwood>, 10, [<aspect:auram>*16, <aspect:victus>*16,<aspect:herba>*16], <ore:treeSapling>, [<thaumcraft:log_greatwood>,<thaumcraft:log_greatwood>,<ore:treeLeaves>,<ore:treeLeaves>,<thaumcraft:amber>,<thaumcraft:amber>]);
+mods.thaumcraft.Crucible.registerRecipe("Greatwood_lod", "", <thaumcraft:log_greatwood>, <ore:logWood>, [<aspect:herba>*40,<aspect:victus>*10]);
+mods.thaumcraft.Infusion.registerRecipe("Greatwood", "", <thaumcraft:sapling_greatwood>, 10, [<aspect:auram>*16, <aspect:victus>*16,<aspect:herba>*32], <ore:treeSapling>, [<thaumcraft:log_greatwood>,<thaumcraft:log_greatwood>,<ore:treeLeaves>,<ore:treeLeaves>,<thaumcraft:amber>,<thaumcraft:amber>]);
 //Shimmerleaf
-mods.thaumcraft.Crucible.registerRecipe("Shimmerleaf", "", <thaumcraft:shimmerleaf>, <ore:minecraft_flower>,[<aspect:auram>*15, <aspect:potentia>*5]);
+mods.thaumcraft.Crucible.registerRecipe("Shimmerleaf", "", <thaumcraft:shimmerleaf>, <ore:minecraft_flower>,[<aspect:auram>*20,<aspect:herba>*10,<aspect:potentia>*10]);
 //Vishroom
-mods.thaumcraft.Crucible.registerRecipe("Vishroom", "", <thaumcraft:vishroom>, <ore:mushroomAny>, [<aspect:vitium>*4]);
+mods.thaumcraft.Crucible.registerRecipe("Vishroom", "", <thaumcraft:vishroom>, <ore:mushroomAny>, [<aspect:herba>*4,<aspect:mortuus>*2,<aspect:praecantatio>*2,<aspect:perditio>*2]);
 //Cinderpearl
-mods.thaumcraft.Crucible.registerRecipe("Cinderpearl", "", <thaumcraft:cinderpearl>, <minecraft:tallgrass:1>, [<aspect:ignis>*8]);
+mods.thaumcraft.Crucible.registerRecipe("Cinderpearl", "", <thaumcraft:cinderpearl>, <minecraft:tallgrass:1>, [<aspect:ignis>*15,<aspect:herba>*10,<aspect:auram>*10]);
+
 //
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("infusion_matrix", "", 60, [<aspect:perditio>,<aspect:aer>,<aspect:terra>,<aspect:ignis>,<aspect:aqua>,<aspect:ordo>],<thaumcraft:infusion_matrix>, [[<thaumcraft:stone_arcane_brick>,<bloodmagic:slate:2>,<thaumcraft:stone_arcane_brick>],[<bloodmagic:slate:2>,<minecraft:ender_pearl>,<bloodmagic:slate:2>],[<thaumcraft:stone_arcane_brick>,<bloodmagic:slate:2>,<thaumcraft:stone_arcane_brick>]]);

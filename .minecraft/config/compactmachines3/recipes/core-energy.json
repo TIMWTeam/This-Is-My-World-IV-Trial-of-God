@@ -1,0 +1,55 @@
+{
+  "name": "custom:core-energy",
+  "target-item": "overloaded:energy_core",
+  "target-meta": 0,
+  "target-count": 4,
+
+  "duration": 400,
+
+  "catalyst": "extendedcrafting:storage",
+  "catalyst-meta": 2,
+
+  "input-types": {
+    "i": { "id": "advancedrocketry:metal0", "meta":"1" },
+    "s": { "id": "thermalexpansion:frame", "meta":"148"  }
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"]
+    ],
+    [
+      ["i","i","i","i","i"],
+      ["i","s","s","s","i"],
+      ["i","s","s","s","i"],
+      ["i","s","s","s","i"],
+      ["i","i","i","i","i"]
+    ],
+    [
+      ["i","i","i","i","i"],
+      ["i","s","s","s","i"],
+      ["i","s","s","s","i"],
+      ["i","s","s","s","i"],
+      ["i","i","i","i","i"]
+    ],
+    [
+      ["i","i","i","i","i"],
+      ["i","s","s","s","i"],
+      ["i","s","s","s","i"],
+      ["i","s","s","s","i"],
+      ["i","i","i","i","i"]
+    ],
+    [
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"]
+    ]
+  ]
+}

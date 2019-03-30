@@ -65,9 +65,12 @@ recipes.addShapeless(<industrialforegoing:block_placer>, [<ore:block_placer>]);
 recipes.addShapeless(<actuallyadditions:block_phantom_placer>, [<ore:block_placer>,<actuallyadditions:block_phantomface>]);
 recipes.addShapeless(<integratedtunnels:part_exporter_world_block_item>, [<integratedtunnels:part_exporter_item_item>,<ore:block_placer>,<integrateddynamics:logic_director>]);
 
-
-
-
+//quantum_storage
+recipes.remove(<quantumstorage:quantum_tank>);
+recipes.addShapeless(<industrialforegoing:black_hole_tank>, [<quantumstorage:quantum_tank>]);
+recipes.addShapeless(<quantumstorage:quantum_tank>, [<industrialforegoing:black_hole_tank>]);
+recipes.addShapeless(<quantumstorage:quantum_storage_unit>, [<industrialforegoing:black_hole_unit>]);
+recipes.addShapeless(<industrialforegoing:black_hole_unit>, [<quantumstorage:quantum_storage_unit>]);
 
 
 
