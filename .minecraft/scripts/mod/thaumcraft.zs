@@ -38,13 +38,17 @@ mods.thaumcraft.Crucible.registerRecipe("Vishroom", "", <thaumcraft:vishroom>, <
 //Cinderpearl
 mods.thaumcraft.Crucible.registerRecipe("Cinderpearl", "", <thaumcraft:cinderpearl>, <minecraft:tallgrass:1>, [<aspect:ignis>*15,<aspect:herba>*10,<aspect:auram>*10]);
 
-//
+//ArcaneWorkbench
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("infusion_matrix", "", 60, [<aspect:perditio>,<aspect:aer>,<aspect:terra>,<aspect:ignis>,<aspect:aqua>,<aspect:ordo>],<thaumcraft:infusion_matrix>, [[<thaumcraft:stone_arcane_brick>,<bloodmagic:slate:2>,<thaumcraft:stone_arcane_brick>],[<bloodmagic:slate:2>,<minecraft:ender_pearl>,<bloodmagic:slate:2>],[<thaumcraft:stone_arcane_brick>,<bloodmagic:slate:2>,<thaumcraft:stone_arcane_brick>]]);
 
-
-
-
+//Infusion
+mods.thaumcraft.Infusion.registerRecipe("pe_tome", "", <projecte:item.pe_tome>, 20, 
+    [<aspect:aer>*128, <aspect:terra>*128,<aspect:ignis>*128,<aspect:aqua>*128, <aspect:ordo>*128,<aspect:perditio>*128,<aspect:alkimia>*128,<aspect:cognitio>*512], 
+    <projecte:item.pe_transmutation_tablet>, 
+    [<minecraft:knowledge_book>,<rftools:rftools_shape_manual>,<bloodmagic:experience_tome>,<guideapi:bloodmagic-guide>,<bloodmagic:sanguine_book>,<guideapi:bloodarsenal-guide>,
+    <tconstruct:book>,<actuallyadditions:item_booklet>,<xnet:xnet_manual>,<extrautils2:book>,<techreborn:techmanuel>,<industrialforegoing:book_manual>,<immersiveengineering:tool:3>,
+    <forestry:book_forester>,<botania:lexicon>,<astralsorcery:itemjournal>,<embers:codex>,<draconicevolution:info_tablet>,<thaumcraft:thaumonomicon>,<evilcraft:origins_of_darkness>]);
 
 
 

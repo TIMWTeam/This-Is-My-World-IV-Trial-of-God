@@ -9,6 +9,7 @@ mods.jei.JEI.addDescription(<advanced_solar_panels:machines>, "key.misc_03.jei")
 <thermalfoundation:ore:7>.addTooltip(format.lightPurple("在分子重组仪内放入铁矿获得"));
 <contenttweaker:pure_starlight>.addTooltip(format.gold("拿在手上你似乎感觉到了一丝的寒冷"));
 <industrialforegoing:petrified_fuel_generator>.addTooltip(format.lightPurple("核能火力发电机（雾）"));
+<projecte:item.pe_tome>.addTooltip(format.gold("你认真读书了吗？！（震声）"));
 
 //Cost reduction
 recipes.remove(<rftools:coalgenerator>);

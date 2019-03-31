@@ -11,7 +11,7 @@
 
   "input-types": {
     "i": { "id": "advancedrocketry:metal0", "meta":"1" },
-    "s": { "id": "thermalexpansion:frame", "meta":"148"  }
+    "s": { "id": "draconicevolution:draconium_block", "meta":"1" }
   },
 
   "symmetrical": true,

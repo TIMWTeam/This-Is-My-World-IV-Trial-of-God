@@ -30,6 +30,13 @@ for i, out in outs {
 	recipes.addShaped(out,[[<draconicevolution:draconium_ingot>,<draconicevolution:wyvern_core>,<draconicevolution:draconium_ingot>],[<draconicevolution:draconium_ingot>,inputs[i],<draconicevolution:draconium_ingot>],[<draconicevolution:draconium_ingot>,<draconicevolution:wyvern_energy_core>,<draconicevolution:draconium_ingot>]]);
 }
 
+recipes.remove(<draconicevolution:energy_pylon>);
+recipes.addShaped(<draconicevolution:energy_pylon>*2,[[<draconicevolution:draconic_core>,<overloaded:energy_extractor>,<draconicevolution:draconic_core>],[<overloaded:hyper_energy_receiver>,<overloaded:energy_core>,<overloaded:hyper_energy_sender>],[<draconicevolution:draconic_core>,<overloaded:energy_extractor>,<draconicevolution:draconic_core>]]);
+
+
+
+
+
 
 
 

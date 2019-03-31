@@ -1,0 +1,241 @@
+[
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_chest",
+        "catalyst": "draconicevolution:wyvern_chest"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_chest",
+        "catalyst": "draconicevolution:wyvern_chest",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "techguns:antigravpack",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconium_block,1,4",
+        "catalyst": "draconicevolution:draconium_block",
+        "energy": 10000000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:draconium_block",
+            "draconicevolution:draconium_block",
+            "draconicevolution:draconium_block"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,1",
+        "catalyst": "draconicevolution:crafting_injector"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,1,1",
+        "catalyst": "draconicevolution:crafting_injector",
+        "energy": 256000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "minecraft:diamond",
+            "minecraft:diamond",
+            "minecraft:diamond",
+            "minecraft:diamond",
+            "overloaded:energy_core"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1",
+        "energy": 1792000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "overloaded:energy_core",
+            "draconicevolution:wyvern_core",
+	    "draconicevolution:draconic_block"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,3",
+        "catalyst": "draconicevolution:crafting_injector,1,2"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,1,3",
+        "catalyst": "draconicevolution:crafting_injector,1,2",
+        "energy": 48000000,
+        "tier": 0,
+        "ingredients": [
+            "overloaded:energy_core",
+            "draconicevolution:chaotic_core",
+            "overloaded:energy_core",
+            "overloaded:energy_core",
+	    "minecraft:dragon_egg",	    
+            "overloaded:energy_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:celestial_manipulator",
+        "catalyst": "forestry:rainmaker",
+        "energy": 150000,
+        "tier": 0,
+        "ingredients": [
+	    "draconicevolution:draconium_ingot",
+            "draconicevolution:wyvern_core",
+            "overloaded:energy_core",
+            "minecraft:clock",
+	    "draconicevolution:draconium_ingot",
+	    "draconicevolution:draconium_ingot",
+            "minecraft:dragon_egg",
+	    "minecraft:comparator",
+	    "draconicevolution:draconium_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "projecte:condenser_mk1",
+        "catalyst": "projecte:alchemical_chest",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1"
+        ]
+    },{
+        "mode": "ADD",
+        "result": "projecte:condenser_mk2",
+        "catalyst": "projecte:condenser_mk1",
+        "energy": 5000000,
+        "tier": 2,
+        "ingredients": [
+            "projecte:matter_block",
+            "projecte:matter_block",
+            "projecte:matter_block",
+            "projecte:matter_block",
+            "projecte:matter_block,1,1",
+            "projecte:matter_block,1,1",
+            "projecte:matter_block,1,1",
+            "projecte:matter_block,1,1"
+        ]
+    },{
+        "mode": "ADD",
+        "result": "projecte:relay_mk1",
+        "catalyst": "projecte:dm_furnace",
+        "energy": 500000,
+        "tier": 0,
+        "ingredients": [
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian"
+        ]
+    },{
+        "mode": "ADD",
+        "result": "projecte:relay_mk2",
+        "catalyst": "projecte:relay_mk1",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian",
+            "minecraft:obsidian"
+        ]
+    },{
+        "mode": "ADD",
+        "result": "projecte:relay_mk3",
+        "catalyst": "projecte:relay_mk2",
+        "energy": 5000000,
+        "tier": 2,
+        "ingredients": [
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1"
+        ]
+    },{
+        "mode": "ADD",
+        "result": "projecte:collector_mk1",
+        "catalyst": "projecte:dm_furnace",
+        "energy": 500000,
+        "tier": 0,
+        "ingredients": [
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone"
+        ]
+    },{
+        "mode": "ADD",
+        "result": "projecte:collector_mk2",
+        "catalyst": "projecte:collector_mk1",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone",
+            "minecraft:glowstone"
+        ]
+    },{
+        "mode": "ADD",
+        "result": "projecte:collector_mk3",
+        "catalyst": "projecte:collector_mk2",
+        "energy": 5000000,
+        "tier": 2,
+        "ingredients": [
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1",
+            "projecte:item.pe_matter,1,1"
+        ]
+    }
+]
