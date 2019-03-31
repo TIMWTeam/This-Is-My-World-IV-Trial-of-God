@@ -1,5 +1,5 @@
 //key放在了材质包:contenttweaker/lang/zh_cn.lang内
-mods.jei.JEI.addDescription(<contenttweaker:windproof_bottle>, "key.misc_01.jei");
+mods.jei.JEI.addDescription(<extraalchemy:air_bottle>, "key.misc_01.jei");
 mods.jei.JEI.addDescription(<astralsorcery:blockcustomsandore>, "key.misc_02.jei");
 mods.jei.JEI.addDescription(<advanced_solar_panels:machines>, "key.misc_03.jei");
 <extraalchemy:air_bottle>.addTooltip(format.lightPurple("慢着，风也是空气，那瓶子里原来装的是什么？？"));
