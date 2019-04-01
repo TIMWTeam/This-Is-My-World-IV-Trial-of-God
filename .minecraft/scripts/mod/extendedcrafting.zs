@@ -208,5 +208,12 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <projecte:transmutation_table>,
 	[<projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>]
 ]);
 
-
+recipes.remove(<draconicevolution:energy_storage_core>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:energy_storage_core>, [
+	[<ore:plateElectrumFlux>, <ore:plateElectrumFlux>, <ore:ingotDraconium>, <ore:plateElectrumFlux>, <ore:plateElectrumFlux>], 
+	[<ore:plateElectrumFlux>, <overloaded:energy_core>, <ore:ingotDraconium>, <overloaded:energy_core>, <ore:plateElectrumFlux>], 
+	[<ore:ingotDraconium>, <ore:ingotDraconium>, <draconicevolution:wyvern_core>, <ore:ingotDraconium>, <ore:ingotDraconium>], 
+	[<ore:plateElectrumFlux>, <overloaded:energy_core>, <ore:ingotDraconium>, <overloaded:energy_core>, <ore:plateElectrumFlux>], 
+	[<ore:plateElectrumFlux>, <ore:plateElectrumFlux>, <ore:ingotDraconium>, <ore:plateElectrumFlux>, <ore:plateElectrumFlux>]
+]);
 

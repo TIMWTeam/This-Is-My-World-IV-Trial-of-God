@@ -63,6 +63,7 @@ furnace.remove(<libvulpes:productingot:7>);
 mods.tconstruct.Melting.removeRecipe(<liquid:titanium>);
 <ore:ingotCarbon>.remove(<advancedrocketry:misc:1>);
 <ore:blockTitaniumIridium>.remove(<advancedrocketry:metal0:1>);
+<ore:stackedJungle>.add(<forestry:wood_pile>);
 
 
 //liquid

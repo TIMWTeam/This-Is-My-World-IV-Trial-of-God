@@ -1,4 +1,4 @@
-14382 nodes in total
+14381 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -8606,7 +8606,6 @@ ftbutilities.claims.item.contenttweaker.advanced_circuit: ALL
 ftbutilities.claims.item.contenttweaker.basic_circuit: ALL
 ftbutilities.claims.item.contenttweaker.block_alloy: ALL
 ftbutilities.claims.item.contenttweaker.block_carbon: ALL
-ftbutilities.claims.item.contenttweaker.bottle_of_wind: ALL
 ftbutilities.claims.item.contenttweaker.dirty_blood: ALL
 ftbutilities.claims.item.contenttweaker.elite_circuit: ALL
 ftbutilities.claims.item.contenttweaker.feature: ALL
@@ -8619,7 +8618,6 @@ ftbutilities.claims.item.contenttweaker.silicon_chlorine: ALL
 ftbutilities.claims.item.contenttweaker.silicon_high_purity: ALL
 ftbutilities.claims.item.contenttweaker.silicon_low_purity: ALL
 ftbutilities.claims.item.contenttweaker.ultimate_circuit: ALL
-ftbutilities.claims.item.contenttweaker.windproof_bottle: ALL
 ftbutilities.claims.item.danknull.dank_null: ALL
 ftbutilities.claims.item.danknull.dank_null_panel: ALL
 ftbutilities.claims.item.danknull.danknull_dock: ALL
@@ -9267,6 +9265,7 @@ ftbutilities.claims.item.extendedcrafting.table_basic: ALL
 ftbutilities.claims.item.extendedcrafting.table_elite: ALL
 ftbutilities.claims.item.extendedcrafting.table_ultimate: ALL
 ftbutilities.claims.item.extendedcrafting.trimmed: ALL
+ftbutilities.claims.item.extraalchemy.air_bottle: ALL
 ftbutilities.claims.item.extraalchemy.alchemical_dissovent: ALL
 ftbutilities.claims.item.extraalchemy.alchemy_array_transmute: ALL
 ftbutilities.claims.item.extraalchemy.blood_bottle: ALL
