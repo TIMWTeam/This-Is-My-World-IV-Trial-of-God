@@ -1,0 +1,13 @@
+{
+    "machine": "demon_will_coagulator_2",
+    "registryName": "demon_will_coagulator_2",
+    "recipeTime": 400,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "bloodmagic:item_demon_crystal@0",
+            "amount": 1
+        }
+    ]
+}
