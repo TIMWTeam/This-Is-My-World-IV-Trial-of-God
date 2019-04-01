@@ -11,7 +11,7 @@
 
   "input-types": {
     "i": { "id": "advancedrocketry:metal0", "meta":"1" },
-    "s": { "id": "industrialforegoing:black_hole_tank" }
+    "s": { "id": "quantumstorage:quantum_tank" }
   },
 
   "symmetrical": true,

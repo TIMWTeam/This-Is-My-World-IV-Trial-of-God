@@ -14,6 +14,7 @@ var feature = VanillaFactory.createItem("feature");
 feature.rarity = "rare";
 feature.register();
 
+/*
 var bottle_of_wind = VanillaFactory.createItem("bottle_of_wind");
 bottle_of_wind.itemRightClick = function(stack, world, player, hand) {
 	if (!world.remote) { 
@@ -34,7 +35,7 @@ windproof_bottle.itemRightClick = function(stack, world, player, hand) {
 	return "SUCCESS";
 };
 windproof_bottle.register();
-
+*/
 
 var silicon_low_purity = VanillaFactory.createItem("silicon_low_purity");
 silicon_low_purity.register();

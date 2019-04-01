@@ -11,7 +11,6 @@
 <ore:plate>.add(<minecraft:stone_pressure_plate>);
 
 <ore:glass_bottle>.add(<minecraft:glass_bottle>);
-<ore:bottle_of_air>.add(<contenttweaker:bottle_of_wind>);
 
 <ore:earth>.addItems([<minecraft:dirt>,<minecraft:sand>,<minecraft:cobblestone>,<minecraft:stone>]);
 <ore:fertilizer>.addItems([<primal:ash_common>,<forestry:ash>]);
@@ -63,6 +62,8 @@ furnace.remove(<ore:ingotTitanium>);
 furnace.remove(<libvulpes:productingot:7>);
 mods.tconstruct.Melting.removeRecipe(<liquid:titanium>);
 <ore:ingotCarbon>.remove(<advancedrocketry:misc:1>);
+<ore:blockTitaniumIridium>.remove(<advancedrocketry:metal0:1>);
+
 
 //liquid
 mods.industrialforegoing.FluidDictionary.add("blood", "evilcraftblood", 1);

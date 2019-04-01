@@ -12,19 +12,14 @@ recipes.addShapeless(<minecraft:stone>, [philo, <ore:sand>]);
 //------------------essence------------------
 //earth
 recipes.addShaped(earth, [[<ore:earth>, <ore:earth>, <ore:earth>], [<ore:earth>, philo, <ore:earth>], [<ore:earth>, <ore:earth>, <ore:earth>]]);
-
 //water
-
+recipes.addShaped(water, [[<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>], [<ore:treeLeaves>, philo, <ore:treeLeaves>], [<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>]]);
 //fire
-
+recipes.addShaped(fire, [[<ore:clumpFuel>, <ore:clumpFuel>, <ore:clumpFuel>], [<ore:clumpFuel>, philo, <ore:clumpFuel>], [<ore:clumpFuel>, <ore:clumpFuel>, <ore:clumpFuel>]]);
 //wind
-recipes.addShapeless(wind, [philo, <contenttweaker:bottle_of_wind>.transformReplace(<minecraft:glass_bottle>), <contenttweaker:bottle_of_wind>.transformReplace(<minecraft:glass_bottle>), <contenttweaker:bottle_of_wind>.transformReplace(<minecraft:glass_bottle>), <contenttweaker:bottle_of_wind>.transformReplace(<minecraft:glass_bottle>)]);
-recipes.addShapeless(<contenttweaker:windproof_bottle>, [philo, <minecraft:glass_bottle>]);
+recipes.addShapeless(wind, [philo, <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>)]);
 
 //------------------material------------------
-//log
-
-//ingot
 
 //redstone
 recipes.addShaped(<minecraft:redstone>, [[<ore:button>, <ore:button>, <ore:button>], [<ore:button>, philo, <ore:button>], [<ore:button>, <ore:button>, <ore:button>]]);
@@ -52,15 +47,6 @@ mods.primal.Cauldron.removeRecipe("primal:boiled_leather");
 recipes.removeByRecipeName("primal:leather_boiled");
 recipes.addShapeless(<minecraft:leather>, [<ore:leather>]);
 recipes.replaceAllOccurences(<minecraft:leather>, <ore:leather>);
-
-//-------------------tools-------------------
-recipes.removeByRecipeName("appliedenergistics2:misc/grindstone");
-recipes.addShaped(<appliedenergistics2:grindstone>, [[<ore:stone>, <ore:gearWood>, <ore:stone>], [<minecraft:flint>, <ore:stone>, <minecraft:flint>], [<ore:cobblestone>, <minecraft:flint>, <ore:cobblestone>]]);
-
-
-//recipes.addShaped(<extraalchemy:alchemy_array_transmute>, [[earth, <ore:dustGold>, wind], [<extraalchemy:blood_bottle>, philo, <extraalchemy:blood_bottle>], [water, <ore:dustGold>, fire]]);
-
-//
 
 //------------------nether------------------
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:netherrack>, <ore:cobblestone>, <liquid:lava>, 100, true, 20);

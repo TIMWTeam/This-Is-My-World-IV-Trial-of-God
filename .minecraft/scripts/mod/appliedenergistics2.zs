@@ -10,6 +10,8 @@ mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:19>, 
 //misc
 mods.techguns.ChargingStation.addRecipe(<appliedenergistics2:material>,<appliedenergistics2:material:1>,8000);
 
+recipes.removeByRecipeName("appliedenergistics2:misc/grindstone");
+recipes.addShaped(<appliedenergistics2:grindstone>, [[<ore:stone>, <ore:gearWood>, <ore:stone>], [<minecraft:flint>, <ore:stone>, <minecraft:flint>], [<ore:cobblestone>, <minecraft:flint>, <ore:cobblestone>]]);
 
 
 

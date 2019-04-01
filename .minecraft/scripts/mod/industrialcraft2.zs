@@ -14,8 +14,7 @@ recipes.remove(<ic2:nuclear:10>);
 recipes.addShaped(<ic2:nuclear:10>,[[<thermalfoundation:material:32>,<thermalfoundation:material:32>,<thermalfoundation:material:32>],[<ic2:nuclear:3>,<ic2:nuclear:3>,<ic2:nuclear:3>],[<thermalfoundation:material:32>,<thermalfoundation:material:32>,<thermalfoundation:material:32>]]);
 
 //UU
-mods.mekanism.combiner.removeRecipe(<draconicevolution:draconium_ore>);
-mods.mekanism.combiner.removeRecipe(<rftools:dimensional_shard_ore>);
+mods.mekanism.combiner.removeRecipe(<ore:oreDraconium>);
 mods.mekanism.combiner.removeRecipe(<techreborn:ore:8>);
 mods.mekanism.combiner.removeRecipe(<ic2:resource:4>);
 mods.mekanism.combiner.removeRecipe(<thermalfoundation:ore:7>);
