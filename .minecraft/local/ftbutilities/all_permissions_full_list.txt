@@ -14613,6 +14613,9 @@ command.toggledownfall
 command.topaddons.tophelmet
 command.tp
 command.trigger
+command.voidislandcontrol.island
+command.voidislandcontrol.islandadmin
+command.voidislandcontrol.startinginv
 command.weather
 command.worldborder
 command.xnet.xnetcheck
