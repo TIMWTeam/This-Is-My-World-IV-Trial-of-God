@@ -1,6 +1,8 @@
 import crafttweaker.item.IItemStack;
 
 //misc
+recipes.remove(<draconicevolution:celestial_manipulator>);
+
 recipes.remove(<draconicevolution:wyvern_energy_core>);
 recipes.addShaped(<draconicevolution:wyvern_energy_core>*4,[[<draconicevolution:draconic_core>,<redstonearsenal:material:160>,<draconicevolution:draconic_core>],[<redstonearsenal:material:160>,<overloaded:energy_core>,<redstonearsenal:material:160>],[<draconicevolution:draconic_core>,<redstonearsenal:material:160>,<draconicevolution:draconic_core>]]);
 
