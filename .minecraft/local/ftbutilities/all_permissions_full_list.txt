@@ -1,4 +1,4 @@
-14381 nodes in total
+14411 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1484,9 +1484,13 @@ ftbutilities.claims.block.edit.extraalchemy.alchemical_dissovent: OP
 ftbutilities.claims.block.edit.extraalchemy.alchemy_array_transmute: OP
 ftbutilities.claims.block.edit.extraalchemy.bloodstain: OP
 ftbutilities.claims.block.edit.extrabotany.blockorichalcos: OP
+ftbutilities.claims.block.edit.extrabotany.blockphotonium: OP
+ftbutilities.claims.block.edit.extrabotany.blockshadowium: OP
 ftbutilities.claims.block.edit.extrabotany.cocoondesire: OP
+ftbutilities.claims.block.edit.extrabotany.dimensioncatalyst: OP
 ftbutilities.claims.block.edit.extrabotany.elfjar: OP
 ftbutilities.claims.block.edit.extrabotany.fluidedmana: OP
+ftbutilities.claims.block.edit.extrabotany.lightsource: OP
 ftbutilities.claims.block.edit.extrabotany.manabarrel: OP
 ftbutilities.claims.block.edit.extrabotany.managenerator: OP
 ftbutilities.claims.block.edit.extrabotany.manaliquefaction: OP
@@ -4995,9 +4999,13 @@ ftbutilities.claims.block.interact.extraalchemy.alchemical_dissovent: OP
 ftbutilities.claims.block.interact.extraalchemy.alchemy_array_transmute: OP
 ftbutilities.claims.block.interact.extraalchemy.bloodstain: OP
 ftbutilities.claims.block.interact.extrabotany.blockorichalcos: OP
+ftbutilities.claims.block.interact.extrabotany.blockphotonium: OP
+ftbutilities.claims.block.interact.extrabotany.blockshadowium: OP
 ftbutilities.claims.block.interact.extrabotany.cocoondesire: OP
+ftbutilities.claims.block.interact.extrabotany.dimensioncatalyst: OP
 ftbutilities.claims.block.interact.extrabotany.elfjar: OP
 ftbutilities.claims.block.interact.extrabotany.fluidedmana: OP
+ftbutilities.claims.block.interact.extrabotany.lightsource: OP
 ftbutilities.claims.block.interact.extrabotany.manabarrel: OP
 ftbutilities.claims.block.interact.extrabotany.managenerator: OP
 ftbutilities.claims.block.interact.extrabotany.manaliquefaction: OP
@@ -9278,8 +9286,14 @@ ftbutilities.claims.item.extraalchemy.essence_water: ALL
 ftbutilities.claims.item.extraalchemy.essence_wind: ALL
 ftbutilities.claims.item.extraalchemy.transmute_dust: ALL
 ftbutilities.claims.item.extrabotany.achilleshield: ALL
+ftbutilities.claims.item.extrabotany.allforone: ALL
 ftbutilities.claims.item.extrabotany.binder: ALL
 ftbutilities.claims.item.extrabotany.blockorichalcos: ALL
+ftbutilities.claims.item.extrabotany.blockphotonium: ALL
+ftbutilities.claims.item.extrabotany.blockshadowium: ALL
+ftbutilities.claims.item.extrabotany.bottledflame: ALL
+ftbutilities.claims.item.extrabotany.bottledpixie: ALL
+ftbutilities.claims.item.extrabotany.bottledstar: ALL
 ftbutilities.claims.item.extrabotany.buddhistrelics: ALL
 ftbutilities.claims.item.extrabotany.camera: ALL
 ftbutilities.claims.item.extrabotany.candy: ALL
@@ -9293,25 +9307,35 @@ ftbutilities.claims.item.extrabotany.combatmaidhelm: ALL
 ftbutilities.claims.item.extrabotany.combatmaidhelmrevealing: ALL
 ftbutilities.claims.item.extrabotany.combatmaidlegs: ALL
 ftbutilities.claims.item.extrabotany.coregod: ALL
+ftbutilities.claims.item.extrabotany.cosmetic: ALL
 ftbutilities.claims.item.extrabotany.cosmeticmaidboots: ALL
 ftbutilities.claims.item.extrabotany.cosmeticmaidchest: ALL
 ftbutilities.claims.item.extrabotany.cosmeticmaidhelm: ALL
 ftbutilities.claims.item.extrabotany.cosmeticmaidhelmrevealing: ALL
 ftbutilities.claims.item.extrabotany.cosmeticmaidlegs: ALL
 ftbutilities.claims.item.extrabotany.deathring: ALL
+ftbutilities.claims.item.extrabotany.dimensioncatalyst: ALL
 ftbutilities.claims.item.extrabotany.elementiumhammer: ALL
 ftbutilities.claims.item.extrabotany.elementiumshield: ALL
 ftbutilities.claims.item.extrabotany.elfjar: ALL
+ftbutilities.claims.item.extrabotany.elvenking: ALL
 ftbutilities.claims.item.extrabotany.excaliber: ALL
 ftbutilities.claims.item.extrabotany.failnaught: ALL
 ftbutilities.claims.item.extrabotany.fluidedmana: ALL
 ftbutilities.claims.item.extrabotany.flyingboat: ALL
+ftbutilities.claims.item.extrabotany.foxear: ALL
 ftbutilities.claims.item.extrabotany.friedchicken: ALL
 ftbutilities.claims.item.extrabotany.froststar: ALL
 ftbutilities.claims.item.extrabotany.gildedmashedpotato: ALL
+ftbutilities.claims.item.extrabotany.goblinslayerboots: ALL
+ftbutilities.claims.item.extrabotany.goblinslayerchest: ALL
+ftbutilities.claims.item.extrabotany.goblinslayerhelm: ALL
+ftbutilities.claims.item.extrabotany.goblinslayerlegs: ALL
 ftbutilities.claims.item.extrabotany.infinitewine: ALL
 ftbutilities.claims.item.extrabotany.judahoath: ALL
 ftbutilities.claims.item.extrabotany.kinggarden: ALL
+ftbutilities.claims.item.extrabotany.lens: ALL
+ftbutilities.claims.item.extrabotany.lightsource: ALL
 ftbutilities.claims.item.extrabotany.manabarrel: ALL
 ftbutilities.claims.item.extrabotany.manadrink: ALL
 ftbutilities.claims.item.extrabotany.managenerator: ALL
@@ -9324,11 +9348,14 @@ ftbutilities.claims.item.extrabotany.mastermanaring: ALL
 ftbutilities.claims.item.extrabotany.material: ALL
 ftbutilities.claims.item.extrabotany.natureorb: ALL
 ftbutilities.claims.item.extrabotany.nightmarefuel: ALL
+ftbutilities.claims.item.extrabotany.parkour: ALL
 ftbutilities.claims.item.extrabotany.pedestal: ALL
 ftbutilities.claims.item.extrabotany.puredaisypendant: ALL
 ftbutilities.claims.item.extrabotany.quantummanabuffer: ALL
 ftbutilities.claims.item.extrabotany.recordgaia3: ALL
+ftbutilities.claims.item.extrabotany.recordherrscher: ALL
 ftbutilities.claims.item.extrabotany.redscarf: ALL
+ftbutilities.claims.item.extrabotany.rewardbag943: ALL
 ftbutilities.claims.item.extrabotany.rewardbag: ALL
 ftbutilities.claims.item.extrabotany.shadowkatana: ALL
 ftbutilities.claims.item.extrabotany.shadowwarriorboots: ALL
@@ -9344,6 +9371,9 @@ ftbutilities.claims.item.extrabotany.terrasteelshield: ALL
 ftbutilities.claims.item.extrabotany.treasurebox: ALL
 ftbutilities.claims.item.extrabotany.trophy: ALL
 ftbutilities.claims.item.extrabotany.ultimatehammer: ALL
+ftbutilities.claims.item.extrabotany.walkingcane: ALL
+ftbutilities.claims.item.extrabotany.walljumping: ALL
+ftbutilities.claims.item.extrabotany.wallrunning: ALL
 ftbutilities.claims.item.extrautils2.analogcrafter: ALL
 ftbutilities.claims.item.extrautils2.angelblock: ALL
 ftbutilities.claims.item.extrautils2.bagofholding: ALL
