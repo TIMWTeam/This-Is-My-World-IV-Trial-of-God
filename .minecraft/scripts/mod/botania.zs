@@ -9,7 +9,7 @@ recipes.removeByRecipeName("botania:terraplate");
 recipes.addShaped(<botania:terraplate>,[[<ore:ingotAstralStarmetal>,<ore:ingotAstralStarmetal>,<ore:ingotAstralStarmetal>],[<ore:runeAirB>,<ore:blockBot_meteors0>,<ore:runeFireB>],[<ore:runeEarthB>,<ore:runeManaB>,<ore:runeWaterB>]]);
 
 recipes.remove(<botania:manaresource:14>);
-mods.thaumcraft.Infusion.registerRecipe("GAYYA", "GAYYA", <botania:manaresource:14>, 8, [<aspect:victus>*64, <aspect:auram>*16, <aspect:desiderium>*32], <evilcraft:blood_infusion_core>, [<botania:manaresource:4>,<contenttweaker:dirty_blood>,<botania:manaresource:5>,<contenttweaker:pure_starlight>,<botania:manaresource:4>,<contenttweaker:dirty_blood>,<botania:manaresource:5>,<contenttweaker:pure_starlight>]);
+mods.thaumcraft.Infusion.registerRecipe("GAYYA", "", <botania:manaresource:14>, 8, [<aspect:victus>*64, <aspect:auram>*16, <aspect:desiderium>*32], <evilcraft:blood_infusion_core>, [<botania:manaresource:4>,<contenttweaker:dirty_blood>,<botania:manaresource:5>,<contenttweaker:pure_starlight>,<botania:manaresource:4>,<contenttweaker:dirty_blood>,<botania:manaresource:5>,<contenttweaker:pure_starlight>]);
 
 
 //orechid

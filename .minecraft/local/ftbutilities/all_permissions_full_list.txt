@@ -1,4 +1,4 @@
-14411 nodes in total
+14410 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -9277,7 +9277,6 @@ ftbutilities.claims.item.extraalchemy.air_bottle: ALL
 ftbutilities.claims.item.extraalchemy.alchemical_dissovent: ALL
 ftbutilities.claims.item.extraalchemy.alchemy_array_transmute: ALL
 ftbutilities.claims.item.extraalchemy.blood_bottle: ALL
-ftbutilities.claims.item.extraalchemy.coal_dust: ALL
 ftbutilities.claims.item.extraalchemy.dagger: ALL
 ftbutilities.claims.item.extraalchemy.essence_earth: ALL
 ftbutilities.claims.item.extraalchemy.essence_fire: ALL

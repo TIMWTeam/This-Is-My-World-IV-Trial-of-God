@@ -145,7 +145,7 @@
   "i18nmod": "1.12.2-1.0.7",
   "instantunify": "1.1.2",
   "extraalchemy": "1.0.0",
-  "researchtable": "0.4.3",
+  "researchtable": "0.4.4",
   "quantumstorage": "4.6.4",
   "techguns": "2.0.1.2",
   "betteradvancements": "0.0.5.17",
