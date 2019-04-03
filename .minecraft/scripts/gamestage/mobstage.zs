@@ -66,7 +66,6 @@ mods.MobStages.addStage("mob_control","techguns:zombiesoldier");
 mods.MobStages.addStage("mob_control","thermalfoundation:blizz");
 mods.MobStages.addStage("mob_control","thermalfoundation:blitz");
 mods.MobStages.addStage("mob_control","thermalfoundation:basalz");
-mods.MobStages.addStage("mob_control","primal:bear_black ");
 mods.MobStages.addStage("mob_control","primal:bear_brown");
 mods.MobStages.addStage("mob_control","primal:canis_campestris");
 mods.MobStages.addStage("mob_control","primal:creeper_nether");

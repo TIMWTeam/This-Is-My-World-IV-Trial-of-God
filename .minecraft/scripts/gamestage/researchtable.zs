@@ -10,22 +10,30 @@ mods.ResearchTable.builder("demon_cry", researchType)
 			.addCondition(<bloodmagic:blood_rune> * 32)
 			.addCondition(<ore:stone> * 64)
 			.addEnergyCondition(1024000)
-			.setRewardItems(<bloodmagic:item_demon_crystal>)	//之后修改为意志凝聚器蓝图
+			.setMaxCount(1)
+			.setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:demon_will_coagulator_1"}))	
 			.build();
 mods.ResearchTable.builder("demon_cry_build", researchType) 
-			.setIcons(<bloodmagic:item_demon_crystal>)
+			.setIcons(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:demon_will_coagulator_1"}))
 			.setRequiredResearches("demon_cry")
 			.setTitle("key.researchTable.demon_cry_build.title")
 			.setDescription("key.researchTable.demon_cry_build.description")
-			.addCondition(<bloodmagic:item_demon_crystal>)
-			.addCondition(<liquid:lifeessence> * 2000)
-			.addCondition(<bloodmagic:blood_rune> * 8)
-			.addCondition(<ore:stone> * 32)
+			.addCondition(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:demon_will_coagulator_1"}))
 			.addEnergyCondition(100000)
 			.setRewardCommands("/testruin Demon_Will_Coagulator_L1")
-			.setMaxCount(1)
 			.build();
-
+mods.ResearchTable.builder("demon_cry_blueprint", researchType) 
+			.setIcons(<bloodmagic:item_demon_crystal>)
+			.setRequiredResearches("demon_cry")
+			.setTitle("key.researchTable.demon_cry_blueprint.title")
+			.setDescription("key.researchTable.demon_cry_blueprint.description")
+			.addCondition(<liquid:lifeessence> * 5000)
+			.addCondition(<ore:ingotIron> * 32)
+			.addCondition(<bloodmagic:blood_rune> * 16)
+			.addCondition(<ore:stone> * 32)
+			.addEnergyCondition(409600)
+			.setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:demon_will_coagulator_1"}))	
+			.build();
 //虚假的世界之魂-前置
 mods.ResearchTable.builder("bot_life_essence", researchType) 
 			.setIcons(<botania:manaresource:5>)
@@ -144,7 +152,7 @@ mods.ResearchTable.builder("B-003-6", researchType)
 			.setRewardCommands("/bq_admin complete 66 @p")
 			.setMaxCount(1)
 			.build();
-//“空间压缩设备”：末影珍珠，金属板，齿轮，，1MRF，解锁盖亚魂锭合成。（解锁神秘研究）
+//“空间压缩设备”
 mods.ResearchTable.builder("B-003-7", researchType) 
 			.setIcons(<compactmachines3:fieldprojector>)
 			.setTitle("key.researchTable.B_003_7.title")

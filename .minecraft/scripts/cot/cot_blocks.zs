@@ -25,3 +25,12 @@ block_alloy.toolClass = "pickaxe";
 block_alloy.toolLevel = 2;
 block_alloy.blockSoundType = <soundtype:metal>;
 block_alloy.register();
+
+var demon_will_coagulator_1 = VanillaFactory.createBlock("demon_will_coagulator_1",<blockmaterial:rock>);
+demon_will_coagulator_1.fullBlock = true;
+demon_will_coagulator_1.translucent = false;
+demon_will_coagulator_1.blockHardness = 20;
+demon_will_coagulator_1.toolClass = "pickaxe";
+demon_will_coagulator_1.toolLevel = 2;
+demon_will_coagulator_1.blockSoundType = <soundtype:metal>;
+demon_will_coagulator_1.register();

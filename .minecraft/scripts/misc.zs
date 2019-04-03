@@ -10,6 +10,7 @@ mods.jei.JEI.addDescription(<advanced_solar_panels:machines>, "key.misc_03.jei")
 <contenttweaker:pure_starlight>.addTooltip(format.gold("拿在手上你似乎感觉到了一丝的寒冷"));
 <industrialforegoing:petrified_fuel_generator>.addTooltip(format.lightPurple("核能火力发电机（雾）"));
 <projecte:item.pe_tome>.addTooltip(format.gold("你认真读书了吗？！（震声）"));
+<contenttweaker:demon_will_coagulator_1>.addTooltip(format.red("没有配方（No recipe）"));
 
 //Cost reduction
 recipes.remove(<rftools:coalgenerator>);

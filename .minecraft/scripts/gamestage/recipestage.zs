@@ -33,8 +33,14 @@ mods.recipestages.Recipes.setRecipeStage("B-003-2",<bloodmagic:alchemy_table>);
 mods.recipestages.Recipes.setRecipeStage("B-003-2",<botania:alchemycatalyst>);
 
 //B_003_3
-mods.recipestages.Recipes.setRecipeStageByRegex("B-003-3","*witch_hat*");
+mods.recipestages.Recipes.setRecipeStage("B-003-3","xreliquary:items/uncrafting/redstone");
+mods.recipestages.Recipes.setRecipeStage("B-003-3","xreliquary:items/uncrafting/glowstone_dust");
+mods.recipestages.Recipes.setRecipeStage("B-003-3","xreliquary:items/uncrafting/stick");
+mods.recipestages.Recipes.setRecipeStage("B-003-3","xreliquary:items/uncrafting/glass_bottle");
+mods.recipestages.Recipes.setRecipeStage("B-003-3","xreliquary:items/uncrafting/sugar");
+mods.recipestages.Recipes.setRecipeStage("B-003-3","xreliquary:items/uncrafting/sugar");
 mods.recipestages.Recipes.setRecipeStage("B-003-3","xreliquary:items/uncrafting/spider_eye");
+mods.recipestages.Recipes.setRecipeStage("B-003-3",<xreliquary:mob_charm_fragment:4>);
 mods.recipestages.Recipes.setRecipeStage("B-003-3",<minecraft:poisonous_potato>);
 mods.recipestages.Recipes.setRecipeStage("B-003-3",<evilcraft:promise>);
 mods.recipestages.Recipes.setRecipeStage("B-003-3",<minecraft:fermented_spider_eye>);

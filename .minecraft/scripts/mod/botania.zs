@@ -11,6 +11,7 @@ recipes.addShaped(<botania:terraplate>,[[<ore:ingotAstralStarmetal>,<ore:ingotAs
 recipes.remove(<botania:manaresource:14>);
 mods.thaumcraft.Infusion.registerRecipe("GAYYA", "", <botania:manaresource:14>, 8, [<aspect:victus>*64, <aspect:auram>*16, <aspect:desiderium>*32], <evilcraft:blood_infusion_core>, [<botania:manaresource:4>,<contenttweaker:dirty_blood>,<botania:manaresource:5>,<contenttweaker:pure_starlight>,<botania:manaresource:4>,<contenttweaker:dirty_blood>,<botania:manaresource:5>,<contenttweaker:pure_starlight>]);
 
+recipes.remove(<ic2:forge_hammer>);
 
 //orechid
 mods.botania.Orechid.removeOre(<ore:orePlatinum>);
