@@ -10,10 +10,22 @@ mods.ResearchTable.builder("demon_cry", researchType)
 			.addCondition(<bloodmagic:blood_rune> * 32)
 			.addCondition(<ore:stone> * 64)
 			.addEnergyCondition(1024000)
-			.setRewardStages("demon_cry_0")
 			.setRewardItems(<bloodmagic:item_demon_crystal>)	//之后修改为意志凝聚器蓝图
+			.build();
+mods.ResearchTable.builder("demon_cry_build", researchType) 
+			.setIcons(<bloodmagic:item_demon_crystal>)
+			.setRequiredResearches("demon_cry")
+			.setTitle("key.researchTable.demon_cry_build.title")
+			.setDescription("key.researchTable.demon_cry_build.description")
+			.addCondition(<bloodmagic:item_demon_crystal>)
+			.addCondition(<liquid:lifeessence> * 2000)
+			.addCondition(<bloodmagic:blood_rune> * 8)
+			.addCondition(<ore:stone> * 32)
+			.addEnergyCondition(100000)
+			.setRewardCommands("/testruin Demon_Will_Coagulator_L1")
 			.setMaxCount(1)
 			.build();
+
 //虚假的世界之魂-前置
 mods.ResearchTable.builder("bot_life_essence", researchType) 
 			.setIcons(<botania:manaresource:5>)
@@ -48,7 +60,8 @@ mods.ResearchTable.builder("hypocritical_world", researchType)
 			.setRewardCommands("key.researchTable.hypocritical_world.commands")
 			.setMaxCount(1)
 			.build();
-//因祸得福事件线-空间折叠技术：末影珍珠16颗，1MRF，解锁末影珍珠相关合成，触发压缩空间任务。
+//-------------------因祸得福事件线----------------
+//空间折叠技术：末影珍珠16颗，1MRF，解锁末影珍珠相关合成，触发压缩空间任务。
 mods.ResearchTable.builder("B-003-1", researchType) 
 			.setIcons(<minecraft:ender_pearl>)
 			.setTitle("key.researchTable.B_003_1.title")
