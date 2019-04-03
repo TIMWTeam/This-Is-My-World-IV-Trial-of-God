@@ -20,11 +20,12 @@
     },
     {
         "mode": "ADD",
-        "result": "draconicevolution:draconium_block,1,4",
-        "catalyst": "draconicevolution:draconium_block",
+        "result": "draconicevolution:draconium_block,4,1",
+        "catalyst": "draconicevolution:draconic_core",
         "energy": 10000000,
         "tier": 0,
         "ingredients": [
+            "draconicevolution:draconium_block",
             "draconicevolution:draconium_block",
             "draconicevolution:draconium_block",
             "draconicevolution:draconium_block"

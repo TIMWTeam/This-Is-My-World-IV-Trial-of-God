@@ -8,7 +8,7 @@ recipes.addShaped(<bloodmagic:blood_rune:5>, [[<minecraft:stone>, <bloodmagic:sl
 //blood->lifeessence
 mods.tconstruct.Melting.removeRecipe(<liquid:blood>);
 mods.tconstruct.Melting.addRecipe(<liquid:blood> * 80, <minecraft:rotten_flesh>, 340);
-mods.tconstruct.Melting.addRecipe(<liquid:lifeessence> * 10000, <extraalchemy:essence_life>, 340);
+mods.tconstruct.Melting.addRecipe(<liquid:lifeessence> * 2000, <extraalchemy:essence_life>, 340);
 mods.tconstruct.Casting.addBasinRecipe(<bloodmagic:decorative_brick>, <minecraft:stone>, <liquid:blood>, 200, true, 20);
 mods.tconstruct.Alloy.addRecipe(<liquid:lifeessence> * 100, [<liquid:water> * 90, <liquid:blood> * 10]);
 mods.thermalexpansion.Refinery.addRecipe(<liquid:lifeessence> * 1000, null, <liquid:blood> * 100, 2000);

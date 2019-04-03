@@ -74,6 +74,4 @@ recipes.addShapeless(<quantumstorage:quantum_storage_unit>, [<industrialforegoin
 recipes.addShapeless(<industrialforegoing:black_hole_unit>, [<quantumstorage:quantum_storage_unit>]);
 
 
-
-
-
+recipes.addShapeless(<redstonearsenal:tool.sword_flux>.withTag({ench: [{lvl: 10, id: 21}, {lvl: 10, id: 16}, {lvl: 10, id: 22}, {lvl: 10, id: 29}, {lvl: 10, id: 34}, {lvl: 10, id: 38}, {lvl: 10, id: 55}, {lvl: 10, id: 27}], RepairCost: 255, Energy: 320000}), [<redstonearsenal:tool.sword_flux>]);
