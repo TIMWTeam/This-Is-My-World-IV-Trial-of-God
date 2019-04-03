@@ -1,6 +1,8 @@
 {
     "registryname": "starlight_condenser_2",
     "localizedname": "Starlight Condenser Tier 2",
+	"requires-blueprint": true,
+	"color": "ffffff",
     "parts": [
         {
             "x": -1,

@@ -1,6 +1,8 @@
 {
-    "registryname": "demon_will_coagulator_L1",
-    "localizedname": "Demon Will Coagulator L1",
+    "registryname": "demon_will_coagulator_1",
+    "localizedname": "Demon Will Coagulator 1",
+    "requires-blueprint": true,
+	"color": "a13434",
     "parts": [
         {
             "x": 1,
@@ -232,6 +234,14 @@
             "z": 2,
             "elements": [
                 "xtones:reds@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 2,
+            "elements": [
+                "xtones:reds@14"
             ]
         },
         {
@@ -515,14 +525,6 @@
             ]
         },
         {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "bloodmagic:demon_brick_2@13"
-            ]
-        },
-        {
             "x": -1,
             "y": 2,
             "z": 3,
@@ -568,14 +570,6 @@
             "z": 2,
             "elements": [
                 "xtones:glaxx@11"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "bloodmagic:demon_brick_2@13"
             ]
         },
         {
