@@ -59,11 +59,7 @@ recipes.addShaped(<thermalfoundation:material:800> * 2, [[<ore:toolHammer>],[<or
 recipes.addShaped(<minecraft:beacon>,[[<ore:paneGlassColorless>,<astralsorcery:itemcraftingcomponent:3>,<ore:paneGlassColorless>],[<ore:paneGlassColorless>,<bloodmagic:activation_crystal>,<ore:paneGlassColorless>],[<ore:obsidian>,<ore:obsidian>,<ore:obsidian>]]);
 //seeds
 vanilla.seeds.removeSeed(<extrautils2:enderlilly>);
-vanilla.seeds.addSeed(<actuallyadditions:item_rice_seed>,1);
-vanilla.seeds.addSeed(<actuallyadditions:item_coffee_seed>,1);
-vanilla.seeds.addSeed(<actuallyadditions:item_canola_seed>,1);
-vanilla.seeds.addSeed(<primal:corn_seeds>,1);
 
-
-
-
+mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:citron>,<contenttweaker:grapefruit>,409600);
+mods.techguns.ChargingStation.addRecipe(<contenttweaker:grapefruit>,<contenttweaker:citron>,409600);
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:grapefruit>,<minecraft:dye:11>,3,4000,100,0);
