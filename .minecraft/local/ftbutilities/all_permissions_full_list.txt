@@ -1,4 +1,4 @@
-14413 nodes in total
+14414 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -9254,6 +9254,7 @@ ftbutilities.claims.item.evilcraft.vengeance_ring: ALL
 ftbutilities.claims.item.evilcraft.weather_container: ALL
 ftbutilities.claims.item.evilcraft.werewolf_bone: ALL
 ftbutilities.claims.item.evilcraft.werewolf_flesh: ALL
+ftbutilities.claims.item.evilcraft.werewolf_fur: ALL
 ftbutilities.claims.item.extendedcrafting.compressor: ALL
 ftbutilities.claims.item.extendedcrafting.crafting_core: ALL
 ftbutilities.claims.item.extendedcrafting.crafting_table: ALL
@@ -14654,6 +14655,4 @@ command.xnet.xnetcheck
 command.xnet.xnetdump
 command.xnet.xnetrebuild
 command.xp
-command.yunomakegoodmap.newspawnplatform
-command.yunomakegoodmap.platform
 command.zenstages.zenstages

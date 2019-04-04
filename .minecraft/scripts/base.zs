@@ -20,6 +20,7 @@ recipes.addShaped(fire, [[<ore:clumpFuel>, <ore:clumpFuel>, <ore:clumpFuel>], [<
 recipes.addShapeless(wind, [philo, <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>)]);
 
 //------------------material------------------
+recipes.addShaped(<extraalchemy:alchemical_dissovent>,[[<extraalchemy:essence_earth>,<extraalchemy:essence_fire>,<extraalchemy:essence_earth>],[<extraalchemy:essence_fire>,<minecraft:glass_bottle>,<extraalchemy:essence_fire>],[<extraalchemy:essence_earth>,<extraalchemy:essence_fire>,<extraalchemy:essence_earth>]]);
 recipes.addShapeless(<thermalfoundation:material:128>, [philo, <ore:ingotAlubrass>]);
 //redstone
 recipes.addShaped(<minecraft:redstone>, [[<ore:button>, <ore:button>, <ore:button>], [<ore:button>, philo, <ore:button>], [<ore:button>, <ore:button>, <ore:button>]]);
@@ -56,9 +57,12 @@ mods.bloodmagic.BloodAltar.addRecipe(<minecraft:soul_sand>, <minecraft:sand>, 0,
 recipes.replaceAllOccurences(<minecraft:paper>,<ore:paper>);
 recipes.addShaped(<thermalfoundation:material:800> * 2, [[<ore:toolHammer>],[<ore:plankWood>]]);
 recipes.addShaped(<minecraft:beacon>,[[<ore:paneGlassColorless>,<astralsorcery:itemcraftingcomponent:3>,<ore:paneGlassColorless>],[<ore:paneGlassColorless>,<bloodmagic:activation_crystal>,<ore:paneGlassColorless>],[<ore:obsidian>,<ore:obsidian>,<ore:obsidian>]]);
-
-
-
+//seeds
+vanilla.seeds.removeSeed(<extrautils2:enderlilly>);
+vanilla.seeds.addSeed(<actuallyadditions:item_rice_seed>,1);
+vanilla.seeds.addSeed(<actuallyadditions:item_coffee_seed>,1);
+vanilla.seeds.addSeed(<actuallyadditions:item_canola_seed>,1);
+vanilla.seeds.addSeed(<primal:corn_seeds>,1);
 
 
 

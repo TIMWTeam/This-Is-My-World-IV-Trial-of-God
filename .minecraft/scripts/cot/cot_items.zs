@@ -5,7 +5,7 @@ import mods.contenttweaker.Block;
 import mods.contenttweaker.Item;
 import crafttweaker.item.IItemStack;
 import mods.contenttweaker.IItemRightClick;
-
+import crafttweaker.commands.ICommandSender;
 
 var purgatory_dust = VanillaFactory.createItem("purgatory_dust");
 purgatory_dust.register();
@@ -36,6 +36,15 @@ windproof_bottle.itemRightClick = function(stack, world, player, hand) {
 };
 windproof_bottle.register();
 */
+var charging_grapefruit = VanillaFactory.createItem("charging_grapefruit");
+charging_grapefruit.itemRightClick = function(stack, world, player, hand) {
+	if (!world.remote) { 
+		player.sendMessage("/summon minecraft:bat");
+		stack.shrink(1);
+	}
+	return "SUCCESS";
+};
+charging_grapefruit.register();
 
 var silicon_low_purity = VanillaFactory.createItem("silicon_low_purity");
 silicon_low_purity.register();
