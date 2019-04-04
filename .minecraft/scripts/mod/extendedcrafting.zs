@@ -53,6 +53,41 @@ mods.extendedcrafting.EnderCrafting.addShaped(<projecte:alchemical_chest>, [
 	[<ore:ingotShadowium>, <ore:chest>, <ore:ingotShadowium>]
 ]);
 
+recipes.remove(<enderstorage:ender_storage:*>);
+recipes.remove(<enderstorage:ender_pouch>);
+mods.extendedcrafting.EnderCrafting.addShaped(<enderstorage:ender_storage>, [
+	[<minecraft:blaze_rod>, <ore:blockWool>, <minecraft:blaze_rod>], 
+	[<ore:obsidian>, <ore:chestWood>, <ore:obsidian>], 
+	[<minecraft:blaze_rod>, <ore:enderpearl>, <minecraft:blaze_rod>]
+]);
+mods.extendedcrafting.EnderCrafting.addShaped(<enderstorage:ender_storage:1>, [
+	[<minecraft:blaze_rod>, <ore:blockWool>, <minecraft:blaze_rod>],
+	[ <ore:obsidian>, <minecraft:cauldron>, <ore:obsidian>], 
+	[<minecraft:blaze_rod>, <ore:enderpearl>, <minecraft:blaze_rod>]
+]);
+mods.extendedcrafting.EnderCrafting.addShaped(<enderstorage:ender_pouch>, [
+	[<minecraft:blaze_powder>, <ore:leather>, <minecraft:blaze_powder>], 
+	[<ore:leather>, <ore:enderpearl>, <ore:leather>], 
+	[<minecraft:blaze_powder>, <ore:blockWool>, <minecraft:blaze_powder>]
+]);
+recipes.addShapeless(<enderstorage:ender_pouch>,[<enderstorage:ender_pouch:*>,<ore:dyeWhite>]);
+recipes.addShapeless(<enderstorage:ender_pouch:1>,[<enderstorage:ender_pouch:*>,<ore:dyeOrange>]);
+recipes.addShapeless(<enderstorage:ender_pouch:2>,[<enderstorage:ender_pouch:*>,<ore:dyeMagenta>]);
+recipes.addShapeless(<enderstorage:ender_pouch:3>,[<enderstorage:ender_pouch:*>,<ore:dyeLightBlue>]);
+recipes.addShapeless(<enderstorage:ender_pouch:4>,[<enderstorage:ender_pouch:*>,<ore:dyeYellow>]);
+recipes.addShapeless(<enderstorage:ender_pouch:5>,[<enderstorage:ender_pouch:*>,<ore:dyeLime>]);
+recipes.addShapeless(<enderstorage:ender_pouch:6>,[<enderstorage:ender_pouch:*>,<ore:dyePink>]);
+recipes.addShapeless(<enderstorage:ender_pouch:7>,[<enderstorage:ender_pouch:*>,<ore:dyeGray>]);
+recipes.addShapeless(<enderstorage:ender_pouch:8>,[<enderstorage:ender_pouch:*>,<ore:dyeLightGray>]);
+recipes.addShapeless(<enderstorage:ender_pouch:9>,[<enderstorage:ender_pouch:*>,<ore:dyeCyan>]);
+recipes.addShapeless(<enderstorage:ender_pouch:10>,[<enderstorage:ender_pouch:*>,<ore:dyePurple>]);
+recipes.addShapeless(<enderstorage:ender_pouch:11>,[<enderstorage:ender_pouch:*>,<ore:dyeBlue>]);
+recipes.addShapeless(<enderstorage:ender_pouch:12>,[<enderstorage:ender_pouch:*>,<ore:dyeBrown>]);
+recipes.addShapeless(<enderstorage:ender_pouch:13>,[<enderstorage:ender_pouch:*>,<ore:dyeGreen>]);
+recipes.addShapeless(<enderstorage:ender_pouch:14>,[<enderstorage:ender_pouch:*>,<ore:dyeRed>]);
+recipes.addShapeless(<enderstorage:ender_pouch:15>,[<enderstorage:ender_pouch:*>,<ore:dyeBlack>]);
+
+
 //TableCrafting 0=任意合成台，1-4为指定级别合成台
 mods.extendedcrafting.TableCrafting.addShaped(0, <ic2:resource:13>, [
 	[<ore:plateInvar>, <ore:plateInvar>, <ore:sheetPlastic>, <ore:plateInvar>, <ore:plateInvar>], 

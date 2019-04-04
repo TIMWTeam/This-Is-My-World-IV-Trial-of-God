@@ -1,7 +1,7 @@
 {
     "registryname": "demon_will_coagulator_1",
     "localizedname": "Demon Will Coagulator 1",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
 	"color": "a13434",
     "parts": [
         {
@@ -57,7 +57,7 @@
             "y": -4,
             "z": 2,
             "elements": [
-                "xtones:reds@5"
+                "xtones:reds@6"
             ]
         },
         {
@@ -81,7 +81,7 @@
             "y": -4,
             "z": 2,
             "elements": [
-                "xtones:reds@5"
+                "xtones:reds@6"
             ]
         },
         {
@@ -241,7 +241,7 @@
             "y": 14,
             "z": 2,
             "elements": [
-                "xtones:reds@14"
+                "contenttweaker:demon_will_coagulator_1"
             ]
         },
         {
@@ -337,7 +337,7 @@
             "y": -4,
             "z": 1,
             "elements": [
-                "xtones:reds@6"
+                "xtones:reds@5"
             ]
         },
         {
@@ -721,7 +721,7 @@
             "y": 10,
             "z": 2,
             "elements": [
-                "xtones:reds@14"
+                "modulardiversity:blockdaylightdetector"
             ]
         },
         {
@@ -777,7 +777,7 @@
             "y": -4,
             "z": 3,
             "elements": [
-                "xtones:reds@6"
+                "xtones:reds@5"
             ]
         },
         {

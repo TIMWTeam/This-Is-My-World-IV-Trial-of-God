@@ -20,7 +20,7 @@ recipes.addShaped(fire, [[<ore:clumpFuel>, <ore:clumpFuel>, <ore:clumpFuel>], [<
 recipes.addShapeless(wind, [philo, <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>)]);
 
 //------------------material------------------
-
+recipes.addShapeless(<thermalfoundation:material:128>, [philo, <ore:ingotAlubrass>]);
 //redstone
 recipes.addShaped(<minecraft:redstone>, [[<ore:button>, <ore:button>, <ore:button>], [<ore:button>, philo, <ore:button>], [<ore:button>, <ore:button>, <ore:button>]]);
 recipes.addShaped(<minecraft:redstone>, [[null, <ore:plate>, null], [<ore:plate>, philo, <ore:plate>], [null, <ore:plate>, null]]);

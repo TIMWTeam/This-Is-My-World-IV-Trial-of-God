@@ -51,3 +51,20 @@ ResearchTable：研究台，玩家可以通过这个方块进行物品的研究�
 			.build();								//结束-必须以这为结尾
 
 
+recipestage
+	将合成指定stage
+		mods.recipestages.Recipes.addShaped(stageName, output, input[][]);
+		mods.recipestages.Recipes.addShaped(recipeName, stageName, output, input[][]);
+	将镜像合成指定stage
+		mods.recipestages.Recipes.addShapedMirrored(同上)
+	将无序合成指定stage
+		mods.recipestages.Recipes.addShapeless(同上)
+	将物品合成指定stage
+		mods.recipestages.Recipes.setRecipeStage(stageName, recipeOutItem);
+		mods.recipestages.Recipes.setRecipeStage(stageName, recipeName);
+	通过正则表达，进行stage绑定
+		mods.recipestages.Recipes.setRecipeStageByRegex(stageName,recipeName);
+	将模组的所有物品配方指定stage
+		mods.recipestages.Recipes.setRecipeStageByMod(stageName, modName);
+
+
