@@ -3974,8 +3974,8 @@
     "76:10": {
       "questID:3": 76,
       "preRequisites:11": [
-        75,
-        77
+        77,
+        75
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3993,7 +3993,7 @@
             "OreDict:8": ""
           },
           "globalshare:1": 0,
-          "questlogic:8": "NAND",
+          "questlogic:8": "XNOR",
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
@@ -5016,7 +5016,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "contenttweaker:textures/gui/default_title.png",
       "pack_version:3": 1,

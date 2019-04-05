@@ -15,3 +15,10 @@ mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:1>, <tcons
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:2>, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), <liquid:steel>, 72, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:3>, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), <liquid:aluminum>, 72, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<libvulpes:productrod:4>, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), <liquid:copper>, 72, false, 20);
+
+//misc
+recipes.addShaped(<immersiveengineering:storage_slab:8>,[[<ore:blockSteel>,<ore:blockSteel>,<ore:blockSteel>]]);
+
+
+
+

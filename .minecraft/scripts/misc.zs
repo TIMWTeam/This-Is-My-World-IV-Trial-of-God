@@ -2,7 +2,7 @@
 mods.jei.JEI.addDescription(<extraalchemy:air_bottle>, "key.misc_01.jei");
 mods.jei.JEI.addDescription(<astralsorcery:blockcustomsandore>, "key.misc_02.jei");
 mods.jei.JEI.addDescription(<advanced_solar_panels:machines>, "key.misc_03.jei");
-<extraalchemy:air_bottle>.addTooltip(format.lightPurple("慢着，风也是空气，那瓶子里原来装的是什么？？"));
+<extraalchemy:air_bottle>.addTooltip(format.lightPurple("手持玻璃瓶，右键将风封入其中！"));
 <astralsorcery:blockcustomsandore>.addTooltip(format.lightPurple("星能液与熔岩所产生的沙子中，极低概率产生"));
 <advanced_solar_panels:machines>.addTooltip(format.lightPurple("配方实际存在，但无法显示"));
 <ic2:misc_resource:1>.addTooltip(format.lightPurple("在分子重组仪内放入铁矿获得"));
@@ -75,4 +75,3 @@ recipes.addShapeless(<quantumstorage:quantum_storage_unit>, [<industrialforegoin
 recipes.addShapeless(<industrialforegoing:black_hole_unit>, [<quantumstorage:quantum_storage_unit>]);
 
 
-recipes.addShapeless(<redstonearsenal:tool.sword_flux>.withTag({ench: [{lvl: 10, id: 21}, {lvl: 10, id: 16}, {lvl: 10, id: 22}, {lvl: 10, id: 29}, {lvl: 10, id: 34}, {lvl: 10, id: 38}, {lvl: 10, id: 55}, {lvl: 10, id: 27}], RepairCost: 255, Energy: 320000}), [<redstonearsenal:tool.sword_flux>]);

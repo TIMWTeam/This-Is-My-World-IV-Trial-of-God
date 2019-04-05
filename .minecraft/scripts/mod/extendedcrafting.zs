@@ -11,6 +11,12 @@ mods.extendedcrafting.CompressionCrafting.addRecipe(<ic2:misc_resource:3>, <tech
 
 
 //EnderCrafting-末影
+mods.extendedcrafting.EnderCrafting.addShaped(<minecraft:end_portal_frame>, [
+	[<actuallyadditions:item_crystal_empowered:4>, <evilcraft:ender_tear>, <actuallyadditions:item_crystal_empowered:4>], 
+	[<ore:endstone>, <thermalexpansion:frame>, <ore:endstone>], 
+	[<ore:endstone>, <ore:endstone>, <ore:endstone>]
+]);
+
 recipes.remove(<industrialforegoing:black_hole_unit>);
 mods.extendedcrafting.EnderCrafting.addShaped(<industrialforegoing:black_hole_unit>, [
 	[<extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>], 

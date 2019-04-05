@@ -21,6 +21,7 @@ recipes.addShapeless(wind, [philo, <extraalchemy:air_bottle>.transformReplace(<m
 
 //------------------material------------------
 recipes.addShaped(<extraalchemy:alchemical_dissovent>,[[<extraalchemy:essence_earth>,<extraalchemy:essence_fire>,<extraalchemy:essence_earth>],[<extraalchemy:essence_fire>,<minecraft:glass_bottle>,<extraalchemy:essence_fire>],[<extraalchemy:essence_earth>,<extraalchemy:essence_fire>,<extraalchemy:essence_earth>]]);
+recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "alchemical_dissovent", Amount: 1000}),[[null,<extraalchemy:alchemical_dissovent>,null],[<extraalchemy:alchemical_dissovent>,<minecraft:bucket>,<extraalchemy:alchemical_dissovent>],[null,<extraalchemy:alchemical_dissovent>,null]]);
 recipes.addShapeless(<thermalfoundation:material:128>, [philo, <ore:ingotAlubrass>]);
 //redstone
 recipes.addShaped(<minecraft:redstone>, [[<ore:button>, <ore:button>, <ore:button>], [<ore:button>, philo, <ore:button>], [<ore:button>, <ore:button>, <ore:button>]]);
