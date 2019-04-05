@@ -1,0 +1,514 @@
+{
+    "machine": "aether_transmuter_2",
+    "registryName": "aether_transmuter_2_earth",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 8192
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "mana",
+            "amount": 20
+        },        
+        {
+            "type": "item",
+            "io-type": "input",
+            "item":"extraalchemy:essence_earth@0",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clustertitanium@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clustertungsten@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clusteruranium@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thaumcraft:cluster@0",
+			"amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thaumcraft:cluster@1",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thaumcraft:cluster@2",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thaumcraft:cluster@3",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thaumcraft:cluster@4",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thaumcraft:cluster@5",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thaumcraft:cluster@6",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thaumcraft:cluster@7",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clusterplatinum@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clusternickel@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clustermithril@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clusteriridium@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clusterosmium@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clustercobalt@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clusterastralstarmetal@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clusterardite@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clusteraluminium@0",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"jaopca:item_clusteryellorium@0",
+			"amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thermalfoundation:ore@2",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"minecraft:gold_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"minecraft:quartz_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"minecraft:emerald_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"minecraft:diamond_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"minecraft:lapis_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"minecraft:redstone_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"minecraft:coal_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thermalfoundation:ore_fluid@2",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"primal:ore_opal@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"techreborn:ore@8",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"techreborn:ore@6",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"techreborn:ore@5",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"rftools:dimensional_shard_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"primal:ore_magnetite@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"primal:ore_iron@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thaumcraft:ore_cinnabar@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"actuallyadditions:block_misc@3",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"mekanism:oreblock@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"appliedenergistics2:charged_quartz_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thaumcraft:ore_amber@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"matteroverdrive:tritanium_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"matteroverdrive:dilithium_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"ic2:resource@4",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"bigreactors:oreanglesite@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"bigreactors:oreyellorite@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"forestry:resources@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"evilcraft:dark_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"embers:ore_quartz@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"astralsorcery:blockcustomore@1",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"astralsorcery:blockcustomore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"appliedenergistics2:quartz_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thermalfoundation:ore@1",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thermalfoundation:ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"minecraft:iron_ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thermalfoundation:ore@7",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thermalfoundation:ore@6",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thermalfoundation:ore@5",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"libvulpes:ore0@8",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"libvulpes:ore0@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"tconstruct:ore@1",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"tconstruct:ore@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thermalfoundation:ore_fluid@4",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"thermalfoundation:ore@4",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"embers:dust_ember@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"embers:crystal_ember@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"embers:shard_ember@0",
+			"amount": 1,
+            "chance": 0.01
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item":"projecte:item.pe_matter@0",
+            "amount": 1,
+            "chance": 0.0001
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"botania_tweaks:compressed_tiny_potato_8@0",
+            "amount": 1,
+            "chance": 0.00001
+        }
+	]
+}
