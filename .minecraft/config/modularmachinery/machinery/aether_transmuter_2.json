@@ -1,6 +1,6 @@
 {
     "registryname": "aether_transmuter_2",
-    "localizedname": "Aether Transmuter",
+    "localizedname": "Aether Transmuter 2",
     "parts": [
         {
             "x": -2,
@@ -935,7 +935,7 @@
             "y": -2,
             "z": 3,
             "elements": [
-                "modularmachinery:blockoutputbus"
+                "modularmachinery:blockoutputbus@6"
             ]
         },
         {
