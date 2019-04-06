@@ -71,8 +71,6 @@ recipes.remove(<overloaded:energy_core>);
 recipes.remove(<overloaded:fluid_core>);
 recipes.remove(<overloaded:item_core>);
 
-recipes.remove(<industrialforegoing:laser_base>);
-recipes.remove(<industrialforegoing:laser_drill>);
 
 //misc
 recipes.remove(<bloodmagic:decorative_brick:2>);

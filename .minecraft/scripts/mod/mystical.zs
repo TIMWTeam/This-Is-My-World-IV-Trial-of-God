@@ -110,11 +110,7 @@ recipes.remove(<mysticalagriculture:crafting:19>);
 recipes.remove(<mysticalagriculture:crafting:18>);
 recipes.remove(<mysticalagriculture:crafting:17>);
 recipes.remove(<mysticalagriculture:crafting:16>);
-recipes.remove(<mysticalagradditions:awakened_draconium_seeds>);
-recipes.remove(<mysticalagradditions:dragon_egg_seeds>);
-recipes.remove(<mysticalagradditions:nether_star_seeds>);
-recipes.remove(<mysticalagradditions:tier6_inferium_seeds>);
-recipes.remove(<mysticalagradditions:insanium:1>);
+
 recipes.remove(<mysticalagriculture:tier1_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier2_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier3_inferium_seeds>);
