@@ -171,10 +171,43 @@ mods.ResearchTable.builder("B-003-7", researchType)
 			.setRewardCommands("/bq_admin complete 50 @p")
 			.setMaxCount(1)
 			.build();
+			//空间传送技术
+mods.ResearchTable.builder("B-003-8", researchType) 
+			.setIcons(<compactmachines3:fieldprojector>)
+			.setTitle("key.researchTable.B_003_8.title")
+			.setDescription("key.researchTable.B_003_8.description")
+			.setRequiredResearches("B-003-7")
+			.setRequiredStages("Teleport")
+			.addCondition(<minecraft:ender_pearl>*8)
+			.addCondition(<xreliquary:mob_ingredient:11>*4)
+			.addCondition(<minecraft:iron_block>*4)
+			.addCondition(<minecraft:redstone_block>*4)
+			.addEnergyCondition(409600)
+			.setRewardStages("B-003-8")
+			.setRewardCommands("/bq_admin complete 84 @p")
+			.setMaxCount(1)
+			.build();
+			//多维度研究
+mods.ResearchTable.builder("B-003-9", researchType) 
+			.setIcons(<minecraft:end_portal_frame>)
+			.setTitle("key.researchTable.B_003_9.title")
+			.setDescription("key.researchTable.B_003_9.description")
+			.setRequiredResearches("B-003-8")
+			.setRequiredStages("Dimension")
+			.addCondition(<minecraft:ender_eye>*8)
+			.addCondition(<evilcraft:ender_tear>*4)
+			.addCondition(<enderio:item_material:16>*4)
+			.addCondition(<enderio:block_enderman_skull:2>*4)
+			.addEnergyCondition(819200)
+			.setRewardStages("Dimension_control")
+			.setMaxCount(1)
+			.build();
+
+
 
 //删除怪物生成阶段
 mods.ResearchTable.builder("supreme_reomve", researchType) 
-			.setIcons(<extrabotany:supercrown>)
+			.setIcons(<botania:cosmetic:21>)
 			.setTitle("key.researchTable.supreme_reomve.title")
 			.setDescription("key.researchTable.supreme_reomve.description")
 			.setRequiredStages("supreme_reomve")
@@ -186,7 +219,7 @@ mods.ResearchTable.builder("supreme_reomve", researchType)
 			.build();
 //添加怪物生成阶段
 mods.ResearchTable.builder("supreme_add", researchType) 
-			.setIcons(<extrabotany:supercrown>)
+			.setIcons(<botania:cosmetic:21>)
 			.setTitle("key.researchTable.supreme_add.title")
 			.setDescription("key.researchTable.supreme_add.description")
 			.setRequiredStages("supreme_add")

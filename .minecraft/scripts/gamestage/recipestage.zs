@@ -12,14 +12,14 @@ mods.recipestages.Recipes.setRecipeStage("B-003-1", "extrautils2:transfer_node_f
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "randomthings:advanceditemcollector");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "randomthings:itemcollector");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "actuallyadditions-recipes114-remodified");
-mods.recipestages.Recipes.setRecipeStage("B-003-1", "draconicevolution:dislocator_receptacle");
-mods.recipestages.Recipes.setRecipeStage("B-003-1", "draconicevolution:dislocator");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "extrautils2:porcupine");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "notenoughwands:teleportation_wand");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "rftools-dialing_device-remodified");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "xreliquary:items/ender_staff");
-mods.recipestages.Recipes.setRecipeStage("B-003-1", "mekanism:teleportationcore");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "draconicevolution:magnet");
+mods.recipestages.Recipes.setRecipeStage("B-003-1", "enderio:transceiver");
+mods.recipestages.Recipes.setRecipeStage("B-003-1", "mekanism:machineblock3_0");
+
 
 //B_003_2
 mods.recipestages.Recipes.setRecipeStage("B-003-2",<minecraft:blaze_powder>);
@@ -86,6 +86,30 @@ mods.recipestages.Recipes.setRecipeStage("B-003-5",<techguns:blasterrifle>);
 
 //B_003_7
 recipes.remove(<compactmachines3:fieldprojector>);
+recipes.removeByRecipeName("compactmachines3:fieldprojector");
 mods.recipestages.Recipes.addShaped("B-003-7",<compactmachines3:fieldprojector>,[[null,<extrautils2:screen>,null],[<ore:gemDiamond>,<immersiveengineering:connector:6>,<ore:gemDiamond>],[<immersiveengineering:sheetmetal_slab:8>,<immersiveengineering:material:27>,<immersiveengineering:sheetmetal_slab:8>]]);
-mods.recipestages.Recipes.setRecipeStage("B-003-7",<compactmachines3:psd>);
+
+//B_003_8
+mods.recipestages.Recipes.setRecipeStage("B-003-8",<compactmachines3:psd>);
+mods.recipestages.Recipes.setRecipeStage("B-003-8", "draconicevolution:dislocator_receptacle");
+mods.recipestages.Recipes.setRecipeStage("B-003-8", "draconicevolution:dislocator");
+mods.recipestages.Recipes.setRecipeStage("B-003-8", "mekanism:teleportationcore");
+mods.recipestages.Recipes.setRecipeStage("B-003-8", <mekanism:machineblock:11>);
+mods.recipestages.Recipes.setRecipeStage("B-003-8", "enderio:tele_pad");
+mods.recipestages.Recipes.setRecipeStage("B-003-8", "matteroverdrive:transporter");
+mods.recipestages.Recipes.setRecipeStage("B-003-8", "ic2:48");
+mods.recipestages.Recipes.setRecipeStage("B-003-8", "bloodmagic:teleposer");
+mods.recipestages.Recipes.setRecipeStage("B-003-8", "rftools:matter_transmitter");
+mods.recipestages.Recipes.setRecipeStage("B-003-8", "rftools:matter_receiver");
+
+
+
+
+
+
+
+
+
+
+
 

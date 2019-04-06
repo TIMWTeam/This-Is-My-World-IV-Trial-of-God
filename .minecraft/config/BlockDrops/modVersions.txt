@@ -40,7 +40,6 @@
   "thermalexpansion": "5.5.2",
   "projectred-integration": "4.9.1.92",
   "enderiointegrationtic": "5.0.40",
-  "extrabotany": "53",
   "oredictinit": "1.12.2-2.2.1.71",
   "forgemultipartcbe": "2.6.0.79",
   "codechickenlib": "3.2.2.353",
