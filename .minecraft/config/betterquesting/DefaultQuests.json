@@ -564,7 +564,7 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
@@ -583,7 +583,6 @@
     "14:10": {
       "questID:3": 14,
       "preRequisites:11": [
-        16,
         18
       ],
       "properties:10": {
@@ -686,7 +685,8 @@
     "16:10": {
       "questID:3": 16,
       "preRequisites:11": [
-        12
+        12,
+        14
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5016,7 +5016,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "contenttweaker:textures/gui/default_title.png",
       "pack_version:3": 1,

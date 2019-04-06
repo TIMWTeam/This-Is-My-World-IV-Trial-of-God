@@ -1,6 +1,8 @@
 
 
 var researchType = mods.ResearchTable.addCategory(<bloodmagic:item_demon_crystal>);
+
+//意志凝聚器-初始触发
 mods.ResearchTable.builder("demon_cry", researchType) 
 			.setIcons(<bloodmagic:item_demon_crystal>)
 			.setTitle("key.researchTable.demon_cry.title")
@@ -13,6 +15,7 @@ mods.ResearchTable.builder("demon_cry", researchType)
 			.setMaxCount(1)
 			.setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:demon_will_coagulator_1"}))	
 			.build();
+			//重复任务-蓝图-生成建筑
 mods.ResearchTable.builder("demon_cry_build", researchType) 
 			.setIcons(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:demon_will_coagulator_1"}))
 			.setRequiredResearches("demon_cry")
@@ -22,6 +25,7 @@ mods.ResearchTable.builder("demon_cry_build", researchType)
 			.addEnergyCondition(100000)
 			.setRewardCommands("/testruin Demon_Will_Coagulator_L1")
 			.build();
+			//重复任务-给予蓝图
 mods.ResearchTable.builder("demon_cry_blueprint", researchType) 
 			.setIcons(<bloodmagic:item_demon_crystal>)
 			.setRequiredResearches("demon_cry")
