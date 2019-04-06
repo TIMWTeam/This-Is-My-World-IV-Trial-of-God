@@ -55,8 +55,8 @@ mods.extendedcrafting.EnderCrafting.addShaped(<overloaded:hyper_energy_receiver>
 recipes.remove(<projecte:alchemical_chest>);
 mods.extendedcrafting.EnderCrafting.addShaped(<projecte:alchemical_chest>, [
 	[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>], 
-	[<ore:ingotShadowium>, <ore:pearlEnderEye>, <ore:ingotShadowium>], 
-	[<ore:ingotShadowium>, <ore:chest>, <ore:ingotShadowium>]
+	[<extendedcrafting:material>, <ore:pearlEnderEye>, <extendedcrafting:material>], 
+	[<extendedcrafting:material>, <ore:chest>, <extendedcrafting:material>]
 ]);
 
 recipes.remove(<enderstorage:ender_storage:*>);
@@ -258,3 +258,22 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:energy_stora
 	[<ore:plateElectrumFlux>, <ore:plateElectrumFlux>, <ore:ingotDraconium>, <ore:plateElectrumFlux>, <ore:plateElectrumFlux>]
 ]);
 
+recipes.remove(<extendedcrafting:compressor>);
+mods.extendedcrafting.TableCrafting.addShaped(<extendedcrafting:compressor>, [
+	[<ore:blockBlackIron>, <ore:blockBlackIron>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <ore:blockBlackIron>, <ore:blockBlackIron>], 
+	[<ore:blockBlackIron>, null, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, null, <ore:blockBlackIron>], 
+	[<ore:blockBlackIron>, null, null, <ore:blockDiamond>, <ore:blockDiamond>, <ore:blockDiamond>, null, null, <ore:blockBlackIron>], 
+	[<ore:ingotCrystaltine>, null, <ore:blockDiamond>, <ore:blockDiamond>, <ore:blockDiamond>, <ore:blockDiamond>, <ore:blockDiamond>, null, <ore:ingotCrystaltine>], 
+	[<ore:blockBlackIron>, null, <ore:blockDiamond>, <ore:blockDiamond>, <extendedcrafting:storage:6>, <ore:blockDiamond>, <ore:blockDiamond>, null, <ore:blockBlackIron>], 
+	[<ore:ingotCrystaltine>, null, <ore:blockDiamond>, <ore:blockDiamond>, <ore:blockDiamond>, <ore:blockDiamond>, <ore:blockDiamond>, null, <ore:ingotCrystaltine>], 
+	[<ore:blockBlackIron>, null, null, <ore:blockDiamond>, <ore:blockDiamond>, <ore:blockDiamond>, null, null, <ore:blockBlackIron>], 
+	[<ore:blockBlackIron>, null, null, null, null, null, null, null, <ore:blockBlackIron>], 
+	[<ore:blockBlackIron>, <ore:blockBlackIron>, <ore:blockBlackIron>, <ore:ingotCrystaltine>, <ore:blockBlackIron>, <ore:ingotCrystaltine>, <ore:blockBlackIron>, <ore:blockBlackIron>, <ore:blockBlackIron>]
+]);
+
+mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:24>, [
+	[<extendedcrafting:material:10>, <ore:gemDarkPower>, <ore:gemDarkPower>, <ore:gemDarkPower>, <extendedcrafting:material:10>], 
+	[<extendedcrafting:material:10>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:10>], 
+	[<extendedcrafting:material:10>, <ore:gemAquamarine>, <ore:gemAquamarine>, <ore:gemAquamarine>, <extendedcrafting:material:10>]
+]);
