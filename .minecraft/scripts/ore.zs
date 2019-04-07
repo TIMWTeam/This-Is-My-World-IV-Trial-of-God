@@ -73,7 +73,7 @@ mods.industrialforegoing.FluidDictionary.add("evilcraftblood", "lifeessence", 10
 mods.industrialforegoing.FluidDictionary.add("evilcraftblood", "blood", 1);
 mods.tconstruct.Alloy.addRecipe(<liquid:mana>*500,[<liquid:ic2uu_matter>,<liquid:water>*999]);
 mods.thermalexpansion.Refinery.addRecipe(<liquid:mana>*500,null,<liquid:ic2uu_matter>,8000);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:ic2uu_matter>,null,<liquid:mana>*1000,8000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:ic2uu_matter>,<thermalfoundation:geode>%5,<liquid:mana>*1000,8000);
 
 //silicon
 <ore:circuitBasic>.add(<contenttweaker:basic_circuit>);

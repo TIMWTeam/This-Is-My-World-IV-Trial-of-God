@@ -1,0 +1,42 @@
+{
+    "machine": "ether_aggregator",
+    "registryName": "ether_aggregator",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1024
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "mana",
+            "amount": 20
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "pyrotheum",
+            "amount": 20
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "cryotheum",
+            "amount": 20
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "aerotheum",
+            "amount": 20
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "petrotheum",
+            "amount": 20
+        }
+	]
+}

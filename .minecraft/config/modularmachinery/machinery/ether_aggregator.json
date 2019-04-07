@@ -1,0 +1,2785 @@
+{
+    "registryname": "ether_aggregator",
+    "localizedname": "Ether aggregator",
+	"color": "3b3b3b",
+    "parts": [
+        {
+            "x": -4,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -2,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"33b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "xtones:korp@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "xtones:zome@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "xtones:korp@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "xtones:korp@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 4,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -12,
+            "z": 2,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -1,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 5,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 3,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 6,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"3b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -11,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -8,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "xtones:korp@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": -3,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -1,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "xtones:korp@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": 3,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -10,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 3,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 6,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"17b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": 3,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -10,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -9,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "xtones:korp@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "nbt": {"Empty":"","ForgeData":{},"facing":"4b","id":"minecraft:quantum_tank"},
+            "elements": [
+                "quantumstorage:quantum_tank@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -9,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 4,
+            "nbt": {"Empty":"","ForgeData":{},"facing":"5b","id":"minecraft:quantum_tank"},
+            "elements": [
+                "quantumstorage:quantum_tank@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 0,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -8,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": 2,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 2,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 5,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": 2,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -8,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 4,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 0,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -10,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 2,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"20b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 2,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 2,
+            "nbt": {"Empty":"","ForgeData":{},"facing":"3b","id":"minecraft:quantum_tank"},
+            "elements": [
+                "quantumstorage:quantum_tank@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 1,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "nbt": {"Empty":"","ForgeData":{},"facing":"2b","id":"minecraft:quantum_tank"},
+            "elements": [
+                "quantumstorage:quantum_tank@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"40b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -8,
+            "z": 7,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -8,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -11,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "xtones:korp@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "xtones:korp@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -10,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -10,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": 5,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -15,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "xtones:korp@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "xtones:zome@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "xtones:korp@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "xtones:korp@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "xtones:korp@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "xtones:korp@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -8,
+            "z": 5,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -8,
+            "z": 5,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -14,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -2,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -2,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -2,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -2,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"36b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 6,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 6,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 6,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 6,
+            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"24b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "chisel:factory@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 2,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "minecraft:cobblestone_wall@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "xtones:korp@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "chisel:glass@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "chisel:factory@1"
+            ]
+        }
+    ]}
