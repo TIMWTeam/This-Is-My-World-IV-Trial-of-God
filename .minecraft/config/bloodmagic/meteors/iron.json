@@ -8,68 +8,41 @@
   },
   "components": [
     {
-      "weight": 200,
-      "oreName": "blockIron"
+      "weight": 400,
+      "oreName": "oreIron"
     },
     {
       "weight": 200,
-      "oreName": "blockGold"
+      "oreName": "oreCopper"
     },
     {
-      "weight": 200,
-      "oreName": "blockCopper"
+      "weight": 140,
+      "oreName": "oreTin"
     },
     {
-      "weight": 100,
-      "oreName": "blockSilver"
+      "weight": 70,
+      "oreName": "oreSilver"
     },
     {
-      "weight": 100,
-      "oreName": "blockTin"
-    },
-    {
-      "weight": 100,
-      "oreName": "blockLead"
-    },
-    {
-      "weight": 100,
-      "oreName": "blockAluminium"
-    },
-    {
-      "weight": 100,
-      "oreName": "blockNickel"
-    },
-    {
-      "weight": 50,
-      "oreName": "blockOsmium"
+      "weight": 80,
+      "oreName": "oreLead"
     },
     {
       "weight": 30,
-      "oreName": "blockConstantan"
+      "oreName": "oreGold"
     },
     {
-      "weight": 30,
-      "oreName": "blockBronze"
-    },
-    {
-      "weight": 30,
-      "oreName": "blockInvar"
-    },
-    {
-      "weight": 30,
-      "oreName": "blockSteel"
-    },
-    {
-      "weight": 30,
-      "oreName": "blockQuartz"
+      "weight": 60,
+      "oreName": "oreLapis"
     },
     {
       "weight": 100,
-      "oreName": "blockAE_meteors"
+      "oreName": "oreRedstone"
     }
   ],
-  "explosionStrength": 54.0,
-  "radius": 7,
-  "maxWeight": 1400,
-  "version": 2
+  "explosionStrength": 15.0,
+  "radius": 5,
+  "maxWeight": 1080,
+  "version": 3,
+  "cost": 1000000
 }

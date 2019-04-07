@@ -21,6 +21,11 @@
 <ore:oreCrystal>.add(<astralsorcery:blockcustomore>);
 <ore:oreNetherCinnabar>.add(<techreborn:ore:6>);
 
+//stick
+mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:1>, <minecraft:stick>, <liquid:iron>, 144, true, 40);
+mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:2>, <minecraft:stick>, <liquid:steel>, 144, true, 40);
+mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:3>, <minecraft:stick>, <liquid:aluminum>, 144, true, 40);
+mods.tconstruct.Casting.addTableRecipe(<libvulpes:productrod:4>, <minecraft:stick>, <liquid:copper>, 144, true, 40);
 
 
 //meteors-block
@@ -62,7 +67,6 @@ furnace.remove(<ore:ingotTitanium>);
 furnace.remove(<libvulpes:productingot:7>);
 mods.tconstruct.Melting.removeRecipe(<liquid:titanium>);
 <ore:ingotCarbon>.remove(<advancedrocketry:misc:1>);
-<ore:blockTitaniumIridium>.remove(<advancedrocketry:metal0:1>);
 <ore:stackedJungle>.add(<forestry:wood_pile>);
 
 
@@ -73,7 +77,9 @@ mods.industrialforegoing.FluidDictionary.add("evilcraftblood", "lifeessence", 10
 mods.industrialforegoing.FluidDictionary.add("evilcraftblood", "blood", 1);
 mods.tconstruct.Alloy.addRecipe(<liquid:mana>*500,[<liquid:ic2uu_matter>,<liquid:water>*999]);
 mods.thermalexpansion.Refinery.addRecipe(<liquid:mana>*500,null,<liquid:ic2uu_matter>,8000);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:ic2uu_matter>,<thermalfoundation:geode>%5,<liquid:mana>*1000,8000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:ic2uu_matter>,null,<liquid:mana>*1000,8000);
+
+//mods.thermalexpansion.Refinery.addRecipe(<liquid:ic2uu_matter>,<thermalfoundation:geode>%5,<liquid:mana>*1000,8000);
 
 //silicon
 <ore:circuitBasic>.add(<contenttweaker:basic_circuit>);

@@ -26,6 +26,16 @@ block_alloy.toolLevel = 2;
 block_alloy.blockSoundType = <soundtype:metal>;
 block_alloy.register();
 
+
+var block_titaniumiridium = VanillaFactory.createBlock("block_titaniumiridium",<blockmaterial:rock>);
+block_titaniumiridium.fullBlock = true;
+block_titaniumiridium.translucent = false;
+block_titaniumiridium.blockHardness = 40;
+block_titaniumiridium.toolClass = "pickaxe";
+block_titaniumiridium.toolLevel = 3;
+block_titaniumiridium.blockSoundType = <soundtype:metal>;
+block_titaniumiridium.register();
+
 var demon_will_coagulator_1 = VanillaFactory.createBlock("demon_will_coagulator_1",<blockmaterial:rock>);
 demon_will_coagulator_1.fullBlock = true;
 demon_will_coagulator_1.translucent = false;

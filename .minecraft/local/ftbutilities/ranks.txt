@@ -6,7 +6,7 @@
 // Add [name extends parent_name] to make this rank include all permissions from parent_name rank.
 // Add [name is default_player_rank] or [name is default_op_rank] to make this rank default for players/ops that don't have a rank set explicitly.
 // 
-// For more info visit https://guides.latmod.com/ftbutilities/ranks/
+// For more info visit https://minecraft.curseforge.com/projects/ftb-utilities/pages/ranks
 // To see the list of permission nodes, open all_permissions.html in browser or all_permissions_full_list.txt
 
 [player is default_player_rank]

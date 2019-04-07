@@ -3808,6 +3808,12 @@
               "Count:3": 5,
               "OreDict:8": "",
               "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "bloodmagic:blood_rune",
+              "Count:3": 10,
+              "OreDict:8": "",
+              "Damage:3": 5
             }
           }
         }
@@ -4060,17 +4066,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
-              "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_tag:10": {
-                  "soulbindUUID:8": "6fef980a-9be9-46df-a5d5-5b576e6d02e9"
-                },
-                "orig_id:8": "extrabotany:treasurebox"
-              },
+              "id:8": "botania:manaresource",
+              "Count:3": 10,
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             },
             "1:10": {
               "id:8": "botania:manaresource",
@@ -4092,6 +4091,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "HIDDEN",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:nether_star",
@@ -5097,7 +5097,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "contenttweaker:textures/gui/default_title.png",
       "pack_version:3": 1,

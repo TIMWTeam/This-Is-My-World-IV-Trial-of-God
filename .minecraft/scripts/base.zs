@@ -37,7 +37,7 @@ recipes.remove(<minecraft:leather>);
 mods.tconstruct.Drying.removeRecipe(<minecraft:leather>);
 mods.botania.ManaInfusion.removeRecipe(<minecraft:leather>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<minecraft:leather>);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<minecraft:rotten_flesh>);
+//mods.thermalexpansion.RedstoneFurnace.removeRecipe(<minecraft:rotten_flesh>);
 mods.integrateddynamics.DryingBasin.removeRecipesWithOutput(<minecraft:leather>, null);
 mods.integrateddynamics.MechanicalDryingBasin.removeRecipesWithOutput(<minecraft:leather>, null);
 mods.bloodmagic.AlchemyTable.removeRecipe([<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:flint>, <minecraft:water_bucket>]);
@@ -55,9 +55,10 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:netherrack>, <ore:cobblestone>
 mods.bloodmagic.BloodAltar.addRecipe(<minecraft:soul_sand>, <minecraft:sand>, 0, 2000, 50, 5);
 
 //-------------------misc-------------------
-recipes.replaceAllOccurences(<minecraft:paper>,<ore:paper>);
+recipes.addShaped(<minecraft:paper>*3,[[<ore:paper>,<ore:paper>,<ore:paper>]]);
 recipes.addShaped(<thermalfoundation:material:800> * 2, [[<ore:toolHammer>],[<ore:plankWood>]]);
 recipes.addShaped(<minecraft:beacon>,[[<ore:paneGlassColorless>,<astralsorcery:itemcraftingcomponent:3>,<ore:paneGlassColorless>],[<ore:paneGlassColorless>,<bloodmagic:activation_crystal>,<ore:paneGlassColorless>],[<ore:obsidian>,<ore:obsidian>,<ore:obsidian>]]);
+
 //seeds
 vanilla.seeds.removeSeed(<extrautils2:enderlilly>);
 

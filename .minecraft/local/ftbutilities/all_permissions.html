@@ -3368,6 +3368,7 @@ false
 <tr><td><code>command.applecore.hunger</code></td><td>/hunger [玩家ID] &lt;数值&gt;</td></tr>
 <tr><td><code>command.appliedenergistics2.ae2</code></td><td>AE2提供的指令——输入/ae2 list查看指令列表，/ae2 help _____查看指令帮助。</td></tr>
 <tr><td><code>command.astralsorcery.astralsorcery</code></td><td class='error' title='Invalid usage language key!'>/astralsorcery &lt;action&gt; [player] [arguments...]</td></tr>
+<tr><td><code>command.base.base.recipes.reload</code></td><td class='error' title='Invalid usage language key!'>Reloads the Recipe System</td></tr>
 <tr><td><code>command.baubles.baubles</code></td><td class='error' title='Invalid usage language key!'>/baubles &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
 <tr><td><code>command.bdlib.dumpregistry</code></td><td>dumpregistry</td></tr>
 <tr><td><code>command.bdlib.oredistribution</code></td><td>/oredistribution &lt;范围&gt; [&lt;最小高度&gt;] [&lt;最大高度&gt;] [--file]</td></tr>
@@ -3375,9 +3376,28 @@ false
 <tr><td><code>command.betterquesting.bq_admin</code></td><td class='error' title='Invalid usage language key!'>/bq_admin edit [true|false], /bq_admin hardcore [true|false], /bq_admin reset [all|&lt;quest_id&gt;] [username|uuid], /bq_admin complete &lt;quest_id&gt; [username|uuid], /bq_admin delete [all|&lt;quest_id&gt;], /bq_admin default [save|load|set] [file_name], /bq_admin lives [add|set|max|default] &lt;value&gt; [username|uuid]</td></tr>
 <tr><td><code>command.betterquesting.bq_user</code></td><td class='error' title='Invalid usage language key!'>/bq_user help, /bq_user refresh, /bq_user hardcore</td></tr>
 <tr><td><code>command.blockdata</code></td><td>/blockdata &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;数据标签&gt;</td></tr>
-<tr><td><code>command.bloodmagic.bloodmagic.bind</code></td><td class='error' title='Invalid usage language key!'>/bloodmagic bind [true|false] [玩家] ("?" 或者 "help" 查看帮助)</td></tr>
-<tr><td><code>command.bloodmagic.bloodmagic.network</code></td><td class='error' title='Invalid usage language key!'>/bloodmagic network [吸取(syphon)|添加(add)|查看(get)|填充(fill)|填满(cap)] &lt;玩家&gt; [数量]</td></tr>
-<tr><td><code>command.bloodmagic.bloodmagic.orb</code></td><td class='error' title='Invalid usage language key!'>/bloodmagic orb [设置(set)|查看(get)] &lt;玩家&gt; [等级] ("?" 或者 "help" 查看帮助)</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.help.bind</code></td><td>/bloodmagic bind [true|false] [玩家] ("?" 或者 "help" 查看帮助)</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.help.network</code></td><td>/bloodmagic network [吸取(syphon)|添加(add)|查看(get)|填充(fill)|填满(cap)] &lt;玩家&gt; [数量]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.help.orb</code></td><td>/bloodmagic orb [设置(set)|查看(get)] &lt;玩家&gt; [等级] ("?" 或者 "help" 查看帮助)</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.help.ritual</code></td><td class='error' title='Invalid usage language key!'>null</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.help.teleposer</code></td><td>传送器 Teleposer Utilities ("?" or "help" for help)</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.add</code></td><td>/bloodmagic network add [玩家] [数量]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.cap</code></td><td>/bloodmagic network cap [玩家]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.fill</code></td><td>/bloodmagic network fill [玩家]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.get</code></td><td>/bloodmagic network get [玩家]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.set</code></td><td>/bloodmagic network set [玩家] [数量]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.syphon</code></td><td>/bloodmagic network syphon [玩家] [数量]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.tickethistory</code></td><td>commands.bloodmagic.network.tickethistory.usage</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.orb.help.get</code></td><td>/bloodmagic orb get [玩家|?|帮助]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.orb.help.set</code></td><td>/bloodmagic orb set [玩家|?|帮助]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.ritual.help.create</code></td><td>以脚下的主仪式石，建立指定仪式。默认无视其他方块。(可选参数: ([&lt;player&gt; (safe|true|false)] | [safe|true|false]))</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.ritual.help.repair</code></td><td>commands.bloodmagic.ritual.repair.usage</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.list</code></td><td>/bloodmagic teleposer list [玩家|?|帮助]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.remove</code></td><td>/bloodmagic teleposer remove [ID|?|帮助]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.removeall</code></td><td>/bloodmagic teleposer removeall [玩家|?|帮助]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.rmrf</code></td><td>/bloodmagic teleposer rmrf [ID|?|帮助]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.teleport</code></td><td>/bloodmagic teleposer teleport [ID|?|帮助]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.teleportfocus</code></td><td>/bloodmagic teleposer teleportfocus [ID|?|帮助]</td></tr>
 <tr><td><code>command.bnbgaminglib.bnb</code></td><td>/bnb &lt;hand|hotbar&gt;</td></tr>
 <tr><td><code>command.bonsaitrees.bonsaitrees</code></td><td>/bonsaitrees [子命令，留空显示可用子命令列表]</td></tr>
 <tr><td><code>command.botania.botania-open</code></td><td>&lt;entry&gt;</td></tr>
@@ -3396,7 +3416,7 @@ false
 <tr><td><code>command.cofhworld.cofhworld.reload</code></td><td>重新载入 CoFH World 配置</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.version</code></td><td>cofhworld.version.usage</td></tr>
 <tr><td><code>command.compactmachines3.compactmachines3</code></td><td>/compactmachines3 [子命令，为命令列表留空]</td></tr>
-<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | botania | botbrews | botlexcats | botlexentries | botlexpages | botlextypes | botorechid | bugs | chiselGroups | conflict | copy | creativetab | discord | docs | dumpzs | entities | exportzs | hand | help | inventory | jeiCategories | json | liquids | log | materialparts | materials | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | thaumcraftDump | ticmat | wiki | zslint</td></tr>
+<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | botania | botbrews | botlexcats | botlexentries | botlexpages | botlextypes | botorechid | bugs | chiselGroups | conflict | copy | creativetab | discord | docs | dumpzs | enchants | entities | foods | give | hand | help | inventory | jeiCategories | json | liquids | log | materialparts | materials | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | thaumcraftDump | ticmat | wiki | zslint</td></tr>
 <tr><td><code>command.crafttweaker.ctgui</code></td><td class='error' title='Invalid usage language key!'>CTGUI &lt;id&gt;</td></tr>
 <tr><td><code>command.cyclopscore.commoncapabilities</code></td><td class='error' title='Invalid usage language key!'>/commoncapabilities &lt;config | version&gt;</td></tr>
 <tr><td><code>command.cyclopscore.cyclopscore</code></td><td class='error' title='Invalid usage language key!'>/cyclopscore &lt;ignite | debug | reloadresources | config | version | recursion&gt;</td></tr>
@@ -3444,6 +3464,12 @@ false
 <tr><td><code>command.forge.track.reset</code></td><td>使用 /forge reset &lt;te|entity&gt;</td></tr>
 <tr><td><code>command.forge.track.start</code></td><td>使用 /forge track &lt;te|entity&gt; &lt;持续时间&gt;</td></tr>
 <tr><td><code>command.forge.track.te</code></td><td>使用 /forge track te</td></tr>
+<tr><td><code>command.ftbbackups.backup.help.size</code></td><td>/backup size</td></tr>
+<tr><td><code>command.ftbbackups.backup.help.start</code></td><td>/backup start [自定义名称]</td></tr>
+<tr><td><code>command.ftbbackups.backup.help.time</code></td><td>/backup time</td></tr>
+<tr><td><code>command.ftbbackups.backup.size</code></td><td>/backup size</td></tr>
+<tr><td><code>command.ftbbackups.backup.start</code></td><td>/backup start [自定义名称]</td></tr>
+<tr><td><code>command.ftbbackups.backup.time</code></td><td>/backup time</td></tr>
 <tr><td><code>command.ftblib.my_settings</code></td><td>/my_settings &lt;设置id&gt; [值]</td></tr>
 <tr><td><code>command.ftblib.reload</code></td><td>/reload [*|domain:*|domain:id]</td></tr>
 <tr><td><code>command.ftblib.team.create</code></td><td>/team create &lt;id&gt; [颜色]</td></tr>
@@ -3458,10 +3484,6 @@ false
 <tr><td><code>command.ftblib.team.status</code></td><td>/team status &lt;玩家&gt; [设置的状态]</td></tr>
 <tr><td><code>command.ftblib.team.transfer_ownership</code></td><td>/team transfer_ownership &lt;玩家&gt;</td></tr>
 <tr><td><code>command.ftbutilities.back</code></td><td>/back</td></tr>
-<tr><td><code>command.ftbutilities.backup.help</code></td><td>/help [页码|命令名称]</td></tr>
-<tr><td><code>command.ftbutilities.backup.size</code></td><td>commands.backup.size.usage</td></tr>
-<tr><td><code>command.ftbutilities.backup.start</code></td><td>/backup start [自定义名称]</td></tr>
-<tr><td><code>command.ftbutilities.backup.time</code></td><td>commands.backup.time.usage</td></tr>
 <tr><td><code>command.ftbutilities.chunks.claim</code></td><td>/chunks claim</td></tr>
 <tr><td><code>command.ftbutilities.chunks.help</code></td><td>/help [页码|命令名称]</td></tr>
 <tr><td><code>command.ftbutilities.chunks.load</code></td><td>/chunks load</td></tr>
@@ -3474,11 +3496,11 @@ false
 <tr><td><code>command.ftbutilities.delhome</code></td><td>/delhome [家]</td></tr>
 <tr><td><code>command.ftbutilities.delwarp</code></td><td>/delwarp &lt;传送点&gt;</td></tr>
 <tr><td><code>command.ftbutilities.fly</code></td><td>/fly</td></tr>
+<tr><td><code>command.ftbutilities.god</code></td><td>commands.god.usage</td></tr>
 <tr><td><code>command.ftbutilities.heal</code></td><td>/heal [玩家]</td></tr>
 <tr><td><code>command.ftbutilities.home</code></td><td>/home [list|家]</td></tr>
+<tr><td><code>command.ftbutilities.inv.disable_right_click</code></td><td>commands.inv.disable_right_click.usage</td></tr>
 <tr><td><code>command.ftbutilities.inv.help</code></td><td>/help [页码|命令名称]</td></tr>
-<tr><td><code>command.ftbutilities.inv.load</code></td><td>/inv load &lt;玩家&gt; &lt;id&gt;</td></tr>
-<tr><td><code>command.ftbutilities.inv.save</code></td><td>/inv save &lt;玩家&gt; &lt;id&gt;</td></tr>
 <tr><td><code>command.ftbutilities.inv.view</code></td><td>/inv view &lt;玩家&gt;</td></tr>
 <tr><td><code>command.ftbutilities.kickme</code></td><td>/kickme</td></tr>
 <tr><td><code>command.ftbutilities.killall</code></td><td>/killall [类型] [维度]</td></tr>
@@ -3497,6 +3519,7 @@ false
 <tr><td><code>command.ftbutilities.ranks.help</code></td><td>/help [页码|命令名称]</td></tr>
 <tr><td><code>command.ftbutilities.ranks.set</code></td><td>/ranks set &lt;玩家&gt; &lt;权限组|none&gt;</td></tr>
 <tr><td><code>command.ftbutilities.ranks.set_permission</code></td><td>/ranks set_permission &lt;权限组&gt; &lt;权限&gt; &lt;true|false|value|none&gt;</td></tr>
+<tr><td><code>command.ftbutilities.rec</code></td><td>/rec</td></tr>
 <tr><td><code>command.ftbutilities.rtp</code></td><td>commands.rtp.usage</td></tr>
 <tr><td><code>command.ftbutilities.sethome</code></td><td>/sethome [家]</td></tr>
 <tr><td><code>command.ftbutilities.setwarp</code></td><td>/setwarp &lt;传送点&gt; [x] [y] [z]</td></tr>
@@ -3541,7 +3564,7 @@ false
 <tr><td><code>command.immersiveengineering.ie.mineral.setdepletion</code></td><td class='error' title='Invalid usage language key!'>/mineral setDepletion &lt;depletion&gt;</td></tr>
 <tr><td><code>command.immersivepetroleum.ip</code></td><td class='error' title='Invalid usage language key!'>/ip &lt;help|reservoir&gt;</td></tr>
 <tr><td><code>command.jech</code></td><td>/jech [profile] / [verbose true/false]</td></tr>
-<tr><td><code>command.jeresources.profile</code></td><td class='error' title='Invalid usage language key!'>profile [chunks|stop] [all]</td></tr>
+<tr><td><code>command.jeresources.jer_profile</code></td><td class='error' title='Invalid usage language key!'>jer_profile [chunks|stop] [all]</td></tr>
 <tr><td><code>command.kill</code></td><td>/kill [玩家|实体]</td></tr>
 <tr><td><code>command.locate</code></td><td>/locate &lt;结构&gt;</td></tr>
 <tr><td><code>command.matteroverdrive.android</code></td><td class='error' title='Invalid usage language key!'>android &lt;command&gt; &lt;value&gt; &lt;player&gt;</td></tr>
@@ -3561,6 +3584,8 @@ false
 <tr><td><code>command.projecte.projecte.resetemc</code></td><td>/projecte resetEMC &lt;未本地化名丨矿物词典名&gt; [元数据] （不加参数则对当前手持物品有效）</td></tr>
 <tr><td><code>command.projecte.projecte.setemc</code></td><td>/projecte setEMC [未本地化名丨矿物词典名] [元数据] [EMC值] 或 /projecte setEMC [EMC value] （对当前手持物品有效）</td></tr>
 <tr><td><code>command.projecte.projecte.showbag</code></td><td>/projecte showBag &lt;color&gt; &lt;player selector&gt;</td></tr>
+<tr><td><code>command.psi.psi-learn</code></td><td>/psi-learn &lt;权限组&gt; [玩家]</td></tr>
+<tr><td><code>command.psi.psi-unlearn</code></td><td>/psi-unlearn &lt;权限组&gt; [玩家]</td></tr>
 <tr><td><code>command.publish</code></td><td>/publish</td></tr>
 <tr><td><code>command.randomthings.rt</code></td><td class='error' title='Invalid usage language key!'>/rt</td></tr>
 <tr><td><code>command.reborncore.rc_dumpmods</code></td><td>rc_dumpmods</td></tr>
