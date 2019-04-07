@@ -94,3 +94,8 @@ var hypocritical_world = VanillaFactory.createItem("hypocritical_world");
 hypocritical_world.maxStackSize = 64;
 hypocritical_world.rarity = "rare";
 hypocritical_world.register();
+
+var achievement_reagent = VanillaFactory.createItem("achievement_reagent");
+achievement_reagent.maxStackSize = 64;
+achievement_reagent.rarity = "rare";
+achievement_reagent.register();
