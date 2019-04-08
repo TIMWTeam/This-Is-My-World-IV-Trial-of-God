@@ -18,3 +18,5 @@ recipes.replaceAllOccurences(<techreborn:machine_frame>, <mekanism:basicblock:8>
 recipes.replaceAllOccurences(<ore:machineBlockBasic>, <mekanism:basicblock:8>);
 recipes.replaceAllOccurences(<ore:machineBlockAdvanced>, <techreborn:machine_frame:1>);
 recipes.addShaped(<mekanism:basicblock:8>,[[<techreborn:machine_frame>]]);
+//流体精炼机
+mods.thermalexpansion.Refinery.addRecipe(<liquid:high_alchemy>*100,null,<liquid:alchemical_dissovent>*1000,16384);
