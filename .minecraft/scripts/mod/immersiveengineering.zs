@@ -12,7 +12,7 @@ mods.immersiveengineering.Blueprint.addRecipe("components", <immersiveengineerin
 mods.immersiveengineering.Blueprint.addRecipe("components", <researchtable:table>, [<immersiveengineering:material:27>, <immersiveengineering:material:9>, <ore:slabSteel>, <ore:slabSteel>]);
 
 //misc
-recipes.addShaped(<immersiveengineering:storage_slab:8>,[[<ore:blockSteel>,<ore:blockSteel>,<ore:blockSteel>]]);
+recipes.addShaped(<immersiveengineering:storage_slab:8>*6,[[<ore:blockSteel>,<ore:blockSteel>,<ore:blockSteel>]]);
 
 
 

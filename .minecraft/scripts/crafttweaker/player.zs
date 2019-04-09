@@ -7,7 +7,7 @@ import crafttweaker.data.IData;
 
 //maxhealth
 recipes.remove(<projecte:item.pe_philosophers_stone>);
-recipes.addShaped("one", <projecte:item.pe_philosophers_stone>, [[<projecte:item.pe_philosophers_stone>]],
+recipes.addShaped("one", <projecte:item.pe_philosophers_stone>, [[null,null,<projecte:item.pe_philosophers_stone>]],
 	function(out, ins, cInfo) {
 		var ycmaxhealth = cInfo.player.getAttribute("generic.maxHealth").getBaseValue();
 		if (ycmaxhealth > 4) {

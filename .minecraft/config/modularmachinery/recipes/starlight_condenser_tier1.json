@@ -1,7 +1,7 @@
 {
     "machine": "starlight_condenser",
     "registryName": "starlight_condenser_tier1",
-    "recipeTime": 1,
+    "recipeTime": 10,
     "requirements": [
         {
             "type": "daylight",
@@ -14,7 +14,7 @@
         {
             "type": "mana",
             "io-type": "output",
-            "mana": 5
+            "mana": 50
         }
     ]
 }

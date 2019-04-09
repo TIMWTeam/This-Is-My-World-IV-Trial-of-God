@@ -42,6 +42,7 @@ mods.MobStages.addStage("mob_control","minecraft:zombie");
 mods.MobStages.addStage("mob_control","minecraft:zombie_horse");
 mods.MobStages.addStage("mob_control","minecraft:zombie_pigman");
 mods.MobStages.addStage("mob_control","minecraft:zombie_villager");
+mods.MobStages.addStage("mob_control","minecraft:stray");
 
 //mod-mob
 mods.MobStages.addStage("mob_control","embers:ancient_golem");
@@ -74,4 +75,6 @@ mods.MobStages.addStage("mob_control","primal:ovis_atre");
 mods.MobStages.addStage("mob_control","primal:shark_hammerhead");
 
 
-
+mods.MobStages.addStage("mob_control","thaumcraft:brainyzombie");
+mods.MobStages.addStage("mob_control","matteroverdrive:ranged_rogue_android");
+mods.MobStages.addStage("mob_control","matteroverdrive:rogue_android");
