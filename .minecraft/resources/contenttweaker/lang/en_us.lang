@@ -12,3 +12,13 @@ item.contenttweaker.refined_silicon_plate.name=Refined Silicon Plate
 item.contenttweaker.basic_circuit.name=Basic Circuit
 item.contenttweaker.advanced_circuit.name=Advanced Circuit
 item.contenttweaker.pure_starlight.name=Pure starlight
+item.contenttweaker.achievement_reagent.name=Achievement reagent
+item.contenttweaker.moon_essence.name=Moon Essence
+item.contenttweaker.sun_essence.name=Sun Essence
+
+fluid.high_alchemy=High Purity Aluminum Solution
+fluid.fire_solvent=Fire Solvent
+fluid.aqua_solvent=Aqua Solvent
+fluid.terra_solvent=Terra Solvent
+fluid.aer_solvent=Aer Solvent
+

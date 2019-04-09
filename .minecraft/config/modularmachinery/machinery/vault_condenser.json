@@ -1,0 +1,2390 @@
+{
+    "registryname": "vault_condenser",
+    "localizedname": "Vault condenser",
+	"color": "F8F8FF",
+    "parts": [
+        {
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:concrete_white1@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "xtones:azur@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "xtones:azur@14"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "xtones:azur@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -17,
+            "z": 0,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -14,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:concrete_white@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:concrete_white@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:concrete_white@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:concrete_white@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "chisel:marble@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -18,
+            "z": 0,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -19,
+            "z": 0,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -12,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "modulardiversity:blockdaylightdetector@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -11,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": -2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "xtones:azur@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "modularmachinery:blockinputbus@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "xtones:azur@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockcelestialcollectorcrystal"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "chisel:marble@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": -6,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "xtones:azur@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -6,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -6,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -6,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -6,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "xtones:azur@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -11,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": -6,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -6,
+            "elements": [
+                "chisel:marble@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -6,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -12,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:concrete_white1@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "xtones:azur@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:concrete_white1@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -2,
+               "elements": [
+                "modularmachinery:blockfluidinputhatch@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -14,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:concrete_white1@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:concrete_white1@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "chisel:concrete_white@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "xtones:azur@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:concrete_white1@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "xtones:azur@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:concrete_white1@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "xtones:azur@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "xtones:azur@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockoutputbus@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "xtones:azur@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -15,
+            "z": 0,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:concrete_white@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "xtones:azur@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "chisel:marble@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -16,
+            "z": 0,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "xtones:azur@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:concrete_white1@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "xtones:glaxx@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:marblepillar@2"
+            ]
+        }
+    ]}

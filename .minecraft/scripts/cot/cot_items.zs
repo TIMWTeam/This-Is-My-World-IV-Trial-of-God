@@ -99,3 +99,13 @@ var achievement_reagent = VanillaFactory.createItem("achievement_reagent");
 achievement_reagent.maxStackSize = 64;
 achievement_reagent.rarity = "rare";
 achievement_reagent.register();
+
+var moon_essence = VanillaFactory.createItem("moon_essence");
+moon_essence.maxStackSize = 64;
+moon_essence.rarity = "rare";
+moon_essence.register();
+
+var sun_essence  = VanillaFactory.createItem("sun_essence ");
+sun_essence .maxStackSize = 64;
+sun_essence .rarity = "rare";
+sun_essence .register();

@@ -614,6 +614,54 @@
             "item":"botania_tweaks:compressed_tiny_potato_8@0",
             "amount": 1,
             "chance": 0.00001
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"modularmachinery:itemblueprint", 
+			"amount": 1,
+            "chance": 0.01,
+			"nbt": 
+				{
+					"dynamicmachine":
+								"modularmachinery:starlight_condenser_2"
+				}
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"modularmachinery:itemblueprint", 
+			"amount": 1,
+            "chance": 0.01,
+			"nbt": 
+				{
+					"dynamicmachine":
+								"modularmachinery:aether_transmuter_2"
+				}
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"modularmachinery:itemblueprint", 
+			"amount": 1,
+            "chance": 0.01,
+			"nbt": 
+				{
+					"dynamicmachine":
+								"modularmachinery:vault_condenser"
+				}
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+			"item":"modularmachinery:itemblueprint", 
+			"amount": 1,
+            "chance": 0.01,
+			"nbt": 
+				{
+					"dynamicmachine":
+								"modularmachinery:starlight_condenser_3"
+				}
         }
 	]
 }

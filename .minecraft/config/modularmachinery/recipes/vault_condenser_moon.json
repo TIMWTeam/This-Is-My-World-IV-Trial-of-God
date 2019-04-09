@@ -1,0 +1,33 @@
+{
+    "machine": "vault_condenser",
+    "registryName": "vault_condenser_moon",
+    "recipeTime": 40,
+    "requirements": [
+        {
+            "type": "daylight",
+            "io-type": "input",
+            "daylight": [
+                17950,
+				18000
+            ]
+        },        
+        {
+            "type": "item",
+            "io-type": "input",
+            "item":"thermalfoundation:material@1028",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "essence",
+            "amount": 1000
+        },        
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"contenttweaker:moon_essence",
+            "amount": 1
+        }	
+    ]
+}
