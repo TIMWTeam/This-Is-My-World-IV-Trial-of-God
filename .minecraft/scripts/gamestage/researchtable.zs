@@ -1,5 +1,4 @@
 
-
 var researchType = mods.ResearchTable.addCategory(<bloodmagic:item_demon_crystal>);
 
 //意志凝聚器-初始触发
@@ -23,6 +22,7 @@ mods.ResearchTable.builder("demon_cry_build", researchType)
 			.setDescription("key.researchTable.demon_cry_build.description")
 			.addCondition(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:demon_will_coagulator_1"}))
 			.addEnergyCondition(100000)
+			.setNoMaxCount()
 			.setRewardCommands("/testruin Demon_Will_Coagulator_L1")
 			.build();
 			//重复任务-给予蓝图
@@ -36,8 +36,54 @@ mods.ResearchTable.builder("demon_cry_blueprint", researchType)
 			.addCondition(<bloodmagic:blood_rune> * 16)
 			.addCondition(<ore:stone> * 32)
 			.addEnergyCondition(409600)
+			.setNoMaxCount()
 			.setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:demon_will_coagulator_1"}))	
 			.build();
+//星光凝结器-Starlight_Condenser_1
+mods.ResearchTable.builder("starlight_condenser_1", researchType) 
+			.setIcons(<botania:pylon:1>)
+			.setRequiredStages("starlight_condenser_1")
+			.setTitle("key.researchTable.starlight_condenser_1.title")
+			.setDescription("key.researchTable.starlight_condenser_1.description")
+			.addCondition(<liquid:astralsorcery.liquidstarlight> * 10000)
+			.addCondition(<botania:custombrick> * 16)
+			.addCondition(<astralsorcery:itemcraftingcomponent:4> * 8)
+			.addCondition(<botania:pylon:1>)
+			.addEnergyCondition(409600)
+			.setMaxCount(1)
+			.setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:starlight_condenser"}))	
+			.build();
+			//重复任务-蓝图-生成建筑
+mods.ResearchTable.builder("starlight_condenser_1_build", researchType) 
+			.setIcons(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:starlight_condenser"}))
+			.setRequiredResearches("starlight_condenser_1")
+			.setTitle("key.researchTable.starlight_condenser_1_build.title")
+			.setDescription("key.researchTable.starlight_condenser_1_build.description")
+			.addCondition(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:starlight_condenser"}))
+			.addEnergyCondition(100000)
+			.setNoMaxCount()
+			.setRewardCommands("/testruin starlight_condenser_1")
+			.build();
+			//重复任务-给予蓝图
+mods.ResearchTable.builder("starlight_condenser_1_blueprint", researchType) 
+			.setIcons(<botania:pylon:1>)
+			.setRequiredResearches("starlight_condenser_1")
+			.setTitle("key.researchTable.starlight_condenser_1_blueprint.title")
+			.setDescription("key.researchTable.starlight_condenser_1_blueprint.description")
+			.addCondition(<liquid:astralsorcery.liquidstarlight> * 500)
+			.addCondition(<botania:custombrick> * 16)
+			.addCondition(<astralsorcery:itemcraftingcomponent:4> * 4)
+			.addCondition(<botania:pylon:1>)
+			.addEnergyCondition(204800)
+			.setNoMaxCount()
+			.setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:starlight_condenser"}))	
+			.build();
+//T-011系列，机械降神
+
+
+
+
+
 //虚假的世界之魂-前置
 mods.ResearchTable.builder("bot_life_essence", researchType) 
 			.setIcons(<botania:manaresource:5>)
@@ -216,6 +262,7 @@ mods.ResearchTable.builder("supreme_reomve", researchType)
 			.setRewardStages("supreme_add")
 			.setRewardCommands("/gamestage remove @p mob_control")
 			.setRewardCommands("/gamestage remove @p supreme_reomve")
+			.setNoMaxCount()
 			.build();
 //添加怪物生成阶段
 mods.ResearchTable.builder("supreme_add", researchType) 
@@ -228,6 +275,7 @@ mods.ResearchTable.builder("supreme_add", researchType)
 			.setRewardStages("mob_control")
 			.setRewardStages("supreme_reomve")
 			.setRewardCommands("/gamestage remove @p supreme_add")
+			.setNoMaxCount()
 			.build();
 
 
