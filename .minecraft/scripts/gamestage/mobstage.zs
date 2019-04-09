@@ -76,5 +76,3 @@ mods.MobStages.addStage("mob_control","primal:shark_hammerhead");
 
 
 mods.MobStages.addStage("mob_control","thaumcraft:brainyzombie");
-mods.MobStages.addStage("mob_control","matteroverdrive:ranged_rogue_android");
-mods.MobStages.addStage("mob_control","matteroverdrive:rogue_android");
