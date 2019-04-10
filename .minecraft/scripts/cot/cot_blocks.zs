@@ -44,3 +44,12 @@ demon_will_coagulator_1.toolClass = "pickaxe";
 demon_will_coagulator_1.toolLevel = 2;
 demon_will_coagulator_1.blockSoundType = <soundtype:metal>;
 demon_will_coagulator_1.register();
+
+var aether_transmuter_1 = VanillaFactory.createBlock("aether_transmuter_1",<blockmaterial:rock>);
+aether_transmuter_1.fullBlock = true;
+aether_transmuter_1.translucent = false;
+aether_transmuter_1.blockHardness = 20;
+aether_transmuter_1.toolClass = "pickaxe";
+aether_transmuter_1.toolLevel = 2;
+aether_transmuter_1.blockSoundType = <soundtype:metal>;
+aether_transmuter_1.register();

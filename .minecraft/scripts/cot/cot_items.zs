@@ -105,7 +105,7 @@ moon_essence.maxStackSize = 64;
 moon_essence.rarity = "rare";
 moon_essence.register();
 
-var sun_essence  = VanillaFactory.createItem("sun_essence ");
-sun_essence .maxStackSize = 64;
-sun_essence .rarity = "rare";
-sun_essence .register();
+var sun_essence = VanillaFactory.createItem("sun_essence");
+sun_essence.maxStackSize = 64;
+sun_essence.rarity = "rare";
+sun_essence.register();

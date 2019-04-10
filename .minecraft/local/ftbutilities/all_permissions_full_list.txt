@@ -1,4 +1,4 @@
-14614 nodes in total
+14664 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1136,6 +1136,7 @@ ftbutilities.claims.block.edit.compactmachines3.tunnel: OP
 ftbutilities.claims.block.edit.compactmachines3.wall: OP
 ftbutilities.claims.block.edit.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.edit.contenttweaker.aer_solvent: OP
+ftbutilities.claims.block.edit.contenttweaker.aether_transmuter_1: OP
 ftbutilities.claims.block.edit.contenttweaker.aqua_solvent: OP
 ftbutilities.claims.block.edit.contenttweaker.block_alloy: OP
 ftbutilities.claims.block.edit.contenttweaker.block_carbon: OP
@@ -3019,6 +3020,7 @@ ftbutilities.claims.block.edit.projecte.relay_mk3: OP
 ftbutilities.claims.block.edit.projecte.rm_furnace: OP
 ftbutilities.claims.block.edit.projecte.rm_furnace_lit: OP
 ftbutilities.claims.block.edit.projecte.transmutation_table: OP
+ftbutilities.claims.block.edit.projectred-fabrication.ic_machine: OP
 ftbutilities.claims.block.edit.psi.cad_assembler: OP
 ftbutilities.claims.block.edit.psi.conjured: OP
 ftbutilities.claims.block.edit.psi.programmer: OP
@@ -3761,6 +3763,15 @@ ftbutilities.claims.block.edit.tinker_io.ore_crusher: OP
 ftbutilities.claims.block.edit.tinker_io.smart_output: OP
 ftbutilities.claims.block.edit.tinker_io.stirling_engine: OP
 ftbutilities.claims.block.edit.tinker_io.what_a_beautiful_block: OP
+ftbutilities.claims.block.edit.tombstone.dark_marble: OP
+ftbutilities.claims.block.edit.tombstone.decorative_grave_cross: OP
+ftbutilities.claims.block.edit.tombstone.decorative_grave_normal: OP
+ftbutilities.claims.block.edit.tombstone.decorative_grave_simple: OP
+ftbutilities.claims.block.edit.tombstone.decorative_tombstone: OP
+ftbutilities.claims.block.edit.tombstone.grave_cross: OP
+ftbutilities.claims.block.edit.tombstone.grave_normal: OP
+ftbutilities.claims.block.edit.tombstone.grave_simple: OP
+ftbutilities.claims.block.edit.tombstone.tombstone: OP
 ftbutilities.claims.block.edit.translocators.craftinggrid: OP
 ftbutilities.claims.block.edit.xnet.advanced_connector: OP
 ftbutilities.claims.block.edit.xnet.antenna: OP
@@ -4710,6 +4721,7 @@ ftbutilities.claims.block.interact.compactmachines3.tunnel: OP
 ftbutilities.claims.block.interact.compactmachines3.wall: OP
 ftbutilities.claims.block.interact.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.interact.contenttweaker.aer_solvent: OP
+ftbutilities.claims.block.interact.contenttweaker.aether_transmuter_1: OP
 ftbutilities.claims.block.interact.contenttweaker.aqua_solvent: OP
 ftbutilities.claims.block.interact.contenttweaker.block_alloy: OP
 ftbutilities.claims.block.interact.contenttweaker.block_carbon: OP
@@ -6593,6 +6605,7 @@ ftbutilities.claims.block.interact.projecte.relay_mk3: OP
 ftbutilities.claims.block.interact.projecte.rm_furnace: OP
 ftbutilities.claims.block.interact.projecte.rm_furnace_lit: OP
 ftbutilities.claims.block.interact.projecte.transmutation_table: OP
+ftbutilities.claims.block.interact.projectred-fabrication.ic_machine: OP
 ftbutilities.claims.block.interact.psi.cad_assembler: OP
 ftbutilities.claims.block.interact.psi.conjured: OP
 ftbutilities.claims.block.interact.psi.programmer: OP
@@ -7335,6 +7348,15 @@ ftbutilities.claims.block.interact.tinker_io.ore_crusher: OP
 ftbutilities.claims.block.interact.tinker_io.smart_output: OP
 ftbutilities.claims.block.interact.tinker_io.stirling_engine: OP
 ftbutilities.claims.block.interact.tinker_io.what_a_beautiful_block: OP
+ftbutilities.claims.block.interact.tombstone.dark_marble: OP
+ftbutilities.claims.block.interact.tombstone.decorative_grave_cross: OP
+ftbutilities.claims.block.interact.tombstone.decorative_grave_normal: OP
+ftbutilities.claims.block.interact.tombstone.decorative_grave_simple: OP
+ftbutilities.claims.block.interact.tombstone.decorative_tombstone: OP
+ftbutilities.claims.block.interact.tombstone.grave_cross: OP
+ftbutilities.claims.block.interact.tombstone.grave_normal: OP
+ftbutilities.claims.block.interact.tombstone.grave_simple: OP
+ftbutilities.claims.block.interact.tombstone.tombstone: OP
 ftbutilities.claims.block.interact.translocators.craftinggrid: OP
 ftbutilities.claims.block.interact.xnet.advanced_connector: OP
 ftbutilities.claims.block.interact.xnet.antenna: OP
@@ -8748,6 +8770,7 @@ ftbutilities.claims.item.compactmachines3.wall: ALL
 ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
 ftbutilities.claims.item.contenttweaker.achievement_reagent: ALL
 ftbutilities.claims.item.contenttweaker.advanced_circuit: ALL
+ftbutilities.claims.item.contenttweaker.aether_transmuter_1: ALL
 ftbutilities.claims.item.contenttweaker.basic_circuit: ALL
 ftbutilities.claims.item.contenttweaker.block_alloy: ALL
 ftbutilities.claims.item.contenttweaker.block_carbon: ALL
@@ -8759,6 +8782,7 @@ ftbutilities.claims.item.contenttweaker.elite_circuit: ALL
 ftbutilities.claims.item.contenttweaker.feature: ALL
 ftbutilities.claims.item.contenttweaker.grapefruit: ALL
 ftbutilities.claims.item.contenttweaker.hypocritical_world: ALL
+ftbutilities.claims.item.contenttweaker.moon_essence: ALL
 ftbutilities.claims.item.contenttweaker.pure_starlight: ALL
 ftbutilities.claims.item.contenttweaker.purgatory_dust: ALL
 ftbutilities.claims.item.contenttweaker.refined_silicon_plate: ALL
@@ -8766,6 +8790,7 @@ ftbutilities.claims.item.contenttweaker.rough_silicon_plate: ALL
 ftbutilities.claims.item.contenttweaker.silicon_chlorine: ALL
 ftbutilities.claims.item.contenttweaker.silicon_high_purity: ALL
 ftbutilities.claims.item.contenttweaker.silicon_low_purity: ALL
+ftbutilities.claims.item.contenttweaker.sun_essence: ALL
 ftbutilities.claims.item.contenttweaker.ultimate_circuit: ALL
 ftbutilities.claims.item.danknull.dank_null: ALL
 ftbutilities.claims.item.danknull.dank_null_panel: ALL
@@ -12959,6 +12984,9 @@ ftbutilities.claims.item.projectred-core.drawplate: ALL
 ftbutilities.claims.item.projectred-core.multimeter: ALL
 ftbutilities.claims.item.projectred-core.resource_item: ALL
 ftbutilities.claims.item.projectred-core.screwdriver: ALL
+ftbutilities.claims.item.projectred-fabrication.ic_blueprint: ALL
+ftbutilities.claims.item.projectred-fabrication.ic_chip: ALL
+ftbutilities.claims.item.projectred-fabrication.ic_machine: ALL
 ftbutilities.claims.item.projectred-integration.gate: ALL
 ftbutilities.claims.item.projectred-transmission.framed_wire: ALL
 ftbutilities.claims.item.projectred-transmission.wire: ALL
@@ -14486,6 +14514,28 @@ ftbutilities.claims.item.tinker_io.speedupg: ALL
 ftbutilities.claims.item.tinker_io.stirling_engine: ALL
 ftbutilities.claims.item.tinker_io.upg: ALL
 ftbutilities.claims.item.tinker_io.what_a_beautiful_block: ALL
+ftbutilities.claims.item.tombstone.advancement: ALL
+ftbutilities.claims.item.tombstone.ankh_of_pray: ALL
+ftbutilities.claims.item.tombstone.book_of_disenchantment: ALL
+ftbutilities.claims.item.tombstone.dark_marble: ALL
+ftbutilities.claims.item.tombstone.decorative_grave_cross: ALL
+ftbutilities.claims.item.tombstone.decorative_grave_normal: ALL
+ftbutilities.claims.item.tombstone.decorative_grave_simple: ALL
+ftbutilities.claims.item.tombstone.decorative_tombstone: ALL
+ftbutilities.claims.item.tombstone.dust_of_vanishing: ALL
+ftbutilities.claims.item.tombstone.fishing_rod_of_misadventure: ALL
+ftbutilities.claims.item.tombstone.grave_dust: ALL
+ftbutilities.claims.item.tombstone.grave_key: ALL
+ftbutilities.claims.item.tombstone.lollypop: ALL
+ftbutilities.claims.item.tombstone.lost_tablet: ALL
+ftbutilities.claims.item.tombstone.scroll_buff: ALL
+ftbutilities.claims.item.tombstone.scroll_of_knowledge: ALL
+ftbutilities.claims.item.tombstone.soul_receptacle: ALL
+ftbutilities.claims.item.tombstone.strange_scroll: ALL
+ftbutilities.claims.item.tombstone.strange_tablet: ALL
+ftbutilities.claims.item.tombstone.tablet_of_assistance: ALL
+ftbutilities.claims.item.tombstone.tablet_of_recall: ALL
+ftbutilities.claims.item.tombstone.voodoo_poppet: ALL
 ftbutilities.claims.item.translocators.diamond_nugget: ALL
 ftbutilities.claims.item.translocators.translocator_part: ALL
 ftbutilities.claims.item.wct.magnet_card: ALL
@@ -14878,6 +14928,16 @@ command.time
 command.tinkertoolleveling.leveluptool
 command.title
 command.toggledownfall
+command.tombstone.tbknowledge
+command.tombstone.tbrecovery
+command.tombstone.tbrequestteleport
+command.tombstone.tbrestoreinventory
+command.tombstone.tbshowlastgrave
+command.tombstone.tbsiege
+command.tombstone.tbteleport
+command.tombstone.tbteleportdiscovery
+command.tombstone.tbteleportgrave
+command.tombstone.tbteleportvillage
 command.topaddons.tophelmet
 command.tp
 command.trigger

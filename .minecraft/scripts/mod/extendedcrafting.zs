@@ -169,7 +169,8 @@ mods.extendedcrafting.TableCrafting.addShapeless(4, <contenttweaker:feature>, [
 	<overloaded:item_core>, <ore:blockManyullyn>, <ore:blockTungstensteel>, <ore:blockAA_meteors4>, <ore:blockAA_meteors3>, 
 	<ore:blockAA_meteors2>, <ore:blockAA_meteors0>, <ore:blockAA_meteors1>, <ore:blockAA_meteors5>, <ore:blockDraconiumAwakened>, 
 	<randomthings:spectrecoil_ender>, <contenttweaker:pure_starlight>, <contenttweaker:dirty_blood>, <ore:circuitBasic>, 
-	<ore:circuitAdvanced>, <ore:circuitElite>, <ore:circuitUltimate>]);
+	<ore:circuitAdvanced>, <ore:circuitElite>, <ore:circuitUltimate>,<thaumadditions:mithminite_plate>,<enderio:item_capacitor_stellar>,
+	<bloodarsenal:base_item:9>,<mysticalagriculture:crafting:4>,<matteroverdrive:android_pill>]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:32>, [
 	[<minecraft:tripwire_hook>, <integrateddynamics:on_the_dynamics_of_integration>, <minecraft:cauldron>, <extrautils2:playerchest>, <ore:listAllmeatraw>, <actuallyadditions:item_damage_lens>, <enderio:item_yeta_wrench>], 
@@ -277,3 +278,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:24>,
 	[<extendedcrafting:material:10>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:10>], 
 	[<extendedcrafting:material:10>, <ore:gemAquamarine>, <ore:gemAquamarine>, <ore:gemAquamarine>, <extendedcrafting:material:10>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:upgrade_creative>, [
+	[<storagedrawers:upgrade_template>, <storagedrawers:quantify_key>, <storagedrawers:upgrade_storage:4>, <contenttweaker:sun_essence>, <storagedrawers:upgrade_storage:4>, <storagedrawers:quantify_key>, <storagedrawers:upgrade_template>], 
+	[<storagedrawers:upgrade_template>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_template>], 
+	[<storagedrawers:upgrade_template>, <storagedrawers:personal_key>, <storagedrawers:upgrade_storage:4>, <overloaded:hyper_item_sender>, <storagedrawers:upgrade_storage:4>, <storagedrawers:personal_key>, <storagedrawers:upgrade_template>], 
+	[<storagedrawers:upgrade_template>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_void>, <overloaded:item_core>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_template>], 
+	[<storagedrawers:upgrade_template>, <storagedrawers:shroud_key>, <storagedrawers:upgrade_storage:4>, <overloaded:hyper_item_receiver>, <storagedrawers:upgrade_storage:4>, <storagedrawers:shroud_key>, <storagedrawers:upgrade_template>], 
+	[<storagedrawers:upgrade_template>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_template>], 
+	[<storagedrawers:upgrade_template>, <storagedrawers:drawer_key>, <storagedrawers:upgrade_storage:4>, <contenttweaker:moon_essence>, <storagedrawers:upgrade_storage:4>, <storagedrawers:drawer_key>, <storagedrawers:upgrade_template>]
+]);
+
+
+
+

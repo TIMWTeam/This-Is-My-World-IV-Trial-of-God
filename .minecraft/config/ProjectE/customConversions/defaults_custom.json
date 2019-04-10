@@ -111,6 +111,7 @@
   },
   "values": {
     "before": {
+      "projecte:item.pe_philosophers_stone|0": 0,
       "minecraft:cobblestone|0": 1,
       "minecraft:stone|0": 1,
       "minecraft:stone|1": 16,

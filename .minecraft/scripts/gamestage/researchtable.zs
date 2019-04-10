@@ -39,7 +39,7 @@ mods.ResearchTable.builder("demon_cry_blueprint", researchType)
 			.setNoMaxCount()
 			.setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:demon_will_coagulator_1"}))	
 			.build();
-//星光凝结器-Starlight_Condenser_1
+//星光凝结器-T_011
 mods.ResearchTable.builder("starlight_condenser_1", researchType) 
 			.setIcons(<botania:pylon:1>)
 			.setRequiredStages("starlight_condenser_1")
@@ -78,8 +78,45 @@ mods.ResearchTable.builder("starlight_condenser_1_blueprint", researchType)
 			.setNoMaxCount()
 			.setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:starlight_condenser"}))	
 			.build();
-//T-011系列，机械降神
-
+//--------------------T-011系列，机械降神-------------------
+mods.ResearchTable.builder("T_011", researchType) 
+			.setIcons(<botania:pylon:1>)
+			.setRequiredStages("T_011")
+			.setTitle("key.researchTable.T_011.title")
+			.setDescription("key.researchTable.T_011.description")
+			.addCondition(<liquid:astralsorcery.liquidstarlight> * 10000)
+			.addCondition(<botania:custombrick> * 16)
+			.addCondition(<astralsorcery:itemcraftingcomponent:4> * 8)
+			.addCondition(<botania:pylon:1>)
+			.addEnergyCondition(409600)
+			.setMaxCount(1)
+			.setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aether_transmuter_1"}))	
+			.build();
+			//重复任务-蓝图-生成建筑
+mods.ResearchTable.builder("T_011_build", researchType) 
+			.setIcons(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aether_transmuter_1"}))
+			.setRequiredResearches("T_011")
+			.setTitle("key.researchTable.T_011_build.title")
+			.setDescription("key.researchTable.T_011_build.description")
+			.addCondition(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aether_transmuter_1"}))
+			.addEnergyCondition(100000)
+			.setNoMaxCount()
+			.setRewardCommands("/testruin aether_transmuter_1")
+			.build();
+			//重复任务-给予蓝图
+mods.ResearchTable.builder("T_011_blueprint", researchType) 
+			.setIcons(<botania:pylon:1>)
+			.setRequiredResearches("T_011")
+			.setTitle("key.researchTable.T_011_blueprint.title")
+			.setDescription("key.researchTable.T_011_blueprint.description")
+			.addCondition(<liquid:astralsorcery.liquidstarlight> * 500)
+			.addCondition(<botania:custombrick> * 16)
+			.addCondition(<astralsorcery:itemcraftingcomponent:4> * 4)
+			.addCondition(<botania:pylon:1>)
+			.addEnergyCondition(204800)
+			.setNoMaxCount()
+			.setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aether_transmuter_1"}))	
+			.build();
 
 
 
