@@ -14,15 +14,19 @@ recipes.addShapeless(<minecraft:stone>, [philo, <ore:sand>]);
 recipes.addShaped(earth, [[<ore:earth>, <ore:earth>, <ore:earth>], [<ore:earth>, philo, <ore:earth>], [<ore:earth>, <ore:earth>, <ore:earth>]]);
 //water
 recipes.addShaped(water, [[<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>], [<ore:treeLeaves>, philo, <ore:treeLeaves>], [<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>]]);
+recipes.addShaped(water, [[<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>], [<ore:treeSapling>, philo, <ore:treeSapling>], [<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>]]);
+recipes.addShapeless(water, [philo, <minecraft:water_bucket>]);
 //fire
 recipes.addShaped(fire, [[<ore:clumpFuel>, <ore:clumpFuel>, <ore:clumpFuel>], [<ore:clumpFuel>, philo, <ore:clumpFuel>], [<ore:clumpFuel>, <ore:clumpFuel>, <ore:clumpFuel>]]);
+recipes.addShaped(fire, [[null, <minecraft:gunpowder>, null], [<minecraft:gunpowder>, philo, <minecraft:gunpowder>], [null, <minecraft:gunpowder>, null]]);
+recipes.addShaped(fire, [[null, <minecraft:blaze_powder>, null], [<minecraft:blaze_powder>, philo, <minecraft:blaze_powder>], [null, <minecraft:blaze_powder>, null]]);
 //wind
 recipes.addShapeless(wind, [philo, <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>), <extraalchemy:air_bottle>.transformReplace(<minecraft:glass_bottle>)]);
 
 //------------------material------------------
 recipes.addShaped(<extraalchemy:alchemical_dissovent>,[[<extraalchemy:essence_earth>,<extraalchemy:essence_fire>,<extraalchemy:essence_earth>],[<extraalchemy:essence_fire>,<minecraft:glass_bottle>,<extraalchemy:essence_fire>],[<extraalchemy:essence_earth>,<extraalchemy:essence_fire>,<extraalchemy:essence_earth>]]);
 recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "alchemical_dissovent", Amount: 1000}),[[null,<extraalchemy:alchemical_dissovent>,null],[<extraalchemy:alchemical_dissovent>,<minecraft:bucket>,<extraalchemy:alchemical_dissovent>],[null,<extraalchemy:alchemical_dissovent>,null]]);
-recipes.addShapeless(<thermalfoundation:material:128>, [philo, <ore:ingotAlubrass>]);
+recipes.addShapeless(<thermalfoundation:material:128>, [<ic2:ingot:2>]);
 //redstone
 recipes.addShaped(<minecraft:redstone>, [[<ore:button>, <ore:button>, <ore:button>], [<ore:button>, philo, <ore:button>], [<ore:button>, <ore:button>, <ore:button>]]);
 recipes.addShaped(<minecraft:redstone>, [[null, <ore:plate>, null], [<ore:plate>, philo, <ore:plate>], [null, <ore:plate>, null]]);
@@ -58,6 +62,18 @@ mods.bloodmagic.BloodAltar.addRecipe(<minecraft:soul_sand>, <minecraft:sand>, 0,
 recipes.addShaped(<minecraft:paper>*3,[[<ore:paper>,<ore:paper>,<ore:paper>]]);
 recipes.addShaped(<thermalfoundation:material:800> * 2, [[<ore:toolHammer>],[<ore:plankWood>]]);
 recipes.addShaped(<minecraft:beacon>,[[<ore:paneGlassColorless>,<astralsorcery:itemcraftingcomponent:3>,<ore:paneGlassColorless>],[<ore:paneGlassColorless>,<bloodmagic:activation_crystal>,<ore:paneGlassColorless>],[<ore:obsidian>,<ore:obsidian>,<ore:obsidian>]]);
+
+
+recipes.remove(<minecraft:stone_shovel>);
+recipes.remove(<minecraft:stone_pickaxe>);
+recipes.remove(<minecraft:stone_axe>);
+recipes.remove(<minecraft:stone_hoe>);
+recipes.remove(<minecraft:stone_sword>);
+recipes.addShaped(<minecraft:stone_shovel>,[[<minecraft:wooden_shovel>],[<ore:stickWood>],[<ore:stickWood>]]);
+recipes.addShaped(<minecraft:stone_pickaxe>,[[<ore:cobblestone>,<minecraft:wooden_pickaxe>,<ore:cobblestone>],[null,<ore:stickWood>,null],[null,<ore:stickWood>,null]]);
+recipes.addShaped(<minecraft:stone_axe>,[[<ore:cobblestone>,<minecraft:wooden_axe>],[<ore:cobblestone>,<ore:stickWood>],[null,<ore:stickWood>]]);
+recipes.addShaped(<minecraft:stone_hoe>,[[<ore:cobblestone>,<minecraft:wooden_hoe>],[null,<ore:stickWood>],[null,<ore:stickWood>]]);
+recipes.addShaped(<minecraft:stone_sword>,[[<minecraft:wooden_sword>],[<ore:cobblestone>],[<ore:stickWood>]]);
 
 //seeds
 vanilla.seeds.removeSeed(<extrautils2:enderlilly>);
