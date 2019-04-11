@@ -44,3 +44,8 @@ instance.cfg
 //白名单
 !.minecraft/saves/TIMW建筑/**
 *.bak
+.minecraft/config/astralsorcery/amulet_enchantments.cfg
+.minecraft/scripts/.zsrc
+.minecraft/scripts/.zsrc
+.minecraft/resourcepacks/备用材质包.zip
+.minecraft/config/astralsorcery/amulet_enchantments.cfg

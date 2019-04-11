@@ -82,4 +82,9 @@ recipes.remove(<thermalfoundation:upgrade:*>);
 recipes.remove(<notenoughwands:acceleration_wand>);
 recipes.removeByRecipeName("techguns:itemshared_62_copperwire");
 recipes.remove(<overloaded:nether_star_block>);
+recipes.removeByRecipeName("xreliquary:items/uncrafting/blaze_rod");
+recipes.removeByRecipeName("xreliquary:items/uncrafting/ghast_tear");
+
+
+
 
