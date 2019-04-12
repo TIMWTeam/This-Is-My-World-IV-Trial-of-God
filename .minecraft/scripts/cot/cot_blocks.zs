@@ -53,3 +53,12 @@ aether_transmuter_1.toolClass = "pickaxe";
 aether_transmuter_1.toolLevel = 2;
 aether_transmuter_1.blockSoundType = <soundtype:metal>;
 aether_transmuter_1.register();
+
+var mana_crystal_block = VanillaFactory.createBlock("mana_crystal_block",<blockmaterial:rock>);
+mana_crystal_block.fullBlock = true;
+mana_crystal_block.translucent = false;
+mana_crystal_block.blockHardness = 20;
+mana_crystal_block.toolClass = "pickaxe";
+mana_crystal_block.toolLevel = 2;
+mana_crystal_block.blockSoundType = <soundtype:metal>;
+mana_crystal_block.register();

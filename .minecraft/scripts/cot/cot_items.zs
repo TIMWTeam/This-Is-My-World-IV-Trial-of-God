@@ -109,3 +109,14 @@ var sun_essence = VanillaFactory.createItem("sun_essence");
 sun_essence.maxStackSize = 64;
 sun_essence.rarity = "rare";
 sun_essence.register();
+
+
+var broken_crystal = VanillaFactory.createItem("broken_crystal");
+broken_crystal.maxStackSize = 64;
+broken_crystal.rarity = "rare";
+broken_crystal.register();
+
+var mana_crystal = VanillaFactory.createItem("mana_crystal");
+mana_crystal.maxStackSize = 64;
+mana_crystal.rarity = "rare";
+mana_crystal.register();

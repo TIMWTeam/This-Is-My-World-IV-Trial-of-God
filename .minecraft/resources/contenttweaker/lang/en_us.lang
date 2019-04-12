@@ -15,6 +15,9 @@ item.contenttweaker.pure_starlight.name=Pure starlight
 item.contenttweaker.achievement_reagent.name=Achievement reagent
 item.contenttweaker.moon_essence.name=Moon Essence
 item.contenttweaker.sun_essence.name=Sun Essence
+item.contenttweaker.broken_crystal.name=Mana Broken Crystal
+item.contenttweaker.mana_crystal.name=Mana Crystal
+item.contenttweaker.mana_crystal_block.name=Mana Crystal Block
 
 fluid.high_alchemy=High Purity Aluminum Solution
 fluid.fire_solvent=Fire Solvent
