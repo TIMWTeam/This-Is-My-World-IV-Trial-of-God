@@ -19,8 +19,3 @@ recipes.remove(<projecte:condenser_mk2>);
 
 
 
-mods.projecte.WorldTransmutation.remove(<minecraft:sapling>, <minecraft:sapling:5>, <minecraft:sapling:4>);
-mods.projecte.WorldTransmutation.add(<minecraft:sapling>, <minecraft:sapling:5>, <integrateddynamics:menril_sapling>);
-mods.projecte.WorldTransmutation.add(<minecraft:sapling>, <integrateddynamics:menril_sapling>, <primal:sapling>);
-mods.projecte.WorldTransmutation.add(<minecraft:sapling>, <primal:sapling>, <primal:sapling:1>);
-mods.projecte.WorldTransmutation.add(<minecraft:sapling>, <primal:sapling:1>, <minecraft:sapling:4>);

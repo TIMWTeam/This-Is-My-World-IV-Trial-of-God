@@ -1,1 +1,24 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 3,
+  "clickedVisualize": false,
+  "bookData": {
+    "naturesaura:book": {
+      "viewedEntries": [
+        "naturesaura:intro/botany",
+        "naturesaura:intro/intro",
+        "naturesaura:intro/aura",
+        "naturesaura:practices/gold_trees",
+        "naturesaura:intro/baubles"
+      ],
+      "bookmarks": [],
+      "history": [
+        "naturesaura:practices/gold_trees",
+        "naturesaura:intro/baubles",
+        "naturesaura:intro/aura",
+        "naturesaura:intro/intro",
+        "naturesaura:intro/botany"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
