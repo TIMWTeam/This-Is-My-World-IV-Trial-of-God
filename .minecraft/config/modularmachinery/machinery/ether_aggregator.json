@@ -31,7 +31,6 @@
             "x": -4,
             "y": -4,
             "z": -2,
-            "nbt": {"sideConfig":"id":"immersiveengineering:fluidpipe","connections":"33b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -224,7 +223,6 @@
             "x": 0,
             "y": -3,
             "z": -1,
-            "nbt": {"sideConfig":"id":"immersiveengineering:fluidpipe","connections":"48b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -329,7 +327,6 @@
             "x": 0,
             "y": -5,
             "z": 5,
-            "nbt": {"sideConfig":"id":"immersiveengineering:fluidpipe","connections":"48b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -378,7 +375,6 @@
             "x": 4,
             "y": -3,
             "z": 6,
-            "nbt": {"sideConfig":"id":"immersiveengineering:fluidpipe","connections":"3b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -547,7 +543,6 @@
             "x": -4,
             "y": -4,
             "z": -1,
-            "nbt": {"sideConfig":"id":"immersiveengineering:fluidpipe","connections":"48b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -612,7 +607,6 @@
             "x": 4,
             "y": -2,
             "z": 6,
-            "nbt": {"sideConfig":"id":"immersiveengineering:fluidpipe","connections":"17b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -725,7 +719,6 @@
             "x": 0,
             "y": -3,
             "z": 0,
-            "nbt": {"Empty":"","ForgeData":{},"facing":"4b","id":"minecraft:quantum_tank"},
             "elements": [
                 "quantumstorage:quantum_tank@7"
             ]
@@ -790,7 +783,6 @@
             "x": 0,
             "y": -5,
             "z": 4,
-            "nbt": {"Empty":"","ForgeData":{},"facing":"5b","id":"minecraft:quantum_tank"},
             "elements": [
                 "quantumstorage:quantum_tank@6"
             ]
@@ -959,7 +951,6 @@
             "x": -4,
             "y": -4,
             "z": 0,
-            "nbt": {"sideConfig":"id":"immersiveengineering:fluidpipe","connections":"48b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1080,7 +1071,6 @@
             "x": 4,
             "y": -2,
             "z": 5,
-            "nbt": {"sideConfig":"id":"immersiveengineering:fluidpipe","connections":"48b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1417,7 +1407,6 @@
             "x": 4,
             "y": -2,
             "z": 4,
-            "nbt": {"sideConfig":"id":"immersiveengineering:fluidpipe","connections":"48b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1554,7 +1543,6 @@
             "x": -4,
             "y": -4,
             "z": 2,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"20b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1563,7 +1551,6 @@
             "x": -3,
             "y": -4,
             "z": 2,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1588,7 +1575,6 @@
             "x": -2,
             "y": -4,
             "z": 2,
-            "nbt": {"Empty":"","ForgeData":{},"facing":"3b","id":"minecraft:quantum_tank"},
             "elements": [
                 "quantumstorage:quantum_tank@5"
             ]
@@ -1645,7 +1631,6 @@
             "x": 4,
             "y": -2,
             "z": 3,
-            "nbt": {"sideConfig":"id":"immersiveengineering:fluidpipe","connections":"48b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1782,7 +1767,6 @@
             "x": -4,
             "y": -4,
             "z": 1,
-            "nbt": {"sideConfig":"id":"immersiveengineering:fluidpipe","connections":"48b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1831,7 +1815,6 @@
             "x": 2,
             "y": -2,
             "z": 2,
-            "nbt": {"Empty":"","ForgeData":{},"facing":"2b","id":"minecraft:quantum_tank"},
             "elements": [
                 "quantumstorage:quantum_tank@4"
             ]
@@ -1848,7 +1831,6 @@
             "x": 3,
             "y": -2,
             "z": 2,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1865,7 +1847,6 @@
             "x": 4,
             "y": -2,
             "z": 2,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"40b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -2498,7 +2479,6 @@
             "x": 3,
             "y": -3,
             "z": -2,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -2507,7 +2487,6 @@
             "x": 2,
             "y": -3,
             "z": -2,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -2516,7 +2495,6 @@
             "x": 1,
             "y": -3,
             "z": -2,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -2525,7 +2503,6 @@
             "x": 0,
             "y": -3,
             "z": -2,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"36b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -2614,7 +2591,6 @@
             "x": -3,
             "y": -5,
             "z": 6,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -2631,7 +2607,6 @@
             "x": -2,
             "y": -5,
             "z": 6,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -2640,7 +2615,6 @@
             "x": -1,
             "y": -5,
             "z": 6,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"12b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -2649,7 +2623,6 @@
             "x": 0,
             "y": -5,
             "z": 6,
-            "nbt": {"sideConfig":,"id":"immersiveengineering:fluidpipe","connections":"24b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
