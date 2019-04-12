@@ -34,6 +34,7 @@ recipes.addShaped(<bigreactors:turbinecontroller>,[[<bigreactors:turbinehousing>
 recipes.remove(<bigreactors:turbinecontroller>);
 recipes.addShaped(<bigreactors:turbinecontroller>,[[<bigreactors:turbinehousing>,<extrautils2:screen>,<bigreactors:turbinehousing>],[<ic2:nuclear:7>,<contenttweaker:elite_circuit>,<ic2:nuclear:7>],[<bigreactors:turbinehousing>,<bigreactors:turbinehousing>,<bigreactors:turbinehousing>]]);
 
+recipes.addShaped(<bigreactors:ingotgraphite>*8,[[<immersiveengineering:material:19>]]);
 
 
 

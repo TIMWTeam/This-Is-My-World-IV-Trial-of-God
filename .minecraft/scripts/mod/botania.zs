@@ -48,6 +48,9 @@ mods.botania.Apothecary.addRecipe("orechid",[<bloodmagic:item_demon_crystal>,<bo
 
 //manaPool
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource:1>,<evilcraft:blood_orb>,50000);
+mods.botania.ManaInfusion.removeRecipe(<minecraft:melon_seeds>);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:melon_seeds>,<minecraft:reeds>,10000);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:reeds>,<minecraft:beetroot_seeds>,10000);
 
 
 //RuneAltar

@@ -1,6 +1,7 @@
 
 //misc
 recipes.remove(<ic2:crafting:4>);
+recipes.remove(<ic2:te:24>);
 recipes.remove(<ic2:ingot>);
 recipes.replaceAllOccurences(<ic2:crafting:4>, <techreborn:plates:37>);
 recipes.replaceAllOccurences(<ore:plateIridiumAlloy>, <techreborn:plates:37>);
