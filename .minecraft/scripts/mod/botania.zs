@@ -5,7 +5,7 @@ recipes.removeByRecipeName("botania:fertilizer_dye");
 recipes.addShapeless(<botania:fertilizer>, [<ore:fertilizer>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>]);
 recipes.addShapeless(<botania:fertilizer>, [<ore:fertilizer>, <minecraft:dye:11>, <minecraft:dye:11>, <minecraft:dye:1>, <minecraft:dye:1>]);
 recipes.addShaped(<botania:pylon:1>,[[null,<botanianeedsit:terrasteelmanacapacitor:1>,null],[<botanianeedsit:terrasteelmanacapacitor:1>,<botania:pylon>,<botanianeedsit:terrasteelmanacapacitor:1>],[null,<naturesaura:gold_powder>,null]]);
-
+recipes.addShaped(<botania:brewery>,[[<botania:livingrock>,<botania:manaresource:8>,<botania:livingrock>],[<botania:livingrock>,<botania:rune:8>,<botania:livingrock>],[<botania:livingrock>,<botania:storage>,<botania:livingrock>]]);
 
 recipes.removeByRecipeName("botania:terraplate");
 recipes.addShaped(<botania:terraplate>,[[<ore:ingotAstralStarmetal>,<ore:ingotAstralStarmetal>,<ore:ingotAstralStarmetal>],[<ore:runeAirB>,<ore:blockBot_meteors0>,<ore:runeFireB>],[<ore:runeEarthB>,<ore:runeManaB>,<ore:runeWaterB>]]);
@@ -30,6 +30,8 @@ mods.botania.Orechid.removeOre(<ore:oreAmber>);
 mods.botania.Orechid.removeOre(<ore:oreEmerald>);
 mods.botania.Orechid.addOre(<ore:oreOverworldQuartz>,1000);
 mods.botania.Orechid.addOre(<ore:oreCrystal>,1500);
+mods.botania.Orechid.addOre(<ore:oreProsperity>,10);
+mods.botania.Orechid.addOre(<ore:oreInferium>,100);
 mods.botania.OrechidIgnem.addOre(<ore:orePyrite>,4000);
 mods.botania.OrechidIgnem.addOre(<ore:oreSphalerite>,3000);
 mods.botania.OrechidIgnem.addOre(<ore:oreArdite>,1000);
@@ -59,4 +61,9 @@ mods.botania.RuneAltar.addRecipe(<botania:rune:1>*2,[ <extraalchemy:essence_fire
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>*2,[<extraalchemy:essence_earth>, <minecraft:stone>, <minecraft:coal_block>, <botania:manaresource:23>, <botania:manaresource>],20000);
 mods.botania.RuneAltar.addRecipe(<botania:rune:3>*2,[<extraalchemy:essence_wind>, <minecraft:carpet>, <minecraft:string>, <botania:manaresource:23>, <botania:manaresource>],20000);
 
-
+//Terr Agglomeration
+mods.botaniatweaks.Agglomeration.addRecipe(<botania:manaresource:4>, 
+    [<botania:manaresource:1>,<botania:manaresource:2>,<botania:manaresource>],
+    100000,	0x0000FF, 0x00FF00,
+    <actuallyadditions:block_crystal_empowered:5>,<actuallyadditions:block_crystal_empowered:1>,<actuallyadditions:block_crystal_empowered:5>,
+    <actuallyadditions:block_crystal:5>,<actuallyadditions:block_crystal:1>,<actuallyadditions:block_crystal:5>);

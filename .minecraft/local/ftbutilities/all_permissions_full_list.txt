@@ -1,4 +1,4 @@
-14864 nodes in total
+14869 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1144,6 +1144,7 @@ ftbutilities.claims.block.edit.contenttweaker.block_titaniumiridium: OP
 ftbutilities.claims.block.edit.contenttweaker.demon_will_coagulator_1: OP
 ftbutilities.claims.block.edit.contenttweaker.fire_solvent: OP
 ftbutilities.claims.block.edit.contenttweaker.high_alchemy: OP
+ftbutilities.claims.block.edit.contenttweaker.mana_crystal_block: OP
 ftbutilities.claims.block.edit.contenttweaker.terra_solvent: OP
 ftbutilities.claims.block.edit.danknull.danknull_dock: OP
 ftbutilities.claims.block.edit.draconicevolution.celestial_manipulator: OP
@@ -4782,6 +4783,7 @@ ftbutilities.claims.block.interact.contenttweaker.block_titaniumiridium: OP
 ftbutilities.claims.block.interact.contenttweaker.demon_will_coagulator_1: OP
 ftbutilities.claims.block.interact.contenttweaker.fire_solvent: OP
 ftbutilities.claims.block.interact.contenttweaker.high_alchemy: OP
+ftbutilities.claims.block.interact.contenttweaker.mana_crystal_block: OP
 ftbutilities.claims.block.interact.contenttweaker.terra_solvent: OP
 ftbutilities.claims.block.interact.danknull.danknull_dock: OP
 ftbutilities.claims.block.interact.draconicevolution.celestial_manipulator: OP
@@ -8881,6 +8883,7 @@ ftbutilities.claims.item.contenttweaker.basic_circuit: ALL
 ftbutilities.claims.item.contenttweaker.block_alloy: ALL
 ftbutilities.claims.item.contenttweaker.block_carbon: ALL
 ftbutilities.claims.item.contenttweaker.block_titaniumiridium: ALL
+ftbutilities.claims.item.contenttweaker.broken_crystal: ALL
 ftbutilities.claims.item.contenttweaker.citron: ALL
 ftbutilities.claims.item.contenttweaker.demon_will_coagulator_1: ALL
 ftbutilities.claims.item.contenttweaker.dirty_blood: ALL
@@ -8888,6 +8891,8 @@ ftbutilities.claims.item.contenttweaker.elite_circuit: ALL
 ftbutilities.claims.item.contenttweaker.feature: ALL
 ftbutilities.claims.item.contenttweaker.grapefruit: ALL
 ftbutilities.claims.item.contenttweaker.hypocritical_world: ALL
+ftbutilities.claims.item.contenttweaker.mana_crystal: ALL
+ftbutilities.claims.item.contenttweaker.mana_crystal_block: ALL
 ftbutilities.claims.item.contenttweaker.moon_essence: ALL
 ftbutilities.claims.item.contenttweaker.pure_starlight: ALL
 ftbutilities.claims.item.contenttweaker.purgatory_dust: ALL

@@ -14,7 +14,7 @@ mods.ResearchTable.builder("demon_cry", researchType)
 			.setMaxCount(1)
 			.setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:demon_will_coagulator_1"}))	
 			.build();
-			//重复任务-蓝图-生成建筑
+			//意志凝聚器-生成建筑
 mods.ResearchTable.builder("demon_cry_build", researchType) 
 			.setIcons(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:demon_will_coagulator_1"}))
 			.setRequiredResearches("demon_cry")
@@ -25,7 +25,7 @@ mods.ResearchTable.builder("demon_cry_build", researchType)
 			.setMaxCount(1)
 			.setRewardCommands("/testruin Demon_Will_Coagulator_L1")
 			.build();
-			//重复任务-给予蓝图
+			//重复任务-生成建筑
 mods.ResearchTable.builder("demon_cry_blueprint", researchType) 
 			.setIcons(<bloodmagic:item_demon_crystal>)
 			.setRequiredResearches("demon_cry_build")
@@ -85,11 +85,15 @@ mods.ResearchTable.builder("ether_aggregator", researchType)
 			.setRequiredStages("AETHER")
 			.setTitle("key.researchTable.ether_aggregator.title")
 			.setDescription("key.researchTable.ether_aggregator.description")
-			.addCondition(<ore:blockSeared>*128)
-			.addCondition(<minecraft:stone>*128)
-			.addCondition(<minecraft:iron_bars>*24)
-			.addCondition(<minecraft:lapis_block>*30)
-			.addCondition(<liquid:mana>*5000)
+			.addCondition(<ore:blockIron>*32)
+			.addCondition(<ore:blockSteel>*32)
+			.addCondition(<immersiveengineering:metal_decoration1:1>*53)
+			.addCondition(<immersiveengineering:metal_decoration1>*22)
+			.addCondition(<immersiveengineering:metal_device1:6>*23)
+			.addCondition(<liquid:pyrotheum>*1000)
+			.addCondition(<liquid:aerotheum>*1000)
+			.addCondition(<liquid:cryotheum>*1000)
+			.addCondition(<liquid:petrotheum>*1000)
 			.addEnergyCondition(1024000)
 			.setNoMaxCount()
 			.setRewardCommands("/testruin ether_aggregator")
@@ -168,10 +172,6 @@ mods.ResearchTable.builder("starlight_condenser_3", researchType)
 			.setNoMaxCount()
 			.setRewardCommands("/testruin starlight_condenser_3")
 			.build();
-
-
-
-
 
 //虚假的世界之魂-前置
 mods.ResearchTable.builder("bot_life_essence", researchType) 
@@ -287,7 +287,6 @@ mods.ResearchTable.builder("B-003-6", researchType)
 			.addCondition(<xreliquary:mob_ingredient>*4)
 			.addCondition(<xreliquary:mob_ingredient:2>*4)
 			.addEnergyCondition(409600)
-			//.setRewardStages("/tc research @p GAYYA")
 			.setRewardCommands("/bq_admin complete 66 @p")
 			.setMaxCount(1)
 			.build();
@@ -337,8 +336,6 @@ mods.ResearchTable.builder("B-003-9", researchType)
 			.setRewardStages("Dimension_control")
 			.setMaxCount(1)
 			.build();
-
-
 
 //删除怪物生成阶段
 mods.ResearchTable.builder("supreme_reomve", researchType) 

@@ -3,8 +3,10 @@ import crafttweaker.item.IItemStack;
 //misc
 recipes.remove(<techguns:itemshared:65>);
 recipes.remove(<techguns:itemshared:66>);
+recipes.remove(<techguns:itemshared:94>);
 recipes.addShapeless(<techguns:itemshared:105>,[<minecraft:nether_star>,<techguns:itemshared:104>]);
 recipes.addShapeless(<techguns:itemshared:98>,[<ic2:nuclear>]);
+recipes.addShaped(<techguns:itemshared:94>,[[<thermalfoundation:material:352>,<techguns:itemshared:63>,<thermalfoundation:material:352>],[<immersiveengineering:material:26>,<contenttweaker:basic_circuit>,<immersiveengineering:material:26>],[<thermalfoundation:material:352>,<immersiveengineering:material:26>,<thermalfoundation:material:352>]]);
 
 //MetalPress
 mods.techguns.MetalPress.removeRecipe(<techguns:itemshared:64>);

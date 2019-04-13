@@ -30,7 +30,6 @@ mods.thaumcraft.Crucible.registerRecipe("Silverwood_lod", "", <thaumcraft:log_si
 mods.thaumcraft.Infusion.registerRecipe("Silverwood", "", <thaumcraft:sapling_silverwood>, 10, [<aspect:auram>*64, <aspect:victus>*32,<aspect:herba>*32], <thaumcraft:sapling_greatwood>, [<thaumcraft:log_silverwood>,<thaumcraft:log_silverwood>,<thaumcraft:shimmerleaf>,<thaumcraft:shimmerleaf>,<thaumcraft:quicksilver>,<thaumcraft:quicksilver>]);
 //Greatwood
 mods.thaumcraft.Crucible.registerRecipe("Greatwood_lod", "", <thaumcraft:log_greatwood>, <ore:logWood>, [<aspect:herba>*40,<aspect:victus>*10]);
-mods.thaumcraft.Infusion.registerRecipe("Greatwood", "", <thaumcraft:sapling_greatwood>, 10, [<aspect:auram>*16, <aspect:victus>*16,<aspect:herba>*32], <ore:treeSapling>, [<thaumcraft:log_greatwood>,<thaumcraft:log_greatwood>,<ore:treeLeaves>,<ore:treeLeaves>,<thaumcraft:amber>,<thaumcraft:amber>]);
 //Shimmerleaf
 mods.thaumcraft.Crucible.registerRecipe("Shimmerleaf", "", <thaumcraft:shimmerleaf>, <ore:minecraft_flower>,[<aspect:auram>*20,<aspect:herba>*10,<aspect:potentia>*10]);
 //Vishroom
