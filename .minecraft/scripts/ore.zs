@@ -115,5 +115,3 @@ mods.naturesaura.TreeRitual.addRecipe("bluespaling", <minecraft:sapling:3>, <tco
 mods.naturesaura.TreeRitual.addRecipe("purplespaling", <minecraft:sapling:1>, <tconstruct:slime_sapling:1>, 300, [<minecraft:slime>,<minecraft:slime>,<ore:dyePurple>,<ore:dyePurple>]);
 mods.naturesaura.TreeRitual.addRecipe("orangepaling", <minecraft:sapling:1>, <tconstruct:slime_sapling:2>, 300, [<minecraft:slime>,<minecraft:slime>,<ore:dyeOrange>,<ore:dyeOrange>]);
 mods.naturesaura.TreeRitual.addRecipe("greatwood", <naturesaura:ancient_sapling>, <thaumcraft:sapling_greatwood>, 300, [<thaumcraft:amber>,<thaumcraft:amber>,<thaumcraft:amber>,<thaumcraft:amber>,<thaumcraft:log_greatwood>,<thaumcraft:log_greatwood>,<naturesaura:gold_powder>,<naturesaura:gold_powder>]);
-
-
