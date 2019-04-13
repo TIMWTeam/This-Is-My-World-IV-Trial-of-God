@@ -106,7 +106,7 @@ recipes.replaceAllOccurences(<techreborn:cable:7>,<ic2:cable:3>.withTag({type: 3
 <ore:minecraft_flower>.add(<minecraft:yellow_flower>,<minecraft:red_flower>,<minecraft:red_flower:1>,<minecraft:red_flower:2>,<minecraft:red_flower:3>,<minecraft:red_flower:4>,<minecraft:red_flower:5>,<minecraft:red_flower:6>,<minecraft:red_flower:7>,<minecraft:red_flower:8>);
 
 //Sapling
-mods.naturesaura.TreeRitual.addRecipe("ironspaling", <minecraft:sapling>, <extrautils2:ironwood_sapling>, 300, [<minecraft:iron_nugget>,<minecraft:iron_nugget>,<minecraft:iron_nugget>,<minecraft:iron_nugget>]);
+mods.naturesaura.TreeRitual.addRecipe("ironspaling", <minecraft:sapling>, <extrautils2:ironwood_sapling>, 300, [<minecraft:iron_nugget>,<extraalchemy:essence_fire>,<minecraft:iron_nugget>,<extraalchemy:essence_fire>,<minecraft:iron_nugget>,<extraalchemy:essence_fire>,<minecraft:iron_nugget>,<extraalchemy:essence_fire>]);
 mods.naturesaura.TreeRitual.addRecipe("ic2spaling", <minecraft:sapling>, <ic2:sapling>, 300, [<ic2:crafting:20>,<ic2:crafting:20>,<ic2:crafting:20>,<ic2:crafting:20>,<ore:slimeball>,<ore:slimeball>]);
 mods.naturesaura.TreeRitual.addRecipe("TRspaling", <minecraft:sapling:2>, <techreborn:rubber_sapling>, 300, [<ic2:crafting:20>,<ic2:crafting:20>,<ic2:crafting:20>,<ic2:crafting:20>,<ore:slimeball>,<ore:slimeball>]);
 mods.naturesaura.TreeRitual.addRecipe("menrilspaling", <naturesaura:ancient_sapling>, <integrateddynamics:menril_sapling>, 300, [<naturesaura:sky_ingot>,<naturesaura:sky_ingot>,<naturesaura:effect_powder>.withTag({effect: "naturesaura:cache_recharge"}),<naturesaura:effect_powder>.withTag({effect: "naturesaura:cache_recharge"})]);
@@ -116,3 +116,4 @@ mods.naturesaura.TreeRitual.addRecipe("purplespaling", <minecraft:sapling:1>, <t
 mods.naturesaura.TreeRitual.addRecipe("orangspaling", <minecraft:sapling:1>, <tconstruct:slime_sapling:2>, 300, [<minecraft:slime>,<minecraft:slime>,<ore:dyeOrange>,<ore:dyeOrange>]);
 mods.naturesaura.TreeRitual.addRecipe("ironwoodspaling", <minecraft:sapling>, <tconstruct:slime_sapling:1>, 300, [<minecraft:iron_nugget>,<minecraft:iron_nugget>,<minecraft:deadbush>,<minecraft:deadbush>]);
 mods.naturesaura.TreeRitual.addRecipe("spaling", <minecraft:sapling>, <primal:sapling:1>, 300, [<naturesaura:gold_leaf>,<naturesaura:gold_leaf>,<naturesaura:gold_leaf>,<minecraft:iron_ingot>]);
+
