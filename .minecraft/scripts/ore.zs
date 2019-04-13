@@ -115,5 +115,4 @@ mods.naturesaura.TreeRitual.addRecipe("bluespaling", <minecraft:sapling:3>, <tco
 mods.naturesaura.TreeRitual.addRecipe("purplespaling", <minecraft:sapling:1>, <tconstruct:slime_sapling:1>, 300, [<minecraft:slime>,<minecraft:slime>,<ore:dyePurple>,<ore:dyePurple>]);
 mods.naturesaura.TreeRitual.addRecipe("orangspaling", <minecraft:sapling:1>, <tconstruct:slime_sapling:2>, 300, [<minecraft:slime>,<minecraft:slime>,<ore:dyeOrange>,<ore:dyeOrange>]);
 mods.naturesaura.TreeRitual.addRecipe("ironwoodspaling", <minecraft:sapling>, <tconstruct:slime_sapling:1>, 300, [<minecraft:iron_nugget>,<minecraft:iron_nugget>,<minecraft:deadbush>,<minecraft:deadbush>]);
-mods.naturesaura.TreeRitual.addRecipe("spaling", <minecraft:sapling>, <primal:sapling:1>, 300, [<naturesaura:gold_leaf>,<naturesaura:gold_leaf>,<naturesaura:gold_leaf>,<minecraft:iron_ingot>]);
 
