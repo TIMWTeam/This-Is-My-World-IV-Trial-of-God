@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemStack;
+
 recipes.remove(<mysticalagriculture:fluix_seeds>);
 recipes.remove(<mysticalagriculture:certus_quartz_seeds>);
 recipes.remove(<mysticalagriculture:sky_stone_seeds>);
@@ -149,9 +151,11 @@ recipes.removeByRecipeName("mysticalagriculture:core/compression/intermedium_ess
 recipes.removeByRecipeName("mysticalagriculture:core/compression/superium_essence_to");
 recipes.removeByRecipeName("mysticalagriculture:core/compression/supremium_essence_to");
 mods.bloodmagic.TartaricForge.addRecipe(<mysticalagriculture:crafting:2>,[<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>],1024,20);
-
-
-
+mods.botaniatweaks.Agglomeration.addRecipe(<mysticalagriculture:crafting:3>, 
+    [<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>],
+    100000,	0xff6600, 0x00aeff,
+    <mysticalagriculture:storage:5>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:5>);
+mods.thaumcraft.Infusion.registerRecipe("essence_supremium", "", <mysticalagriculture:crafting:4>, 5, [<aspect:ordo>*1, <aspect:perditio>*1,<aspect:aer>*1,<aspect:terra>*1,<aspect:ignis>*1,<aspect:aqua>*1], <mysticalagriculture:crafting:5>, [<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>]);
 
 
 
@@ -212,9 +216,32 @@ mods.thaumcraft.Infusion.registerRecipe("nether_cluster", "", <mysticalagricultu
 mods.thaumcraft.Infusion.registerRecipe("end_cluster", "", <mysticalagriculture:crafting:9>, 5, [<aspect:ordo>*16, <aspect:victus>*16,<aspect:alienis>*16], <minecraft:chorus_flower>, [<minecraft:end_stone>,<minecraft:purpur_block>,<minecraft:end_stone>,<minecraft:purpur_block>]);
 recipes.addShaped(<thermalfoundation:material:866>,[[<mysticalagriculture:quicksilver_essence>,<mysticalagriculture:quicksilver_essence>,<mysticalagriculture:quicksilver_essence>],[<mysticalagriculture:quicksilver_essence>,<mysticalagriculture:quicksilver_essence>,<mysticalagriculture:quicksilver_essence>]]);
 
-
-
-
-
+//四级作物
+var output =	[<mysticalagriculture:dilithium_seeds>,
+    <mysticalagriculture:tritanium_seeds>,
+    <mysticalagriculture:fluix_seeds>,
+    <mysticalagriculture:cobalt_seeds>,
+    <mysticalagriculture:ardite_seeds>,
+    <mysticalagriculture:platinum_seeds>,
+    <mysticalagriculture:titanium_seeds>,
+    <mysticalagriculture:rock_crystal_seeds>,
+    <mysticalagriculture:diamond_seeds>,
+    <mysticalagriculture:tungsten_seeds>] as IItemStack[];
+var input =	[<matteroverdrive:dilithium_ore>,
+    <matteroverdrive:tritanium_ore>,
+    <appliedenergistics2:material:9>,
+    <tconstruct:ore>,
+    <tconstruct:ore:1>,
+    <thermalfoundation:ore:6>,
+    <techguns:basicore:3>,
+    <astralsorcery:blockcustomore>,
+    <minecraft:diamond_ore>,
+    <techreborn:ore:8>] as IItemStack[];
+for i, out in output {
+    mods.thaumcraft.Infusion.registerRecipe("mystical4_" + i, "", out, 5, 
+        [<aspect:praecantatio>*32, <aspect:victus>*16,<aspect:herba>*16], <minecraft:chorus_flower>, 
+        [input[i],input[i],<contenttweaker:pure_starlight>,<contenttweaker:pure_starlight>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,
+        <mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<contenttweaker:dirty_blood>,<contenttweaker:dirty_blood>,input[i],input[i]]);
+}
 
 
