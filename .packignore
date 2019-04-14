@@ -16,12 +16,16 @@
 .minecraft/local
 .minecraft/logs
 .minecraft/maps
+.minecraft/patchouli_data.json
 .minecraft/resourcepacks/备用材质包.zip
 .minecraft/saves
 .minecraft/screenshots
 .minecraft/server-resource-packs
+.minecraft/servers.dat
 .minecraft/shaderpacks
 .minecraft/texturepacks
+.minecraft/usercache.json
+.minecraft/usernamecache.json
 .packignore
 .vs
 工具&文档

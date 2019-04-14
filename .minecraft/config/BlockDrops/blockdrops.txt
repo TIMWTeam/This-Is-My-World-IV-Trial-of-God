@@ -1930,21 +1930,6 @@
     "3pair0": "{\n  \"left\": 2,\n  \"right\": 16\n}"
   },
   {
-    "name": "astralsorcery:blockcustomsandore",
-    "meta": 0,
-    "length": 1,
-    "name0": "astralsorcery:itemcraftingcomponent",
-    "meta0": 0,
-    "0chance0": 266.225,
-    "1chance0": 361.375,
-    "2chance0": 463.67502,
-    "3chance0": 561.0,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 5\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 7\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 9\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 11\n}"
-  },
-  {
     "name": "actuallyadditions:block_colored_lamp_on",
     "meta": 6,
     "length": 1,
@@ -5298,5 +5283,20 @@
     "1pair0": "{\n  \"left\": 2,\n  \"right\": 2\n}",
     "2pair0": "{\n  \"left\": 2,\n  \"right\": 2\n}",
     "3pair0": "{\n  \"left\": 2,\n  \"right\": 2\n}"
+  },
+  {
+    "name": "astralsorcery:blockcustomsandore",
+    "meta": 0,
+    "length": 1,
+    "name0": "astralsorcery:itemcraftingcomponent",
+    "meta0": 0,
+    "0chance0": 267.625,
+    "1chance0": 365.125,
+    "2chance0": 455.22498,
+    "3chance0": 564.325,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 5\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 7\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 9\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 11\n}"
   }
 ]

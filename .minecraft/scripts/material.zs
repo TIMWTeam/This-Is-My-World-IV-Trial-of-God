@@ -1,5 +1,5 @@
 import mods.techguns.ChemLab;
-
+import crafttweaker.item.IItemStack;
 //silicon-硅-电路板
 <ore:dustSalt>.add(<immersiveengineering:material:24>);
 furnace.remove(<projectred-core:resource_item:300>);
@@ -64,6 +64,8 @@ mods.immersiveengineering.MetalPress.addRecipe(<ic2:cable:2>.withTag({type: 2 as
 recipes.addShaped(<contenttweaker:block_carbon>*4,[[null,<ore:plateCarbon>,null],[<ore:plateCarbon>,null,<ore:plateCarbon>],[null,<ore:plateCarbon>,null]]);
 recipes.addShaped(<contenttweaker:block_alloy>*4,[[null,<techreborn:plates:35>,null],[<techreborn:plates:35>,null,<techreborn:plates:35>],[null,<techreborn:plates:35>,null]]);
 
+var dustmana = [<thermalfoundation:material:1028>] as IItemStack[];
+mods.techguns.ReactionChamber.addRecipe("dustmana",<ic2:misc_resource:3>,<liquid:mana>,dustmana,<techguns:itemshared:105>,10, 10, 5, 0, 8, 1000,0.0, "BREAK_ITEM", 25000);
 
 
 
