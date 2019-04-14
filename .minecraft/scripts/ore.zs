@@ -115,4 +115,8 @@ mods.naturesaura.TreeRitual.addRecipe("bluespaling", <minecraft:sapling:3>, <tco
 mods.naturesaura.TreeRitual.addRecipe("purplespaling", <minecraft:sapling:1>, <tconstruct:slime_sapling:1>, 300, [<minecraft:slime>,<minecraft:slime>,<ore:dyePurple>,<ore:dyePurple>]);
 mods.naturesaura.TreeRitual.addRecipe("orangspaling", <minecraft:sapling:1>, <tconstruct:slime_sapling:2>, 300, [<minecraft:slime>,<minecraft:slime>,<ore:dyeOrange>,<ore:dyeOrange>]);
 mods.naturesaura.TreeRitual.addRecipe("ironwoodspaling", <minecraft:sapling>, <tconstruct:slime_sapling:1>, 300, [<minecraft:iron_nugget>,<minecraft:iron_nugget>,<minecraft:deadbush>,<minecraft:deadbush>]);
+mods.naturesaura.TreeRitual.addRecipe("spaling", <minecraft:sapling>, <primal:sapling:1>, 300, [<ore:treeLeaves>,<ore:treeLeaves>,<ore:minecraft_flower>,<ore:minecraft_flower>,<naturesaura:gold_fiber>,<naturesaura:gold_fiber>]);
 
+//naturesaura
+recipes.addShapeless(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}),[<naturesaura:bottle_two_the_rebottling>,<minecraft:soul_sand>]);
+recipes.addShapeless(recipes.addShapeless(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}),[<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}),<ore:dyeBlack>]);,[<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}),<ore:dyeBlack>]);

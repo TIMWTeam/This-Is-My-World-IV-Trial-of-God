@@ -139,24 +139,24 @@ recipes.remove(<mysticalagriculture:soularium_seeds>);
 recipes.remove(<mysticalagriculture:dark_steel_seeds>);
 recipes.remove(<mysticalagriculture:pulsating_iron_seeds>);
 recipes.remove(<mysticalagriculture:energetic_alloy_seeds>);
-
+recipes.remove(<mysticalagriculture:chrome_seeds>);
 
 
 
 //一级作物
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:crafting:17>,[<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:crafting:17>,[<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting:17>]);
 
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:dirt_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:dirt>,<botania:rune:2>]);
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:stone_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:stone>,<botania:rune:2>]);
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:basalt_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:stone>,<minecraft:dye>,<botania:rune:2>]);
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:marble_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:stone>,<minecraft:dye:15>,<botania:rune:2>]);
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:limestone_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:stone>,<minecraft:dye:11>,<botania:rune:2>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:dirt_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:dirt>,<botania:rune:2>,<mysticalagriculture:crafting:17>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:stone_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:stone>,<botania:rune:2>,<mysticalagriculture:crafting:17>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:basalt_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:stone>,<minecraft:dye>,<botania:rune:2>,<mysticalagriculture:crafting:17>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:marble_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:stone>,<minecraft:dye:15>,<botania:rune:2>,<mysticalagriculture:crafting:17>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:limestone_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:stone>,<minecraft:dye:11>,<botania:rune:2>,<mysticalagriculture:crafting:17>]);
 
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:water_seeds>,[<extraalchemy:essence_water>,<extraalchemy:essence_water>,<extraalchemy:essence_water>,<extraalchemy:essence_water>,<minecraft:water_bucket>,<botania:rune>]);
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:fire_seeds>,[<extraalchemy:essence_fire>,<extraalchemy:essence_fire>,<extraalchemy:essence_fire>,<extraalchemy:essence_fire>,<minecraft:lava_bucket>,<botania:rune:1>]);
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:wood_seeds>,[<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<minecraft:log>,<botania:rune:3>]);
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:nature_seeds>,[<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<mysticalagriculture:crafting:6>,<botania:rune:3>]);
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:dye_seeds>,[<mysticalagriculture:crafting:7>,<mysticalagriculture:crafting:7>,<mysticalagriculture:crafting:7>,<mysticalagriculture:crafting:7>,<botania:rune:8>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:water_seeds>,[<extraalchemy:essence_water>,<extraalchemy:essence_water>,<extraalchemy:essence_water>,<extraalchemy:essence_water>,<minecraft:water_bucket>,<botania:rune>,<mysticalagriculture:crafting:17>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:fire_seeds>,[<extraalchemy:essence_fire>,<extraalchemy:essence_fire>,<extraalchemy:essence_fire>,<extraalchemy:essence_fire>,<minecraft:lava_bucket>,<botania:rune:1>,<mysticalagriculture:crafting:17>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:wood_seeds>,[<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<minecraft:log>,<botania:rune:3>,<mysticalagriculture:crafting:17>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:nature_seeds>,[<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<extraalchemy:essence_wind>,<mysticalagriculture:crafting:6>,<botania:rune:3>,<mysticalagriculture:crafting:17>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:dye_seeds>,[<mysticalagriculture:crafting:7>,<mysticalagriculture:crafting:7>,<mysticalagriculture:crafting:7>,<mysticalagriculture:crafting:7>,<botania:rune:8>,<mysticalagriculture:crafting:17>]);
 recipes.remove(<mysticalagriculture:crafting:6>);
 recipes.addShaped(<mysticalagriculture:crafting:6>,[[<minecraft:dye:3>,<minecraft:wheat>,<minecraft:reeds>],[<minecraft:carrot>,<minecraft:melon_block>,<minecraft:pumpkin>],[<minecraft:potato>,<minecraft:beetroot>,null]]);
 recipes.remove(<mysticalagriculture:crafting:7>);
