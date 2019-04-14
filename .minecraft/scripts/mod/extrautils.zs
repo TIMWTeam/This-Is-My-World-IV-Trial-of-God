@@ -1,4 +1,5 @@
 //machine-craft
+recipes.remove(<extrautils2:teleporter:1>);
 recipes.removeByRecipeName("extrautils2:machine_base");
 
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}));

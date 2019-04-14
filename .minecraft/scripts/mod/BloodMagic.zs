@@ -1,9 +1,3 @@
-recipes.addShaped(<bloodmagic:altar>, [[<minecraft:stone>, null, <minecraft:stone>], [<minecraft:stone>, <minecraft:furnace>, <minecraft:stone>], [<minecraft:gold_ingot>, <tconstruct:edible:3>, <minecraft:gold_ingot>]]);
-mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <tconstruct:edible:3>, 0, 1000, 50, 0);
-mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:soul_gem>, <minecraft:glass>, 1, 4000, 200, 0);
-
-recipes.remove(<bloodmagic:blood_rune:5>);
-recipes.addShaped(<bloodmagic:blood_rune:5>, [[<minecraft:stone>, <bloodmagic:slate:1>, <minecraft:stone>], [<minecraft:water_bucket>, <bloodmagic:blood_rune>, <minecraft:water_bucket>], [<minecraft:stone>, <bloodmagic:blood_orb>, <minecraft:stone>]]);
 
 //blood->lifeessence
 mods.tconstruct.Melting.removeRecipe(<liquid:blood>);
@@ -17,17 +11,32 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:lifeessence> * 10000, <extraalc
 
 
 //misc
+recipes.remove(<bloodmagic:soul_snare>);
+recipes.addShaped(<bloodmagic:altar>, [[<minecraft:stone>, null, <minecraft:stone>], [<minecraft:stone>, <minecraft:furnace>, <minecraft:stone>], [<minecraft:gold_ingot>, <tconstruct:edible:3>, <minecraft:gold_ingot>]]);
+recipes.remove(<bloodmagic:blood_rune:5>);
+recipes.addShaped(<bloodmagic:blood_rune:5>, [[<minecraft:stone>, <bloodmagic:slate:1>, <minecraft:stone>], [<minecraft:water_bucket>, <bloodmagic:blood_rune>, <minecraft:water_bucket>], [<minecraft:stone>, <bloodmagic:blood_orb>, <minecraft:stone>]]);
+
 recipes.addShapeless(<bloodarsenal:base_item>*3,[<ore:blockGlass>,<minecraft:flint>]);
 recipes.addShaped(<bloodmagic:demon_crucible>,[[<ore:gemDiamond>,null,<ore:gemDiamond>],[<ore:gemLapis>,<bloodarsenal:slate>,<ore:gemLapis>],[<bloodarsenal:slate>,<minecraft:cauldron>,<bloodarsenal:slate>]]);
 recipes.removeByRecipeName("bloodmagic:lava_crystal");
 mods.bloodmagic.AlchemyArray.addRecipe(<bloodmagic:lava_crystal>, <bloodmagic:component:1>, <minecraft:diamond>,"bloodmagic:textures/models/alchemyarrays/lavasigil.png");
 
+//TartaricForge-炼狱熔炉
+mods.bloodmagic.TartaricForge.removeRecipe([<minecraft:redstone>,<minecraft:gold_ingot>,<minecraft:glass>,<minecraft:dye:4>]);
+
+//BloodAltar-血之祭坛
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <tconstruct:edible:3>, 0, 1000, 50, 0);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:soul_gem>, <minecraft:glass>, 1, 4000, 200, 0);
+
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:3>, <extraalchemy:essence_earth>, 2, 4000, 200, 0);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:4>, <extraalchemy:essence_wind>, 2, 4000, 200, 0);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:1>, <extraalchemy:essence_water>, 2, 4000, 200, 0);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:2>, <extraalchemy:essence_fire>, 2, 4000, 200, 0);
+
 //AlchemyArray-炼金阵
-
-
-
-
 mods.bloodmagic.AlchemyArray.removeRecipe(<bloodarsenal:base_item:9>, <bloodmagic:slate:4>);
+
+//神盾印记
 mods.thaumcraft.Infusion.registerRecipe("god", "", <bloodarsenal:sigil_divinity>, 40, 
     [<aspect:aer>*128, <aspect:terra>*128,<aspect:ignis>*128,<aspect:aqua>*128, <aspect:ordo>*128,<aspect:perditio>*128,<aspect:caeles>*512,<aspect:desiderium>*512], 
     <bloodarsenal:slate:2>, 

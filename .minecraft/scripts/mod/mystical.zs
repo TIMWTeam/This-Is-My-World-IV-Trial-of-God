@@ -99,20 +99,12 @@ recipes.remove(<mysticalagriculture:crafting:19>);
 recipes.remove(<mysticalagriculture:crafting:18>);
 recipes.remove(<mysticalagriculture:crafting:17>);
 recipes.remove(<mysticalagriculture:crafting:16>);
-
 recipes.remove(<mysticalagriculture:tier1_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier2_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier3_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier4_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier5_inferium_seeds>);
-
-recipes.remove(<mysticalagriculture:end_steel_seeds>);
-recipes.remove(<mysticalagriculture:dawnstone_seeds>);
 recipes.remove(<mysticalagriculture:osmium_seeds>);
-recipes.remove(<mysticalagriculture:glowstone_ingot_seeds>);
-recipes.remove(<mysticalagriculture:conductive_iron_seeds>);
-recipes.remove(<mysticalagriculture:redstone_alloy_seeds>);
-recipes.remove(<mysticalagriculture:electrical_steel_seeds>);
 recipes.remove(<mysticalagriculture:grains_of_infinity_seeds>);
 recipes.remove(<mysticalagriculture:zinc_seeds>);
 recipes.remove(<mysticalagriculture:graphite_seeds>);
@@ -122,11 +114,6 @@ recipes.remove(<mysticalagriculture:dark_gem_seeds>);
 recipes.remove(<mysticalagriculture:tritanium_seeds>);
 recipes.remove(<mysticalagriculture:dilithium_seeds>);
 recipes.remove(<mysticalagriculture:menril_seeds>);
-recipes.remove(<mysticalagriculture:refined_obsidian_seeds>);
-recipes.remove(<mysticalagriculture:soularium_seeds>);
-recipes.remove(<mysticalagriculture:dark_steel_seeds>);
-recipes.remove(<mysticalagriculture:pulsating_iron_seeds>);
-recipes.remove(<mysticalagriculture:energetic_alloy_seeds>);
 recipes.remove(<mysticalagriculture:chrome_seeds>);
 
 //基础种子合成
@@ -136,11 +123,16 @@ mods.botania.Apothecary.addRecipe(<mysticalagriculture:crafting:17>,[<mysticalag
 recipes.removeByRecipeName("mysticalagriculture:core/compression/intermedium_essence_to");
 recipes.removeByRecipeName("mysticalagriculture:core/compression/superium_essence_to");
 recipes.removeByRecipeName("mysticalagriculture:core/compression/supremium_essence_to");
+recipes.removeByRecipeName("mysticalagriculture:core/compression/supremium_essence_block_to");
+recipes.removeByRecipeName("mysticalagriculture:core/compression/superium_essence_block_to");
+recipes.removeByRecipeName("mysticalagriculture:core/compression/intermedium_essence_block_to");
+
 mods.bloodmagic.TartaricForge.addRecipe(<mysticalagriculture:crafting:2>,[<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>],1024,20);
-mods.botaniatweaks.Agglomeration.addRecipe(<mysticalagriculture:crafting:3>, 
-    [<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>],
-    100000,	0xff6600, 0x00aeff,
-    <mysticalagriculture:storage:5>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:5>);
+mods.botaniatweaks.Agglomeration.addRecipe(<mysticalagriculture:storage:3>, 
+    [<mysticalagriculture:storage:5>],
+    1000000, 0xff6600, 0x00aeff,
+    <mysticalagriculture:storage:5>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:5>,
+    <mysticalagriculture:storage:5>,<minecraft:air>,<mysticalagriculture:storage:5>);
 mods.thaumcraft.Infusion.registerRecipe("essence_supremium", "", <mysticalagriculture:crafting:4>, 5, [<aspect:ordo>*1, <aspect:perditio>*1,<aspect:aer>*1,<aspect:terra>*1,<aspect:ignis>*1,<aspect:aqua>*1], <mysticalagriculture:crafting:5>, [<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>]);
 
 //一级作物
