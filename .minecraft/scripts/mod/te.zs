@@ -14,9 +14,4 @@ mods.thermalexpansion.Imbuer.addRecipe(<liquid:pyrotheum>*250,<thermalfoundation
 mods.thermalexpansion.Imbuer.addRecipe(<liquid:petrotheum>*250,<thermalfoundation:material:1027>,<liquid:terra_solvent>*250,32768);
 mods.thermalexpansion.Imbuer.addRecipe(<liquid:cryotheum>*250,<thermalfoundation:material:1025>,<liquid:aqua_solvent>*250,32768);
 mods.thermalexpansion.Imbuer.addRecipe(<liquid:aerotheum>*250,<thermalfoundation:material:1026>,<liquid:aer_solvent>*250,32768);
-//流体转置机
-mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:geode>,<enderio:item_material:15>,<liquid:mana>*500,32768);
-//元始魔力
-mods.astralsorcery.Grindstone.addRecipe(<thermalfoundation:material:1028>,<thermalfoundation:geode>,0.05);
-mods.botania.ManaInfusion.addAlchemy(<thermalfoundation:material:1028>,<thermalfoundation:geode>,1000);
-mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:1028>,<thermalfoundation:geode>,2048);
+
