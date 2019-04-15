@@ -19,7 +19,7 @@ removeModAdvancements:
     Arguments:
         boolean
     Default Values:
-        true
+        false
     Notes:
         Used to set whether Triumph should remove mod advancements.
 

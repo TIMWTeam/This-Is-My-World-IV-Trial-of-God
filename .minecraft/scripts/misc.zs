@@ -1,15 +1,12 @@
 //key放在了材质包:contenttweaker/lang/zh_cn.lang内
 mods.jei.JEI.addDescription(<extraalchemy:air_bottle>, "key.misc_01.jei");
 mods.jei.JEI.addDescription(<astralsorcery:blockcustomsandore>, "key.misc_02.jei");
-mods.jei.JEI.addDescription(<advanced_solar_panels:machines>, "key.misc_03.jei");
 <extraalchemy:air_bottle>.addTooltip(format.lightPurple("手持玻璃瓶，右键将风封入其中！"));
 <astralsorcery:blockcustomsandore>.addTooltip(format.lightPurple("星能液与熔岩所产生的沙子中，极低概率产生"));
-<advanced_solar_panels:machines>.addTooltip(format.lightPurple("配方实际存在，但无法显示"));
-<ic2:misc_resource:1>.addTooltip(format.lightPurple("在分子重组仪内放入铁矿获得"));
-<thermalfoundation:ore:7>.addTooltip(format.lightPurple("在分子重组仪内放入铁矿获得"));
 <contenttweaker:pure_starlight>.addTooltip(format.gold("拿在手上你似乎感觉到了一丝的寒冷"));
 <industrialforegoing:petrified_fuel_generator>.addTooltip(format.lightPurple("核能火力发电机（雾）"));
 <projecte:item.pe_tome>.addTooltip(format.gold("你认真读书了吗？！（震声）"));
+<enderio:item_material:20>.addTooltip(format.gold("The End"));
 <contenttweaker:demon_will_coagulator_1>.addTooltip(format.red("没有配方（No recipe）"));
 <contenttweaker:aether_transmuter_1>.addTooltip(format.red("没有配方（No recipe）"));
 

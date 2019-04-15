@@ -1,7 +1,7 @@
 {
     "machine": "vault_condenser",
     "registryName": "vault_condenser_sun",
-    "recipeTime": 40,
+    "recipeTime": 30,
     "requirements": [
         {
             "type": "daylight",
@@ -20,7 +20,7 @@
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "essence",
+            "fluid": "essence_supremium",
             "amount": 1000
         },        
         {

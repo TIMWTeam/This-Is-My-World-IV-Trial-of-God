@@ -47,5 +47,6 @@
   "explosionStrength": 42.0,
   "radius": 4,
   "maxWeight": 1800,
-  "version": 3
+  "version": 4,
+  "cost": 2000000
 }

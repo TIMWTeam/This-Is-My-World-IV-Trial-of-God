@@ -170,7 +170,9 @@ mods.extendedcrafting.TableCrafting.addShapeless(4, <contenttweaker:feature>, [
 	<ore:blockAA_meteors2>, <ore:blockAA_meteors0>, <ore:blockAA_meteors1>, <ore:blockAA_meteors5>, <ore:blockDraconiumAwakened>, 
 	<randomthings:spectrecoil_ender>, <contenttweaker:pure_starlight>, <contenttweaker:dirty_blood>, <ore:circuitBasic>, 
 	<ore:circuitAdvanced>, <ore:circuitElite>, <ore:circuitUltimate>,<thaumadditions:mithminite_plate>,<enderio:item_capacitor_stellar>,
-	<bloodarsenal:base_item:9>,<mysticalagriculture:crafting:4>,<matteroverdrive:android_pill>]);
+	<bloodarsenal:base_item:9>,<matteroverdrive:android_pill>,<bloodmagic:decorative_brick:2>,<contenttweaker:moon_essence>,
+	<contenttweaker:sun_essence>,<advanced_solar_panels:crafting:13>,<mekanism:basicblock2:4>.withTag({tier: 3}),<mekanism:basicblock2:3>.withTag({tier: 3}),
+	<naturesaura:aura_trove>,<thaumadditions:mithminite_ingot>	]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:32>, [
 	[<minecraft:tripwire_hook>, <integrateddynamics:on_the_dynamics_of_integration>, <minecraft:cauldron>, <extrautils2:playerchest>, <ore:listAllmeatraw>, <actuallyadditions:item_damage_lens>, <enderio:item_yeta_wrench>], 
