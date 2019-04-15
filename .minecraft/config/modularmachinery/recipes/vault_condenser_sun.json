@@ -1,6 +1,6 @@
 {
     "machine": "vault_condenser",
-    "registryName": "vault_condenser_moon",
+    "registryName": "vault_condenser_sun",
     "recipeTime": 40,
     "requirements": [
         {
