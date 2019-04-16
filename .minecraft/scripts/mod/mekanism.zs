@@ -21,6 +21,7 @@ recipes.addShaped(<mekanismgenerators:generator:10>*2,[[<ore:ingotOsmium>,<bigre
 recipes.remove(<mekanismgenerators:reactor:1>);
 recipes.addShaped(<mekanismgenerators:reactor:1>*2,[[<mekanism:basicblock:8>,<bigreactors:reactorcasing>,<mekanism:basicblock:8>],[<bigreactors:reactorcasing>,<ic2:nuclear:7>,<bigreactors:reactorcasing>],[<mekanism:basicblock:8>,<bigreactors:reactorcasing>,<mekanism:basicblock:8>]]);
 
-
-
+//dt
+mods.mekanism.separator.removeRecipe(<gas:deuterium>);
+mods.embers.Mixer.add(<liquid:fluiddeuterium>*10,[<liquid:heavywater>*10, <liquid:uranium>*10]);
 

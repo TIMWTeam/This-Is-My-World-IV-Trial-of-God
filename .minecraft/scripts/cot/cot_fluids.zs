@@ -39,6 +39,12 @@ aer_solvent.flowingLocation = "contenttweaker:fluids/aer_solvent_flow";
 aer_solvent.gaseous=true;
 aer_solvent.register();
 
+var essence_supremium = VanillaFactory.createFluid("essence_supremium", Color.fromHex("FFFFFF"));
+essence_supremium.stillLocation = "contenttweaker:fluids/";
+essence_supremium.flowingLocation = "contenttweaker:fluids/";
+essence_supremium.gaseous=true;
+essence_supremium.register();
+
 
 
 

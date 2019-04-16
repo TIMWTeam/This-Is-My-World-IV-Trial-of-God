@@ -9,7 +9,7 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:silicon_low_pur
 mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:300>, <projectred-core:resource_item:250>, <immersiveengineering:material:7>, 200, 512);
 ChemLab.addRecipe(<contenttweaker:silicon_low_purity>,1,<minecraft:dirt>,0,<liquid:liquidchlorine>*10,false,<contenttweaker:silicon_chlorine>*1,<liquid:water>*0,100);
 ChemLab.addRecipe(<contenttweaker:silicon_chlorine>,1,<minecraft:dirt>,0,<liquid:liquidhydrogen>*10,false,<contenttweaker:silicon_high_purity>*1,<liquid:water>*0,100);
-mods.mekanism.reaction.addRecipe(<contenttweaker:silicon_low_purity>, <liquid:liquidchlorine>*10, <gas:hydrogen>*1000, <contenttweaker:silicon_high_purity> * 1, <gas:hydrogenchloride>, 5000, 20);
+mods.mekanism.reaction.addRecipe(<contenttweaker:silicon_low_purity>, <liquid:liquidchlorine>*10, <gas:hydrogen>*100, <contenttweaker:silicon_high_purity> * 1, <gas:hydrogenchloride>, 5000, 20);
 recipes.replaceAllOccurences(<ore:circuitBasic>, <contenttweaker:basic_circuit>);
 recipes.replaceAllOccurences(<ore:circuitAdvanced>, <contenttweaker:advanced_circuit>);
 recipes.replaceAllOccurences(<ic2:crafting:2>, <contenttweaker:advanced_circuit>);
@@ -31,17 +31,17 @@ furnace.addRecipe(<techreborn:part:32>,<ic2:crafting>,1);
 <ore:itemRubber>.remove(<techreborn:part:32>);
 ChemLab.removeRecipe(<techguns:itemshared:95>,null);
 ChemLab.removeRecipe(<techguns:itemshared:96>,null);
-ChemLab.addRecipe(<thermalfoundation:material:771>,1,<minecraft:dirt>,0,<liquid:resin>*250,false,null,<liquid:liquidethene>*10,60);
-ChemLab.addRecipe(<minecraft:dirt>,0,<minecraft:dirt>,0,<liquid:resin>*100,false,<mekanism:polyethene>,<liquid:water>*0,100);
-ChemLab.addRecipe(<mekanism:polyethene>,1,<minecraft:dirt>,0,<liquid:liquidethene>*10,false, <techguns:itemshared:55> ,<liquid:water>*0,100);
+ChemLab.addRecipe(<thermalfoundation:material:771>,1,<minecraft:dirt>,0,<liquid:resin>*250,false,null,<liquid:liquidethene>*200,60);
+ChemLab.addRecipe(<thermalfoundation:material:832>,1,<minecraft:dirt>,0,<liquid:tree_oil>*200,false,<mekanism:polyethene>*4,<liquid:water>*0,400);
+ChemLab.addRecipe(<mekanism:polyethene>,1,<minecraft:dirt>,0,<liquid:liquidethene>*100,false, <techguns:itemshared:55> ,<liquid:water>*0,100);
 recipes.remove(<mekanism:polyethene:2>);
 mods.mekanism.enrichment.removeRecipe(<mekanism:polyethene>);
 
 mods.mekanism.reaction.removeRecipe(<mekanism:substrate>, <gas:ethene>);
 mods.mekanism.reaction.removeRecipe(<mekanism:substrate>, <gas:oxygen>);
 mods.mekanism.reaction.removeRecipe(<mekanism:polyethene>, <gas:oxygen>);
-mods.mekanism.reaction.addRecipe(<mekanism:biofuel>, <liquid:water>*10, <gas:hydrogen>*1000, <mekanism:substrate>, <gas:oxygen>*20, 5000, 200);
-mods.mekanism.reaction.addRecipe(<mekanism:substrate>, <liquid:gasoline>*10, <gas:ethene>*1000, <techguns:itemshared:55> , <gas:oxygen>*20, 5000, 200);
+mods.mekanism.reaction.addRecipe(<mekanism:biofuel>, <liquid:water>*10, <gas:hydrogen>*100, <mekanism:substrate>, <gas:oxygen>*20, 5000, 200);
+mods.mekanism.reaction.addRecipe(<mekanism:substrate>, <liquid:gasoline>*10, <gas:ethene>*100, <techguns:itemshared:55> , <gas:oxygen>*20, 5000, 200);
 recipes.replaceAllOccurences(<mekanism:polyethene:2>, <techguns:itemshared:55>);
 
 //wire-导线

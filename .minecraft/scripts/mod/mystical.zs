@@ -2,29 +2,21 @@ import crafttweaker.item.IItemStack;
 
 recipes.remove(<mysticalagriculture:fluix_seeds>);
 recipes.remove(<mysticalagriculture:certus_quartz_seeds>);
-recipes.remove(<mysticalagriculture:sky_stone_seeds>);
 recipes.remove(<mysticalagriculture:draconium_seeds>);
 recipes.remove(<mysticalagriculture:rock_crystal_seeds>);
-recipes.remove(<mysticalagriculture:starmetal_seeds>);
 recipes.remove(<mysticalagriculture:aquamarine_seeds>);
 recipes.remove(<mysticalagriculture:black_quartz_seeds>);
 recipes.remove(<mysticalagriculture:fluix_seeds>);
 recipes.remove(<mysticalagriculture:certus_quartz_seeds>);
-recipes.remove(<mysticalagriculture:sky_stone_seeds>);
 recipes.remove(<mysticalagriculture:draconium_seeds>);
 recipes.remove(<mysticalagriculture:rock_crystal_seeds>);
-recipes.remove(<mysticalagriculture:starmetal_seeds>);
 recipes.remove(<mysticalagriculture:aquamarine_seeds>);
 recipes.remove(<mysticalagriculture:black_quartz_seeds>);
-recipes.remove(<mysticalagriculture:electrotine_seeds>);
 recipes.remove(<mysticalagriculture:apatite_seeds>);
 recipes.remove(<mysticalagriculture:basalt_seeds>);
 recipes.remove(<mysticalagriculture:limestone_seeds>);
 recipes.remove(<mysticalagriculture:marble_seeds>);
-recipes.remove(<mysticalagriculture:iridium_ore_seeds>);
 recipes.remove(<mysticalagriculture:quicksilver_seeds>);
-recipes.remove(<mysticalagriculture:elementium_seeds>);
-recipes.remove(<mysticalagriculture:manasteel_seeds>);
 recipes.remove(<mysticalagriculture:mystical_flower_seeds>);
 recipes.remove(<mysticalagriculture:manyullyn_seeds>);
 recipes.remove(<mysticalagriculture:cobalt_seeds>);
@@ -33,30 +25,15 @@ recipes.remove(<mysticalagriculture:basalz_seeds>);
 recipes.remove(<mysticalagriculture:blitz_seeds>);
 recipes.remove(<mysticalagriculture:blizz_seeds>);
 recipes.remove(<mysticalagriculture:amber_seeds>);
-recipes.remove(<mysticalagriculture:peridot_seeds>);
-recipes.remove(<mysticalagriculture:sapphire_seeds>);
-recipes.remove(<mysticalagriculture:ruby_seeds>);
-recipes.remove(<mysticalagriculture:iridium_seeds>);
 recipes.remove(<mysticalagriculture:platinum_seeds>);
 recipes.remove(<mysticalagriculture:uranium_seeds>);
 recipes.remove(<mysticalagriculture:titanium_seeds>);
-recipes.remove(<mysticalagriculture:mithril_seeds>);
-recipes.remove(<mysticalagriculture:invar_seeds>);
-recipes.remove(<mysticalagriculture:electrum_seeds>);
-recipes.remove(<mysticalagriculture:constantan_seeds>);
 recipes.remove(<mysticalagriculture:nickel_seeds>);
-recipes.remove(<mysticalagriculture:steel_seeds>);
 recipes.remove(<mysticalagriculture:lead_seeds>);
 recipes.remove(<mysticalagriculture:silver_seeds>);
-recipes.remove(<mysticalagriculture:brass_seeds>);
-recipes.remove(<mysticalagriculture:bronze_seeds>);
 recipes.remove(<mysticalagriculture:tin_seeds>);
-recipes.remove(<mysticalagriculture:saltpeter_seeds>);
 recipes.remove(<mysticalagriculture:copper_seeds>);
 recipes.remove(<mysticalagriculture:aluminum_seeds>);
-recipes.remove(<mysticalagriculture:sulfur_seeds>);
-recipes.remove(<mysticalagriculture:silicon_seeds>);
-recipes.remove(<mysticalagriculture:rubber_seeds>);
 recipes.remove(<mysticalagriculture:wither_skeleton_seeds>);
 recipes.remove(<mysticalagriculture:enderman_seeds>);
 recipes.remove(<mysticalagriculture:ghast_seeds>);
@@ -86,7 +63,6 @@ recipes.remove(<mysticalagriculture:obsidian_seeds>);
 recipes.remove(<mysticalagriculture:gold_seeds>);
 recipes.remove(<mysticalagriculture:lapis_lazuli_seeds>);
 recipes.remove(<mysticalagriculture:end_seeds>);
-recipes.remove(<mysticalagriculture:experience_seeds>);
 recipes.remove(<mysticalagriculture:diamond_seeds>);
 recipes.remove(<mysticalagriculture:emerald_seeds>);
 recipes.remove(<mysticalagriculture:zombie_seeds>);
@@ -98,26 +74,21 @@ recipes.remove(<mysticalagriculture:crafting:20>);
 recipes.remove(<mysticalagriculture:crafting:19>);
 recipes.remove(<mysticalagriculture:crafting:18>);
 recipes.remove(<mysticalagriculture:crafting:17>);
-recipes.remove(<mysticalagriculture:crafting:16>);
 recipes.remove(<mysticalagriculture:tier1_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier2_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier3_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier4_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier5_inferium_seeds>);
 recipes.remove(<mysticalagriculture:osmium_seeds>);
-recipes.remove(<mysticalagriculture:grains_of_infinity_seeds>);
 recipes.remove(<mysticalagriculture:zinc_seeds>);
-recipes.remove(<mysticalagriculture:graphite_seeds>);
 recipes.remove(<mysticalagriculture:tungsten_seeds>);
-recipes.remove(<mysticalagriculture:yellorium_seeds>);
 recipes.remove(<mysticalagriculture:dark_gem_seeds>);
 recipes.remove(<mysticalagriculture:tritanium_seeds>);
 recipes.remove(<mysticalagriculture:dilithium_seeds>);
 recipes.remove(<mysticalagriculture:menril_seeds>);
-recipes.remove(<mysticalagriculture:chrome_seeds>);
 
 //基础种子合成
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:crafting:17>,[<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:crafting:17>,[<mysticalagriculture:crafting:16>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>]);
 
 //精华
 recipes.removeByRecipeName("mysticalagriculture:core/compression/intermedium_essence_to");
@@ -129,15 +100,15 @@ recipes.removeByRecipeName("mysticalagriculture:core/compression/intermedium_ess
 
 mods.bloodmagic.TartaricForge.addRecipe(<mysticalagriculture:crafting:2>,[<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>],1024,20);
 mods.botaniatweaks.Agglomeration.addRecipe(<mysticalagriculture:storage:3>, 
-    [<mysticalagriculture:storage:5>],
+    [<mysticalagriculture:storage:5>,<ic2:misc_resource:3>],
     1000000, 0xff6600, 0x00aeff,
     <mysticalagriculture:storage:5>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:5>,
-    <mysticalagriculture:storage:5>,<minecraft:air>,<mysticalagriculture:storage:5>);
+    null,<minecraft:stone>,null);
 mods.thaumcraft.Infusion.registerRecipe("essence_supremium", "", <mysticalagriculture:crafting:4>, 5, [<aspect:ordo>*1, <aspect:perditio>*1,<aspect:aer>*1,<aspect:terra>*1,<aspect:ignis>*1,<aspect:aqua>*1], <mysticalagriculture:crafting:5>, [<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>]);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:essence_supremium>*250,<mysticalagriculture:crafting:4>,1000000);
+
 
 //一级作物
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:crafting:17>,[<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting:17>]);
-
 mods.botania.Apothecary.addRecipe(<mysticalagriculture:dirt_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:dirt>,<botania:rune:2>,<mysticalagriculture:crafting:17>]);
 mods.botania.Apothecary.addRecipe(<mysticalagriculture:stone_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:stone>,<botania:rune:2>,<mysticalagriculture:crafting:17>]);
 mods.botania.Apothecary.addRecipe(<mysticalagriculture:basalt_seeds>,[<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<extraalchemy:essence_earth>,<minecraft:stone>,<minecraft:dye>,<botania:rune:2>,<mysticalagriculture:crafting:17>]);
@@ -202,7 +173,7 @@ var output =	[<mysticalagriculture:dilithium_seeds>,
     <mysticalagriculture:cobalt_seeds>,
     <mysticalagriculture:ardite_seeds>,
     <mysticalagriculture:platinum_seeds>,
-    <mysticalagriculture:titanium_seeds>,
+    <mysticalagriculture:osmium_seeds>,
     <mysticalagriculture:rock_crystal_seeds>,
     <mysticalagriculture:diamond_seeds>,
     <mysticalagriculture:tungsten_seeds>] as IItemStack[];
@@ -212,7 +183,7 @@ var input =	[<matteroverdrive:dilithium_ore>,
     <tconstruct:ore>,
     <tconstruct:ore:1>,
     <thermalfoundation:ore:6>,
-    <techguns:basicore:3>,
+    <mekanism:oreblock>,
     <astralsorcery:blockcustomore>,
     <minecraft:diamond_ore>,
     <techreborn:ore:8>] as IItemStack[];

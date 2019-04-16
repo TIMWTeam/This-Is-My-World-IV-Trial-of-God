@@ -19,6 +19,22 @@
         "naturesaura:intro/botany"
       ],
       "completedManualQuests": []
+    },
+    "cuisine:culinary_101": {
+      "viewedEntries": [
+        "cuisine:preface/social",
+        "cuisine:preface/plant",
+        "cuisine:preface/tooltip",
+        "cuisine:misc/tofu_block"
+      ],
+      "bookmarks": [],
+      "history": [
+        "cuisine:misc/tofu_block",
+        "cuisine:preface/tooltip",
+        "cuisine:preface/plant",
+        "cuisine:preface/social"
+      ],
+      "completedManualQuests": []
     }
   }
 }
