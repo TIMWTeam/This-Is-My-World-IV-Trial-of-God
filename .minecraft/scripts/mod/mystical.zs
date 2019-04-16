@@ -122,7 +122,7 @@ mods.botania.Apothecary.addRecipe(<mysticalagriculture:nature_seeds>,[<extraalch
 mods.botania.Apothecary.addRecipe(<mysticalagriculture:dye_seeds>,[<mysticalagriculture:crafting:7>,<mysticalagriculture:crafting:7>,<mysticalagriculture:crafting:7>,<mysticalagriculture:crafting:7>,<botania:rune:8>,<mysticalagriculture:crafting:17>]);
 
 recipes.remove(<mysticalagriculture:crafting:6>);
-recipes.addShaped(<mysticalagriculture:crafting:6>,[[<minecraft:dye:3>,<minecraft:wheat>,<minecraft:reeds>],[<minecraft:carrot>,<minecraft:melon_block>,<minecraft:pumpkin>],[<minecraft:potato>,<minecraft:beetroot>,null]]);
+recipes.addShaped(<mysticalagriculture:crafting:6>,[[<minecraft:dye:3>,<minecraft:wheat>,<minecraft:reeds>],[<minecraft:carrot>,<minecraft:melon_block>,<minecraft:pumpkin>],[<minecraft:potato>,<minecraft:beetroot>,<ore:mushroom>]]);
 recipes.remove(<mysticalagriculture:crafting:7>);
 recipes.addShapeless(<mysticalagriculture:crafting:7>,[<minecraft:dye:1>,<minecraft:dye:14>,<minecraft:dye:11>,<minecraft:dye:2>,<minecraft:dye:4>,<minecraft:dye:6>,<minecraft:dye:5>]);
 
@@ -193,5 +193,98 @@ for i, out in output {
         [input[i],input[i],<contenttweaker:pure_starlight>,<contenttweaker:pure_starlight>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,
         <mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<contenttweaker:dirty_blood>,<contenttweaker:dirty_blood>,input[i],input[i]]);
 }
+
+//精华产物调整
+recipes.removeByRegex("mysticalagriculture:ingot*");
+recipes.removeByRecipeName("unidict:ingotiron_x6_shape.aaaa aaaa");
+recipes.removeByRecipeName("unidict:ingotgold_x4_shape.aaaa aaaa");
+recipes.removeByRecipeName("mysticalagriculture:coal");
+recipes.removeByRecipeName("mysticalagriculture:gemdark");
+recipes.removeByRecipeName("mysticalagriculture:redstone");
+recipes.removeByRecipeName("mysticalagriculture:gemapatite");
+recipes.remove(<primal:quartz_vitrified>);
+recipes.removeByRecipeName("mysticalagriculture:gemdilithium");
+recipes.removeByRecipeName("mysticalagriculture:gemamber");
+recipes.removeByRecipeName("mysticalagriculture:itemcraftingcomponent");
+recipes.removeByRecipeName("mysticalagriculture:crystalcertusquartz");
+recipes.removeByRecipeName("mysticalagriculture:dye_13");
+recipes.removeByRecipeName("mysticalagriculture:quartz");
+
+
+var essence_out = [<minecraft:iron_ore>*4,
+    <thermalfoundation:ore>*3,
+    <thermalfoundation:ore:1>*2,
+    <thermalfoundation:ore:4>*2,
+    <minecraft:gold_ore>*4,
+    <techreborn:ore:7>*2,
+    <mekanism:oreblock>*2,
+    <draconicevolution:draconium_ore>,
+    <thermalfoundation:ore:6>,
+    <tconstruct:ore>,
+    <tconstruct:ore:1>,
+    <matteroverdrive:tritanium_ore>*2,
+    <thermalfoundation:ore:5>*2,
+    <thermalfoundation:ore:3>*2,
+    <thermalfoundation:ore:2>*2,
+    <techguns:basicore:3>,
+    <ic2:resource:4>,
+    <techreborn:ore:8>,
+    <forestry:resources>*3,
+    <actuallyadditions:block_misc:3>*3,
+    <minecraft:redstone_ore>*3,
+    <evilcraft:dark_ore>*3,
+    <minecraft:coal_ore>*3,
+    <minecraft:quartz_ore>*2,
+    <minecraft:lapis_ore>*2,
+    <appliedenergistics2:quartz_ore>*2,
+    <thaumcraft:ore_amber>*2,
+    <matteroverdrive:dilithium_ore>*2,
+    <astralsorcery:blockcustomsandore>*2
+
+] as IItemStack[];
+var essence_input =	[<mysticalagriculture:iron_essence>,
+    <mysticalagriculture:copper_essence>,
+    <mysticalagriculture:tin_essence>,
+    <mysticalagriculture:aluminum_essence>,
+    <mysticalagriculture:gold_essence>,
+    <mysticalagriculture:zinc_essence>,
+    <mysticalagriculture:osmium_essence>,
+    <mysticalagriculture:draconium_essence>,
+    <mysticalagriculture:platinum_essence>,
+    <mysticalagriculture:cobalt_essence>,
+    <mysticalagriculture:ardite_essence>,
+    <mysticalagriculture:tritanium_essence>,
+    <mysticalagriculture:nickel_essence>,
+    <mysticalagriculture:lead_essence>,
+    <mysticalagriculture:silver_essence>,
+    <mysticalagriculture:titanium_essence>,
+    <mysticalagriculture:uranium_essence>,
+    <mysticalagriculture:tungsten_essence>,
+    <mysticalagriculture:apatite_essence>,
+    <mysticalagriculture:black_quartz_essence>,
+    <mysticalagriculture:redstone_essence>,
+    <mysticalagriculture:dark_gem_essence>,
+    <mysticalagriculture:coal_essence>,
+    <mysticalagriculture:nether_quartz_essence>,
+    <mysticalagriculture:lapis_lazuli_essence>,
+    <mysticalagriculture:certus_quartz_essence>,
+    <mysticalagriculture:amber_essence>,
+    <mysticalagriculture:dilithium_essence>,
+    <mysticalagriculture:aquamarine_essence>
+] as IItemStack[];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
