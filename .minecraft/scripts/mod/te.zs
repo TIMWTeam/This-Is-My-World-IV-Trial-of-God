@@ -14,4 +14,5 @@ mods.thermalexpansion.Imbuer.addRecipe(<liquid:pyrotheum>*250,<thermalfoundation
 mods.thermalexpansion.Imbuer.addRecipe(<liquid:petrotheum>*250,<thermalfoundation:material:1027>,<liquid:terra_solvent>*250,32768);
 mods.thermalexpansion.Imbuer.addRecipe(<liquid:cryotheum>*250,<thermalfoundation:material:1025>,<liquid:aqua_solvent>*250,32768);
 mods.thermalexpansion.Imbuer.addRecipe(<liquid:aerotheum>*250,<thermalfoundation:material:1026>,<liquid:aer_solvent>*250,32768);
-
+//蓝石
+mods.thermalexpansion.Transposer.addFillRecipe(<projectred-core:resource_item:105>,<minecraft:redstone>,<liquid:water>*100,1000);
