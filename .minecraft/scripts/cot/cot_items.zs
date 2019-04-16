@@ -120,3 +120,8 @@ var mana_crystal = VanillaFactory.createItem("mana_crystal");
 mana_crystal.maxStackSize = 64;
 mana_crystal.rarity = "rare";
 mana_crystal.register();
+
+var gold_skull = VanillaFactory.createItem("gold_skull");
+gold_skull.maxStackSize = 64;
+gold_skull.rarity = "rare";
+gold_skull.register();

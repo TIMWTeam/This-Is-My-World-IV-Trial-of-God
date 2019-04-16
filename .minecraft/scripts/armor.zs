@@ -45,7 +45,8 @@ var material =	[<redstonearsenal:material:224>,
 			<thaumcraft:ingot>,
 //			<extrabotany:material:5>,
 			<botania:manaresource>,
-			<botania:manaresource:7> ] as IItemStack[];
+			<botania:manaresource:7>,
+			<enderio:item_alloy_ingot:6>] as IItemStack[];
 var helmet =	[<redstonearsenal:armor.helmet_flux>,
 			<matteroverdrive:tritanium_helmet>,
 			<mekanismtools:lapislazulihelmet>,
@@ -58,7 +59,8 @@ var helmet =	[<redstonearsenal:armor.helmet_flux>,
 			<thaumcraft:thaumium_helm>,
 //			<extrabotany:shadowwarriorhelm>,
 			<botania:manasteelhelm>,
-			<botania:elementiumhelm> ] as IItemStack[];
+			<botania:elementiumhelm>,
+			<enderio:item_dark_steel_helmet> ] as IItemStack[];
 var chest =	[<redstonearsenal:armor.plate_flux>,
 			<matteroverdrive:tritanium_chestplate>,
 			<mekanismtools:lapislazulichestplate>,
@@ -71,7 +73,8 @@ var chest =	[<redstonearsenal:armor.plate_flux>,
 			<thaumcraft:thaumium_chest>,
 //			<extrabotany:shadowwarriorchest>,
 			<botania:manasteelchest>,
-			<botania:elementiumchest>] as IItemStack[];
+			<botania:elementiumchest>,
+			<enderio:item_dark_steel_chestplate>] as IItemStack[];
 var legs =	[<redstonearsenal:armor.legs_flux>,
 			<matteroverdrive:tritanium_leggings>,
 			<mekanismtools:lapislazulileggings>,
@@ -84,7 +87,8 @@ var legs =	[<redstonearsenal:armor.legs_flux>,
 			<thaumcraft:thaumium_legs>,
 //			<extrabotany:shadowwarriorlegs>,
 			<botania:manasteellegs>,
-			<botania:elementiumlegs> ] as IItemStack[];
+			<botania:elementiumlegs>,
+			<enderio:item_dark_steel_leggings> ] as IItemStack[];
 var boots =	[<redstonearsenal:armor.boots_flux>,
 			<matteroverdrive:tritanium_boots>,
 			<mekanismtools:lapislazuliboots>,
@@ -97,7 +101,8 @@ var boots =	[<redstonearsenal:armor.boots_flux>,
 			<thaumcraft:thaumium_boots>,
 //			<extrabotany:shadowwarriorboots>,
 			<botania:manasteelboots>,
-			<botania:elementiumboots>] as IItemStack[];
+			<botania:elementiumboots>,
+			<enderio:item_dark_steel_boots>] as IItemStack[];
 for i, mat in material {
 	recipes.remove(helmet[i]);
 	recipes.remove(chest[i]);

@@ -19,7 +19,7 @@ recipes.addShaped(<extrautils2:terraformer:9>,[[<ore:ingotIron>,<ore:gemDiamond>
 
 //misc
 recipes.remove(<extrautils2:teleporter:1>);
-
+recipes.addShaped(<extrautils2:passivegenerator:8>,[[<extrautils2:decorativesolid:3>,<extrautils2:decorativesolid:3>,<extrautils2:decorativesolid:3>],[<extrautils2:ingredients:1>,<extrautils2:ingredients:2>,<extrautils2:ingredients:1>],[<extrautils2:decorativesolid:3>,<extrautils2:decorativesolid:3>,<extrautils2:decorativesolid:3>]]);
 
 
 

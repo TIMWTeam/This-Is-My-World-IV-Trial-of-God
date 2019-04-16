@@ -195,7 +195,7 @@ for i, out in output {
 }
 
 //精华产物调整
-recipes.removeByRegex("mysticalagriculture:ingot*");
+recipes.removeByRegex("^mysticalagriculture:ingot.*");
 recipes.removeByRecipeName("unidict:ingotiron_x6_shape.aaaa aaaa");
 recipes.removeByRecipeName("unidict:ingotgold_x4_shape.aaaa aaaa");
 recipes.removeByRecipeName("mysticalagriculture:coal");
@@ -273,7 +273,9 @@ var essence_input =	[<mysticalagriculture:iron_essence>,
     <mysticalagriculture:aquamarine_essence>
 ] as IItemStack[];
 
-
+for i, e_input in essence_input{
+    recipes.addShaped(essence_out[i],[[e_input,e_input,e_input],[e_input,null,e_input],[e_input,e_input,e_input]]);
+}
 
 
 

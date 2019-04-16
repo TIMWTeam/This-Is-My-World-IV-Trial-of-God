@@ -6,8 +6,8 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:772>*2, 
 mods.immersiveengineering.Mixer.addRecipe(<liquid:brine>*100, <liquid:water>*100, [<ore:dustSalt>], 5120);
 mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:silicon_low_purity>, <projectred-core:resource_item:250>, 2000);
 mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:300>, <projectred-core:resource_item:250>, <immersiveengineering:material:7>, 200, 512);
-ChemLab.addRecipe(<contenttweaker:silicon_low_purity>,1,<minecraft:dirt>,0,<liquid:liquidchlorine>*10,false,<contenttweaker:silicon_chlorine>*1,<liquid:water>*0,100);
-ChemLab.addRecipe(<contenttweaker:silicon_chlorine>,1,<minecraft:dirt>,0,<liquid:liquidhydrogen>*10,false,<contenttweaker:silicon_high_purity>*1,<liquid:water>*0,100);
+mods.techguns.ChemLab.addRecipe(<contenttweaker:silicon_low_purity>,1,<minecraft:dirt>,0,<liquid:liquidchlorine>*10,false,<contenttweaker:silicon_chlorine>*1,<liquid:water>*0,100);
+mods.techguns.ChemLab.addRecipe(<contenttweaker:silicon_chlorine>,1,<minecraft:dirt>,0,<liquid:liquidhydrogen>*10,false,<contenttweaker:silicon_high_purity>*1,<liquid:water>*0,100);
 mods.mekanism.reaction.addRecipe(<contenttweaker:silicon_low_purity>, <liquid:liquidchlorine>*10, <gas:hydrogen>*100, <contenttweaker:silicon_high_purity> * 1, <gas:hydrogenchloride>, 5000, 20);
 recipes.replaceAllOccurences(<ore:circuitBasic>, <contenttweaker:basic_circuit>);
 recipes.replaceAllOccurences(<ore:circuitAdvanced>, <contenttweaker:advanced_circuit>);
