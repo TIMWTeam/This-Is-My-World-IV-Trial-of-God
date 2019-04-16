@@ -16,13 +16,13 @@ mods.immersiveengineering.Blueprint.addRecipe("components", <immersiveengineerin
 mods.immersiveengineering.Blueprint.addRecipe("components", <researchtable:table>, [<immersiveengineering:material:27>, <immersiveengineering:material:9>, <ore:slabSteel>, <ore:slabSteel>]);
 
 //metal press
-var input = [<ore:plateIron>, 
-    <ore:plateGold>, 
-    <ore:plateCopper>, 
-    <ore:plateTin>, 
-    <ore:plateLead>, 
-    <ore:plateSteel>, 
-    <ore:plateBronze>] as IItemStack[];
+var input = [<thermalfoundation:material:32>, 
+    <thermalfoundation:material:33>, 
+    <thermalfoundation:material:320>, 
+    <thermalfoundation:material:321>, 
+    <thermalfoundation:material:323>, 
+    <thermalfoundation:material:352>, 
+    <thermalfoundation:material:355>] as IItemStack[];
 var output = [<ic2:casing:3>, 
     <ic2:casing:2>, 
     <ic2:casing:1>, 

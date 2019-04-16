@@ -1,3 +1,4 @@
+import crafttweaker.item.IItemStack;
 //remove
 val reovme_furnace = [<primal:corn_cob_cooked>,
  <primal:corn_bread>,

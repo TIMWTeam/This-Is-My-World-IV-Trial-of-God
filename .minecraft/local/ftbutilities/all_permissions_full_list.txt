@@ -15081,7 +15081,16 @@ command.matteroverdrive.matterregistry
 command.matteroverdrive.mo_gen
 command.matteroverdrive.quest
 command.me
-command.mekanism.mk
+command.mekanism.mek.chunk.clear
+command.mekanism.mek.chunk.flush
+command.mekanism.mek.chunk.unwatch
+command.mekanism.mek.chunk.watch
+command.mekanism.mek.debug
+command.mekanism.mek.testrules
+command.mekanism.mek.tp
+command.mekanism.mek.tpop
+command.mekanism.mtp
+command.mekanism.mtpop
 command.modularmachinery.mm-hand
 command.modularmachinery.mm-syntax
 command.naturesaura.naaura

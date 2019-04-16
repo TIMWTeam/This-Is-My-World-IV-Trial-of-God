@@ -18,7 +18,6 @@ recipes.addShaped(<ic2:nuclear:10>,[[<thermalfoundation:material:32>,<thermalfou
 mods.mekanism.combiner.removeRecipe(<ore:oreDraconium>);
 mods.mekanism.combiner.removeRecipe(<techreborn:ore:8>);
 mods.mekanism.combiner.removeRecipe(<ic2:resource:4>);
-mods.mekanism.combiner.removeRecipe(<thermalfoundation:ore:7>);
 recipes.addShaped(<ic2:resource:4>*8,[[<ic2:misc_resource:3>,null,<ic2:misc_resource:3>],[<ic2:misc_resource:3>,null,<ic2:misc_resource:3>],[<ic2:misc_resource:3>,<ic2:misc_resource:3>,<ic2:misc_resource:3>]]);
 recipes.addShaped(<thermalfoundation:ore:7>,[[<ic2:misc_resource:3>,<ic2:misc_resource:3>,<ic2:misc_resource:3>],[null,<ic2:misc_resource:3>,null],[<ic2:misc_resource:3>,<ic2:misc_resource:3>,<ic2:misc_resource:3>]]);
 recipes.addShaped(<matteroverdrive:dilithium_ore>*64,[[<ic2:misc_resource:3>,<ic2:misc_resource:3>]]);
