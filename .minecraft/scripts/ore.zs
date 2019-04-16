@@ -104,6 +104,7 @@ recipes.replaceAllOccurences(<techreborn:cable:7>,<ic2:cable:3>.withTag({type: 3
 //<ore:itemRubber>.add(<techguns:itemshared:55>);
 //flower
 <ore:minecraft_flower>.add(<minecraft:yellow_flower>,<minecraft:red_flower>,<minecraft:red_flower:1>,<minecraft:red_flower:2>,<minecraft:red_flower:3>,<minecraft:red_flower:4>,<minecraft:red_flower:5>,<minecraft:red_flower:6>,<minecraft:red_flower:7>,<minecraft:red_flower:8>);
-
+//蓝石
+mods.tconstruct.Casting.addTableRecipe(<projectred-core:resource_item:105>,<minecraft:redstone>,<liquid:water>,2000,true,300);
 
 
