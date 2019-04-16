@@ -23,6 +23,8 @@ mods.naturesaura.TreeRitual.addRecipe("greatwood", <naturesaura:ancient_sapling>
 //naturesaura
 mods.bloodmagic.AlchemyArray.addRecipe(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), <naturesaura:bottle_two_the_rebottling>, <minecraft:soul_sand>,"contenttweaker:textures/AlchemyArrays/alchemy.png");
 mods.bloodmagic.AlchemyArray.addRecipe(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}), <naturesaura:bottle_two_the_rebottling>, <botania:dye:15>,"contenttweaker:textures/AlchemyArrays/alchemy.png");
+mods.bloodmagic.AlchemyArray.addRecipe(<naturesaura:birth_spirit>,<naturesaura:effect_powder>.withTag({effect: "naturesaura:animal"}), <minecraft:egg>,"contenttweaker:textures/AlchemyArrays/alchemy.png");
+
 //精华
 mods.naturesaura.Altar.addRecipe("crafting1", <minecraft:redstone>, <mysticalagriculture:crafting>, null, 100, 30);
 mods.naturesaura.Altar.addRecipe("crafting2", <projectred-core:resource_item:105>, <mysticalagriculture:crafting>*2, null, 100, 15);
