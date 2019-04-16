@@ -13,9 +13,9 @@ function acceleration(itemRecipes as IIngredient[][][]) {
 
 			function(out, ins, cInfo) {
 				var level = out.tag.level;
-				var data as IData = {acLv : 0} + cInfo.player.data;
+				var data as IData = {"PlayerPersisted": { acLv : 0 } }  + cInfo.player.data;
 				
-				if(data.acLv == level) return out;
+				if(data.PlayerPersisted.acLv == level) return out;
 
 				return null;
 			} as IRecipeFunction,
@@ -23,10 +23,11 @@ function acceleration(itemRecipes as IIngredient[][][]) {
 			function(out, cInfo, player) {
 				if(!player.world.isRemote()) {
 					var level = out.tag.level;
-					var data as IData = {acLv : 0} + player.data;
-
-					if(data.acLv == level) {
-						data = {acLv : data.acLv.asInt() + 1};
+					//var data as IData = {acLv : 0} + player.data;
+					var data as IData = {"PlayerPersisted": { acLv : 0 } } + player.data;
+					if(data.PlayerPersisted.acLv == level) {
+						//data = {acLv : data.PlayerPersisted.acLv.asInt() + 1};
+						data = {"PlayerPersisted": { acLv : data.PlayerPersisted.acLv.asInt() + 1 } };
 						player.update(data);
 					}
 				}

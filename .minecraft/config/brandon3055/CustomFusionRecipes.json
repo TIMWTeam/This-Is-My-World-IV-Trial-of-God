@@ -352,5 +352,18 @@
             "contenttweaker:dirty_blood",
             "contenttweaker:dirty_blood"
         ]
+    },{
+        "mode": "ADD",
+        "result": "minecraft:mob_spawner",
+        "catalyst": "thaumadditions:entity_summoner",
+        "energy": 1000000,
+        "tier": 0,
+        "ingredients": [
+            "contenttweaker:sun_essence",
+            "contenttweaker:moon_essence",
+            "contenttweaker:pure_starlight",
+            "contenttweaker:dirty_blood",
+	    "projecte:item.pe_philosophers_stone"
+        ]
     }
 ]

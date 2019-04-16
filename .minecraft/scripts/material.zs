@@ -1,4 +1,3 @@
-import mods.techguns.ChemLab;
 import crafttweaker.item.IItemStack;
 //silicon-硅-电路板
 <ore:dustSalt>.add(<immersiveengineering:material:24>);
@@ -29,11 +28,11 @@ furnace.remove(<techreborn:part:32>);
 furnace.remove(<techguns:itemshared:55>);
 furnace.addRecipe(<techreborn:part:32>,<ic2:crafting>,1);
 <ore:itemRubber>.remove(<techreborn:part:32>);
-ChemLab.removeRecipe(<techguns:itemshared:95>,null);
-ChemLab.removeRecipe(<techguns:itemshared:96>,null);
-ChemLab.addRecipe(<thermalfoundation:material:771>,1,<minecraft:dirt>,0,<liquid:resin>*250,false,null,<liquid:liquidethene>*200,60);
-ChemLab.addRecipe(<thermalfoundation:material:832>,1,<minecraft:dirt>,0,<liquid:tree_oil>*200,false,<mekanism:polyethene>*4,<liquid:water>*0,400);
-ChemLab.addRecipe(<mekanism:polyethene>,1,<minecraft:dirt>,0,<liquid:liquidethene>*100,false, <techguns:itemshared:55> ,<liquid:water>*0,100);
+mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:95>,null);
+mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:96>,null);
+mods.techguns.ChemLab.addRecipe(<thermalfoundation:material:771>,1,<minecraft:dirt>,0,<liquid:resin>*250,false,null,<liquid:liquidethene>*200,60);
+mods.techguns.ChemLab.addRecipe(<thermalfoundation:material:832>,1,<minecraft:dirt>,0,<liquid:tree_oil>*200,false,<mekanism:polyethene>*4,<liquid:water>*0,400);
+mods.techguns.ChemLab.addRecipe(<mekanism:polyethene>,1,<minecraft:dirt>,0,<liquid:liquidethene>*100,false, <techguns:itemshared:55> ,<liquid:water>*0,100);
 recipes.remove(<mekanism:polyethene:2>);
 mods.mekanism.enrichment.removeRecipe(<mekanism:polyethene>);
 
