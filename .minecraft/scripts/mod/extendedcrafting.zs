@@ -159,29 +159,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <overloaded:infinite_capacitor>
 	[<overloaded:energy_core>, <overloaded:energy_core>, <overloaded:energy_core>, null, <overloaded:energy_core>, <overloaded:energy_core>, <overloaded:energy_core>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShapeless(4, <contenttweaker:feature>, [
-	<extendedcrafting:singularity_ultimate>, <extendedcrafting:material:48>, <industrialforegoing:pink_slime_ingot>, 
-	<ore:ingotEbonyPsi>, <ore:ingotIvoryPsi>, <advancedrocketry:metal0:1>, <extrautils2:decorativesolid:8>, <bloodarsenal:slate:4>, 
-	<embers:wildfire_core>, <draconicevolution:chaos_shard>, <mekanism:teleportationcore>, <thaumcraft:primordial_pearl>, 
-	<xreliquary:witherless_rose>, <techguns:itemshared:131>, <ore:itemWeatherCrystal>, <appliedenergistics2:material:47>, 
-	<projecte:item.pe_matter>, <astralsorcery:itemcelestialcrystal>, <ore:gemCrystalFlux>, <ic2:misc_resource:3>, <ic2:nuclear:10>, 
-	<ore:dropRoyalJelly>, <evilcraft:garmonbozia>, <integrateddynamics:logic_director>, <overloaded:energy_core>, <overloaded:fluid_core>, 
-	<overloaded:item_core>, <ore:blockManyullyn>, <ore:blockTungstensteel>, <ore:blockAA_meteors4>, <ore:blockAA_meteors3>, 
-	<ore:blockAA_meteors2>, <ore:blockAA_meteors0>, <ore:blockAA_meteors1>, <ore:blockAA_meteors5>, <ore:blockDraconiumAwakened>, 
-	<randomthings:spectrecoil_ender>, <contenttweaker:pure_starlight>, <contenttweaker:dirty_blood>, <ore:circuitBasic>, 
-	<ore:circuitAdvanced>, <ore:circuitElite>, <ore:circuitUltimate>,<thaumadditions:mithminite_plate>,<enderio:item_capacitor_stellar>,
-	<bloodarsenal:base_item:9>,<matteroverdrive:android_pill>,<bloodmagic:decorative_brick:2>,<contenttweaker:moon_essence>,
-	<contenttweaker:sun_essence>,<advanced_solar_panels:crafting:13>,<mekanism:basicblock2:4>.withTag({tier: 3}),<mekanism:basicblock2:3>.withTag({tier: 3}),
-	<naturesaura:aura_trove>,<thaumadditions:mithminite_ingot>	]);
-
-mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:32>, [
-	[<minecraft:tripwire_hook>, <integrateddynamics:on_the_dynamics_of_integration>, <minecraft:cauldron>, <extrautils2:playerchest>, <ore:listAllmeatraw>, <actuallyadditions:item_damage_lens>, <enderio:item_yeta_wrench>], 
-	[<minecraft:banner:15>, <ore:crystalCinnabar>, <minecraft:fire_charge>, <actuallyadditions:item_misc:15>, <ore:scribing>, <randomthings:chunkanalyzer>, <ore:dropHoneydew>], 
-	[null, null, null, <contenttweaker:feature>, <techguns:revolver>, null, null], 
-	[null, null, null, <contenttweaker:feature>, <techguns:revolver>, null, null], 
-	[null, null, null, <contenttweaker:feature>, <techguns:revolver>, null, null]
-]);
-
 recipes.remove(<overloaded:multi_helmet>);
 mods.extendedcrafting.TableCrafting.addShaped(4, <overloaded:multi_helmet>, [
 	[null, null, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>, null, null], 
@@ -291,6 +268,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:upgrade_creativ
 	[<storagedrawers:upgrade_template>, <storagedrawers:drawer_key>, <storagedrawers:upgrade_storage:4>, <contenttweaker:moon_essence>, <storagedrawers:upgrade_storage:4>, <storagedrawers:drawer_key>, <storagedrawers:upgrade_template>]
 ]);
 
-
+recipes.remove(<projecte:item.pe_transmutation_tablet>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <projecte:item.pe_transmutation_tablet>, [
+	[<overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <projecte:matter_block>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>], 
+	[<overloaded:compressed_obsidian:3>, <contenttweaker:sun_essence>, <contenttweaker:dirty_blood>, <ic2:misc_resource:3>, <ic2:misc_resource:3>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <overloaded:compressed_obsidian:3>], 
+	[<overloaded:compressed_obsidian:3>, <contenttweaker:sun_essence>, <contenttweaker:dirty_blood>, <extrautils2:decorativesolid:8>, <ic2:misc_resource:3>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <overloaded:compressed_obsidian:3>], 
+	[<overloaded:compressed_obsidian:3>, <contenttweaker:sun_essence>, <contenttweaker:dirty_blood>, <extrautils2:decorativesolid:8>, <projecte:matter_block:1>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <ic2:misc_resource:3>, <overloaded:compressed_obsidian:3>], 
+	[<projecte:matter_block>, <ic2:misc_resource:3>, <ic2:misc_resource:3>, <projecte:matter_block:1>, <projecte:transmutation_table>, <projecte:matter_block:1>, <ic2:misc_resource:3>, <ic2:misc_resource:3>, <projecte:matter_block>], 
+	[<overloaded:compressed_obsidian:3>, <ic2:misc_resource:3>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <projecte:matter_block:1>, <extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <contenttweaker:sun_essence>, <overloaded:compressed_obsidian:3>], 
+	[<overloaded:compressed_obsidian:3>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <ic2:misc_resource:3>, <extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <contenttweaker:sun_essence>, <overloaded:compressed_obsidian:3>], 
+	[<overloaded:compressed_obsidian:3>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <ic2:misc_resource:3>, <ic2:misc_resource:3>, <contenttweaker:dirty_blood>, <contenttweaker:sun_essence>, <overloaded:compressed_obsidian:3>], 
+	[<overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <projecte:matter_block>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>]
+]);
 
 

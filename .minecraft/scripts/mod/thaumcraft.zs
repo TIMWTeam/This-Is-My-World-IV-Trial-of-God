@@ -41,10 +41,9 @@ mods.thaumcraft.Infusion.registerRecipe("Silverwood", "", <thaumcraft:sapling_si
 mods.thaumcraft.Infusion.registerRecipe("pe_tome", "", <projecte:item.pe_tome>, 20, 
     [<aspect:aer>*128, <aspect:terra>*128,<aspect:ignis>*128,<aspect:aqua>*128, <aspect:ordo>*128,<aspect:perditio>*128,<aspect:alkimia>*128,<aspect:cognitio>*512], 
     <projecte:item.pe_transmutation_tablet>, 
-    [<minecraft:knowledge_book>,<rftools:rftools_shape_manual>,<bloodmagic:experience_tome>,<guideapi:bloodmagic-guide>,<bloodmagic:sanguine_book>,<guideapi:bloodarsenal-guide>,
+    [<rftools:rftools_shape_manual>,<bloodmagic:experience_tome>,<guideapi:bloodmagic-guide>,<bloodmagic:sanguine_book>,<guideapi:bloodarsenal-guide>,
     <tconstruct:book>,<actuallyadditions:item_booklet>,<xnet:xnet_manual>,<extrautils2:book>,<techreborn:techmanuel>,<industrialforegoing:book_manual>,<immersiveengineering:tool:3>,
     <forestry:book_forester>,<botania:lexicon>,<astralsorcery:itemjournal>,<embers:codex>,<draconicevolution:info_tablet>,<thaumcraft:thaumonomicon>,<evilcraft:origins_of_darkness>]);
-
 
 
 
