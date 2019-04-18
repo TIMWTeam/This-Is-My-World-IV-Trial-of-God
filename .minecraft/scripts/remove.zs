@@ -128,6 +128,8 @@ recipes.remove(<overloaded:item_core>);
 
 
 //misc
+recipes.remove(<minecraft:red_mushroom>);
+recipes.remove(<minecraft:brown_mushroom>);
 recipes.remove(<bloodmagic:decorative_brick:2>);
 recipes.removeByRecipeName("minecraft:paper");
 recipes.removeByRecipeName("mekanism:paper");

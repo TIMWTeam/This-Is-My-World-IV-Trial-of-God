@@ -89,6 +89,15 @@ recipes.remove(<mysticalagriculture:menril_seeds>);
 
 //基础种子合成
 mods.botania.Apothecary.addRecipe(<mysticalagriculture:crafting:17>,[<mysticalagriculture:crafting:16>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>]);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:18>,[<mysticalagriculture:crafting:17>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>],100000);
+mods.botaniatweaks.Agglomeration.addRecipe(<mysticalagriculture:crafting:19>, 
+    [<mysticalagriculture:crafting:18>,<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>],
+    100000, 0xff6600, 0x00aeff,
+    <mysticalagriculture:storage:5>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:5>);
+mods.thaumcraft.Infusion.registerRecipe("essence_seeds4", "", <mysticalagriculture:crafting:20>, 5, 
+    [<aspect:victus>*16, <aspect:herba>*16,<aspect:praecantatio>*16], <mysticalagriculture:crafting:19>, 
+    [<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>]);
+mods.astralsorcery.Altar.addTraitAltarRecipe("custom:seeds4",<mysticalagriculture:crafting:21>,1000,200,[null,<mysticalagriculture:crafting:4>,null,<mysticalagriculture:crafting:4>,<mysticalagriculture:crafting:20>,<mysticalagriculture:crafting:4>,null,<mysticalagriculture:crafting:4>,null,<extraalchemy:essence_earth>,<extraalchemy:essence_water>,<extraalchemy:essence_wind>,<extraalchemy:essence_fire>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:2>,null,null,null,null],"astralsorcery.constellation.aevitas");
 
 //精华
 recipes.removeByRecipeName("mysticalagriculture:core/compression/intermedium_essence_to");
@@ -189,7 +198,7 @@ var input =	[<matteroverdrive:dilithium_ore>,
     <techreborn:ore:8>] as IItemStack[];
 for i, out in output {
     mods.thaumcraft.Infusion.registerRecipe("mystical4_" + i, "", out, 5, 
-        [<aspect:praecantatio>*32, <aspect:victus>*16,<aspect:herba>*16], <minecraft:chorus_flower>, 
+        [<aspect:praecantatio>*32, <aspect:victus>*16,<aspect:herba>*16], <mysticalagriculture:crafting:20>, 
         [input[i],input[i],<contenttweaker:pure_starlight>,<contenttweaker:pure_starlight>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,
         <mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<contenttweaker:dirty_blood>,<contenttweaker:dirty_blood>,input[i],input[i]]);
 }

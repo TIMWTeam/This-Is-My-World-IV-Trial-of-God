@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 //remove
-val reovme_furnace = [<primal:corn_cob_cooked>,
+val remove_furnace as IItemStack[] = [<primal:corn_cob_cooked>,
     <primal:corn_bread>,
     <minecraft:cooked_beef>,
     <minecraft:baked_potato>,
@@ -9,9 +9,10 @@ val reovme_furnace = [<primal:corn_cob_cooked>,
     <minecraft:cooked_mutton>,
     <minecraft:cooked_fish:1>,
     <minecraft:cooked_fish>,
-    <actuallyadditions:item_food:15>] as IItemStack[];
+    <actuallyadditions:item_food:15>,
+    <primal:mushroom_cooked>] ;
 
-val reovme_recipes = [<minecraft:mushroom_stew>,
+val remove_recipes as IItemStack[] = [<minecraft:mushroom_stew>,
     <minecraft:rabbit_stew>,
     <minecraft:beetroot_soup>,
     <xreliquary:glowing_bread>,
@@ -23,7 +24,10 @@ val reovme_recipes = [<minecraft:mushroom_stew>,
     <actuallyadditions:item_food:2>,
     <actuallyadditions:item_food:3>,
     <actuallyadditions:item_food:4>,
-    <actuallyadditions:item_food:8>] as IItemStack[];
+    <actuallyadditions:item_food:8>] ;
+
+removeRecipes(remove_recipes);
+removeFurnace(remove_furnace);
 
 function removeRecipes(item as IItemStack[]){
     for i in item {
