@@ -1,4 +1,4 @@
-14868 nodes in total
+14783 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -238,7 +238,14 @@ enderio.wrench.iomode.block_wireless_charger: ALL
 enderio.wrench.iomode.block_wireless_charger_extension: ALL
 enderio.wrench.iomode.block_xp_vacuum: ALL
 enderio.wrench.iomode.block_zombie_generator: ALL
+ftbutilities.back.back: OP
+ftbutilities.back.home: OP
 ftbutilities.back.infinite: NONE
+ftbutilities.back.respawn: ALL
+ftbutilities.back.rtp: OP
+ftbutilities.back.spawn: OP
+ftbutilities.back.tpa: OP
+ftbutilities.back.warp: OP
 ftbutilities.chat.nickname.colors: OP
 ftbutilities.chat.nickname.set: OP
 ftbutilities.chat.speak: ALL
@@ -895,6 +902,7 @@ ftbutilities.claims.block.edit.botania_tweaks.potted_tiny_potato: OP
 ftbutilities.claims.block.edit.botania_tweaks.ultimate_extended_crafty_crate: OP
 ftbutilities.claims.block.edit.botanianeedsit.blockmanacharger: OP
 ftbutilities.claims.block.edit.buildinggadgets.constructionblock: OP
+ftbutilities.claims.block.edit.buildinggadgets.constructionblock_dense: OP
 ftbutilities.claims.block.edit.buildinggadgets.constructionblockpowder: OP
 ftbutilities.claims.block.edit.buildinggadgets.effectblock: OP
 ftbutilities.claims.block.edit.buildinggadgets.templatemanager: OP
@@ -1205,34 +1213,6 @@ ftbutilities.claims.block.edit.cuisine.tomato: OP
 ftbutilities.claims.block.edit.cuisine.trapdoor: OP
 ftbutilities.claims.block.edit.cuisine.turnip: OP
 ftbutilities.claims.block.edit.cuisine.wooden_basin: OP
-ftbutilities.claims.block.edit.danknull.danknull_dock: OP
-ftbutilities.claims.block.edit.darkutils.anti_slime: OP
-ftbutilities.claims.block.edit.darkutils.ender_hopper: OP
-ftbutilities.claims.block.edit.darkutils.ender_pearl_hopper: OP
-ftbutilities.claims.block.edit.darkutils.ender_tether: OP
-ftbutilities.claims.block.edit.darkutils.fake_tnt: OP
-ftbutilities.claims.block.edit.darkutils.filter: OP
-ftbutilities.claims.block.edit.darkutils.filter_inverted: OP
-ftbutilities.claims.block.edit.darkutils.grate: OP
-ftbutilities.claims.block.edit.darkutils.monolith: OP
-ftbutilities.claims.block.edit.darkutils.pearl_block: OP
-ftbutilities.claims.block.edit.darkutils.slime_dyed: OP
-ftbutilities.claims.block.edit.darkutils.sneaky: OP
-ftbutilities.claims.block.edit.darkutils.sneaky_bedrock: OP
-ftbutilities.claims.block.edit.darkutils.sneaky_button: OP
-ftbutilities.claims.block.edit.darkutils.sneaky_ghost: OP
-ftbutilities.claims.block.edit.darkutils.sneaky_lever: OP
-ftbutilities.claims.block.edit.darkutils.sneaky_obsidian: OP
-ftbutilities.claims.block.edit.darkutils.sneaky_plate: OP
-ftbutilities.claims.block.edit.darkutils.sneaky_torch: OP
-ftbutilities.claims.block.edit.darkutils.timer: OP
-ftbutilities.claims.block.edit.darkutils.trap_anchor: OP
-ftbutilities.claims.block.edit.darkutils.trap_move: OP
-ftbutilities.claims.block.edit.darkutils.trap_move_fast: OP
-ftbutilities.claims.block.edit.darkutils.trap_move_hyper: OP
-ftbutilities.claims.block.edit.darkutils.trap_tile: OP
-ftbutilities.claims.block.edit.darkutils.update_detector: OP
-ftbutilities.claims.block.edit.darkutils.wither_block: OP
 ftbutilities.claims.block.edit.draconicevolution.celestial_manipulator: OP
 ftbutilities.claims.block.edit.draconicevolution.chaos_crystal: OP
 ftbutilities.claims.block.edit.draconicevolution.chaos_shard_atmos: OP
@@ -1272,7 +1252,6 @@ ftbutilities.claims.block.edit.embers.alchemy_tablet: OP
 ftbutilities.claims.block.edit.embers.aluminum: OP
 ftbutilities.claims.block.edit.embers.archaic_bricks: OP
 ftbutilities.claims.block.edit.embers.archaic_edge: OP
-ftbutilities.claims.block.edit.embers.archaic_geysir: OP
 ftbutilities.claims.block.edit.embers.archaic_light: OP
 ftbutilities.claims.block.edit.embers.archaic_mech_edge: OP
 ftbutilities.claims.block.edit.embers.archaic_tile: OP
@@ -4571,6 +4550,7 @@ ftbutilities.claims.block.interact.botania_tweaks.potted_tiny_potato: OP
 ftbutilities.claims.block.interact.botania_tweaks.ultimate_extended_crafty_crate: OP
 ftbutilities.claims.block.interact.botanianeedsit.blockmanacharger: OP
 ftbutilities.claims.block.interact.buildinggadgets.constructionblock: OP
+ftbutilities.claims.block.interact.buildinggadgets.constructionblock_dense: OP
 ftbutilities.claims.block.interact.buildinggadgets.constructionblockpowder: OP
 ftbutilities.claims.block.interact.buildinggadgets.effectblock: OP
 ftbutilities.claims.block.interact.buildinggadgets.templatemanager: OP
@@ -4881,34 +4861,6 @@ ftbutilities.claims.block.interact.cuisine.tomato: OP
 ftbutilities.claims.block.interact.cuisine.trapdoor: OP
 ftbutilities.claims.block.interact.cuisine.turnip: OP
 ftbutilities.claims.block.interact.cuisine.wooden_basin: OP
-ftbutilities.claims.block.interact.danknull.danknull_dock: OP
-ftbutilities.claims.block.interact.darkutils.anti_slime: OP
-ftbutilities.claims.block.interact.darkutils.ender_hopper: OP
-ftbutilities.claims.block.interact.darkutils.ender_pearl_hopper: OP
-ftbutilities.claims.block.interact.darkutils.ender_tether: OP
-ftbutilities.claims.block.interact.darkutils.fake_tnt: OP
-ftbutilities.claims.block.interact.darkutils.filter: OP
-ftbutilities.claims.block.interact.darkutils.filter_inverted: OP
-ftbutilities.claims.block.interact.darkutils.grate: OP
-ftbutilities.claims.block.interact.darkutils.monolith: OP
-ftbutilities.claims.block.interact.darkutils.pearl_block: OP
-ftbutilities.claims.block.interact.darkutils.slime_dyed: OP
-ftbutilities.claims.block.interact.darkutils.sneaky: OP
-ftbutilities.claims.block.interact.darkutils.sneaky_bedrock: OP
-ftbutilities.claims.block.interact.darkutils.sneaky_button: OP
-ftbutilities.claims.block.interact.darkutils.sneaky_ghost: OP
-ftbutilities.claims.block.interact.darkutils.sneaky_lever: OP
-ftbutilities.claims.block.interact.darkutils.sneaky_obsidian: OP
-ftbutilities.claims.block.interact.darkutils.sneaky_plate: OP
-ftbutilities.claims.block.interact.darkutils.sneaky_torch: OP
-ftbutilities.claims.block.interact.darkutils.timer: OP
-ftbutilities.claims.block.interact.darkutils.trap_anchor: OP
-ftbutilities.claims.block.interact.darkutils.trap_move: OP
-ftbutilities.claims.block.interact.darkutils.trap_move_fast: OP
-ftbutilities.claims.block.interact.darkutils.trap_move_hyper: OP
-ftbutilities.claims.block.interact.darkutils.trap_tile: OP
-ftbutilities.claims.block.interact.darkutils.update_detector: OP
-ftbutilities.claims.block.interact.darkutils.wither_block: OP
 ftbutilities.claims.block.interact.draconicevolution.celestial_manipulator: OP
 ftbutilities.claims.block.interact.draconicevolution.chaos_crystal: OP
 ftbutilities.claims.block.interact.draconicevolution.chaos_shard_atmos: OP
@@ -4948,7 +4900,6 @@ ftbutilities.claims.block.interact.embers.alchemy_tablet: OP
 ftbutilities.claims.block.interact.embers.aluminum: OP
 ftbutilities.claims.block.interact.embers.archaic_bricks: OP
 ftbutilities.claims.block.interact.embers.archaic_edge: OP
-ftbutilities.claims.block.interact.embers.archaic_geysir: OP
 ftbutilities.claims.block.interact.embers.archaic_light: OP
 ftbutilities.claims.block.interact.embers.archaic_mech_edge: OP
 ftbutilities.claims.block.interact.embers.archaic_tile: OP
@@ -8695,7 +8646,9 @@ ftbutilities.claims.item.botanianeedsit.manasteelmanacapacitor: ALL
 ftbutilities.claims.item.botanianeedsit.terrasteelmanacapacitor: ALL
 ftbutilities.claims.item.bq_standard.loot_chest: ALL
 ftbutilities.claims.item.buildinggadgets.buildingtool: ALL
+ftbutilities.claims.item.buildinggadgets.construction_chunk_dense: ALL
 ftbutilities.claims.item.buildinggadgets.constructionblock: ALL
+ftbutilities.claims.item.buildinggadgets.constructionblock_dense: ALL
 ftbutilities.claims.item.buildinggadgets.constructionblockpowder: ALL
 ftbutilities.claims.item.buildinggadgets.constructionpaste: ALL
 ftbutilities.claims.item.buildinggadgets.constructionpastecontainer: ALL
@@ -9013,45 +8966,6 @@ ftbutilities.claims.item.cuisine.tofu_block: ALL
 ftbutilities.claims.item.cuisine.trapdoor: ALL
 ftbutilities.claims.item.cuisine.wok: ALL
 ftbutilities.claims.item.cuisine.wooden_basin: ALL
-ftbutilities.claims.item.danknull.dank_null: ALL
-ftbutilities.claims.item.danknull.dank_null_panel: ALL
-ftbutilities.claims.item.danknull.danknull_dock: ALL
-ftbutilities.claims.item.darkutils.anti_slime: ALL
-ftbutilities.claims.item.darkutils.charm_agression: ALL
-ftbutilities.claims.item.darkutils.charm_gluttony: ALL
-ftbutilities.claims.item.darkutils.charm_null: ALL
-ftbutilities.claims.item.darkutils.charm_portal: ALL
-ftbutilities.claims.item.darkutils.charm_sleep: ALL
-ftbutilities.claims.item.darkutils.ender_hopper: ALL
-ftbutilities.claims.item.darkutils.ender_pearl_hopper: ALL
-ftbutilities.claims.item.darkutils.ender_tether: ALL
-ftbutilities.claims.item.darkutils.fake_tnt: ALL
-ftbutilities.claims.item.darkutils.filter: ALL
-ftbutilities.claims.item.darkutils.filter_inverted: ALL
-ftbutilities.claims.item.darkutils.focus_sash: ALL
-ftbutilities.claims.item.darkutils.grate: ALL
-ftbutilities.claims.item.darkutils.lore_tag: ALL
-ftbutilities.claims.item.darkutils.material: ALL
-ftbutilities.claims.item.darkutils.monolith: ALL
-ftbutilities.claims.item.darkutils.pearl_block: ALL
-ftbutilities.claims.item.darkutils.shulker_pearl: ALL
-ftbutilities.claims.item.darkutils.slime_dyed: ALL
-ftbutilities.claims.item.darkutils.sneaky: ALL
-ftbutilities.claims.item.darkutils.sneaky_bedrock: ALL
-ftbutilities.claims.item.darkutils.sneaky_button: ALL
-ftbutilities.claims.item.darkutils.sneaky_ghost: ALL
-ftbutilities.claims.item.darkutils.sneaky_lever: ALL
-ftbutilities.claims.item.darkutils.sneaky_obsidian: ALL
-ftbutilities.claims.item.darkutils.sneaky_plate: ALL
-ftbutilities.claims.item.darkutils.sneaky_torch: ALL
-ftbutilities.claims.item.darkutils.timer: ALL
-ftbutilities.claims.item.darkutils.trap_anchor: ALL
-ftbutilities.claims.item.darkutils.trap_move: ALL
-ftbutilities.claims.item.darkutils.trap_move_fast: ALL
-ftbutilities.claims.item.darkutils.trap_move_hyper: ALL
-ftbutilities.claims.item.darkutils.trap_tile: ALL
-ftbutilities.claims.item.darkutils.update_detector: ALL
-ftbutilities.claims.item.darkutils.wither_block: ALL
 ftbutilities.claims.item.draconicevolution.awakened_core: ALL
 ftbutilities.claims.item.draconicevolution.celestial_manipulator: ALL
 ftbutilities.claims.item.draconicevolution.chaos_crystal: ALL
@@ -9139,7 +9053,6 @@ ftbutilities.claims.item.embers.archaic_brick: ALL
 ftbutilities.claims.item.embers.archaic_bricks: ALL
 ftbutilities.claims.item.embers.archaic_circuit: ALL
 ftbutilities.claims.item.embers.archaic_edge: ALL
-ftbutilities.claims.item.embers.archaic_geysir: ALL
 ftbutilities.claims.item.embers.archaic_light: ALL
 ftbutilities.claims.item.embers.archaic_tile: ALL
 ftbutilities.claims.item.embers.ashen_amulet: ALL
@@ -10441,6 +10354,7 @@ ftbutilities.claims.item.ic2.overclocked_heat_vent: ALL
 ftbutilities.claims.item.ic2.oxygen: ALL
 ftbutilities.claims.item.ic2.pahoehoe_lava: ALL
 ftbutilities.claims.item.ic2.painter: ALL
+ftbutilities.claims.item.ic2.pipe: ALL
 ftbutilities.claims.item.ic2.plate: ALL
 ftbutilities.claims.item.ic2.plating: ALL
 ftbutilities.claims.item.ic2.purified: ALL
@@ -10488,6 +10402,7 @@ ftbutilities.claims.item.ic2.weed_ex: ALL
 ftbutilities.claims.item.ic2.weeding_trowel: ALL
 ftbutilities.claims.item.ic2.wind_meter: ALL
 ftbutilities.claims.item.ic2.wrench: ALL
+ftbutilities.claims.item.ic2.wrench_new: ALL
 ftbutilities.claims.item.immersiveengineering.aluminum_scaffolding_stairs0: ALL
 ftbutilities.claims.item.immersiveengineering.aluminum_scaffolding_stairs1: ALL
 ftbutilities.claims.item.immersiveengineering.aluminum_scaffolding_stairs2: ALL
@@ -15049,6 +14964,8 @@ command.gamestages.gamestage.clear
 command.gamestages.gamestage.info
 command.gamestages.gamestage.reloadfakes
 command.gamestages.gamestage.remove
+command.gamestages.gamestage.silentadd
+command.gamestages.gamestage.silentremove
 command.give
 command.hammercore.hc_buildstr
 command.hammercore.hc_export
@@ -15156,6 +15073,7 @@ command.tombstone.tbteleportvillage
 command.topaddons.tophelmet
 command.tp
 command.trigger
+command.triumph.triumph.debug
 command.voidislandcontrol.island
 command.voidislandcontrol.islandadmin
 command.voidislandcontrol.startinginv
