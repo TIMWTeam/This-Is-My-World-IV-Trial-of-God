@@ -29,6 +29,7 @@ rule13=0,100,xtones:azur-12
 rule14=0,100,botania:custombrick-7
 rule15=0,100,botania:custombrick-15
 rule16=0,100,botania:pylon-1
+rule17=0,100,contenttweaker:starlight_condenser_3-0
 
 layer
 0,0,0,0,0,0,0,0,0
@@ -167,7 +168,7 @@ layer
 0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0
-0,0,0,13,0,0,0,0,0
+0,0,0,17,0,0,0,0,0
 0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0

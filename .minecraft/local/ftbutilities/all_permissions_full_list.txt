@@ -1,4 +1,4 @@
-14783 nodes in total
+14802 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1145,15 +1145,20 @@ ftbutilities.claims.block.edit.compactmachines3.wall: OP
 ftbutilities.claims.block.edit.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.edit.contenttweaker.aer_solvent: OP
 ftbutilities.claims.block.edit.contenttweaker.aether_transmuter_1: OP
+ftbutilities.claims.block.edit.contenttweaker.aether_transmuter_2: OP
 ftbutilities.claims.block.edit.contenttweaker.aqua_solvent: OP
 ftbutilities.claims.block.edit.contenttweaker.block_alloy: OP
 ftbutilities.claims.block.edit.contenttweaker.block_carbon: OP
 ftbutilities.claims.block.edit.contenttweaker.block_titaniumiridium: OP
 ftbutilities.claims.block.edit.contenttweaker.demon_will_coagulator_1: OP
+ftbutilities.claims.block.edit.contenttweaker.demon_will_coagulator_2: OP
 ftbutilities.claims.block.edit.contenttweaker.essence_supremium: OP
 ftbutilities.claims.block.edit.contenttweaker.fire_solvent: OP
 ftbutilities.claims.block.edit.contenttweaker.high_alchemy: OP
 ftbutilities.claims.block.edit.contenttweaker.mana_crystal_block: OP
+ftbutilities.claims.block.edit.contenttweaker.starlight_condenser_1: OP
+ftbutilities.claims.block.edit.contenttweaker.starlight_condenser_2: OP
+ftbutilities.claims.block.edit.contenttweaker.starlight_condenser_3: OP
 ftbutilities.claims.block.edit.contenttweaker.terra_solvent: OP
 ftbutilities.claims.block.edit.cuisine.bamboo: OP
 ftbutilities.claims.block.edit.cuisine.bamboo_plant: OP
@@ -4793,15 +4798,20 @@ ftbutilities.claims.block.interact.compactmachines3.wall: OP
 ftbutilities.claims.block.interact.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.interact.contenttweaker.aer_solvent: OP
 ftbutilities.claims.block.interact.contenttweaker.aether_transmuter_1: OP
+ftbutilities.claims.block.interact.contenttweaker.aether_transmuter_2: OP
 ftbutilities.claims.block.interact.contenttweaker.aqua_solvent: OP
 ftbutilities.claims.block.interact.contenttweaker.block_alloy: OP
 ftbutilities.claims.block.interact.contenttweaker.block_carbon: OP
 ftbutilities.claims.block.interact.contenttweaker.block_titaniumiridium: OP
 ftbutilities.claims.block.interact.contenttweaker.demon_will_coagulator_1: OP
+ftbutilities.claims.block.interact.contenttweaker.demon_will_coagulator_2: OP
 ftbutilities.claims.block.interact.contenttweaker.essence_supremium: OP
 ftbutilities.claims.block.interact.contenttweaker.fire_solvent: OP
 ftbutilities.claims.block.interact.contenttweaker.high_alchemy: OP
 ftbutilities.claims.block.interact.contenttweaker.mana_crystal_block: OP
+ftbutilities.claims.block.interact.contenttweaker.starlight_condenser_1: OP
+ftbutilities.claims.block.interact.contenttweaker.starlight_condenser_2: OP
+ftbutilities.claims.block.interact.contenttweaker.starlight_condenser_3: OP
 ftbutilities.claims.block.interact.contenttweaker.terra_solvent: OP
 ftbutilities.claims.block.interact.cuisine.bamboo: OP
 ftbutilities.claims.block.interact.cuisine.bamboo_plant: OP
@@ -8906,6 +8916,7 @@ ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
 ftbutilities.claims.item.contenttweaker.achievement_reagent: ALL
 ftbutilities.claims.item.contenttweaker.advanced_circuit: ALL
 ftbutilities.claims.item.contenttweaker.aether_transmuter_1: ALL
+ftbutilities.claims.item.contenttweaker.aether_transmuter_2: ALL
 ftbutilities.claims.item.contenttweaker.basic_circuit: ALL
 ftbutilities.claims.item.contenttweaker.block_alloy: ALL
 ftbutilities.claims.item.contenttweaker.block_carbon: ALL
@@ -8913,8 +8924,13 @@ ftbutilities.claims.item.contenttweaker.block_titaniumiridium: ALL
 ftbutilities.claims.item.contenttweaker.broken_crystal: ALL
 ftbutilities.claims.item.contenttweaker.citron: ALL
 ftbutilities.claims.item.contenttweaker.demon_will_coagulator_1: ALL
+ftbutilities.claims.item.contenttweaker.demon_will_coagulator_2: ALL
 ftbutilities.claims.item.contenttweaker.dirty_blood: ALL
 ftbutilities.claims.item.contenttweaker.elite_circuit: ALL
+ftbutilities.claims.item.contenttweaker.evil_eye: ALL
+ftbutilities.claims.item.contenttweaker.evil_heart: ALL
+ftbutilities.claims.item.contenttweaker.evil_mind: ALL
+ftbutilities.claims.item.contenttweaker.evil_skin: ALL
 ftbutilities.claims.item.contenttweaker.feature: ALL
 ftbutilities.claims.item.contenttweaker.gold_skull: ALL
 ftbutilities.claims.item.contenttweaker.grapefruit: ALL
@@ -8929,6 +8945,9 @@ ftbutilities.claims.item.contenttweaker.rough_silicon_plate: ALL
 ftbutilities.claims.item.contenttweaker.silicon_chlorine: ALL
 ftbutilities.claims.item.contenttweaker.silicon_high_purity: ALL
 ftbutilities.claims.item.contenttweaker.silicon_low_purity: ALL
+ftbutilities.claims.item.contenttweaker.starlight_condenser_1: ALL
+ftbutilities.claims.item.contenttweaker.starlight_condenser_2: ALL
+ftbutilities.claims.item.contenttweaker.starlight_condenser_3: ALL
 ftbutilities.claims.item.contenttweaker.sun_essence: ALL
 ftbutilities.claims.item.contenttweaker.ultimate_circuit: ALL
 ftbutilities.claims.item.cuisine.bamboo: ALL

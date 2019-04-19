@@ -27,12 +27,13 @@ rule11=0,100,botania:custombrick-8
 rule12=0,100,botania:custombrick-5
 rule13=0,100,botania:alfheimportal-0
 rule14=0,100,botania:pylon-1
+rule15=0,100,contenttweaker:starlight_condenser_1-0
 
 layer
 0,0,0,1,0,0,0
 0,0,0,2,0,0,0
 0,0,2,3,2,0,0
-5,2,8,7,6,2,5
+5,2,8,15,6,2,5
 0,0,2,3,2,0,0
 0,0,0,2,0,0,0
 0,0,0,1,0,0,0
