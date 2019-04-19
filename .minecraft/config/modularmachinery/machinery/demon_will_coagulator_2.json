@@ -1,7 +1,7 @@
 {
     "registryname": "demon_will_coagulator_2",
     "localizedname": "Demon Will Coagulator 2",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
 	"color": "a13434",
     "parts": [
         {
@@ -1173,19 +1173,19 @@
             ]
         },
         {
+            "x": 0,
+            "y": 17,
+            "z": 4,
+            "elements": [
+                "contenttweaker:demon_will_coagulator_2@0"
+            ]
+        },
+        {
             "x": -1,
             "y": 17,
             "z": 4,
             "elements": [
                 "xtones:reds@15"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 17,
-            "z": 4,
-            "elements": [
-                "xtones:reds@14"
             ]
         },
         {
