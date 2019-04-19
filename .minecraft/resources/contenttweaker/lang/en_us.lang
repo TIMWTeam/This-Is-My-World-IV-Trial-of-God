@@ -14,6 +14,12 @@ item.contenttweaker.sun_essence.name=Sun Essence
 item.contenttweaker.broken_crystal.name=Mana Broken Crystal
 item.contenttweaker.mana_crystal.name=Mana Crystal
 item.contenttweaker.mana_crystal_block.name=Mana Crystal Block
+item.contenttweaker.evil_heart.name=Evil Heart
+item.contenttweaker.evil_eye.name=Evil Eye
+item.contenttweaker.evil_mind.name=Evil Mind
+item.contenttweaker.evil_skin.name=Evil Skin
+
+
 
 fluid.high_alchemy=High Purity Aluminum Solution
 fluid.fire_solvent=Fire Solvent

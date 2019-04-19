@@ -125,3 +125,23 @@ var gold_skull = VanillaFactory.createItem("gold_skull");
 gold_skull.maxStackSize = 64;
 gold_skull.rarity = "rare";
 gold_skull.register();
+
+var evil_heart = VanillaFactory.createItem("evil_heart");
+evil_heart.maxStackSize = 64;
+evil_heart.rarity = "rare";
+evil_heart.register();
+
+var evil_eye = VanillaFactory.createItem("evil_eye");
+evil_eye.maxStackSize = 64;
+evil_eye.rarity = "rare";
+evil_eye.register();
+
+var evil_mind = VanillaFactory.createItem("evil_mind");
+evil_mind.maxStackSize = 64;
+evil_mind.rarity = "rare";
+evil_mind.register();
+
+var evil_skin = VanillaFactory.createItem("evil_skin");
+evil_skin.maxStackSize = 64;
+evil_skin.rarity = "rare";
+evil_skin.register();
