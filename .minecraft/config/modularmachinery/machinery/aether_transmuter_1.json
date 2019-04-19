@@ -1,6 +1,7 @@
 {
     "registryname": "aether_transmuter_1",
     "localizedname": "Aether Transmuter 1",
+	"color": "191970",
     "parts": [
         {
             "x": 1,

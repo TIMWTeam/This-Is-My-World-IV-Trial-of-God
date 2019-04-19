@@ -204,19 +204,19 @@
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "chisel:marblepillar@2"
-            ]
-        },
-        {
             "x": -1,
             "y": 1,
             "z": 0,
             "elements": [
                 "chisel:concrete_white@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "xtones:zyth@8"
             ]
         },
         {
@@ -417,14 +417,6 @@
             "z": 5,
             "elements": [
                 "xtones:azur@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "chisel:marble2@5"
             ]
         },
         {
@@ -940,14 +932,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "astralsorcery:blockcelestialcollectorcrystal"
-            ]
-        },
-        {
             "x": 2,
             "y": -3,
             "z": -6,
@@ -1372,6 +1356,14 @@
             ]
         },
         {
+            "x": -4,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
             "x": 1,
             "y": -1,
             "z": 3,
@@ -1572,14 +1564,6 @@
             ]
         },
         {
-            "x": -2,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "xtones:glaxx@7"
-            ]
-        },
-        {
             "x": 1,
             "y": 0,
             "z": 3,
@@ -1591,14 +1575,6 @@
             "x": -3,
             "y": 0,
             "z": -3,
-            "elements": [
-                "xtones:glaxx@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
             "elements": [
                 "xtones:glaxx@7"
             ]
@@ -1703,7 +1679,7 @@
             "x": 0,
             "y": 1,
             "z": -2,
-               "elements": [
+            "elements": [
                 "modularmachinery:blockfluidinputhatch@7"
             ]
         },
@@ -1956,14 +1932,6 @@
             ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "xtones:glaxx@7"
-            ]
-        },
-        {
             "x": 1,
             "y": 1,
             "z": 2,
@@ -1977,6 +1945,14 @@
             "z": -1,
             "elements": [
                 "chisel:marble2@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "xtones:glaxx@7"
             ]
         },
         {
@@ -2244,14 +2220,6 @@
             ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "xtones:glaxx@7"
-            ]
-        },
-        {
             "x": 0,
             "y": 1,
             "z": 1,
@@ -2375,14 +2343,6 @@
             "x": -1,
             "y": -4,
             "z": -2,
-            "elements": [
-                "chisel:marblepillar@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 1,
             "elements": [
                 "chisel:marblepillar@2"
             ]

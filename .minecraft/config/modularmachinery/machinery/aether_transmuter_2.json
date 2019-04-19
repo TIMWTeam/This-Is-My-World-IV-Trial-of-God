@@ -1,6 +1,8 @@
 {
     "registryname": "aether_transmuter_2",
-    "localizedname": "Aether Transmuter 2",
+    "localizedname": "Aether Transmuter 2",	
+	"requires-blueprint": true,
+	"color": "191970",
     "parts": [
         {
             "x": -2,
