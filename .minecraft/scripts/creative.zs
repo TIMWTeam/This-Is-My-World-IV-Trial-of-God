@@ -284,12 +284,12 @@ mods.botaniatweaks.Agglomeration.addRecipe(<botanianeedsit:elementiummanacapacit
     [<botanianeedsit:elementiummanacapacitor:1>],
     500000, 0x005ee0, 0xe00080,
     <botania:livingrock>,<botania:storage:2>,<botania:livingrock>,
-    null,<botania:storage>,null);
-mods.botaniatweaks.Agglomeration.addRecipe(<botanianeedsit:elementiummanacapacitor>, 
-    [<botanianeedsit:elementiummanacapacitor:1>],
+    null,<minecraft:iron_block>,null);
+mods.botaniatweaks.Agglomeration.addRecipe(<botanianeedsit:terrasteelmanacapacitor>, 
+    [<botanianeedsit:terrasteelmanacapacitor:1>],
     1000000, 0xe00080, 0x78ff33,
     <botania:livingrock>,<botania:storage:1>,<botania:livingrock>,
-    null,<botania:storage:2>,null);
+    null,<minecraft:iron_block>,null);
 mods.extendedcrafting.TableCrafting.addShaped(0, <botania:manatablet>.withTag({mana: 500000, creative: 1 as byte}), [
 	[<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>], 
 	[<botania:shimmerrock>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <botania:shimmerrock>], 
