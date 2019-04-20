@@ -145,3 +145,9 @@ var evil_skin = VanillaFactory.createItem("evil_skin");
 evil_skin.maxStackSize = 64;
 evil_skin.rarity = "rare";
 evil_skin.register();
+
+var evil_doll = VanillaFactory.createItem("evil_doll");
+evil_doll.maxStackSize = 64;
+evil_doll.rarity = "rare";
+evil_doll.register();
+
