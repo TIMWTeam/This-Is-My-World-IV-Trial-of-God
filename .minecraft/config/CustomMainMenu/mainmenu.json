@@ -1,205 +1,253 @@
 {
-  "images": {},
-  "buttons": {
-    "singleplayer": {
-      "text": "",
-      "posX": -140,
-      "posY": -120,
-      "width": 101,
-      "height": 40,
-      "imageWidth": 202,
-      "imageHeight": 80,
-      "alignment": "right_center",
-      "texture": "mainmenu:0001.png",
-      "action": {
-        "type": "openGui",
-        "gui": "singleplayer"
-      }
-    },
-    "multiplayer": {
-      "text": "",
-      "posX": -140,
-      "posY": -80,
-      "width": 101,
-      "height": 40,
-      "imageWidth": 202,
-      "imageHeight": 79,
-      "alignment": "right_center",
-      "texture": "mainmenu:0002.png",
-      "action": {
-        "type": "openGui",
-        "gui": "multiplayer"
-      }
-    },
-    "mods": {
-      "text": "",
-      "posX": -140,
-      "posY": -40,
-      "width": 101,
-      "height": 40,
-      "alignment": "right_center",
-      "imageWidth": 202,
-      "imageHeight": 79,
-      "texture": "mainmenu:0007.png",
-      "action": {
-        "type": "openGui",
-        "gui": "mods"
-      }
-    },
-    "options": {
-	  "text": "",
-      "posX": -140,
-      "posY": 0,
-      "width": 101,
-      "height": 40,
-      "alignment": "right_center",
-      "imageWidth": 202,
-      "imageHeight": 79,
-      "texture": "mainmenu:0003.png",
-      "action": {
-        "type": "openGui",
-        "gui": "options"
-      }
-    },
-    "quit": {
-      "text": "",
-      "posX": -140,
-      "posY": 40,
-      "width": 101,
-      "height": 40,
-      "alignment": "right_center",
-      "imageWidth": 202,
-      "imageHeight": 79,
-      "texture": "mainmenu:00004.png",
-      "action": {
-        "type": "quit"
-      }
-    },
-    "language": {
-      "text": "",
-      "posX": -22,
-      "posY": 1,
-      "width": 20,
-      "height": 20,
-      "tooltip": "Language",
-      "alignment": "top_right",
-      "imageWidth": "40",
-      "imageHeight": "40",
-      "texture": "mainmenu:lang.png",
-      "action": {
-        "type": "openGui",
-        "gui": "languages"
-      }
-    },
-    "creeperhost": {
-      "text": "",
-      "posX": -22,
-      "posY": 39,
-      "width": 20,
-      "height": 20,
-      "alignment": "top_right",
-      "texture": "mainmenu:creeperhost.png",
-      "imageWidth": "40",
-      "imageHeight": "40",
-      "wrappedButton": 30051988
-    },    
-    "refresh": {
-      "text": "",
-      "posX": 0,
-      "posY": 0,
-      "width": 20,
-      "height": 20,
-      "alignment": "top_left",
-      "texture": "mainmenu:refresh.png",
-      "action": {
-        "type": "refresh"
-      }
-    }
-  },
-  "labels": {
-    "mojang": {
-      "text": "Copyright Mojang AB.",
-      "hoverText": "Copyright Mojang AB.",
-      "posX": -110,
-      "posY": -10,
-      "color": -1,
-      "alignment": "bottom_right",
-      "action": {
-        "type": "openGui",
-        "gui": "credits"
-      }
-    },
-    "forge": {
-      "text": "Forge #forgeversion#",
-      "posX": 2,
-      "posY": -16,
-      "fontSize": 0.9,
-      "color": -1,
-      "hoverColor": -1,
-      "alignment": "bottom_left"
-    },
-    "modsloaded": {
-      "text": "#modsloaded# Mods Loaded",
-      "posX": 2,
-      "posY": -8,
-      "fontSize": 0.9,
-      "color": -1,
-      "hoverColor": -1,
-      "alignment": "bottom_left"
-    }
-  },
-  "other": {
-    "splash-text": {
-      "posX": 90,
-      "posY": 70,
-      "color": -256,
-      "alignment": "top_center",
-      "texts": "file:modpack:texts/splashes.txt"
-    },
-    "background": {
-      "image": "",
-      "slideshow": {
-        "images": [
-          "mainmenu:images/001.png",
-          "mainmenu:images/002.png",
-          "mainmenu:images/003.png",
-          "mainmenu:images/004.png",
-          "mainmenu:images/005.png",
-          "mainmenu:images/006.png",
-          "mainmenu:images/007.png",
-          "mainmenu:images/008.png",
-          "mainmenu:images/009.png",
-          "mainmenu:images/010.png",
-          "mainmenu:images/011.png",
-          "mainmenu:images/012.png",
-          "mainmenu:images/013.png",
-          "mainmenu:images/014.png",
-          "mainmenu:images/015.png",
-          "mainmenu:images/016.png",
-          "mainmenu:images/017.png",
-          "mainmenu:images/018.png",
-          "mainmenu:images/019.png",
-          "mainmenu:images/020.png",
-          "mainmenu:images/021.png",
-          "mainmenu:images/022.png",
-          "mainmenu:images/023.png",
-          "mainmenu:images/024.png",
-          "mainmenu:images/025.png",
-          "mainmenu:images/026.png",
-          "mainmenu:images/027.png",
-          "mainmenu:images/028.png",
-          "mainmenu:images/029.png",
-          "mainmenu:images/030.png",
-          "mainmenu:images/031.png",
-          "mainmenu:images/032.png",
-          "mainmenu:images/033.png",
-          "mainmenu:images/034.png",
-          "mainmenu:images/035.png",
-          "mainmenu:images/036.png"
-        ],
-        "displayDuration": 4,
-        "fadeDuration": 0
-      }
-    }
-  }
+	"images": {},
+	"buttons": {
+		"singleplayer": {
+			"text": "",
+			"posX": -140,
+			"posY": -120,
+			"width": 101,
+			"height": 40,
+			"imageWidth": 202,
+			"imageHeight": 80,
+			"alignment": "right_center",
+			"texture": "mainmenu:0001.png",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "",
+			"posX": -140,
+			"posY": -80,
+			"width": 101,
+			"height": 40,
+			"imageWidth": 202,
+			"imageHeight": 79,
+			"alignment": "right_center",
+			"texture": "mainmenu:0002.png",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"mods": {
+			"text": "",
+			"posX": -140,
+			"posY": -40,
+			"width": 101,
+			"height": 40,
+			"alignment": "right_center",
+			"imageWidth": 202,
+			"imageHeight": 79,
+			"texture": "mainmenu:0007.png",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"options": {
+		"text": "",
+			"posX": -140,
+			"posY": 0,
+			"width": 101,
+			"height": 40,
+			"alignment": "right_center",
+			"imageWidth": 202,
+			"imageHeight": 79,
+			"texture": "mainmenu:0003.png",
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"quit": {
+			"text": "",
+			"posX": -140,
+			"posY": 40,
+			"width": 101,
+			"height": 40,
+			"alignment": "right_center",
+			"imageWidth": 202,
+			"imageHeight": 79,
+			"texture": "mainmenu:00004.png",
+			"action": {
+				"type": "quit"
+			}
+		},
+		"language": {
+			"text": "",
+			"posX": -22,
+			"posY": 1,
+			"width": 20,
+			"height": 20,
+			"tooltip": "Language",
+			"alignment": "top_right",
+			"imageWidth": "40",
+			"imageHeight": "40",
+			"texture": "mainmenu:lang.png",
+			"action": {
+				"type": "openGui",
+				"gui": "languages"
+			}
+		},
+		"creeperhost": {
+			"text": "",
+			"posX": -22,
+			"posY": 39,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"texture": "mainmenu:creeperhost.png",
+			"imageWidth": "40",
+			"imageHeight": "40",
+			"wrappedButton": 30051988
+		},		
+		"refresh": {
+			"text": "",
+			"posX": 0,
+			"posY": 0,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_left",
+			"texture": "mainmenu:refresh.png",
+			"action": {
+				"type": "refresh"
+			}
+		},
+		"QQ": {
+			"text" : " ",
+			"posX" : -85,
+			"posY" : -20,
+			"width":85,
+			"height":15,
+			"imageWidth":340,
+			"imageHeight":60,
+			"texture" : "custommainmenu:textures/gui/button8.png",
+			"hoverSound" : "mainmenu:qq.png",
+			"alignment":"bottom_right",
+			"action" : {
+				"type" : "openLink",
+				"link" : "https://jq.qq.com/?_wv=1027&k=5JybmZw"
+			}
+		},
+		"Discord": {
+			"text" : " ",
+			"posX" : -85,
+			"posY" : -40,
+			"width":85,
+			"height":15,
+			"imageWidth":340,
+			"imageHeight":60,
+			"texture" : "custommainmenu:textures/gui/button8.png",
+			"hoverSound" : "mainmenu:discord.png",
+			"alignment":"bottom_right",
+			"action" : {
+				"type" : "openLink",
+				"link" : "https://discord.gg/dUjFCrC"
+			}
+		},
+		"github": {
+			"text" : " ",
+			"posX" : -85,
+			"posY" : -60,
+			"width":85,
+			"height":15,
+			"imageWidth":340,
+			"imageHeight":60,
+			"texture" : "custommainmenu:textures/gui/button8.png",
+			"hoverSound" : "mainmenu:github.png",
+			"alignment":"bottom_right",
+			"action" : {
+				"type" : "openLink",
+				"link" : "https://github.com/TIMWTeam/This-Is-My-World-IV-Trial-of-God/issues"
+			}
+		}
+	},
+	"labels": {
+		"mojang": {
+			"text": "Copyright Mojang AB.",
+			"hoverText": "Copyright Mojang AB.",
+			"posX": -110,
+			"posY": -10,
+			"color": -1,
+			"alignment": "bottom_right",
+			"action": {
+				"type": "openGui",
+				"gui": "credits"
+			}
+		},
+		"forge": {
+			"text": "Forge #forgeversion#",
+			"posX": 2,
+			"posY": -16,
+			"fontSize": 0.9,
+			"color": -1,
+			"hoverColor": -1,
+			"alignment": "bottom_left"
+		},
+		"modsloaded": {
+			"text": "#modsloaded# Mods Loaded",
+			"posX": 2,
+			"posY": -8,
+			"fontSize": 0.9,
+			"color": -1,
+			"hoverColor": -1,
+			"alignment": "bottom_left"
+		}
+	},
+	"other": {
+		"splash-text": {
+			"posX": 90,
+			"posY": 70,
+			"color": -256,
+			"alignment": "top_center",
+			"texts": "file:modpack:texts/splashes.txt"
+		},
+		"background": {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"mainmenu:images/001.png",
+					"mainmenu:images/002.png",
+					"mainmenu:images/003.png",
+					"mainmenu:images/004.png",
+					"mainmenu:images/005.png",
+					"mainmenu:images/006.png",
+					"mainmenu:images/007.png",
+					"mainmenu:images/008.png",
+					"mainmenu:images/009.png",
+					"mainmenu:images/010.png",
+					"mainmenu:images/011.png",
+					"mainmenu:images/012.png",
+					"mainmenu:images/013.png",
+					"mainmenu:images/014.png",
+					"mainmenu:images/015.png",
+					"mainmenu:images/016.png",
+					"mainmenu:images/017.png",
+					"mainmenu:images/018.png",
+					"mainmenu:images/019.png",
+					"mainmenu:images/020.png",
+					"mainmenu:images/021.png",
+					"mainmenu:images/022.png",
+					"mainmenu:images/023.png",
+					"mainmenu:images/024.png",
+					"mainmenu:images/025.png",
+					"mainmenu:images/026.png",
+					"mainmenu:images/027.png",
+					"mainmenu:images/028.png",
+					"mainmenu:images/029.png",
+					"mainmenu:images/030.png",
+					"mainmenu:images/031.png",
+					"mainmenu:images/032.png",
+					"mainmenu:images/033.png",
+					"mainmenu:images/034.png",
+					"mainmenu:images/035.png",
+					"mainmenu:images/036.png"
+				],
+				"displayDuration": 4,
+				"fadeDuration": 0
+			}
+		}
+	}
 }
