@@ -45,70 +45,23 @@ val acWandRecipes as IIngredient[][][] = [
 	],
 	//Lv.1
 	[
-		[null, <ore:blockGold>],
-		[<ore:stickWood>, null]
-	],
-	//Lv.2
-	[
 		[null, null, <bloodmagic:slate>],
 		[null, <bloodarsenal:base_item:1>, null],
 		[<bloodarsenal:base_item:1>, null, null]
 	],
+	//Lv.2
+	[
+		[null, <astralsorcery:itemcraftingcomponent:4>, <botania:storage:1>],
+		[null, <ore:livingwoodTwig>, <astralsorcery:itemcraftingcomponent:4>],
+		[<ore:livingwoodTwig>, null, null]
+	],
 	//Lv.3
 	[
-		[null, null, <botania:storage>],
-		[null, <ore:livingwoodTwig>, null],
-		[<ore:livingwoodTwig>, null, null]
-	],
-	//Lv.4
-	[
-		[null, null, <botania:storage:1>],
-		[null, <ore:livingwoodTwig>, null],
-		[<ore:livingwoodTwig>, null, null]
-	],
-	//Lv.5
-	[
-		[null, <ore:gemCrystalFlux>, <industrialforegoing:pink_slime_ingot>],
-		[null, <redstonearsenal:material:192>, <ore:gemCrystalFlux>],
-		[<redstonearsenal:material:192>, null, null]
-	],
-	//Lv.6
-	[
-		[null, <ore:dustAstralStarmetal>, <astralsorcery:itemcraftingcomponent:4>],
-		[null, <botania:manaresource:13>, <ore:dustAstralStarmetal>],
-		[<botania:manaresource:13>, null, null]
-	],
-	//Lv.7
-	[
-		[null, <ore:dropofevil>, <ore:blockEvilMetal>],
+		[null, <ore:dropofevil>, <thaumcraft:primordial_pearl>],
 		[null, <ore:bone>, <ore:dropofevil>],
 		[<ore:bone>, null, null]
 	],
-	//Lv.8
-	[
-		[null, <thaumcraft:void_seed>, <thaumcraft:primordial_pearl>],
-		[null, <ore:bone>, <thaumcraft:void_seed>],
-		[<ore:bone>, null, null]
-	],
-	//Lv.9
-	[
-		[null, <ore:ingotDraconium>, <draconicevolution:draconic_core>],
-		[null, <minecraft:blaze_rod>, <ore:ingotDraconium>],
-		[<minecraft:blaze_rod>, null, null]
-	],
-	//Lv.10
-	[
-		[null, <draconicevolution:draconic_core>, <draconicevolution:wyvern_core>],
-		[null, <minecraft:blaze_rod>, <draconicevolution:draconic_core>],
-		[<minecraft:blaze_rod>, null, null]
-	],
-	//Lv.11
-	[
-		[null, <ore:ingotDraconiumAwakened>, <draconicevolution:awakened_core>],
-		[null, <minecraft:blaze_rod>, <ore:ingotDraconiumAwakened>],
-		[<minecraft:blaze_rod>, null, null]
-	],
-	//Lv.12
+	//Lv.4
 	[
 		[null, <ore:ingotDraconiumAwakened>, <draconicevolution:chaotic_core>],
 		[null, <draconicevolution:chaos_shard>, <ore:ingotDraconiumAwakened>],
@@ -117,3 +70,14 @@ val acWandRecipes as IIngredient[][][] = [
 ];
 
 acceleration(acWandRecipes);
+
+mods.thaumcraft.Infusion.registerRecipe("acceleration_wand", "", <notenoughwands:acceleration_wand>, 10, 
+    [<aspect:desiderium>*32, <aspect:sensus>*16,<aspect:vacuos>*16], 
+    <projecte:item.pe_philosophers_stone>, 
+    [<notenoughwands:advanced_wandcore>,<minecraft:clock>,<notenoughwands:advanced_wandcore>,<minecraft:clock>]);
+
+recipes.remove(<projecte:item.pe_time_watch>);
+mods.thaumcraft.Infusion.registerRecipe("pe_time_watch", "", <projecte:item.pe_time_watch>, 10, 
+    [<aspect:desiderium>*32, <aspect:sensus>*16,<aspect:vacuos>*16], 
+    <projecte:item.pe_philosophers_stone>, 
+    [<projecte:matter_block>,<minecraft:clock>,<projecte:matter_block>,<minecraft:clock>]);

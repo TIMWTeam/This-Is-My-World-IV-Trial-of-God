@@ -31,6 +31,7 @@ mods.tconstruct.Casting.addTableRecipe(<libvulpes:productrod:4>, <minecraft:stic
 //meteors-block
 <ore:blockBM_meteors>.add(<bloodmagic:decorative_brick:2>);
 <ore:blockAE_meteors>.add(<appliedenergistics2:fluix_block>);
+<ore:blockAE_meteors2>.add(<appliedenergistics2:sky_stone_block>);
 <ore:blockBot_meteors0>.add(<botania:storage>);
 <ore:blockBot_meteors1>.add(<botania:storage:2>);
 <ore:blockBot_meteors2>.add(<botania:storage:3>);
@@ -43,7 +44,6 @@ mods.tconstruct.Casting.addTableRecipe(<libvulpes:productrod:4>, <minecraft:stic
 <ore:blockAA_meteors5>.add(<actuallyadditions:block_crystal_empowered>);
 <ore:oreDimensionalShard_meteors>.add(<rftools:dimensional_shard_ore>);
 <ore:oreDraconium_meteors>.add(<draconicevolution:draconium_ore>);
-<ore:blockAE_meteors>.add(<appliedenergistics2:sky_stone_block>);
 
 //misc
 <ore:dustSalt>.add(<immersiveengineering:material:24>);

@@ -43,8 +43,12 @@ mods.thaumcraft.Infusion.registerRecipe("pe_tome", "", <projecte:item.pe_tome>, 
     <projecte:item.pe_transmutation_tablet>, 
     [<rftools:rftools_shape_manual>,<bloodmagic:experience_tome>,<guideapi:bloodmagic-guide>,<bloodmagic:sanguine_book>,<guideapi:bloodarsenal-guide>,
     <tconstruct:book>,<actuallyadditions:item_booklet>,<xnet:xnet_manual>,<extrautils2:book>,<techreborn:techmanuel>,<industrialforegoing:book_manual>,<immersiveengineering:tool:3>,
-    <forestry:book_forester>,<botania:lexicon>,<astralsorcery:itemjournal>,<embers:codex>,<draconicevolution:info_tablet>,<thaumcraft:thaumonomicon>,<evilcraft:origins_of_darkness>]);
+    <forestry:book_forester>,<thaumcraft:curio:6>,<botania:lexicon>,<astralsorcery:itemjournal>,<embers:codex>,<draconicevolution:info_tablet>,<thaumcraft:thaumonomicon>,<evilcraft:origins_of_darkness>]);
 
+mods.thaumcraft.Infusion.registerRecipe("evil_doll", "", <contenttweaker:evil_doll>, 10, 
+    [<aspect:vitium>*32, <aspect:alienis>*16,<aspect:spiritus>*16], 
+    <contenttweaker:evil_mind>, 
+    [<contenttweaker:evil_skin>,<contenttweaker:evil_heart>,<contenttweaker:evil_eye>,<contenttweaker:evil_eye>]);
 
 
 

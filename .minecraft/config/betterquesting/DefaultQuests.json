@@ -4106,6 +4106,83 @@
           "viaPlayer:1": 0,
           "index:3": 0,
           "command:8": "/bq_admin reset all @p"
+        },
+        "1:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "command:8": "/researchtable @p bot_life_essence 0"
+        },
+        "2:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 2,
+          "command:8": "/researchtable @p hypocritical_world 0"
+        },
+        "3:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 3,
+          "command:8": "/researchtable @p B-003-1 0"
+        },
+        "4:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 4,
+          "command:8": "/researchtable @p B-003-2 0"
+        },
+        "5:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 5,
+          "command:8": "/researchtable @p B-003-3 0"
+        },
+        "6:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 6,
+          "command:8": "/researchtable @p B-003-4 0"
+        },
+        "7:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 7,
+          "command:8": "/researchtable @p B-003-5 0"
+        },
+        "8:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 8,
+          "command:8": "/researchtable @p B-003-6 0"
+        },
+        "9:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 9,
+          "command:8": "/researchtable @p B-003-7 0"
+        },
+        "10:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 10,
+          "command:8": "/researchtable @p B-003-8 0"
+        },
+        "11:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 11,
+          "command:8": "/researchtable @p B-003-9 0"
         }
       }
     },
@@ -4998,6 +5075,178 @@
         }
       },
       "rewards:9": {}
+    },
+    "108:10": {
+      "questID:3": 108,
+      "preRequisites:11": [
+        48
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "HIDDEN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "forge:bucketfilled",
+              "Count:3": 1,
+              "tag:10": {
+                "FluidName:8": "liquid_death",
+                "Amount:3": 1000
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "109:10": {
+      "questID:3": 109,
+      "preRequisites:11": [
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:evil_doll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "key.bq.stage.0.56.title",
+          "desc:8": "key.bq.stage.0.56.text"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "110:10": {
+      "questID:3": 110,
+      "preRequisites:11": [
+        109
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "HIDDEN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:evil_doll",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "111:10": {
+      "questID:3": 111,
+      "preRequisites:11": [
+        110
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:evil_doll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "key.bq.stage.0.57.title",
+          "desc:8": "key.bq.stage.0.57.text"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -5638,6 +5887,30 @@
           "x:3": -54,
           "y:3": 354,
           "id:3": 107
+        },
+        "106:10": {
+          "size:3": 24,
+          "x:3": 330,
+          "y:3": 114,
+          "id:3": 108
+        },
+        "107:10": {
+          "size:3": 24,
+          "x:3": 354,
+          "y:3": 114,
+          "id:3": 109
+        },
+        "108:10": {
+          "size:3": 24,
+          "x:3": 378,
+          "y:3": 114,
+          "id:3": 110
+        },
+        "109:10": {
+          "size:3": 24,
+          "x:3": 402,
+          "y:3": 114,
+          "id:3": 111
         }
       },
       "lineID:3": 0,

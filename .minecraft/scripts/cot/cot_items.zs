@@ -147,7 +147,16 @@ evil_skin.rarity = "rare";
 evil_skin.register();
 
 var evil_doll = VanillaFactory.createItem("evil_doll");
-evil_doll.maxStackSize = 64;
 evil_doll.rarity = "rare";
+evil_doll.itemRightClick = function(stack, world, player, hand) {
+	if (!world.remote) { 
+    	Commands.call("summon thaumcraft:cultistportallesser", player, world, false, true);
+    	Commands.call("summon thaumcraft:cultistportallesser", player, world, false, true);
+    	Commands.call("summon thaumcraft:cultistportallesser", player, world, false, true);
+    	Commands.call("say 邪恶悄然降临！", player, world, false, true);
+    	Commands.call("say Evil quietly appears!", player, world, false, true);
+    }
+    return "SUCCESS";
+};
 evil_doll.register();
 

@@ -1,4 +1,4 @@
-14802 nodes in total
+14803 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -8927,6 +8927,7 @@ ftbutilities.claims.item.contenttweaker.demon_will_coagulator_1: ALL
 ftbutilities.claims.item.contenttweaker.demon_will_coagulator_2: ALL
 ftbutilities.claims.item.contenttweaker.dirty_blood: ALL
 ftbutilities.claims.item.contenttweaker.elite_circuit: ALL
+ftbutilities.claims.item.contenttweaker.evil_doll: ALL
 ftbutilities.claims.item.contenttweaker.evil_eye: ALL
 ftbutilities.claims.item.contenttweaker.evil_heart: ALL
 ftbutilities.claims.item.contenttweaker.evil_mind: ALL

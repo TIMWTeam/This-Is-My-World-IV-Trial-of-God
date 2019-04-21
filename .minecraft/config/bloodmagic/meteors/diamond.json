@@ -46,6 +46,10 @@
     {
       "weight": 100,
       "oreName": "blockAmber"
+    },
+    {
+      "weight": 200,
+      "oreName": "blockAE_meteors2"
     }
   ],
   "explosionStrength": 50.0,

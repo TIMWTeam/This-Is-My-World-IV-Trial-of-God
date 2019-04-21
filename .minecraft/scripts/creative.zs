@@ -56,20 +56,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <bloodmagic:sacrificial_dagger:
 	[null, <ic2:misc_resource:3>, null, null, <bloodarsenal:blood_diamond:3>, null, null, null, null], 
 	[null, null, <ic2:misc_resource:3>, <bloodarsenal:blood_diamond:3>, null, null, null, null, null], 
 	[null, null, <extrautils2:decorativesolid:8>, <ic2:misc_resource:3>, null, null, null, null, null], 
-	[<extrautils2:decorativesolid:8>, null, null, <ic2:misc_resource:3>, null, null, null, null], 
+	[null, <extrautils2:decorativesolid:8>, null, null, <ic2:misc_resource:3>], 
 	[<contenttweaker:achievement_reagent>, null, null, null, null, <contenttweaker:moon_essence>, null, null, null]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(0, <buildinggadgets:constructionpastecontainercreative>, [
-	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>],
-	[<extrautils2:decorativesolid:8>, <buildinggadgets:constructionpastecontainert3>, <buildinggadgets:constructionpastecontainert3>, <buildinggadgets:constructionpastecontainert3>, <extrautils2:decorativesolid:8>],
-	[<extrautils2:decorativesolid:8>, <buildinggadgets:constructionpastecontainert3>, <contenttweaker:moon_essence>, <buildinggadgets:constructionpastecontainert3>, <extrautils2:decorativesolid:8>],
-	[<extrautils2:decorativesolid:8>, <buildinggadgets:constructionpastecontainert3>, <ic2:misc_resource:3>, <buildinggadgets:constructionpastecontainert3>, <extrautils2:decorativesolid:8>],
-	[<extrautils2:decorativesolid:8>, <buildinggadgets:constructionpastecontainert3>, <ic2:misc_resource:3>, <buildinggadgets:constructionpastecontainert3>, <extrautils2:decorativesolid:8>],
-	[<extrautils2:decorativesolid:8>, <buildinggadgets:constructionpastecontainert3>, <ic2:misc_resource:3>, <buildinggadgets:constructionpastecontainert3>, <extrautils2:decorativesolid:8>],
-	[<extrautils2:decorativesolid:8>, <buildinggadgets:constructionpastecontainert3>, <contenttweaker:sun_essence>, <buildinggadgets:constructionpastecontainert3>, <extrautils2:decorativesolid:8>],
-	[<extrautils2:decorativesolid:8>, <buildinggadgets:constructionpastecontainert3>, <buildinggadgets:constructionpastecontainert3>, <buildinggadgets:constructionpastecontainert3>, <extrautils2:decorativesolid:8>],
-	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <extrautils2:itemcreativedestructionwand>, [
@@ -228,9 +216,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:creative_e
 	[<overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <ore:blockAE_meteors>, <ore:blockNetherStar>, <ore:blockAE_meteors>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>], 
 	[<overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <ore:blockAE_meteors>, <ore:blockNetherStar>, <ore:blockAE_meteors>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>], 
 	[<overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <ore:blockAE_meteors>, <ore:blockNetherStar>, <ore:blockAE_meteors>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>], 
-	[<ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockNetherStar>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>], 
-	[<ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>, <thermalexpansion:capacitor:32000>, <ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>], 
-	[<ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockNetherStar>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>], 
+	[<ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <draconicevolution:reactor_core>, <ore:blockNetherStar>, <draconicevolution:reactor_core>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>], 
+	[<ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>, <matteroverdrive:creative_battery>, <ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>], 
+	[<ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <draconicevolution:reactor_core>, <ore:blockNetherStar>, <draconicevolution:reactor_core>, <ore:blockAE_meteors>, <ore:blockAE_meteors>, <ore:blockAE_meteors>], 
 	[<overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <ore:blockAE_meteors>, <ore:blockNetherStar>, <ore:blockAE_meteors>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>], 
 	[<overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <ore:blockAE_meteors>, <ore:blockNetherStar>, <ore:blockAE_meteors>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>], 
 	[<overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <ore:blockAE_meteors>, <ore:blockNetherStar>, <ore:blockAE_meteors>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>, <overloaded:compressed_obsidian:3>]

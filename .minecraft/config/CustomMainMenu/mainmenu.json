@@ -75,22 +75,6 @@
 				"type": "quit"
 			}
 		},
-		"language": {
-			"text": "",
-			"posX": -22,
-			"posY": 1,
-			"width": 20,
-			"height": 20,
-			"tooltip": "Language",
-			"alignment": "top_right",
-			"imageWidth": "40",
-			"imageHeight": "40",
-			"texture": "mainmenu:lang.png",
-			"action": {
-				"type": "openGui",
-				"gui": "languages"
-			}
-		},
 		"creeperhost": {
 			"text": "",
 			"posX": -22,
@@ -102,65 +86,101 @@
 			"imageWidth": "40",
 			"imageHeight": "40",
 			"wrappedButton": 30051988
-		},		
-		"refresh": {
+		},
+		"language": {
 			"text": "",
-			"posX": 0,
-			"posY": 0,
-			"width": 20,
-			"height": 20,
-			"alignment": "top_left",
-			"texture": "mainmenu:refresh.png",
+			"posX" : -50,
+			"posY" : -90,
+			"width":50,
+			"height":10,
+			"imageWidth":300,
+			"imageHeight":60,
+			"tooltip": "Language",
+			"alignment": "bottom_right",
+			"texture": "mainmenu:language.png",
 			"action": {
-				"type": "refresh"
+				"type": "openGui",
+				"gui": "languages"
 			}
 		},
-		"QQ": {
-			"text" : " ",
-			"posX" : -85,
-			"posY" : -20,
-			"width":85,
-			"height":15,
-			"imageWidth":340,
+		"curseforge": {
+			"text": "",
+			"posX" : -50,
+			"posY" : -75,
+			"width":50,
+			"height":10,
+			"imageWidth":300,
 			"imageHeight":60,
-			"texture" : "custommainmenu:textures/gui/button8.png",
-			"hoverSound" : "mainmenu:qq.png",
+			"tooltip": "curseforge",
+			"alignment": "bottom_right",
+			"texture": "mainmenu:curseforge.png",
+			"action": {
+				"type": "openGui",
+				"gui": "languages"
+			}
+		},
+		"github": {
+			"text" : " ",
+			"posX" : -50,
+			"posY" : -60,
+			"width":50,
+			"height":10,
+			"imageWidth":300,
+			"imageHeight":60,
+			"tooltip": "github",
+			"texture" : "mainmenu:github.png",
 			"alignment":"bottom_right",
 			"action" : {
 				"type" : "openLink",
-				"link" : "https://jq.qq.com/?_wv=1027&k=5JybmZw"
+				"link" : "https://github.com/TIMWTeam/This-Is-My-World-IV-Trial-of-God/issues"
 			}
 		},
 		"Discord": {
 			"text" : " ",
-			"posX" : -85,
-			"posY" : -40,
-			"width":85,
-			"height":15,
-			"imageWidth":340,
+			"posX" : -50,
+			"posY" : -45,
+			"width":50,
+			"height":10,
+			"imageWidth":300,
 			"imageHeight":60,
-			"texture" : "custommainmenu:textures/gui/button8.png",
-			"hoverSound" : "mainmenu:discord.png",
+			"tooltip": "Discord",
+			"texture" : "mainmenu:discord.png",
 			"alignment":"bottom_right",
 			"action" : {
 				"type" : "openLink",
 				"link" : "https://discord.gg/dUjFCrC"
 			}
 		},
-		"github": {
+		"QQ": {
 			"text" : " ",
-			"posX" : -85,
-			"posY" : -60,
-			"width":85,
-			"height":15,
-			"imageWidth":340,
+			"posX" : -50,
+			"posY" : -30,
+			"width":50,
+			"height":10,
+			"imageWidth":300,
 			"imageHeight":60,
-			"texture" : "custommainmenu:textures/gui/button8.png",
-			"hoverSound" : "mainmenu:github.png",
+			"tooltip": "QQ",
+			"texture" : "mainmenu:qq.png",
 			"alignment":"bottom_right",
 			"action" : {
 				"type" : "openLink",
-				"link" : "https://github.com/TIMWTeam/This-Is-My-World-IV-Trial-of-God/issues"
+				"link" : "https://jq.qq.com/?_wv=1027&k=5JybmZw"
+			}
+		},
+		"afdian": {
+			"text" : " ",
+			"posX" : -50,
+			"posY" : -15,
+			"width":50,
+			"height":10,
+			"imageWidth":300,
+			"imageHeight":60,
+			"tooltip": "sponsor",
+			"texture" : "mainmenu:afdian.png",
+			"alignment":"bottom_right",
+			"action" : {
+				"type" : "openLink",
+				"link" : "https://afdian.net/@YiChen"
 			}
 		}
 	},
