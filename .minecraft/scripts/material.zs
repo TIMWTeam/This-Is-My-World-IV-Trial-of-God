@@ -39,9 +39,11 @@ mods.mekanism.enrichment.removeRecipe(<mekanism:polyethene>);
 mods.mekanism.reaction.removeRecipe(<mekanism:substrate>, <gas:ethene>);
 mods.mekanism.reaction.removeRecipe(<mekanism:substrate>, <gas:oxygen>);
 mods.mekanism.reaction.removeRecipe(<mekanism:polyethene>, <gas:oxygen>);
-mods.mekanism.reaction.addRecipe(<mekanism:biofuel>, <liquid:water>*10, <gas:hydrogen>*100, <mekanism:substrate>, <gas:oxygen>*20, 5000, 200);
-mods.mekanism.reaction.addRecipe(<mekanism:substrate>, <liquid:gasoline>*10, <gas:ethene>*100, <techguns:itemshared:55> , <gas:oxygen>*20, 5000, 200);
+mods.mekanism.reaction.addRecipe(<mekanism:biofuel>, <liquid:water>*10, <gas:hydrogen>*100, <mekanism:substrate>, <gas:oxygen>*20, 1800, 200);
+mods.mekanism.reaction.addRecipe(<mekanism:substrate>, <liquid:gasoline>*10, <gas:ethene>*100, <techguns:itemshared:55> , <gas:oxygen>*20, 1800, 200);
 recipes.replaceAllOccurences(<mekanism:polyethene:2>, <techguns:itemshared:55>);
+recipes.addShapeless(<mekanism:biofuel>, [<actuallyadditions:item_misc:22>]);
+
 
 //wire-导线
 recipes.remove(<techreborn:cable>);

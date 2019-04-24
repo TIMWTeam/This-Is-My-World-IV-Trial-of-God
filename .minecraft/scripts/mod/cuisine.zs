@@ -9,6 +9,7 @@ val remove_furnace as IItemStack[] = [<primal:corn_cob_cooked>,
     <minecraft:cooked_mutton>,
     <minecraft:cooked_fish:1>,
     <minecraft:cooked_fish>,
+    <minecraft:cooked_porkchop>,
     <actuallyadditions:item_food:15>,
     <primal:mushroom_cooked>] ;
 
