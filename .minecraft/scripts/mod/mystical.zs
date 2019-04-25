@@ -88,10 +88,10 @@ recipes.remove(<mysticalagriculture:dilithium_seeds>);
 recipes.remove(<mysticalagriculture:menril_seeds>);
 
 //基础种子合成
-mods.botania.Apothecary.addRecipe(<mysticalagriculture:crafting:17>,[<mysticalagriculture:crafting:16>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>]);
+mods.botania.Apothecary.addRecipe(<mysticalagriculture:crafting:17>,[<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>]);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:18>,[<mysticalagriculture:crafting:17>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>],100000);
 mods.botaniatweaks.Agglomeration.addRecipe(<mysticalagriculture:crafting:19>, 
-    [<mysticalagriculture:crafting:18>,<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>,<mysticalagriculture:crafting:2>],
+    [<mysticalagriculture:crafting:18>,<mysticalagriculture:crafting:2>*4],
     100000, 0xff6600, 0x00aeff,
     <mysticalagriculture:storage:5>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:5>);
 mods.thaumcraft.Infusion.registerRecipe("essence_seeds4", "", <mysticalagriculture:crafting:20>, 5, 

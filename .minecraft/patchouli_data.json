@@ -1,6 +1,6 @@
 {
   "bookGuiScale": 3,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
     "naturesaura:book": {
       "viewedEntries": [
@@ -8,10 +8,18 @@
         "naturesaura:intro/intro",
         "naturesaura:intro/aura",
         "naturesaura:practices/gold_trees",
-        "naturesaura:intro/baubles"
+        "naturesaura:intro/baubles",
+        "naturesaura:practices/tree_ritual",
+        "naturesaura:practices/aura_bottle",
+        "naturesaura:creating/on_generating",
+        "naturesaura:creating/ancient_tree"
       ],
       "bookmarks": [],
       "history": [
+        "naturesaura:creating/on_generating",
+        "naturesaura:creating/ancient_tree",
+        "naturesaura:practices/aura_bottle",
+        "naturesaura:practices/tree_ritual",
         "naturesaura:practices/gold_trees",
         "naturesaura:intro/baubles",
         "naturesaura:intro/aura",

@@ -1,0 +1,32 @@
+{
+  "name": "custom:machine-frame-base",
+  "target-item": "rftools:machine_base",
+  "target-meta": 0,
+  "target-count": 8,
+
+  "duration": 200,
+
+  "catalyst": "contenttweaker:basic_circuit",
+
+  "input-types": {
+    "i": { "id": "immersiveengineering:sheetmetal", "meta":"9" }
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"]
+    ],
+    [
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"]
+    ]
+  ]
+}
