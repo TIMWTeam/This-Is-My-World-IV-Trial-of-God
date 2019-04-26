@@ -15,14 +15,14 @@ var clusters =	[<actuallyadditions:block_crystal_cluster_lapis>,
                 <actuallyadditions:block_crystal_cluster_emerald>,
                 <actuallyadditions:block_crystal_cluster_coal>,
                 <actuallyadditions:block_crystal_cluster_iron>] as IItemStack[];
-var crystals =	[<thaumcraft:crystal_aqua>,
-                <thaumcraft:crystal_aer>,
-                <thaumcraft:crystal_ignis>,
-                <thaumcraft:crystal_terra>,
-                <thaumcraft:crystal_perditio>,
-                <thaumcraft:crystal_ordo>] as IItemStack[];
+var crystals =	[<thaumcraft:crystal_aqua>*2,
+                <thaumcraft:crystal_aer>*2,
+                <thaumcraft:crystal_ignis>*2,
+                <thaumcraft:crystal_terra>*2,
+                <thaumcraft:crystal_perditio>*2,
+                <thaumcraft:crystal_ordo>*2] as IItemStack[];
 for i, block in blocks {
-    mods.actuallyadditions.AtomicReconstructor.addRecipe(clusters[i],block,100000);
+    mods.actuallyadditions.AtomicReconstructor.addRecipe(clusters[i],block,80000);
     mods.botania.ElvenTrade.addRecipe([crystals[i]],[clusters[i]]);
 }
 //Crucible
@@ -35,7 +35,7 @@ mods.thaumcraft.Crucible.registerRecipe("Cinderpearl", "", <thaumcraft:cinderpea
 //ArcaneWorkbench
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("infusion_matrix", "", 60, [<aspect:perditio>,<aspect:aer>,<aspect:terra>,<aspect:ignis>,<aspect:aqua>,<aspect:ordo>],<thaumcraft:infusion_matrix>, [[<thaumcraft:stone_arcane_brick>,<bloodmagic:slate:2>,<thaumcraft:stone_arcane_brick>],[<bloodmagic:slate:2>,<minecraft:ender_pearl>,<bloodmagic:slate:2>],[<thaumcraft:stone_arcane_brick>,<bloodmagic:slate:2>,<thaumcraft:stone_arcane_brick>]]);
-
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumometer", "", 40, [<aspect:perditio>*3,<aspect:ordo>*3],<thaumcraft:thaumometer>,[[<minecraft:gold_nugget>,<minecraft:gold_ingot>,<minecraft:gold_nugget>],[<minecraft:gold_ingot>,<minecraft:glass_pane>,<minecraft:gold_ingot>],[<minecraft:gold_nugget>,<minecraft:gold_ingot>,<minecraft:gold_nugget>]]);
 //Infusion
 mods.thaumcraft.Infusion.registerRecipe("Silverwood", "", <thaumcraft:sapling_silverwood>, 10, [<aspect:auram>*64, <aspect:victus>*32,<aspect:herba>*32], <thaumcraft:sapling_greatwood>, [<thaumcraft:log_silverwood>,<thaumcraft:log_silverwood>,<thaumcraft:shimmerleaf>,<thaumcraft:shimmerleaf>,<thaumcraft:quicksilver>,<thaumcraft:quicksilver>]);
 mods.thaumcraft.Infusion.registerRecipe("pe_tome", "", <projecte:item.pe_tome>, 20, 

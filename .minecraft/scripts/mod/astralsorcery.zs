@@ -4,7 +4,7 @@ recipes.addShapeless(<astralsorcery:blockblackmarble>,[<ore:stoneMarble>,<ore:cl
 recipes.addShaped(<astralsorcery:blockmarble>*8,[[<ore:stone>,<ore:stone>,<ore:stone>],[<ore:stone>,<ore:dyeWhite>,<ore:stone>],[<ore:stone>,<ore:stone>,<ore:stone>]]);
 recipes.addShaped(<astralsorcery:itemwand>,[[null,<astralsorcery:itemrockcrystalsimple>,<evilcraft:blood_orb>],[null,<ore:stoneMarble>,<astralsorcery:itemrockcrystalsimple>],[<ore:stoneMarble>,null,null]]);
 recipes.addShaped(<astralsorcery:blockaltar>,[[<ore:stoneMarble>,<astralsorcery:blockblackmarble>,<ore:stoneMarble>],[<ore:stoneMarble>,<ore:workbench>,<ore:stoneMarble>],[<ore:stoneMarble>,null,<ore:stoneMarble>]]);
-recipes.addShaped(<astralsorcery:itemconstellationpaper>,[[null,<thaumcraft:celestial_notes:2>,null],[<thaumcraft:celestial_notes:1>,<ore:scribing>,<thaumcraft:celestial_notes:3>],[null,<thaumcraft:celestial_notes:4>,null]]);
+recipes.addShaped(<astralsorcery:itemconstellationpaper>,[[null,<thaumcraft:celestial_notes:2>,null],[<thaumcraft:celestial_notes:1>,<ore:scribing>.reuse(),<thaumcraft:celestial_notes:3>],[null,<thaumcraft:celestial_notes:4>,null]]);
 recipes.addShaped(<astralsorcery:itemjournal>,[[<minecraft:book>,<astralsorcery:itemrockcrystalsimple>]]);
 
 

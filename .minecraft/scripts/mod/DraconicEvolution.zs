@@ -7,7 +7,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 recipes.addShaped(<draconicevolution:wyvern_energy_core>*4,[[<draconicevolution:draconic_core>,<redstonearsenal:material:160>,<draconicevolution:draconic_core>],[<redstonearsenal:material:160>,<overloaded:energy_core>,<redstonearsenal:material:160>],[<draconicevolution:draconic_core>,<redstonearsenal:material:160>,<draconicevolution:draconic_core>]]);
 
 recipes.remove(<draconicevolution:draconic_core>);
-recipes.addShaped(<draconicevolution:draconic_core>,[[<draconicevolution:draconium_ingot>,<minecraft:gold_ingot>,<draconicevolution:draconium_ingot>],[<minecraft:gold_ingot>,<ore:gemCrystalFlux>,<minecraft:gold_ingot>],[<draconicevolution:draconium_ingot>,<minecraft:gold_ingot>,<draconicevolution:draconium_ingot>]]);
+recipes.addShaped(<draconicevolution:draconic_core>*9,[[<draconicevolution:draconium_block>,<botania:manaresource:18>,<draconicevolution:draconium_block>],[<botania:manaresource:18>,<redstonearsenal:storage:1>,<botania:manaresource:18>],[<draconicevolution:draconium_block>,<botania:manaresource:18>,<draconicevolution:draconium_block>]]);
 
 var outs =	[<draconicevolution:wyvern_helm>,
 		<draconicevolution:wyvern_chest>,

@@ -4,9 +4,8 @@ recipes.removeByRecipeName("botania:fertilizer_powder");
 recipes.removeByRecipeName("botania:fertilizer_dye");
 recipes.addShapeless(<botania:fertilizer>, [<ore:fertilizer>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>]);
 recipes.addShapeless(<botania:fertilizer>, [<ore:fertilizer>, <minecraft:dye:11>, <minecraft:dye:11>, <minecraft:dye:1>, <minecraft:dye:1>]);
-recipes.addShaped(<botania:pylon:1>,[[null,<botanianeedsit:terrasteelmanacapacitor:1>,null],[<botanianeedsit:terrasteelmanacapacitor:1>,<botania:pylon>,<botanianeedsit:terrasteelmanacapacitor:1>],[null,<naturesaura:gold_powder>,null]]);
 recipes.addShaped(<botania:brewery>,[[<botania:livingrock>,<botania:manaresource:8>,<botania:livingrock>],[<botania:livingrock>,<botania:rune:8>,<botania:livingrock>],[<botania:livingrock>,<botania:storage>,<botania:livingrock>]]);
-
+recipes.addShaped(<botania:pylon:1>,[[<naturesaura:infused_iron>,<botania:manaresource:18>,<naturesaura:infused_iron>],[<botania:manaresource:18>,<botania:pylon>,<botania:manaresource:18>],[<naturesaura:infused_iron>,<naturesaura:infused_iron>,<naturesaura:infused_iron>]]);
 recipes.removeByRecipeName("botania:terraplate");
 recipes.addShaped(<botania:terraplate>,[[<ore:ingotAstralStarmetal>,<ore:ingotAstralStarmetal>,<ore:ingotAstralStarmetal>],[<ore:runeAirB>,<ore:blockBot_meteors0>,<ore:runeFireB>],[<ore:runeEarthB>,<ore:runeManaB>,<ore:runeWaterB>]]);
 

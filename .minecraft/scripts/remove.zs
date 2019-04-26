@@ -14,7 +14,6 @@ recipes.removeByRegex("^projecte:philstone_smelt.*");
 
 //remove plate
 recipes.remove(<ic2:forge_hammer>);
-recipes.removeByRegex("^unidict:plate.*");
 recipes.remove(<thaumadditions:mithminite_plate>);
 recipes.remove(<thermalfoundation:material:352>);
 recipes.remove(<thermalfoundation:material:353>);
