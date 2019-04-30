@@ -92,7 +92,7 @@ mods.industrialforegoing.Extractor.add(<integrateddynamics:menril_log_filled>, <
 recipes.remove(<industrialforegoing:protein_reactor>);
 recipes.remove(<teslacorelib:base_addon>);
 recipes.addShaped(<teslacorelib:base_addon>,[[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>],[<minecraft:redstone>,<contenttweaker:basic_circuit>,<minecraft:redstone>],[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>]]);
-
+recipes.replaceAllOccurences(<industrialforegoing:plastic>, <techguns:itemshared:55>);
 //machine-craft
 recipes.remove(<industrialforegoing:protein_reactor>);
 recipes.remove(<industrialforegoing:protein_generator>);

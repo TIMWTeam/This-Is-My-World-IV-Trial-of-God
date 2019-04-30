@@ -63,7 +63,7 @@
 	</Recipe>
 	<Recipe timeRequired="200" power ="10">
 		<input>
-			<oreDict>plateSilicon</oreDict>
+			<oreDict>waferSilicon</oreDict>
 			<oreDict>plateGold</oreDict>
 			<oreDict>dustRedstone</oreDict>
 		</input>
@@ -73,7 +73,7 @@
 	</Recipe>
 	<Recipe timeRequired="200" power ="10">
 		<input>
-			<oreDict>plateSilicon</oreDict>
+			<oreDict>waferSilicon</oreDict>
 			<oreDict>plateCopper</oreDict>
 			<oreDict>dustRedstone</oreDict>
 		</input>
@@ -83,7 +83,7 @@
 	</Recipe>
 	<Recipe timeRequired="200" power ="10">
 		<input>
-			<oreDict>plateSilicon</oreDict>
+			<oreDict>waferSilicon</oreDict>
 			<itemStack>minecraft:dye 1 4</itemStack>
 			<oreDict>dustRedstone</oreDict>
 		</input>

@@ -1,6 +1,8 @@
 //misc
 recipes.removeByRecipeName("bigreactors:block_ludicrite_enderium");
 furnace.remove(<bigreactors:ingotgraphite>);
+recipes.removeByRecipeName("bigreactors:ingot_blutonium_temp");
+recipes.addShaped(<bigreactors:ingotblutonium>,[[<bigreactors:ingotcyanite>,<bigreactors:ingotcyanite>,<bigreactors:ingotcyanite>],[<bigreactors:ingotcyanite>,<ic2:nuclear:7>,<bigreactors:ingotcyanite>],[<bigreactors:ingotcyanite>,<bigreactors:ingotcyanite>,<bigreactors:ingotcyanite>]]);
 
 
 //machine-craft

@@ -65,6 +65,15 @@ silicon_chlorine.register();
 var rough_silicon_plate = VanillaFactory.createItem("rough_silicon_plate");
 rough_silicon_plate.register();
 
+var silicon_plate = VanillaFactory.createItem("silicon_plate");
+silicon_plate.register();
+
+var imprint_silicon_plate = VanillaFactory.createItem("imprint_silicon_plate");
+imprint_silicon_plate.register();
+
+var etch_silicon_plate = VanillaFactory.createItem("etch_silicon_plate");
+etch_silicon_plate.register();
+
 var refined_silicon_plate = VanillaFactory.createItem("refined_silicon_plate");
 refined_silicon_plate.register();
 

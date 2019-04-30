@@ -5,7 +5,8 @@ mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:15>, 
 mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:14>, <minecraft:diamond_block>, false, <thermalfoundation:material:32>, <contenttweaker:basic_circuit>);
 mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:13>, <appliedenergistics2:quartz_block>, false, <thermalfoundation:material:32>, <contenttweaker:basic_circuit>);
 mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:19>, <contenttweaker:silicon_low_purity>, false, <thermalfoundation:material:32>, <contenttweaker:basic_circuit>);
-
+mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:20>, <contenttweaker:silicon_low_purity>, true, <appliedenergistics2:material:19>);
+mods.appliedenergistics2.Inscriber.addRecipe(<contenttweaker:imprint_silicon_plate>, <contenttweaker:silicon_plate>, false, <thermalfoundation:material:320>);
 
 //misc
 mods.techguns.ChargingStation.addRecipe(<appliedenergistics2:material>,<appliedenergistics2:material:1>,8000);

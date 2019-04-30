@@ -1,4 +1,4 @@
-14803 nodes in total
+14806 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -8927,6 +8927,7 @@ ftbutilities.claims.item.contenttweaker.demon_will_coagulator_1: ALL
 ftbutilities.claims.item.contenttweaker.demon_will_coagulator_2: ALL
 ftbutilities.claims.item.contenttweaker.dirty_blood: ALL
 ftbutilities.claims.item.contenttweaker.elite_circuit: ALL
+ftbutilities.claims.item.contenttweaker.etch_silicon_plate: ALL
 ftbutilities.claims.item.contenttweaker.evil_doll: ALL
 ftbutilities.claims.item.contenttweaker.evil_eye: ALL
 ftbutilities.claims.item.contenttweaker.evil_heart: ALL
@@ -8936,6 +8937,7 @@ ftbutilities.claims.item.contenttweaker.feature: ALL
 ftbutilities.claims.item.contenttweaker.gold_skull: ALL
 ftbutilities.claims.item.contenttweaker.grapefruit: ALL
 ftbutilities.claims.item.contenttweaker.hypocritical_world: ALL
+ftbutilities.claims.item.contenttweaker.imprint_silicon_plate: ALL
 ftbutilities.claims.item.contenttweaker.mana_crystal: ALL
 ftbutilities.claims.item.contenttweaker.mana_crystal_block: ALL
 ftbutilities.claims.item.contenttweaker.moon_essence: ALL
@@ -8946,6 +8948,7 @@ ftbutilities.claims.item.contenttweaker.rough_silicon_plate: ALL
 ftbutilities.claims.item.contenttweaker.silicon_chlorine: ALL
 ftbutilities.claims.item.contenttweaker.silicon_high_purity: ALL
 ftbutilities.claims.item.contenttweaker.silicon_low_purity: ALL
+ftbutilities.claims.item.contenttweaker.silicon_plate: ALL
 ftbutilities.claims.item.contenttweaker.starlight_condenser_1: ALL
 ftbutilities.claims.item.contenttweaker.starlight_condenser_2: ALL
 ftbutilities.claims.item.contenttweaker.starlight_condenser_3: ALL

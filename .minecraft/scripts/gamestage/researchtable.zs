@@ -42,7 +42,7 @@ mods.ResearchTable.builder("demon_cry_blueprint", researchType)
 //星光凝结器-aether_transmuter_1
 mods.ResearchTable.builder("starlight_condenser_1", researchType) 
 			.setIcons(<botania:pylon:1>)
-			.setRequiredStages("starlight_condenser_1")
+			.setRequiredStages("Starlight_Condenser")
 			.setTitle("key.researchTable.starlight_condenser_1.title")
 			.setDescription("key.researchTable.starlight_condenser_1.description")
 			.addCondition(<liquid:astralsorcery.liquidstarlight> * 10000)

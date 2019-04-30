@@ -1,9 +1,9 @@
 
 //CombinationCrafting-聚合
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:dirty_blood>, 163840, 512, <extraalchemy:blood_bottle>, [<evilcraft:dark_gem>, <bloodmagic:item_demon_crystal:4>,<evilcraft:dark_gem>,<bloodmagic:item_demon_crystal:3>,<evilcraft:dark_gem>,<bloodmagic:item_demon_crystal:2>,<evilcraft:dark_gem>,<bloodmagic:item_demon_crystal:1>]);
-mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_covalence_dust>*8, 40960, 128, <actuallyadditions:item_dust:3>, [<minecraft:dye:2>,<minecraft:reeds>,<thermalfoundation:fertilizer:1>,<botania:dye:5>,<botania:dye:13>]);
-mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_covalence_dust:1>*8, 40960, 128, <botania:manaresource:23>, [<forestry:fertilizer_compound>,<ic2:dust:5>,<botania:dye:3>,<tconstruct:materials:10>,<thermalfoundation:material:70>]);
-mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_covalence_dust:2>*8, 40960, 128, <actuallyadditions:item_dust:4>, [<botania:dye:11>,<jaopca:item_dustcobalt>,<bigreactors:dustblutonium>,<jaopca:item_dustaquamarine>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_covalence_dust>*8, 40960, 128, <actuallyadditions:item_dust:3>, [<minecraft:dye:2>,<minecraft:reeds>,<botania:dye:5>,<botania:dye:13>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_covalence_dust:1>*8, 40960, 128, <botania:manaresource:23>, [<forestry:fertilizer_compound>,<ic2:dust:5>,<botania:dye:3>,<thermalfoundation:material:70>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_covalence_dust:2>*8, 40960, 128, <actuallyadditions:item_dust:4>, [<botania:dye:11>,<jaopca:item_dustcobalt>,<projectred-core:resource_item:105>,<jaopca:item_dustaquamarine>]);
 
 
 //CompressionCrafting-量子压缩机

@@ -85,14 +85,7 @@
 			<itemStack>advancedrocketry:ic 4 2</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="300" power ="100">
-		<input>
-			<oreDict>bouleSilicon</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:wafer 4</itemStack>
-		</output>
-	</Recipe>
+
 	<Recipe timeRequired="80" power ="10">
 		<input>
 			<itemStack>advancedrocketry:alienwood</itemStack>
@@ -114,7 +107,7 @@
 			<itemStack>contenttweaker:silicon_high_purity</itemStack>
 		</input>
 		<output>
-			<itemStack>contenttweaker:refined_silicon_plate 4</itemStack>
+			<itemStack>contenttweaker:silicon_plate 4</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

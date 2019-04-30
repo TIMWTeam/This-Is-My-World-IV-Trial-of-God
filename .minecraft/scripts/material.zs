@@ -2,10 +2,11 @@ import crafttweaker.item.IItemStack;
 //silicon-硅-电路板
 <ore:dustSalt>.add(<immersiveengineering:material:24>);
 furnace.remove(<projectred-core:resource_item:300>);
+furnace.remove(<appliedenergistics2:material:5>);
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:772>*2, <overloaded:compressed_sand>, 4096, <mekanism:salt>*2, 0.5);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:brine>*100, <liquid:water>*100, [<ore:dustSalt>], 5120);
 mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:silicon_low_purity>, <projectred-core:resource_item:250>, 2000);
-mods.immersiveengineering.ArcFurnace.addRecipe(<projectred-core:resource_item:300>, <projectred-core:resource_item:250>, <immersiveengineering:material:7>, 200, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:silicon_low_purity>, <projectred-core:resource_item:250>, <immersiveengineering:material:7>, 200, 512);
 mods.techguns.ChemLab.addRecipe(<contenttweaker:silicon_low_purity>,1,<minecraft:dirt>,0,<liquid:liquidchlorine>*10,false,<contenttweaker:silicon_chlorine>*1,<liquid:water>*0,100);
 mods.techguns.ChemLab.addRecipe(<contenttweaker:silicon_chlorine>,1,<minecraft:dirt>,0,<liquid:liquidhydrogen>*10,false,<contenttweaker:silicon_high_purity>*1,<liquid:water>*0,100);
 mods.mekanism.reaction.addRecipe(<contenttweaker:silicon_low_purity>, <liquid:liquidchlorine>*10, <gas:hydrogen>*100, <contenttweaker:silicon_high_purity> * 1, <gas:hydrogenchloride>, 5000, 20);
@@ -16,8 +17,21 @@ recipes.remove(<ic2:crafting:1>);
 recipes.remove(<ic2:crafting:2>);
 recipes.addShapeless(<ic2:crafting:2>, [<contenttweaker:advanced_circuit>]);
 
+<ore:itemSilicon>.add(<contenttweaker:silicon_low_purity>);
+<ore:itemSilicon>.remove(<enderio:item_material:5>);
+<ore:itemSilicon>.remove(<appliedenergistics2:material:5>);
+<ore:ingotSilicon>.add(<contenttweaker:silicon_low_purity>);
+<ore:ingotSilicon>.remove(<libvulpes:productingot:3>);
+
+<ore:waferSilicon>.add(<contenttweaker:rough_silicon_plate>);
+<ore:waferSilicon>.add(<contenttweaker:silicon_plate>);
+<ore:waferSilicon>.remove(<advancedrocketry:wafer>);
+
+mods.mekanism.reaction.addRecipe(<contenttweaker:imprint_silicon_plate>, <liquid:sulfuricacid>*100, <gas:hydrogen>*10, <contenttweaker:etch_silicon_plate> , <gas:hydrogen>*10, 1000, 200);
+mods.techguns.ChemLab.addRecipe(<contenttweaker:etch_silicon_plate>,1,<minecraft:dirt>,0,<liquid:creosote>*100,false,<contenttweaker:refined_silicon_plate>*1,<liquid:water>*0,100);
+recipes.replaceAllOccurences(<projectred-core:resource_item:301>, <ore:waferSilicon>);
 //液态煤炭
-mods.immersiveengineering.Refinery.addRecipe(<liquid:crude_oil> * 8, <liquid:coal> * 8, <liquid:ethanol> * 16, 2048);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:oil> * 8, <liquid:coal> * 8, <liquid:ethanol> * 16, 2048);
 
 //plastic
 //ChemLab.addRecipe(<ore:dustSulfur>.firstItem,2,<minecraft:dirt>,0,<liquid:ethanol>*250,false,null,<liquid:liquidethene>*250,20);
@@ -44,7 +58,7 @@ mods.mekanism.reaction.addRecipe(<mekanism:substrate>, <liquid:gasoline>*10, <ga
 recipes.replaceAllOccurences(<mekanism:polyethene:2>, <techguns:itemshared:55>);
 recipes.addShapeless(<mekanism:biofuel>, [<actuallyadditions:item_misc:22>]);
 
-
+<ore:itemRubber>.remove(<industrialforegoing:plastic>);
 //wire-导线
 recipes.remove(<techreborn:cable>);
 recipes.remove(<techreborn:cable:1>);
