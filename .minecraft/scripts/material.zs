@@ -17,19 +17,25 @@ recipes.remove(<ic2:crafting:1>);
 recipes.remove(<ic2:crafting:2>);
 recipes.addShapeless(<ic2:crafting:2>, [<contenttweaker:advanced_circuit>]);
 
-<ore:itemSilicon>.add(<contenttweaker:silicon_low_purity>);
 <ore:itemSilicon>.remove(<enderio:item_material:5>);
 <ore:itemSilicon>.remove(<appliedenergistics2:material:5>);
+recipes.replaceAllOccurences(<ore:itemSilicon>, <contenttweaker:silicon_low_purity>);
+
 <ore:ingotSilicon>.add(<contenttweaker:silicon_low_purity>);
 <ore:ingotSilicon>.remove(<libvulpes:productingot:3>);
 
 <ore:waferSilicon>.add(<contenttweaker:rough_silicon_plate>);
 <ore:waferSilicon>.add(<contenttweaker:silicon_plate>);
 <ore:waferSilicon>.remove(<advancedrocketry:wafer>);
+recipes.replaceAllOccurences(<projectred-core:resource_item:301>, <ore:waferSilicon>);
 
 mods.mekanism.reaction.addRecipe(<contenttweaker:imprint_silicon_plate>, <liquid:sulfuricacid>*100, <gas:hydrogen>*10, <contenttweaker:etch_silicon_plate> , <gas:hydrogen>*10, 1000, 200);
 mods.techguns.ChemLab.addRecipe(<contenttweaker:etch_silicon_plate>,1,<minecraft:dirt>,0,<liquid:creosote>*100,false,<contenttweaker:refined_silicon_plate>*1,<liquid:water>*0,100);
-recipes.replaceAllOccurences(<projectred-core:resource_item:301>, <ore:waferSilicon>);
+mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:refined_silicon_plate>, <contenttweaker:etch_silicon_plate>, <liquid:creosote>*100);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:refined_silicon_plate>,<contenttweaker:etch_silicon_plate>,<liquid:creosote>*100,8000);
+var refined_silicon_plate = [<contenttweaker:refined_silicon_plate>] as IItemStack[];
+mods.techguns.ReactionChamber.addRecipe("refined_silicon_plate",<contenttweaker:imprint_silicon_plate>,<liquid:creeper_acid>,refined_silicon_plate,<techguns:itemshared:104>,1, 1, 1, 0, 3, 200,0.0, "BREAK_ITEM", 10000);
+
 //液态煤炭
 mods.immersiveengineering.Refinery.addRecipe(<liquid:oil> * 8, <liquid:coal> * 8, <liquid:ethanol> * 16, 2048);
 

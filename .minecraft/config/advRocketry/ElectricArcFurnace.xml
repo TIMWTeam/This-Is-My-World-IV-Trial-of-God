@@ -21,14 +21,6 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="true">
-	<Recipe timeRequired="12000" power ="1">
-		<input>
-			<itemStack>minecraft:sand</itemStack>
-		</input>
-		<output>
-			<itemStack>contenttweaker:silicon_low_purity 1</itemStack>
-		</output>
-	</Recipe>
 	<Recipe timeRequired="6000" power ="1">
 		<input>
 			<oreDict>ingotIron</oreDict>
