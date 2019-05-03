@@ -10,7 +10,7 @@ mods.naturesaura.TreeRitual.addRecipe("conversion_catalyst", <primal:sapling:1>,
 mods.naturesaura.TreeRitual.addRecipe("ironspaling", <minecraft:sapling>, <extrautils2:ironwood_sapling>, 300, [<minecraft:iron_ingot>,<minecraft:iron_ingot>,<extraalchemy:essence_fire>,<extraalchemy:essence_fire>]);
 mods.naturesaura.TreeRitual.addRecipe("ic2spaling", <minecraft:sapling>, <ic2:sapling>, 300, [<ic2:crafting:20>,<ic2:crafting:20>,<ic2:crafting:20>,<ic2:crafting:20>,<ore:slimeball>,<ore:slimeball>]);
 mods.naturesaura.TreeRitual.addRecipe("TRspaling", <minecraft:sapling:2>, <techreborn:rubber_sapling>, 300, [<ic2:crafting:20>,<ic2:crafting:20>,<ic2:crafting:20>,<ic2:crafting:20>,<ore:slimeball>,<ore:slimeball>]);
-mods.naturesaura.TreeRitual.addRecipe("menrilspaling", <naturesaura:ancient_sapling>, <integrateddynamics:menril_sapling>, 300, [<naturesaura:infused_iron>,<naturesaura:infused_iron>,<naturesaura:effect_powder>.withTag({effect: "naturesaura:plant_boost"}),<naturesaura:effect_powder>.withTag({effect: "naturesaura:plant_boost"})]);
+mods.naturesaura.TreeRitual.addRecipe("menrilspaling", <minecraft:sapling:2>, <integrateddynamics:menril_sapling>, 300, [<naturesaura:infused_iron>,<naturesaura:infused_iron>,<naturesaura:token_joy>,<naturesaura:token_joy>]);
 mods.naturesaura.TreeRitual.addRecipe("ironspaling2", <minecraft:sapling:1>, <primal:sapling>, 300, [<minecraft:iron_ingot>,<minecraft:iron_ingot>]);
 mods.naturesaura.TreeRitual.addRecipe("bluespaling", <minecraft:sapling:3>, <tconstruct:slime_sapling>, 300, [<minecraft:slime>,<minecraft:slime>,<ore:dyeBlue>,<ore:dyeBlue>]);
 mods.naturesaura.TreeRitual.addRecipe("purplespaling", <minecraft:sapling:1>, <tconstruct:slime_sapling:1>, 300, [<minecraft:slime>,<minecraft:slime>,<ore:dyePurple>,<ore:dyePurple>]);
@@ -25,6 +25,9 @@ mods.naturesaura.TreeRitual.addRecipe("cuisinespaling4", <minecraft:sapling:1>, 
 mods.naturesaura.TreeRitual.addRecipe("cuisinespaling5", <minecraft:sapling:1>, <cuisine:sapling>, 300, [<actuallyadditions:item_misc:1>,<naturesaura:gold_leaf>,<naturesaura:gold_fiber>,<ore:fertilizer>,<ore:fertilizer>,<ore:dyeGreen>]);
 mods.naturesaura.TreeRitual.addRecipe("cuisinespaling6", <minecraft:sapling:1>, <cuisine:sapling:5>, 300, [<actuallyadditions:item_misc:1>,<naturesaura:gold_leaf>,<naturesaura:gold_fiber>,<ore:fertilizer>,<ore:fertilizer>,<ore:dyeYellow>]);
 mods.naturesaura.TreeRitual.addRecipe("cuisinespaling7", <minecraft:sapling:1>, <cuisine:sapling:6>, 300, [<actuallyadditions:item_misc:1>,<naturesaura:gold_leaf>,<naturesaura:gold_fiber>,<ore:fertilizer>,<ore:dyeGreen>,<ore:dyeLime>]);
+
+mods.naturesaura.TreeRitual.addRecipe("reeds", <minecraft:sapling:1>, <minecraft:reeds>, 300, [<naturesaura:effect_powder>.withTag({effect: "naturesaura:plant_boost"}),<naturesaura:effect_powder>.withTag({effect: "naturesaura:plant_boost"}),<naturesaura:infused_iron>,<naturesaura:infused_iron>]);
+
 //naturesaura
 mods.bloodmagic.AlchemyArray.addRecipe(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), <naturesaura:bottle_two_the_rebottling>, <minecraft:soul_sand>,"contenttweaker:textures/AlchemyArrays/alchemy.png");
 mods.bloodmagic.AlchemyArray.addRecipe(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}), <naturesaura:bottle_two_the_rebottling>, <botania:dye:15>,"contenttweaker:textures/AlchemyArrays/alchemy.png");

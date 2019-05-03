@@ -43,4 +43,27 @@ function removeFurnace(item as IItemStack[]){
     }
 }
 
+val seeds as IItemStack[] = [<cuisine:crops:3>,
+    <cuisine:crops:5>,
+    <cuisine:crops:6>,
+    <cuisine:crops:7>,
+    <cuisine:crops:8>,
+    <cuisine:crops:9>,
+    <cuisine:crops:10>,
+    <cuisine:crops:11>,
+    <cuisine:crops:20>,
+    <cuisine:crops:21>,
+    <cuisine:crops:12>,
+    <cuisine:crops:13>,
+    <cuisine:crops:14>,
+    <cuisine:crops:15>,
+    <cuisine:crops:16>,
+    <cuisine:crops:17>,
+    <cuisine:crops:18>,
+    <cuisine:crops:19>,
+    <cuisine:crops:4>] ;
 
+
+for seed in seeds {
+    vanilla.seeds.addSeed(seed % 1);
+}

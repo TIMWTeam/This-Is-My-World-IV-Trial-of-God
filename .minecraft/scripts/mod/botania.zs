@@ -46,13 +46,19 @@ recipes.addShaped(<botania:altar>,[[<bloodmagic:slate:1>,<botania:petal:*>,<bloo
 mods.botania.Apothecary.removeRecipe("loonium");
 mods.botania.Apothecary.removeRecipe("orechid");
 mods.botania.Apothecary.addRecipe("orechid",[<bloodmagic:item_demon_crystal>,<botania:manaresource:6>,<botania:petal:8> ,<botania:petal:8> ,<botania:petal:14>, <botania:petal:4>, <botania:petal:13>]);
-
+mods.botania.Apothecary.addRecipe(<extrautils2:enderlilly>,[<minecraft:ender_pearl>,<minecraft:ender_pearl>,<minecraft:ender_pearl>,<minecraft:ender_pearl>]);
+mods.botania.Apothecary.addRecipe(<extrautils2:redorchid>,[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>]);
+mods.botania.Apothecary.addRecipe(<actuallyadditions:item_flax_seed>,[<minecraft:string>,<minecraft:string>,<minecraft:string>,<minecraft:string>]);
 
 //manaPool
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource:1>,<evilcraft:blood_orb>,50000);
 mods.botania.ManaInfusion.removeRecipe(<minecraft:melon_seeds>);
-mods.botania.ManaInfusion.addAlchemy(<minecraft:melon_seeds>,<minecraft:reeds>,10000);
-mods.botania.ManaInfusion.addAlchemy(<minecraft:reeds>,<minecraft:beetroot_seeds>,10000);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:melon_seeds>,<actuallyadditions:item_coffee_seed>,2000);
+mods.botania.ManaInfusion.addAlchemy(<actuallyadditions:item_coffee_seed>,<actuallyadditions:item_flax_seed>,2000);
+mods.botania.ManaInfusion.addAlchemy(<actuallyadditions:item_flax_seed>,<actuallyadditions:item_canola_seed>,2000);
+mods.botania.ManaInfusion.addAlchemy(<actuallyadditions:item_canola_seed>,<actuallyadditions:item_rice_seed>,2000);
+mods.botania.ManaInfusion.addAlchemy(<actuallyadditions:item_rice_seed>,<minecraft:reeds>,2000);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:reeds>,<minecraft:beetroot_seeds>,2000);
 
 
 //RuneAltar
