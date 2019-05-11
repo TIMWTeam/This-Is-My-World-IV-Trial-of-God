@@ -57,7 +57,7 @@ mods.ResearchTable.builder("starlight_condenser_1", researchType)
 //以太聚合装置-建造
 mods.ResearchTable.builder("ether_aggregator", researchType) 
 			//.setIcons(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ether_aggregator"}))
-			.setRequiredStages("AETHER")
+			.setRequiredStages("T-011")
 			.setTitle("key.researchTable.ether_aggregator.title")
 			.setDescription("key.researchTable.ether_aggregator.description")
 			.addCondition(<ore:blockIron>*32)
@@ -71,6 +71,7 @@ mods.ResearchTable.builder("ether_aggregator", researchType)
 			.addCondition(<liquid:petrotheum>*1000)
 			.addEnergyCondition(1024000)
 			.setNoMaxCount()
+			.setRewardCommands("/bq_admin complete 98 @p")
 			.setRewardCommands("/testruin ether_aggregator")
 			.build();
 //以太嬗变器-建造

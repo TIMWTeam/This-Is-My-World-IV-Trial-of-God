@@ -61,7 +61,11 @@ val seeds as IItemStack[] = [<cuisine:crops:3>,
     <cuisine:crops:17>,
     <cuisine:crops:18>,
     <cuisine:crops:19>,
-    <cuisine:crops:4>] ;
+    <cuisine:crops:4>,
+    <actuallyadditions:item_coffee_seed>,
+    <actuallyadditions:item_flax_seed>,
+    <actuallyadditions:item_canola_seed>,
+    <actuallyadditions:item_rice_seed>] ;
 
 
 for seed in seeds {

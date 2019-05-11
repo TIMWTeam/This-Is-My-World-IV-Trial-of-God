@@ -1,4 +1,224 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "contenttweaker:basic_circuit|0",
+      "emc": 50000
+    },
+    {
+      "item": "contenttweaker:advanced_circuit|0",
+      "emc": 200000
+    },
+    {
+      "item": "contenttweaker:elite_circuit|0",
+      "emc": 1000000
+    },
+    {
+      "item": "contenttweaker:ultimate_circuit|0",
+      "emc": 3000000
+    },
+    {
+      "item": "mysticalagriculture:crafting|0",
+      "emc": 1000
+    },
+    {
+      "item": "mysticalagriculture:crafting|1",
+      "emc": 5000
+    },
+    {
+      "item": "mysticalagriculture:crafting|2",
+      "emc": 30000
+    },
+    {
+      "item": "mysticalagriculture:crafting|3",
+      "emc": 200000
+    },
+    {
+      "item": "mysticalagriculture:crafting|4",
+      "emc": 1000000
+    },
+    {
+      "item": "contenttweaker:moon_essence|0",
+      "emc": 160000000
+    },
+    {
+      "item": "contenttweaker:sun_essence|0",
+      "emc": 160000000
+    },
+    {
+      "item": "ic2:misc_resource|3",
+      "emc": 150000000
+    },
+    {
+      "item": "techreborn:uumatter|0",
+      "emc": 1000000
+    },
+    {
+      "item": "contenttweaker:feature|0",
+      "emc": 3333000000
+    },
+    {
+      "item": "extendedcrafting:material|32",
+      "emc": 10000000000
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|0",
+      "emc": 8192
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|1",
+      "emc": 32768
+    },
+    {
+      "item": "OD|32768",
+      "emc": 131072
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|2",
+      "emc": 131072
+    },
+    {
+      "item": "projecte:item.pe_matter|0",
+      "emc": 100000000
+    },
+    {
+      "item": "projecte:item.pe_matter|1",
+      "emc": 100049152
+    },
+    {
+      "item": "projecte:alchemical_chest|0",
+      "emc": 174120
+    },
+    {
+      "item": "minecraft:blaze_powder|0",
+      "emc": 768
+    },
+    {
+      "item": "botania:manaresource|23",
+      "emc": 640
+    },
+    {
+      "item": "botania:manaresource|0",
+      "emc": 640
+    },
+    {
+      "item": "botania:manaresource|2",
+      "emc": 16384
+    },
+    {
+      "item": "botania:manaresource|1",
+      "emc": 16384
+    },
+    {
+      "item": "botania:manaresource|4",
+      "emc": 2000000
+    },
+    {
+      "item": "OD|leather",
+      "emc": 1024
+    },
+    {
+      "item": "botania:livingwood|0",
+      "emc": 64
+    },
+    {
+      "item": "botania:livingrock|0",
+      "emc": 64
+    },
+    {
+      "item": "botania:dreamwood|0",
+      "emc": 256
+    },
+    {
+      "item": "botania:manaresource|7",
+      "emc": 2560
+    },
+    {
+      "item": "botania:manaresource|9",
+      "emc": 32768
+    },
+    {
+      "item": "botania:manaresource|8",
+      "emc": 32768
+    },
+    {
+      "item": "minecraft:brewing_stand|0",
+      "emc": 1539
+    },
+    {
+      "item": "extrautils2:ingredients|0",
+      "emc": 4096
+    },
+    {
+      "item": "astralsorcery:itemcraftingcomponent|0",
+      "emc": 4096
+    },
+    {
+      "item": "astralsorcery:itemcraftingcomponent|2",
+      "emc": 16384
+    },
+    {
+      "item": "astralsorcery:itemcraftingcomponent|1",
+      "emc": 16384
+    },
+    {
+      "item": "astralsorcery:itemcraftingcomponent|4",
+      "emc": 16384
+    },
+    {
+      "item": "thermalfoundation:material|800",
+      "emc": 64
+    },
+    {
+      "item": "astralsorcery:itemrockcrystalsimple|0",
+      "emc": 32768
+    },
+    {
+      "item": "xreliquary:mob_ingredient|0",
+      "emc": 288
+    },
+    {
+      "item": "xreliquary:mob_ingredient|1",
+      "emc": 2048
+    },
+    {
+      "item": "xreliquary:mob_ingredient|2",
+      "emc": 288
+    },
+    {
+      "item": "xreliquary:mob_ingredient|8",
+      "emc": 1152
+    },
+    {
+      "item": "xreliquary:mob_ingredient|4",
+      "emc": 192
+    },
+    {
+      "item": "xreliquary:mob_ingredient|5",
+      "emc": 192
+    },
+    {
+      "item": "xreliquary:mob_ingredient|6",
+      "emc": 192
+    },
+    {
+      "item": "xreliquary:mob_ingredient|7",
+      "emc": 588
+    },
+    {
+      "item": "xreliquary:mob_ingredient|10",
+      "emc": 192
+    },
+    {
+      "item": "xreliquary:mob_ingredient|11",
+      "emc": 3072
+    },
+    {
+      "item": "xreliquary:mob_ingredient|12",
+      "emc": 96
+    },
+    {
+      "item": "xreliquary:mob_ingredient|3",
+      "emc": 1152
+    }
+  ]
 }

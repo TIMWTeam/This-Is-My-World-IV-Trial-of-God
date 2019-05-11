@@ -34,7 +34,7 @@ recipes.remove(<techguns:multiblockmachine:3>);
 recipes.addShaped(<techguns:multiblockmachine:3>*9,[[<techguns:itemshared:55>,<techguns:itemshared:59>,<techguns:itemshared:55>],[<contenttweaker:elite_circuit>,<ic2:resource:13>,<contenttweaker:elite_circuit>],[<techguns:itemshared:55>,<techguns:itemshared:53>,<techguns:itemshared:55>]]);
 
 recipes.remove(<techguns:multiblockmachine:5>);
-recipes.addShaped(<techguns:multiblockmachine:5>,[[null,<ore:blockGlassHardened>,null],[<contenttweaker:ultimate_circuit>,<techguns:multiblockmachine:3>,<contenttweaker:ultimate_circuit>],[null,<ore:blockGlassHardened>,null]]);
+recipes.addShaped(<techguns:multiblockmachine:5>,[[null,<ore:blockGlassHardened>,null],[<contenttweaker:elite_circuit>,<techguns:multiblockmachine:3>,<contenttweaker:elite_circuit>],[null,<ore:blockGlassHardened>,null]]);
 
 
 

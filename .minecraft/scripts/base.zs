@@ -81,3 +81,5 @@ vanilla.seeds.removeSeed(<extrautils2:enderlilly>);
 mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:citron>,<contenttweaker:grapefruit>,409600);
 mods.techguns.ChargingStation.addRecipe(<contenttweaker:grapefruit>,<contenttweaker:citron>,409600);
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:grapefruit>,<minecraft:dye:11>,3,4000,100,0);
+//drop
+<entity:minecraft:villager>.addDrop(<contenttweaker:evil_heart>);

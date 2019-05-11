@@ -1,7 +1,6 @@
 {
     "registryname": "aether_transmuter_2",
-    "localizedname": "Aether Transmuter 2",	
-	"requires-blueprint": true,
+    "localizedname": "Aether Transmuter 2",
 	"color": "191970",
     "parts": [
         {
@@ -273,7 +272,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockenergyinputhatch"
+                "modularmachinery:blockoutputbus@6"
             ]
         },
         {
@@ -289,7 +288,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "modularmachinery:blockoutputbus@6"
             ]
         },
         {
@@ -513,7 +512,9 @@
             "y": -4,
             "z": 0,
             "elements": [
-                "xtones:zech@0"
+                "modularmachinery:blockenergyinputhatch",
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockinputbus"
             ]
         },
         {
@@ -561,7 +562,9 @@
             "y": -4,
             "z": 0,
             "elements": [
-                "xtones:zech@0"
+                "modularmachinery:blockenergyinputhatch",
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockinputbus"
             ]
         },
         {
@@ -945,7 +948,9 @@
             "y": -4,
             "z": 2,
             "elements": [
-                "xtones:zech@0"
+                "modularmachinery:blockenergyinputhatch",
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockinputbus"
             ]
         },
         {
@@ -1241,7 +1246,7 @@
             "y": -2,
             "z": -3,
             "elements": [
-                "modularmachinery:blockinputbus"
+                "modularmachinery:blockoutputbus@6"
             ]
         },
         {
@@ -1386,6 +1391,14 @@
             "z": 3,
             "elements": [
                 "xtones:sync@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -16,
+            "z": 0,
+            "elements": [
+                "contenttweaker:aether_transmuter_2"
             ]
         },
         {
@@ -1625,7 +1638,9 @@
             "y": -4,
             "z": -2,
             "elements": [
-                "xtones:zech@0"
+                "modularmachinery:blockenergyinputhatch",
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockinputbus"
             ]
         }
     ]}

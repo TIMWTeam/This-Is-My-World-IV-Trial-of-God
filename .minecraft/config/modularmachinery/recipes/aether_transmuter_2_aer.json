@@ -439,6 +439,69 @@
             "item":"botania_tweaks:compressed_tiny_potato_8@0",
             "amount": 1,
             "chance": 0.00001
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"mysticalagriculture:crafting@17",
+            "amount": 1,
+            "chance": 0.005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"mysticalagriculture:crafting@18",
+            "amount": 1,
+            "chance": 0.001
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"mysticalagriculture:crafting@19",
+            "amount": 1,
+            "chance": 0.0005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"mysticalagriculture:crafting@20",
+            "amount": 1,
+            "chance": 0.0001
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"mysticalagriculture:crafting@21",
+            "amount": 1,
+            "chance": 0.00005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"mysticalagriculture:blaze_seeds",
+            "amount": 1,
+            "chance": 0.0005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"mysticalagriculture:basalz_seeds",
+            "amount": 1,
+            "chance": 0.0005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"mysticalagriculture:blitz_seeds",
+            "amount": 1,
+            "chance": 0.0005
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item":"mysticalagriculture:blizz_seeds",
+            "amount": 1,
+            "chance": 0.0005
         }
     ]
 }

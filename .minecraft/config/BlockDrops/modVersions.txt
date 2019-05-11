@@ -137,7 +137,7 @@
   "teslacorelib_registries": "1.0.15",
   "dimstages": "2.0.23",
   "evilcraftcompat": "1.0.0",
-  "actuallyadditions": "1.12.2-r146",
+  "actuallyadditions": "1.12.2-r147",
   "matteroverdrive": "0.7.0.0",
   "patchouli": "1.0-18",
   "randomthings": "4.2.7",

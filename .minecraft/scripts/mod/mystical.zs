@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 
+recipes.remove(<mysticalagriculture:iridium_ore_seeds>);
 recipes.remove(<mysticalagriculture:fluix_seeds>);
 recipes.remove(<mysticalagriculture:certus_quartz_seeds>);
 recipes.remove(<mysticalagriculture:draconium_seeds>);

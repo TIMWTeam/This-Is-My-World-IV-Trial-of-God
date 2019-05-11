@@ -23,6 +23,9 @@ recipes.addShaped(<mekanismgenerators:reactor:1>*2,[[<mekanism:basicblock:8>,<bi
 
 recipes.remove(<mekanism:machineblock2:10>);
 recipes.addShaped(<mekanism:machineblock2:10>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<contenttweaker:basic_circuit>,<techguns:basicmachine:2>,<contenttweaker:basic_circuit>],[<mekanism:gastank>,<mekanism:basicblock:9>,<mekanism:gastank>]]);
+
+recipes.remove(<mekanism:machineblock2>);
+recipes.addShaped(<mekanism:machineblock2>,[[<minecraft:glass>,<contenttweaker:basic_circuit>,<minecraft:glass>],[<mekanism:gastank>,null,<mekanism:machineblock2:11>],[<minecraft:glass>,<contenttweaker:basic_circuit>,<minecraft:glass>]]);
 //dt
 mods.mekanism.separator.removeRecipe(<liquid:heavywater>);
 mods.embers.Mixer.add(<liquid:liquiddeuterium>*16,[<liquid:heavywater>*10, <liquid:uranium>*10]);
