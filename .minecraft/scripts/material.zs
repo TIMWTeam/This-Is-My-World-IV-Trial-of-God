@@ -6,10 +6,10 @@ furnace.remove(<appliedenergistics2:material:5>);
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:772>*2, <overloaded:compressed_sand>, 4096, <mekanism:salt>*2, 0.5);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:brine>*100, <liquid:water>*100, [<ore:dustSalt>], 5120);
 mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:silicon_low_purity>, <projectred-core:resource_item:250>, 2000);
-mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:silicon_low_purity>, <projectred-core:resource_item:250>, <immersiveengineering:material:7>, 200, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:silicon_low_purity>, <ore:sand>, <immersiveengineering:material:7>, 200, 512,[<minecraft:coal>]);
 mods.techguns.ChemLab.addRecipe(<contenttweaker:silicon_low_purity>,1,<minecraft:dirt>,0,<liquid:liquidchlorine>*10,false,<contenttweaker:silicon_chlorine>*1,<liquid:water>*0,100);
 mods.techguns.ChemLab.addRecipe(<contenttweaker:silicon_chlorine>,1,<minecraft:dirt>,0,<liquid:liquidhydrogen>*10,false,<contenttweaker:silicon_high_purity>*1,<liquid:water>*0,100);
-mods.mekanism.reaction.addRecipe(<contenttweaker:silicon_low_purity>, <liquid:liquidchlorine>*10, <gas:hydrogen>*100, <contenttweaker:silicon_high_purity> * 1, <gas:hydrogenchloride>, 5000, 20);
+mods.mekanism.reaction.addRecipe(<contenttweaker:silicon_low_purity>, <liquid:liquidchlorine>*10, <gas:hydrogen>*10, <contenttweaker:silicon_high_purity> * 1, <gas:hydrogenchloride>, 5000, 20);
 recipes.replaceAllOccurences(<ore:circuitBasic>, <contenttweaker:basic_circuit>);
 recipes.replaceAllOccurences(<ore:circuitAdvanced>, <contenttweaker:advanced_circuit>);
 recipes.replaceAllOccurences(<ic2:crafting:2>, <contenttweaker:advanced_circuit>);
@@ -29,7 +29,7 @@ recipes.replaceAllOccurences(<ore:itemSilicon>, <contenttweaker:silicon_low_puri
 <ore:waferSilicon>.remove(<advancedrocketry:wafer>);
 recipes.replaceAllOccurences(<projectred-core:resource_item:301>, <ore:waferSilicon>);
 
-mods.mekanism.reaction.addRecipe(<contenttweaker:imprint_silicon_plate>, <liquid:sulfuricacid>*100, <gas:hydrogen>*10, <contenttweaker:etch_silicon_plate> , <gas:hydrogen>*10, 1000, 200);
+mods.mekanism.reaction.addRecipe(<contenttweaker:imprint_silicon_plate>, <liquid:sulfuricacid>*100, <gas:sulfuricacid>*10, <contenttweaker:etch_silicon_plate> , <gas:oxygen>*10, 600, 200);
 mods.techguns.ChemLab.addRecipe(<contenttweaker:etch_silicon_plate>,1,<minecraft:dirt>,0,<liquid:creosote>*100,false,<contenttweaker:refined_silicon_plate>*1,<liquid:water>*0,100);
 mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:refined_silicon_plate>, <contenttweaker:etch_silicon_plate>, <liquid:creosote>*100);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:refined_silicon_plate>,<contenttweaker:etch_silicon_plate>,<liquid:creosote>*100,8000);
@@ -59,8 +59,8 @@ mods.mekanism.enrichment.removeRecipe(<mekanism:polyethene>);
 mods.mekanism.reaction.removeRecipe(<mekanism:substrate>, <gas:ethene>);
 mods.mekanism.reaction.removeRecipe(<mekanism:substrate>, <gas:oxygen>);
 mods.mekanism.reaction.removeRecipe(<mekanism:polyethene>, <gas:oxygen>);
-mods.mekanism.reaction.addRecipe(<mekanism:biofuel>, <liquid:water>*10, <gas:hydrogen>*100, <mekanism:substrate>, <gas:oxygen>*20, 1800, 200);
-mods.mekanism.reaction.addRecipe(<mekanism:substrate>, <liquid:gasoline>*10, <gas:ethene>*100, <techguns:itemshared:55> , <gas:oxygen>*20, 1800, 200);
+mods.mekanism.reaction.addRecipe(<mekanism:biofuel>, <liquid:water>*100, <gas:hydrogen>*100, <mekanism:substrate>, <gas:oxygen>*20, 800, 200);
+mods.mekanism.reaction.addRecipe(<mekanism:substrate>, <liquid:gasoline>*50, <gas:ethene>*50, <techguns:itemshared:55> , <gas:oxygen>*20, 800, 200);
 recipes.replaceAllOccurences(<mekanism:polyethene:2>, <techguns:itemshared:55>);
 recipes.addShapeless(<mekanism:biofuel>, [<actuallyadditions:item_misc:22>]);
 
@@ -88,5 +88,10 @@ recipes.addShaped(<contenttweaker:block_alloy>*4,[[null,<techreborn:plates:35>,n
 var dustmana = [<thermalfoundation:material:1028>] as IItemStack[];
 mods.techguns.ReactionChamber.addRecipe("dustmana",<ic2:misc_resource:3>,<liquid:mana>,dustmana,<techguns:itemshared:105>,10, 10, 5, 0, 8, 1000,0.0, "BREAK_ITEM", 25000);
 
-
+var plates = [<thaumadditions:mithrillium_plate>,
+    <thaumadditions:adaminite_plate>,
+    <thaumadditions:mithminite_plate>] as IItemStack[];
+for plate in plates {
+    recipes.addShapeless(plate , [plate]);
+}
 

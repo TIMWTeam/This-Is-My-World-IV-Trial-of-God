@@ -185,6 +185,7 @@
   "tconstruct": "1.12.2-2.12.0.135",
   "baubles": "1.5.2",
   "enderio": "5.0.43",
+  "vanillafix": "1.0.10-SNAPSHOT",
   "jaopca": "1.12.2-2.2.8.101",
   "storagedrawers": "1.12-5.3.5",
   "tinker_io": "rw2.7.1",

@@ -11,7 +11,7 @@
 
   "input-types": {
     "i": { "id": "contenttweaker:block_titaniumiridium" },
-    "s": { "id": "quantumstorage:quantum_tank" }
+    "s": { "id": "quantumstorage:quantum_tank","ignore-nbt": true ,"ignore-meta": true}
   },
 
   "symmetrical": true,

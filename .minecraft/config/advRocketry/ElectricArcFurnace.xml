@@ -30,6 +30,24 @@
 			<itemStack>libvulpes:productingot 1 6</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="200" power ="64">
+		<input>
+			<oreDict>ingotIron</oreDict>
+			<oreDict>dyeBlack</oreDict>
+		</input>
+		<output>
+			<itemStack>extendedcrafting:material</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="64">
+		<input>
+			<oreDict>ingotIron</oreDict>
+			<oreDict>enderpearl</oreDict>
+		</input>
+		<output>
+			<itemStack>extendedcrafting:material 1 36</itemStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="9000" power ="20">
 		<input>
 			<oreDict>ingotAluminum 7</oreDict>

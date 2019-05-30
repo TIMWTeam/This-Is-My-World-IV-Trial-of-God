@@ -78,8 +78,8 @@ recipes.addShaped(<minecraft:stone_sword>,[[<minecraft:wooden_sword>],[<ore:cobb
 //seeds
 vanilla.seeds.removeSeed(<extrautils2:enderlilly>);
 
-mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:citron>,<contenttweaker:grapefruit>,409600);
-mods.techguns.ChargingStation.addRecipe(<contenttweaker:grapefruit>,<contenttweaker:citron>,409600);
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:grapefruit>,<minecraft:dye:11>,3,4000,100,0);
+mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:citron>,<contenttweaker:grapefruit>,40960);
+mods.techguns.ChargingStation.addRecipe(<contenttweaker:grapefruit>,<contenttweaker:citron>,40960);
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:grapefruit>,<minecraft:dye:11>,3,4000,20,0);
 //drop
 <entity:minecraft:villager>.addDrop(<contenttweaker:evil_heart>);

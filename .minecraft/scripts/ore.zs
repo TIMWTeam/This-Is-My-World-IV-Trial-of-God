@@ -44,6 +44,7 @@ mods.tconstruct.Casting.addTableRecipe(<libvulpes:productrod:4>, <minecraft:stic
 <ore:blockAA_meteors5>.add(<actuallyadditions:block_crystal_empowered>);
 <ore:oreDimensionalShard_meteors>.add(<rftools:dimensional_shard_ore>);
 <ore:oreDraconium_meteors>.add(<draconicevolution:draconium_ore>);
+<ore:plateTritanium>.add(<matteroverdrive:tritanium_plate>);
 
 //misc
 <ore:dustSalt>.add(<immersiveengineering:material:24>);
@@ -71,10 +72,10 @@ mods.tconstruct.Melting.removeRecipe(<liquid:titanium>);
 
 
 //liquid
-mods.industrialforegoing.FluidDictionary.add("blood", "evilcraftblood", 1);
+mods.industrialforegoing.FluidDictionary.add("blood", "evilcraftblood", 10);
 mods.industrialforegoing.FluidDictionary.add("blood", "lifeessence", 10);
-mods.industrialforegoing.FluidDictionary.add("evilcraftblood", "lifeessence", 10);
-mods.industrialforegoing.FluidDictionary.add("evilcraftblood", "blood", 1);
+mods.industrialforegoing.FluidDictionary.add("evilcraftblood", "lifeessence", 1);
+mods.industrialforegoing.FluidDictionary.add("lifeessence", "evilcraftblood", 1);
 mods.tconstruct.Alloy.addRecipe(<liquid:mana>*500,[<liquid:ic2uu_matter>,<liquid:water>*999]);
 mods.thermalexpansion.Refinery.addRecipe(<liquid:mana>*500,null,<liquid:ic2uu_matter>,8000);
 mods.thermalexpansion.Refinery.addRecipe(<liquid:ic2uu_matter>,null,<liquid:mana>*1000,8000);

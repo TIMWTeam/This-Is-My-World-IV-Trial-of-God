@@ -32,11 +32,11 @@
 	</Recipe>
 	<Recipe timeRequired="100" power ="200">
 		<input>
-			<fluidStack>brine 1000</fluidStack>
+			<fluidStack>brine 500</fluidStack>
 		</input>
 		<output>
-			<fluidStack>liquidchlorine 10</fluidStack>
-			<fluidStack>liquidhydrogen 10</fluidStack>
+			<fluidStack>liquidchlorine 50</fluidStack>
+			<fluidStack>liquidhydrogen 50</fluidStack>
 		</output>
 	</Recipe>
 </Recipes>

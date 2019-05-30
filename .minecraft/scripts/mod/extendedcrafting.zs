@@ -1,4 +1,10 @@
 
+
+recipes.removeByRecipeName("extendedcrafting:black_iron_ingot_to");
+recipes.removeByRecipeName("extendedcrafting:ender_ingot_to");
+mods.immersiveengineering.ArcFurnace.addRecipe(<extendedcrafting:material>, <ore:ingotIron>, null, 100, 128,[<ore:dyeBlack>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<extendedcrafting:material:36>, <ore:ingotIron>, null, 100, 128,[<ore:enderpearl>]);
+
 //CombinationCrafting-聚合
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:dirty_blood>, 163840, 512, <extraalchemy:blood_bottle>, [<evilcraft:dark_gem>, <bloodmagic:item_demon_crystal:4>,<evilcraft:dark_gem>,<bloodmagic:item_demon_crystal:3>,<evilcraft:dark_gem>,<bloodmagic:item_demon_crystal:2>,<evilcraft:dark_gem>,<bloodmagic:item_demon_crystal:1>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_covalence_dust>*8, 40960, 128, <actuallyadditions:item_dust:3>, [<minecraft:dye:2>,<minecraft:reeds>,<botania:dye:5>,<botania:dye:13>]);

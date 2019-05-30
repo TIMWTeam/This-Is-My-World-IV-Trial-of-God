@@ -47,6 +47,7 @@ citron.itemRightClick = function(stack, world, player, hand) {
     	Commands.call("summon minecraft:bat", player, world, false, true);
     	Commands.call("say 新人请说出常用模组！", player, world, false, true);
     	Commands.call("say Newcomers please tell us about common mod!", player, world, false, true);
+		stack.shrink(1);
     }
     return "SUCCESS";
 };
