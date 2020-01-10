@@ -1,0 +1,10 @@
+{
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 192,
+    "ingredients": [
+        {
+            "item": "extraalchemy:essence_fire"
+        }
+    ],
+    "result_count": 16
+}

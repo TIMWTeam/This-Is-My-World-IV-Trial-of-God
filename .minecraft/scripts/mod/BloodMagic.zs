@@ -2,12 +2,12 @@
 //blood->lifeessence
 mods.tconstruct.Melting.removeRecipe(<liquid:blood>);
 mods.tconstruct.Melting.addRecipe(<liquid:blood> * 80, <minecraft:rotten_flesh>, 340);
-mods.tconstruct.Melting.addRecipe(<liquid:lifeessence> * 2000, <extraalchemy:essence_life>, 340);
+mods.tconstruct.Melting.addRecipe(<liquid:lifeessence> * 1000, <extraalchemy:essence_life>, 340);
 mods.tconstruct.Casting.addBasinRecipe(<bloodmagic:decorative_brick>, <minecraft:stone>, <liquid:blood>, 200, true, 20);
-mods.tconstruct.Alloy.addRecipe(<liquid:lifeessence> * 100, [<liquid:water> * 90, <liquid:blood> * 10]);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:lifeessence> * 1000, null, <liquid:blood> * 100, 2000);
-mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lifeessence> * 1600, <tconstruct:edible:3>, 4500);
-mods.thermalexpansion.Crucible.addRecipe(<liquid:lifeessence> * 10000, <extraalchemy:essence_life>, 20000);
+mods.tconstruct.Alloy.addRecipe(<liquid:lifeessence> * 100, [<liquid:water> * 80, <liquid:blood> * 20]);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:lifeessence> * 1000, null, <liquid:blood> * 200, 8000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:lifeessence> * 900, <tconstruct:edible:3>, 4500);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:lifeessence> * 1500, <extraalchemy:essence_life>, 50000);
 
 
 //misc
@@ -35,6 +35,7 @@ mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:2>, <extraalch
 
 //AlchemyArray-炼金阵
 mods.bloodmagic.AlchemyArray.removeRecipe(<bloodarsenal:base_item:9>, <bloodmagic:slate:4>);
+mods.bloodmagic.AlchemyArray.addRecipe(<bloodarsenal:blood_diamond:3>, <bloodarsenal:blood_diamond:2>, <bloodarsenal:base_item:9>,"bloodmagic:textures/models/AlchemyArrays/elementalaffinitysigil.png");
 
 //神盾印记
 mods.thaumcraft.Infusion.registerRecipe("god", "", <bloodarsenal:sigil_divinity>, 40, 

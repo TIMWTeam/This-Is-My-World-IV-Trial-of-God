@@ -1,0 +1,10 @@
+{
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 1875,
+    "ingredients": [
+        {
+            "item": "mysticalagriculture:inferium_ore"
+        }
+    ],
+    "result_count": 16
+}

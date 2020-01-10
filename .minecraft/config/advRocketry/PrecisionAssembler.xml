@@ -214,7 +214,7 @@
 			<itemStack>contenttweaker:rough_silicon_plate</itemStack>
 			<itemStack>immersiveengineering:material 1 26</itemStack>
 			<itemStack>minecraft:redstone 2</itemStack>
-			<oreDict>wireCopper 6</oreDict>
+			<oreDict>wireCopper 4</oreDict>
 		</input>
 		<output>
 			<itemStack>contenttweaker:basic_circuit</itemStack>
@@ -227,7 +227,7 @@
 			<itemStack>minecraft:redstone 2</itemStack>
 			<itemStack>minecraft:glowstone_dust 2</itemStack>
 			<oreDict>sheetPlastic 2</oreDict>
-			<oreDict>wireGold 6</oreDict>
+			<oreDict>wireGold 4</oreDict>
 		</input>
 		<output>
 			<itemStack>contenttweaker:advanced_circuit</itemStack>
@@ -265,7 +265,7 @@
 			<itemStack>contenttweaker:basic_circuit</itemStack>
 			<oreDict>plateInvar 4</oreDict>
 			<oreDict>gearCopper 2</oreDict>
-			<oreDict>dustRedstone 6</oreDict>
+			<oreDict>dustRedstone 4</oreDict>
 			<oreDict>wireCopper 8</oreDict>
 			<itemStack>mekanism:controlcircuit</itemStack>
 		</input>

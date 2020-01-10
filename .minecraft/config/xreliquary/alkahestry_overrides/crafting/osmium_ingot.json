@@ -1,0 +1,17 @@
+{
+    "conditions": [
+        {
+            "type": "xreliquary:ore_exists",
+            "ore": "ingotOsmium"
+        }
+    ],
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 504,
+    "ingredients": [
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotOsmium"
+        }
+    ],
+    "result_count": 64
+}

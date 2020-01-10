@@ -1,0 +1,12 @@
+{
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 408,
+    "ingredients": [
+        {
+            "item": "botania:manaresource",
+            "data": 5
+        }
+    ],
+    "result_count": 4
+}
+

@@ -6,7 +6,6 @@ mods.recipestages.Recipes.setRecipeStage("B-003-1", "extrautils2:generator_gener
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "rftools-endergenic-remodified");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "extendedcrafting:ender_crafter");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "extrautils2:mill_dragon");
-mods.recipestages.Recipes.setRecipeStage("B-003-1", "extrautils2:klein_flash");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "extrautils2:transfer_node_items_retrieve");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "extrautils2:transfer_node_fluids_retrieve");
 mods.recipestages.Recipes.setRecipeStage("B-003-1", "randomthings:advanceditemcollector");
@@ -47,10 +46,7 @@ mods.recipestages.Recipes.setRecipeStage("B-003-3",<minecraft:fermented_spider_e
 
 //B_003_4
 mods.recipestages.Recipes.setRecipeStage("B-003-4",<minecraft:gunpowder>);
-mods.recipestages.Recipes.setRecipeStage("B-003-4",<minecraft:tnt>);
 mods.recipestages.Recipes.setRecipeStage("B-003-4",<ic2:te:1>);
-mods.recipestages.Recipes.setRecipeStage("B-003-4",<appliedenergistics2:tiny_tnt>);
-mods.recipestages.Recipes.setRecipeStage("B-003-4",<mekanism:obsidiantnt>);
 mods.recipestages.Recipes.setRecipeStage("B-003-4",<extrautils2:machine>.withTag({Type: "extrautils2:generator_tnt"}));
 mods.recipestages.Recipes.setRecipeStage("B-003-4",<immersiveengineering:wooden_device0:4>);
 

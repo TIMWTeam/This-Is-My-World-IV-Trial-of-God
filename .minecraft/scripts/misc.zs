@@ -1,6 +1,9 @@
 //key放在了材质包:contenttweaker/lang/zh_cn.lang内
 mods.jei.JEI.addDescription(<extraalchemy:air_bottle>, "key.misc_01.jei");
 mods.jei.JEI.addDescription(<astralsorcery:blockcustomsandore>, "key.misc_02.jei");
+mods.jei.JEI.addDescription(<bloodmagic:item_demon_crystal>, "key.misc_03.jei");
+mods.jei.JEI.addDescription(<contenttweaker:evil_heart>, "key.misc_04.jei");
+mods.jei.JEI.addDescription(<extraalchemy:blood_bottle>, "key.misc_05.jei");
 <extraalchemy:air_bottle>.addTooltip(format.lightPurple("手持玻璃瓶，右键将风封入其中！"));
 <astralsorcery:blockcustomsandore>.addTooltip(format.lightPurple("星能液与熔岩所产生的沙子中，极低概率产生"));
 <contenttweaker:pure_starlight>.addTooltip(format.gold("拿在手上你似乎感觉到了一丝的寒冷"));
@@ -9,6 +12,9 @@ mods.jei.JEI.addDescription(<astralsorcery:blockcustomsandore>, "key.misc_02.jei
 <enderio:item_material:20>.addTooltip(format.gold("The End"));
 <contenttweaker:demon_will_coagulator_1>.addTooltip(format.red("没有配方（No recipe）"));
 <contenttweaker:aether_transmuter_1>.addTooltip(format.red("没有配方（No recipe）"));
+
+//the one prode
+recipes.addShaped(<theoneprobe:creativeprobe>,[[<projecte:item.pe_philosophers_stone>,<theoneprobe:probe>]]);
 
 //Cost reduction
 recipes.remove(<rftools:coalgenerator>);
@@ -72,4 +78,11 @@ recipes.addShapeless(<quantumstorage:quantum_tank>, [<industrialforegoing:black_
 recipes.addShapeless(<quantumstorage:quantum_storage_unit>, [<industrialforegoing:black_hole_unit>]);
 recipes.addShapeless(<industrialforegoing:black_hole_unit>, [<quantumstorage:quantum_storage_unit>]);
 
+//storagedrawers
+recipes.addShaped(<storagedrawers:upgrade_storage:4>,[[<ore:gemEmerald>,<storagedrawers:upgrade_storage:*>,<ore:gemEmerald>]]);
+recipes.addShaped(<storagedrawers:upgrade_storage:3>,[[<ore:gemDiamond>,<storagedrawers:upgrade_storage:*>,<ore:gemDiamond>]]);
+recipes.addShaped(<storagedrawers:upgrade_storage:2>,[[<ore:ingotGold>,<storagedrawers:upgrade_storage:*>,<ore:ingotGold>]]);
+recipes.addShaped(<storagedrawers:upgrade_storage:1>,[[<ore:ingotIron>,<storagedrawers:upgrade_storage:*>,<ore:ingotIron>]]);
+recipes.addShaped(<storagedrawers:upgrade_storage>,[[<ore:obsidian>,<storagedrawers:upgrade_storage:*>,<ore:obsidian>]]);
+recipes.addShaped(<storagedrawers:upgrade_template>,[[<storagedrawers:upgrade_storage:*>]]);
 

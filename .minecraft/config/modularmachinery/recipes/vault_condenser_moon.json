@@ -1,7 +1,7 @@
 {
     "machine": "vault_condenser",
     "registryName": "vault_condenser_moon",
-    "recipeTime": 30,
+    "recipeTime": 10,
     "requirements": [
         {
             "type": "daylight",

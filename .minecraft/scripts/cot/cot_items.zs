@@ -165,6 +165,7 @@ evil_doll.itemRightClick = function(stack, world, player, hand) {
     	Commands.call("summon thaumcraft:cultistportallesser", player, world, false, true);
     	Commands.call("say 邪恶悄然降临！", player, world, false, true);
     	Commands.call("say Evil quietly appears!", player, world, false, true);
+		stack.shrink(1);
     }
     return "SUCCESS";
 };

@@ -1,0 +1,17 @@
+{
+    "conditions": [
+        {
+            "type": "xreliquary:ore_exists",
+            "ore": "ingotLead"
+        }
+    ],
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 126,
+    "ingredients": [
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotLead"
+        }
+    ],
+    "result_count": 64
+}

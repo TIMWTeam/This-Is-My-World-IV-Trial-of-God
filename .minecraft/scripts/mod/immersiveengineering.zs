@@ -15,6 +15,10 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "componen
 mods.immersiveengineering.Blueprint.addRecipe("components", <immersiveengineering:material:26>, [<ore:blockGlass>, <ore:dustRedstone>, <ore:wireCopper>, <ore:wireGold>]);
 mods.immersiveengineering.Blueprint.addRecipe("components", <researchtable:table>, [<immersiveengineering:material:27>, <immersiveengineering:material:9>, <ore:slabSteel>, <ore:slabSteel>]);
 
+furnace.remove(<immersiveengineering:material:19>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:material:19>, <ore:dustHOPGraphite>, 600);
+
+
 //metal press
 var input = [<thermalfoundation:material:32>, 
     <thermalfoundation:material:33>, 

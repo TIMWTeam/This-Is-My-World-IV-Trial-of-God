@@ -14,7 +14,7 @@
         {
             "type": "mana",
             "io-type": "output",
-            "mana": 400
+            "mana": 800
         }
     ]
 }

@@ -108,3 +108,30 @@ starlight_condenser_1.toolLevel = 2;
 starlight_condenser_1.blockSoundType = <soundtype:metal>;
 starlight_condenser_1.register();
 
+var energy_block = VanillaFactory.createBlock("energy_block",<blockmaterial:rock>);
+energy_block.fullBlock = true;
+energy_block.translucent = false;
+energy_block.blockHardness = 20;
+energy_block.toolClass = "pickaxe";
+energy_block.toolLevel = 2;
+energy_block.blockSoundType = <soundtype:metal>;
+energy_block.register();
+
+var fluid_block = VanillaFactory.createBlock("fluid_block",<blockmaterial:rock>);
+fluid_block.fullBlock = true;
+fluid_block.translucent = false;
+fluid_block.blockHardness = 20;
+fluid_block.toolClass = "pickaxe";
+fluid_block.toolLevel = 2;
+fluid_block.blockSoundType = <soundtype:metal>;
+fluid_block.register();
+
+var item_block = VanillaFactory.createBlock("item_block",<blockmaterial:rock>);
+item_block.fullBlock = true;
+item_block.translucent = false;
+item_block.blockHardness = 20;
+item_block.toolClass = "pickaxe";
+item_block.toolLevel = 2;
+item_block.blockSoundType = <soundtype:metal>;
+item_block.register();
+

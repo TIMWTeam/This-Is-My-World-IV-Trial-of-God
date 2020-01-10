@@ -110,4 +110,28 @@
 			<itemStack>contenttweaker:silicon_plate 4</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="300" power ="100">
+		<input>
+			<oreDict>peltSmall</oreDict>
+		</input>
+		<output>
+			<itemStack>primal:hide_raw 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="400" power ="100">
+		<input>
+			<oreDict>peltMedium</oreDict>
+		</input>
+		<output>
+			<itemStack>primal:hide_raw 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="100">
+		<input>
+			<oreDict>peltLarge</oreDict>
+		</input>
+		<output>
+			<itemStack>primal:hide_raw 6</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

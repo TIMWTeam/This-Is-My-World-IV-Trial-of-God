@@ -127,6 +127,7 @@ recipes.remove(<overloaded:item_core>);
 
 
 //misc
+recipes.remove(<botania_tweaks:compressed_tiny_potato_8>);
 recipes.remove(<minecraft:red_mushroom>);
 recipes.remove(<minecraft:brown_mushroom>);
 recipes.remove(<bloodmagic:decorative_brick:2>);
@@ -140,6 +141,7 @@ recipes.removeByRecipeName("techguns:itemshared_62_copperwire");
 recipes.remove(<overloaded:nether_star_block>);
 recipes.removeByRecipeName("xreliquary:items/uncrafting/blaze_rod");
 recipes.removeByRecipeName("xreliquary:items/uncrafting/ghast_tear");
+recipes.remove(<extrautils2:book>);
 
 
 

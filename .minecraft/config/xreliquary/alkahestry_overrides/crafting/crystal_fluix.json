@@ -1,0 +1,17 @@
+{
+    "conditions": [
+        {
+            "type": "xreliquary:ore_exists",
+            "ore": "crystalFluix"
+        }
+    ],
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 252,
+    "ingredients": [
+        {
+            "type": "forge:ore_dict",
+            "ore": "crystalFluix"
+        }
+    ],
+    "result_count": 64
+}

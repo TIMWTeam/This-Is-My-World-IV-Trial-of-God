@@ -1,5 +1,7 @@
 //misc
 recipes.remove(<naturesaura:animal_spawner>);
+recipes.addShaped(<naturesaura:infused_slab_double>,[[<naturesaura:infused_slab>],[<naturesaura:infused_slab>]]);
+recipes.addShaped(<naturesaura:infused_brick_slab_double>,[[<naturesaura:infused_brick_slab>],[<naturesaura:infused_brick_slab>]]);
 
 //conversion catalyst
 mods.naturesaura.TreeRitual.removeRecipe(<naturesaura:conversion_catalyst>);

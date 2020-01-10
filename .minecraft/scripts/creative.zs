@@ -11,14 +11,14 @@ mods.thaumcraft.Infusion.registerRecipe("achievement_reagent", "", <contenttweak
 mods.extendedcrafting.TableCrafting.addShapeless(4, <contenttweaker:feature>, [
 	<extendedcrafting:singularity_ultimate>, <extendedcrafting:material:48>, <industrialforegoing:pink_slime_ingot>, <ore:ingotEbonyPsi>, <ore:ingotIvoryPsi>, <advancedrocketry:metal0:1>, <extrautils2:decorativesolid:8>, <bloodarsenal:slate:4>, <embers:wildfire_core>, 
 	<draconicevolution:chaos_shard>, <mekanism:teleportationcore>, <xreliquary:witherless_rose>, <techguns:itemshared:131>, <ore:itemWeatherCrystal>, <appliedenergistics2:material:47>, <projecte:item.pe_matter>, <astralsorcery:itemcelestialcrystal>, 
-	<ore:gemCrystalFlux>, <ic2:misc_resource:3>, <ic2:nuclear:10>, <ore:dropRoyalJelly>, <integrateddynamics:logic_director>, <overloaded:energy_core>, <overloaded:fluid_core>, <overloaded:item_core>, 
+	<ore:gemCrystalFlux>, <ic2:misc_resource:3>, <ic2:nuclear:10>, <integrateddynamics:logic_director>, <overloaded:energy_core>, <overloaded:fluid_core>, <overloaded:item_core>, 
 	<ore:blockManyullyn>, <ore:blockTungstensteel>, <ore:blockAA_meteors4>, <ore:blockAA_meteors3>, <ore:blockAA_meteors2>, <ore:blockAA_meteors0>, <ore:blockAA_meteors1>, <ore:blockAA_meteors5>, <ore:blockDraconiumAwakened>, 
 	<randomthings:spectrecoil_ender>,  <ore:circuitBasic>, <ore:circuitAdvanced>, <ore:circuitElite>, <ore:circuitUltimate>,<thaumadditions:mithminite_plate>,<enderio:item_capacitor_stellar>,
 	<matteroverdrive:android_pill>,<advanced_solar_panels:crafting:13>,<mekanism:basicblock2:4>.withTag({tier: 3}),<mekanism:basicblock2:3>.withTag({tier: 3}),<contenttweaker:achievement_reagent>]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:32>, [
 	[<minecraft:tripwire_hook>, <integrateddynamics:on_the_dynamics_of_integration>, <minecraft:cauldron>, <extrautils2:playerchest>, <ore:listAllmeatraw>, <actuallyadditions:item_damage_lens>, <enderio:item_yeta_wrench>], 
-	[<minecraft:banner:15>, <ore:crystalCinnabar>, <minecraft:fire_charge>, <actuallyadditions:item_misc:15>, <ore:scribing>, <randomthings:chunkanalyzer>, <ore:dropHoneydew>], 
+	[<minecraft:banner:15>, <thermalfoundation:ore:2>, <minecraft:fire_charge>, <actuallyadditions:item_misc:15>, <thaumcraft:scribing_tools>, <randomthings:chunkanalyzer>, <forestry:squeezer>], 
 	[null, null, null, <contenttweaker:feature>, <techguns:revolver>, null, null], 
 	[null, null, null, <contenttweaker:feature>, <techguns:revolver>, null, null], 
 	[null, null, null, <contenttweaker:feature>, <techguns:revolver>, null, null]
@@ -152,19 +152,30 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <pressure:creative_source>, [
 	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>]
 ]);
 
+// mods.extendedcrafting.TableCrafting.addShaped(0, <extrautils2:creativeharvest>, [
+// 	[<ore:blockUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:blockUltimate>], 
+// 	[<ore:ingotUltimate>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <ore:ingotUltimate>], 
+// 	[<ore:ingotUltimate>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <ore:ingotUltimate>], 
+// 	[<ore:ingotUltimate>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <forestry:can:1>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <ore:ingotUltimate>], 
+// 	[<extendedcrafting:material:13>, <extrautils2:itemcreativedestructionwand>, <contenttweaker:achievement_reagent>, <forestry:can:1>, <pressure:creative_source>, <forestry:can:1>, <contenttweaker:achievement_reagent>, <extrautils2:itemcreativedestructionwand>, <extendedcrafting:material:13>], 
+// 	[<ore:ingotUltimate>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <forestry:can:1>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <ore:ingotUltimate>], 
+// 	[<ore:ingotUltimate>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <ore:ingotUltimate>], 
+// 	[<ore:ingotUltimate>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <ore:ingotUltimate>], 
+// 	[<ore:blockUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:blockUltimate>]
+// ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <extrautils2:creativeharvest>, [
 	[<ore:blockUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:blockUltimate>], 
 	[<ore:ingotUltimate>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <forestry:can:1>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <ore:ingotUltimate>], 
-	[<extendedcrafting:material:13>, <extrautils2:itemcreativedestructionwand>, <contenttweaker:achievement_reagent>, <forestry:can:1>, <pressure:creative_source>, <forestry:can:1>, <contenttweaker:achievement_reagent>, <extrautils2:itemcreativedestructionwand>, <extendedcrafting:material:13>], 
-	[<ore:ingotUltimate>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <forestry:can:1>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <ore:ingotUltimate>], 
+	[<ore:ingotUltimate>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:achievement_reagent>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <contenttweaker:dirty_blood>, <ore:ingotUltimate>], 
+	[<ore:ingotUltimate>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <extrautils2:decorativesolid:8>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <ore:ingotUltimate>], 
+	[<extendedcrafting:material:13>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <pressure:creative_source>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extendedcrafting:material:13>], 
+	[<ore:ingotUltimate>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <extrautils2:decorativesolid:8>, <contenttweaker:feature>, <contenttweaker:feature>, <contenttweaker:feature>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <contenttweaker:pure_starlight>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <ore:ingotUltimate>], 
-	[<ore:blockUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:blockUltimate>]
+	[<ore:blockUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:achievement_reagent>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:blockUltimate>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:upgrade_creative:1>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:upgrade_creative:1>*2, [
 	[<storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <extendedcrafting:material:19>, <extendedcrafting:material:19>, <storagedrawers:upgrade_creative>, <extendedcrafting:material:19>, <extendedcrafting:material:19>], 
 	[<storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_void>, <extendedcrafting:material:19>, <storagedrawers:upgrade_creative>, <extendedcrafting:material:19>, <storagedrawers:upgrade_creative>, <extendedcrafting:material:19>], 
 	[<storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_void>, <extendedcrafting:material:19>, <extendedcrafting:material:19>, <storagedrawers:upgrade_creative>, <extendedcrafting:material:19>, <extendedcrafting:material:19>], 
@@ -200,16 +211,27 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:creative_batte
 	[ <ic2:misc_resource:3>, <ic2:misc_resource:3>, <ic2:misc_resource:3>, <ic2:misc_resource:3>, <ic2:misc_resource:3>]
 ]);
 
+// mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:capacitor:32000>, [
+// 	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>], 
+// 	[<extrautils2:decorativesolid:8>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <extrautils2:decorativesolid:8>], 
+// 	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <matteroverdrive:creative_battery>, <ore:ingotUltimate>, <matteroverdrive:creative_battery>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>], 
+// 	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <ic2:cable:1>, <draconicevolution:reactor_core>, <ic2:cable:1>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>], 
+// 	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <ic2:cable:1>, <ic2:cable:1>, <ic2:cable:1>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>], 
+// 	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <draconicevolution:reactor_core>, <ic2:cable:1>, <draconicevolution:reactor_core>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>], 
+// 	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <ore:ingotUltimate>, <overloaded:infinite_capacitor>, <ore:ingotUltimate>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>], 
+// 	[<extrautils2:decorativesolid:8>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <extrautils2:decorativesolid:8>], 
+// 	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>]
+// ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:capacitor:32000>, [
-	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>], 
-	[<extrautils2:decorativesolid:8>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <extrautils2:decorativesolid:8>], 
-	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <matteroverdrive:creative_battery>, <ore:ingotUltimate>, <matteroverdrive:creative_battery>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>], 
-	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <ic2:cable:1>, <draconicevolution:reactor_core>, <ic2:cable:1>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>], 
-	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <ic2:cable:1>, <ic2:cable:1>, <ic2:cable:1>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>], 
-	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <draconicevolution:reactor_core>, <ic2:cable:1>, <draconicevolution:reactor_core>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>], 
-	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <ore:ingotUltimate>, <overloaded:infinite_capacitor>, <ore:ingotUltimate>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>], 
-	[<extrautils2:decorativesolid:8>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <extrautils2:decorativesolid:8>], 
-	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>]
+	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, null, null], 
+	[<extrautils2:decorativesolid:8>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <contenttweaker:sun_essence>, <extrautils2:decorativesolid:8>, null, null], 
+	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <ore:ingotUltimate>, <overloaded:infinite_capacitor>, <ore:ingotUltimate>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>, null, null], 
+	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <advanced_solar_panels:crafting:13>, <draconicevolution:reactor_core>, <advanced_solar_panels:crafting:13>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>, null, null], 
+	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <draconicevolution:reactor_core>, <draconicevolution:reactor_core>, <draconicevolution:reactor_core>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>, null, null], 
+	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <advanced_solar_panels:crafting:13>, <draconicevolution:reactor_core>, <advanced_solar_panels:crafting:13>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>, null, null], 
+	[<extrautils2:decorativesolid:8>, <contenttweaker:dirty_blood>, <ore:ingotUltimate>, <overloaded:infinite_capacitor>, <ore:ingotUltimate>, <contenttweaker:pure_starlight>, <extrautils2:decorativesolid:8>, null, null], 
+	[<extrautils2:decorativesolid:8>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <contenttweaker:moon_essence>, <extrautils2:decorativesolid:8>, null, null], 
+	[<extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, null, null]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:creative_energy_cell>, [

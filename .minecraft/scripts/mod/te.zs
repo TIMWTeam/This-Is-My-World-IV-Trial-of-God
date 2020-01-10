@@ -4,6 +4,12 @@ mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:1024>);
 mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:1025>);
 mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:1026>);
 mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:1027>);
+
+recipes.addShaped(<extraalchemy:essence_fire>,[[<extraalchemy:essence_fire>]]);
+recipes.addShaped(<extraalchemy:essence_earth>,[[<extraalchemy:essence_earth>]]);
+recipes.addShaped(<extraalchemy:essence_water>,[[<extraalchemy:essence_water>]]);
+recipes.addShaped(<extraalchemy:essence_wind>,[[<extraalchemy:essence_wind>]]);
+
 //药水酿造机
 mods.thermalexpansion.Imbuer.addRecipe(<liquid:fire_solvent>*100,<extraalchemy:essence_fire>,<liquid:alchemical_dissovent>*100,32768);
 mods.thermalexpansion.Imbuer.addRecipe(<liquid:terra_solvent>*100,<extraalchemy:essence_earth>,<liquid:alchemical_dissovent>*100,32768);

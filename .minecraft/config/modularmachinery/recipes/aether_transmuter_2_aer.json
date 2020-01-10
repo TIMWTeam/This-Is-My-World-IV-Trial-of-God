@@ -1,12 +1,12 @@
 {
     "machine": "aether_transmuter_2",
     "registryName": "aether_transmuter_2_aer",
-    "recipeTime": 20,
+    "recipeTime": 4,
     "requirements": [
         {
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 8192
+            "energyPerTick": 80000
         },
         {
             "type": "fluid",
@@ -296,49 +296,7 @@
         {
             "type": "item",
             "io-type": "output",
-            "item":"primal:nether_root@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"primal:dry_grass_seed@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"primal:dry_grass_root@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
             "item":"immersiveengineering:seed@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"primal:rush_seeds_cooked@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"primal:rush_seeds@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"primal:corn_seeds@0",
             "amount": 1,
             "chance": 0.01
         },
@@ -359,48 +317,6 @@
         {
             "type": "item",
             "io-type": "output",
-            "item":"primal:nether_seed@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"primal:searing_ember@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"primal:daucus_murn_seeds@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"primal:valus_seed@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"primal:corypha_seed@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"primal:void_grass_root@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
             "item":"actuallyadditions:item_canola_seed@0",
             "amount": 1,
             "chance": 0.01
@@ -409,13 +325,6 @@
             "type": "item",
             "io-type": "output",
             "item":"actuallyadditions:item_rice_seed@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"primal:tall_grass_seeds@0",
             "amount": 1,
             "chance": 0.01
         },
@@ -431,14 +340,7 @@
             "io-type": "output",
             "item":"projecte:item.pe_matter@0",
             "amount": 1,
-            "chance": 0.0001
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"botania_tweaks:compressed_tiny_potato_8@0",
-            "amount": 1,
-            "chance": 0.00001
+            "chance": 0.0005
         },
         {
             "type": "item",
@@ -452,56 +354,71 @@
             "io-type": "output",
             "item":"mysticalagriculture:crafting@18",
             "amount": 1,
-            "chance": 0.001
+            "chance": 0.0025
         },
         {
             "type": "item",
             "io-type": "output",
             "item":"mysticalagriculture:crafting@19",
             "amount": 1,
-            "chance": 0.0005
+            "chance": 0.00125
         },
         {
             "type": "item",
             "io-type": "output",
             "item":"mysticalagriculture:crafting@20",
             "amount": 1,
-            "chance": 0.0001
+            "chance": 0.000625
         },
         {
             "type": "item",
             "io-type": "output",
             "item":"mysticalagriculture:crafting@21",
             "amount": 1,
-            "chance": 0.00005
+            "chance": 0.0003125
         },
         {
             "type": "item",
             "io-type": "output",
             "item":"mysticalagriculture:blaze_seeds",
             "amount": 1,
-            "chance": 0.0005
+            "chance": 0.00125
         },
         {
             "type": "item",
             "io-type": "output",
             "item":"mysticalagriculture:basalz_seeds",
             "amount": 1,
-            "chance": 0.0005
+            "chance": 0.00125
         },
         {
             "type": "item",
             "io-type": "output",
             "item":"mysticalagriculture:blitz_seeds",
             "amount": 1,
-            "chance": 0.0005
+            "chance": 0.00125
         },
         {
             "type": "item",
             "io-type": "output",
             "item":"mysticalagriculture:blizz_seeds",
             "amount": 1,
-            "chance": 0.0005
-        }
+            "chance": 0.00125
+        },
+        {"type": "item","io-type": "output","item":"mysticalagriculture:tier5_inferium_seeds","amount": 1,"chance": 0.00125},
+	{"type": "item","io-type": "output","item":"draconicevolution:dragon_heart","amount": 1,"chance": 0.000625},
+	{"type": "item","io-type": "output","item":"minecraft:dragon_breath","amount": 1,"chance": 0.004},
+	{"type": "item","io-type": "output","item":"minecraft:sugar","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:fish@3","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:fish@2","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:fish@1","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:fish","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:golden_apple@1","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:slime_ball","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"mysticalagriculture:crafting@0","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"mysticalagriculture:crafting@1","amount": 1,"chance": 0.005},
+	{"type": "item","io-type": "output","item":"mysticalagriculture:crafting@2","amount": 1,"chance": 0.0025},
+	{"type": "item","io-type": "output","item":"mysticalagriculture:crafting@3","amount": 1,"chance": 0.00125},
+	{"type": "item","io-type": "output","item":"mysticalagriculture:crafting@4","amount": 1,"chance": 0.000625}
     ]
 }

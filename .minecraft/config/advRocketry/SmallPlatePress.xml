@@ -34,9 +34,17 @@
 			<oreDict>blockIron</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 4 1</itemStack>
+			<itemStack>thermalfoundation:material 4 32 </itemStack>
 		</output>
 	</Recipe>
+<!-- 	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockIron</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate 4 1</itemStack>
+		</output>
+	</Recipe> -->
 	<Recipe timeRequired="0" power ="0">
 		<input>
 			<oreDict>oreIron</oreDict>

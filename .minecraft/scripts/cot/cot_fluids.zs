@@ -45,6 +45,10 @@ essence_supremium.flowingLocation = "contenttweaker:fluids/essence_supremium_flo
 essence_supremium.gaseous=true;
 essence_supremium.register();
 
+var lime = VanillaFactory.createFluid("lime", Color.fromHex("EAEAEA"));
+lime.gaseous=true;
+lime.register();
+
 
 
 

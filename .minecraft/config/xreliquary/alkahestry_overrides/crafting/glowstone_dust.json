@@ -1,0 +1,10 @@
+{
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 378,
+    "ingredients": [
+        {
+            "item": "minecraft:glowstone_dust"
+        }
+    ],
+    "result_count": 64
+}

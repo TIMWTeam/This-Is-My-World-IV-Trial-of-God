@@ -18,6 +18,7 @@ mods.chisel.Carving.addVariation("botania_custombrick", <botania:custombrick:13>
 mods.chisel.Carving.addVariation("botania_custombrick", <botania:custombrick:14>);
 mods.chisel.Carving.addVariation("botania_custombrick", <botania:custombrick:15>);
 
+mods.chisel.Carving.addVariation("limestone", <primal:carbonate_stone>);
 
 
 

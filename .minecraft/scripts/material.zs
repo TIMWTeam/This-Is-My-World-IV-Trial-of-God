@@ -34,7 +34,7 @@ mods.techguns.ChemLab.addRecipe(<contenttweaker:etch_silicon_plate>,1,<minecraft
 mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:refined_silicon_plate>, <contenttweaker:etch_silicon_plate>, <liquid:creosote>*100);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:refined_silicon_plate>,<contenttweaker:etch_silicon_plate>,<liquid:creosote>*100,8000);
 var refined_silicon_plate = [<contenttweaker:refined_silicon_plate>] as IItemStack[];
-mods.techguns.ReactionChamber.addRecipe("refined_silicon_plate",<contenttweaker:imprint_silicon_plate>,<liquid:creeper_acid>,refined_silicon_plate,<techguns:itemshared:104>,1, 1, 1, 0, 3, 200,0.0, "BREAK_ITEM", 10000);
+mods.techguns.ReactionChamber.addRecipe("refined_silicon_plate",<contenttweaker:imprint_silicon_plate>,<liquid:creeper_acid>,refined_silicon_plate,<techguns:itemshared:104>,3, 1, 1, 0, 3, 200,0.0, "BREAK_ITEM", 10000);
 
 //液态煤炭
 mods.immersiveengineering.Refinery.addRecipe(<liquid:oil> * 8, <liquid:coal> * 8, <liquid:ethanol> * 16, 2048);
@@ -86,7 +86,7 @@ recipes.addShaped(<contenttweaker:block_carbon>*4,[[null,<ore:plateCarbon>,null]
 recipes.addShaped(<contenttweaker:block_alloy>*4,[[null,<techreborn:plates:35>,null],[<techreborn:plates:35>,null,<techreborn:plates:35>],[null,<techreborn:plates:35>,null]]);
 
 var dustmana = [<thermalfoundation:material:1028>] as IItemStack[];
-mods.techguns.ReactionChamber.addRecipe("dustmana",<ic2:misc_resource:3>,<liquid:mana>,dustmana,<techguns:itemshared:105>,10, 10, 5, 0, 8, 1000,0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("dustmana",<ic2:misc_resource:3>,<liquid:mana>,dustmana,<techguns:itemshared:105>,11, 10, 5, 0, 8, 1000,0.0, "BREAK_ITEM", 25000);
 
 var plates = [<thaumadditions:mithrillium_plate>,
     <thaumadditions:adaminite_plate>,
@@ -94,4 +94,3 @@ var plates = [<thaumadditions:mithrillium_plate>,
 for plate in plates {
     recipes.addShapeless(plate , [plate]);
 }
-

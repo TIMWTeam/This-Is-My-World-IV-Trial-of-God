@@ -69,7 +69,8 @@
 
 	<Recipe timeRequired="600" power ="150">
 		<input>
-			<itemStack>projectred-core:resource_item 1 250</itemStack>
+			<oreDict>sand</oreDict>
+			<oreDict>gemCoal</oreDict>
 		</input>
 		<output>
 			<itemStack>contenttweaker:silicon_low_purity 1</itemStack>

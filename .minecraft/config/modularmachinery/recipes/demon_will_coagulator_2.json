@@ -1,7 +1,7 @@
 {
     "machine": "demon_will_coagulator_2",
     "registryName": "demon_will_coagulator_2",
-    "recipeTime": 400,
+    "recipeTime": 120,
     "requirements": [
         {
             "type": "item",

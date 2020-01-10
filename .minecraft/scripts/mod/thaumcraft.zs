@@ -15,14 +15,14 @@ var clusters =	[<actuallyadditions:block_crystal_cluster_lapis>,
                 <actuallyadditions:block_crystal_cluster_emerald>,
                 <actuallyadditions:block_crystal_cluster_coal>,
                 <actuallyadditions:block_crystal_cluster_iron>] as IItemStack[];
-var crystals =	[<thaumcraft:crystal_aqua>*2,
-                <thaumcraft:crystal_aer>*2,
-                <thaumcraft:crystal_ignis>*2,
-                <thaumcraft:crystal_terra>*2,
-                <thaumcraft:crystal_perditio>*2,
-                <thaumcraft:crystal_ordo>*2] as IItemStack[];
+var crystals =	[<thaumcraft:crystal_aqua>*8,
+                <thaumcraft:crystal_aer>*8,
+                <thaumcraft:crystal_ignis>*8,
+                <thaumcraft:crystal_terra>*8,
+                <thaumcraft:crystal_perditio>*8,
+                <thaumcraft:crystal_ordo>*8] as IItemStack[];
 for i, block in blocks {
-    mods.actuallyadditions.AtomicReconstructor.addRecipe(clusters[i],block,80000);
+    mods.actuallyadditions.AtomicReconstructor.addRecipe(clusters[i],block,20000);
     mods.botania.ElvenTrade.addRecipe([crystals[i]],[clusters[i]]);
 }
 //Crucible
@@ -31,6 +31,12 @@ mods.thaumcraft.Crucible.registerRecipe("Greatwood_lod", "", <thaumcraft:log_gre
 mods.thaumcraft.Crucible.registerRecipe("Shimmerleaf", "", <thaumcraft:shimmerleaf>, <ore:minecraft_flower>,[<aspect:auram>*20,<aspect:herba>*10,<aspect:potentia>*10]);
 mods.thaumcraft.Crucible.registerRecipe("Vishroom", "", <thaumcraft:vishroom>, <ore:mushroom>, [<aspect:herba>*4,<aspect:mortuus>*2,<aspect:praecantatio>*2,<aspect:perditio>*2]);
 mods.thaumcraft.Crucible.registerRecipe("Cinderpearl", "", <thaumcraft:cinderpearl>, <minecraft:tallgrass:1>, [<aspect:ignis>*15,<aspect:herba>*10,<aspect:auram>*10]);
+mods.thaumcraft.Crucible.registerRecipe("RIFTCLOSER", "RIFTCLOSER", <thaumcraft:causality_collapser>*2,<thaumcraft:causality_collapser>,  [<aspect:alienis>*25, <aspect:vitium>*25]);
+mods.thaumcraft.Crucible.registerRecipe("TAR_MITHRILLIUM", "TAR_MITHRILLIUM", <thaumadditions:mithrillium_ingot>*2, <thaumadditions:mithrillium_ingot>,  [<aspect:praecantatio>*10, <aspect:alienis>*10, <aspect:potentia>*15, <aspect:metallum>*30, <aspect:vitreus>*30]);
+mods.thaumcraft.Crucible.registerRecipe("TAR_ADAMINITE", "TAR_ADAMINITE", <thaumadditions:adaminite_ingot>*2, <thaumadditions:adaminite_ingot>,  [<aspect:spiritus>*60, <aspect:victus>*50, <aspect:praecantatio>*50, <aspect:infernum>*50, <aspect:permutatio>*40, <aspect:metallum>*40, <aspect:alkimia>*30, <aspect:draco>*20, <aspect:visum>*20]);
+mods.thaumcraft.Crucible.registerRecipe("TAR_MITHMINITE", "TAR_MITHMINITE", <thaumadditions:mithminite_ingot>*2, <thaumadditions:mithminite_ingot>,  [<aspect:praecantatio>*60, <aspect:victus>*40, <aspect:metallum>*30, <aspect:caeles>*10]);
+
+
 
 //ArcaneWorkbench
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
@@ -42,13 +48,14 @@ mods.thaumcraft.Infusion.registerRecipe("pe_tome", "", <projecte:item.pe_tome>, 
     [<aspect:aer>*128, <aspect:terra>*128,<aspect:ignis>*128,<aspect:aqua>*128, <aspect:ordo>*128,<aspect:perditio>*128,<aspect:alkimia>*128,<aspect:cognitio>*512], 
     <projecte:item.pe_transmutation_tablet>, 
     [<rftools:rftools_shape_manual>,<bloodmagic:experience_tome>,<guideapi:bloodmagic-guide>,<bloodmagic:sanguine_book>,<guideapi:bloodarsenal-guide>,
-    <tconstruct:book>,<actuallyadditions:item_booklet>,<xnet:xnet_manual>,<extrautils2:book>,<techreborn:techmanuel>,<industrialforegoing:book_manual>,<immersiveengineering:tool:3>,
+    <tconstruct:book>,<actuallyadditions:item_booklet>,<xnet:xnet_manual>,<techreborn:techmanuel>,<industrialforegoing:book_manual>,<immersiveengineering:tool:3>,
     <forestry:book_forester>,<thaumcraft:curio:6>,<botania:lexicon>,<astralsorcery:itemjournal>,<embers:codex>,<draconicevolution:info_tablet>,<thaumcraft:thaumonomicon>,<evilcraft:origins_of_darkness>]);
 
 mods.thaumcraft.Infusion.registerRecipe("evil_doll", "", <contenttweaker:evil_doll>, 10, 
     [<aspect:vitium>*32, <aspect:alienis>*16,<aspect:spiritus>*16], 
     <contenttweaker:evil_mind>, 
     [<contenttweaker:evil_skin>,<contenttweaker:evil_heart>,<contenttweaker:evil_eye>,<contenttweaker:evil_eye>]);
+
 
 
 

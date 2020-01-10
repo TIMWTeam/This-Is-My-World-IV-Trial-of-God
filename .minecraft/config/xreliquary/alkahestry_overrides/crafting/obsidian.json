@@ -1,0 +1,10 @@
+{
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 63,
+    "ingredients": [
+        {
+            "item": "minecraft:obsidian"
+        }
+    ],
+    "result_count": 64
+}

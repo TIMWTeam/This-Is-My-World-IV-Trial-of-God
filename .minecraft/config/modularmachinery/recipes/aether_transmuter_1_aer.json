@@ -450,30 +450,23 @@
         {
             "type": "item",
             "io-type": "output",
-            "item":"mysticalagriculture:crafting@18",
+            "item":"mysticalagriculture:tier5_inferium_seeds",
             "amount": 1,
-            "chance": 0.001
+            "chance": 0.00065
         },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"mysticalagriculture:crafting@19",
-            "amount": 1,
-            "chance": 0.0005
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"mysticalagriculture:crafting@20",
-            "amount": 1,
-            "chance": 0.0001
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-            "item":"mysticalagriculture:crafting@21",
-            "amount": 1,
-            "chance": 0.00005
-        }
+	{"type": "item","io-type": "output","item":"minecraft:dragon_breath","amount": 1,"chance": 0.004},
+	{"type": "item","io-type": "output","item":"minecraft:sugar","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:fish@3","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:fish@2","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:fish@1","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:fish","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:golden_apple@1","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"minecraft:slime_ball","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"mysticalagriculture:crafting@17","amount": 1,"chance": 0.005},
+        {"type": "item","io-type": "output","item":"mysticalagriculture:crafting@18","amount": 1,"chance": 0.0025},
+        {"type": "item","io-type": "output","item":"mysticalagriculture:crafting@19","amount": 1,"chance": 0.00125},
+	{"type": "item","io-type": "output","item":"mysticalagriculture:crafting@0","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"mysticalagriculture:crafting@1","amount": 1,"chance": 0.01},
+	{"type": "item","io-type": "output","item":"mysticalagriculture:crafting@2","amount": 1,"chance": 0.005}
     ]
 }

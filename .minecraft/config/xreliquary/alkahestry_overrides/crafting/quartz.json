@@ -1,0 +1,10 @@
+{
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 60,
+    "ingredients": [
+        {
+            "item": "minecraft:quartz"
+        }
+    ],
+    "result_count": 16
+}

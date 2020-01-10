@@ -23,13 +23,6 @@
         {
             "type": "item",
             "io-type": "output",
-            "item":"primal:daucus_murn_seeds@0",
-            "amount": 1,
-            "chance": 0.01
-        },
-        {
-            "type": "item",
-            "io-type": "output",
             "item":"botania:rune@5",
             "amount": 1,
             "chance": 0.01
@@ -592,7 +585,7 @@
             "io-type": "output",
             "item":"projecte:item.pe_matter@0",
             "amount": 1,
-            "chance": 0.0001
+            "chance": 0.0005
         },
         {
             "type": "item",

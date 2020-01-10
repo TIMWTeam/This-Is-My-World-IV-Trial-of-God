@@ -11,7 +11,7 @@
 
   "input-types": {
     "i": { "id": "contenttweaker:block_titaniumiridium" },
-    "s": { "id": "draconicevolution:draconium_block", "meta":"1" }
+    "s": { "id": "contenttweaker:energy_block" }
   },
 
   "symmetrical": true,

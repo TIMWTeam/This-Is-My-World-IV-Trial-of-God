@@ -1,0 +1,17 @@
+{
+    "conditions": [
+        {
+            "type": "xreliquary:ore_exists",
+            "ore": "ingotAluminum"
+        }
+    ],
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 31,
+    "ingredients": [
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotAluminum"
+        }
+    ],
+    "result_count": 63
+}

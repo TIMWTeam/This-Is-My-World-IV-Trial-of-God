@@ -51,8 +51,18 @@ mods.primal.DryingRack.removeRecipe("primal:hide_tanned");
 mods.primal.DryingRack.addNonRottingRecipe("custom:leather", 16, <primal:hide_tanned>, <primal:leather_boiled>);
 mods.primal.Cauldron.removeRecipe("primal:boiled_leather");
 recipes.removeByRecipeName("primal:leather_boiled");
-recipes.addShapeless(<minecraft:leather>, [<ore:leather>]);
+recipes.addShapeless(<minecraft:leather>, [<ore:itemLeather>]);
 recipes.replaceAllOccurences(<minecraft:leather>, <ore:leather>);
+//leather  adv-craft
+mods.mekanism.reaction.addRecipe(<minecraft:leather>, <liquid:lime>*100, <gas:water>*50, <primal:hide_dried>, <gas:water>*20, 800, 200);
+mods.mekanism.reaction.addRecipe(<minecraft:leather>, <liquid:lime>*100, <gas:water>*50, <primal:hide_dried>, <gas:water>*20, 800, 200);
+mods.thermalexpansion.Transposer.addFillRecipe(<primal:hide_tanned>,<primal:hide_dried>,<liquid:tannin>*250,8000);
+mods.tconstruct.Drying.addRecipe(<primal:leather_boiled>,<primal:hide_tanned>,2400);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:lime>*50, <liquid:water>*250, [<primal:carbonate_slack>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:lime>*50, <liquid:water>*250, [<immersiveengineering:material:7>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:tannin>*250, <liquid:water>*250, [<ore:dustTannin>], 2048);
+
+
 
 //------------------nether------------------
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:netherrack>, <ore:cobblestone>, <liquid:lava>, 100, true, 20);

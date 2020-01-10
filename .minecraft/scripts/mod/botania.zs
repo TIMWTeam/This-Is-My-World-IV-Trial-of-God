@@ -2,6 +2,8 @@
 //misc
 recipes.removeByRecipeName("botania:fertilizer_powder");
 recipes.removeByRecipeName("botania:fertilizer_dye");
+recipes.addShaped(<botania:manabomb>*2,[[<botania:livingwood>,<minecraft:tnt>,<botania:livingwood>],[<minecraft:tnt>,<botania:manabomb>,<minecraft:tnt>],[<botania:livingwood>,<minecraft:tnt>,<botania:livingwood>]]);
+recipes.addShapeless(<botania:flighttiara:9>,[<botania:flighttiara:*>,<contenttweaker:feature>]);
 recipes.addShapeless(<botania:fertilizer>, [<ore:fertilizer>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>]);
 recipes.addShapeless(<botania:fertilizer>, [<ore:fertilizer>, <minecraft:dye:11>, <minecraft:dye:11>, <minecraft:dye:1>, <minecraft:dye:1>]);
 recipes.addShaped(<botania:brewery>,[[<botania:livingrock>,<botania:manaresource:8>,<botania:livingrock>],[<botania:livingrock>,<botania:rune:8>,<botania:livingrock>],[<botania:livingrock>,<botania:storage>,<botania:livingrock>]]);
@@ -68,7 +70,7 @@ mods.botania.RuneAltar.addRecipe(<botania:rune:2>*2,[<extraalchemy:essence_earth
 mods.botania.RuneAltar.addRecipe(<botania:rune:3>*2,[<extraalchemy:essence_wind>, <minecraft:carpet>, <minecraft:string>, <botania:manaresource:23>, <botania:manaresource>],20000);
 
 //Terr Agglomeration
-mods.botaniatweaks.Agglomeration.addRecipe(<botania:manaresource:4>, 
+mods.botaniatweaks.Agglomeration.addRecipe(<botania:manaresource:4>*2, 
     [<botania:manaresource:1>,<botania:manaresource:2>,<botania:manaresource>],
     100000,	0x0000FF, 0x00FF00,
     <actuallyadditions:block_crystal_empowered:5>,<actuallyadditions:block_crystal_empowered:1>,<actuallyadditions:block_crystal_empowered:5>,

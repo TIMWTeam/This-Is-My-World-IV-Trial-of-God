@@ -11,7 +11,7 @@
 
   "input-types": {
     "i": { "id": "contenttweaker:block_titaniumiridium" },
-    "s": { "id": "industrialforegoing:black_hole_unit" }
+    "s": { "id": "contenttweaker:item_block" }
   },
 
   "symmetrical": true,

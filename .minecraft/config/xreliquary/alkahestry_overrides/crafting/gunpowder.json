@@ -1,0 +1,10 @@
+{
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 30,
+    "ingredients": [
+        {
+            "item": "minecraft:gunpowder"
+        }
+    ],
+    "result_count": 11
+}

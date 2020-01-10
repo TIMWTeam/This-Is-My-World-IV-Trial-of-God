@@ -1,0 +1,9 @@
+{
+    "type": "xreliquary:alkahestry_charging",
+    "charge": 2176,
+    "ingredients": [
+        {
+            "item": "minecraft:nether_star"
+        }
+    ]
+}

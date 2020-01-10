@@ -12,7 +12,7 @@
             "type": "fluid",
             "io-type": "input",
             "fluid": "mana",
-            "amount": 200
+            "amount": 100
         },        
         {
             "type": "item",
@@ -606,7 +606,7 @@
             "io-type": "output",
             "item":"projecte:item.pe_matter@0",
             "amount": 1,
-            "chance": 0.0001
+            "chance": 0.0005
         },
         {
             "type": "item",
@@ -620,7 +620,7 @@
             "io-type": "output",
 			"item":"modularmachinery:itemblueprint", 
 			"amount": 1,
-            "chance": 0.01,
+            "chance": 0.005,
 			"nbt": 
 				{
 					"dynamicmachine":
@@ -632,7 +632,7 @@
             "io-type": "output",
 			"item":"modularmachinery:itemblueprint", 
 			"amount": 1,
-            "chance": 0.01,
+            "chance": 0.005,
 			"nbt": 
 				{
 					"dynamicmachine":
@@ -644,7 +644,7 @@
             "io-type": "output",
 			"item":"modularmachinery:itemblueprint", 
 			"amount": 1,
-            "chance": 0.01,
+            "chance": 0.005,
 			"nbt": 
 				{
 					"dynamicmachine":
@@ -656,23 +656,11 @@
             "io-type": "output",
 			"item":"modularmachinery:itemblueprint", 
 			"amount": 1,
-            "chance": 0.01,
+            "chance": 0.005,
 			"nbt": 
 				{
 					"dynamicmachine":
 								"modularmachinery:vault_condenser"
-				}
-        },
-        {
-            "type": "item",
-            "io-type": "output",
-			"item":"modularmachinery:itemblueprint", 
-			"amount": 1,
-            "chance": 0.01,
-			"nbt": 
-				{
-					"dynamicmachine":
-								"modularmachinery:starlight_condenser_3"
 				}
         }
 	]

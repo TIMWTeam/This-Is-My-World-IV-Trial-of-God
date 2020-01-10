@@ -1,7 +1,6 @@
 
-
-recipes.removeByRecipeName("extendedcrafting:black_iron_ingot_to");
-recipes.removeByRecipeName("extendedcrafting:ender_ingot_to");
+recipes.removeByRecipeName("extendedcrafting:black_iron_ingot");
+recipes.removeByRecipeName("extendedcrafting:ender_ingot");
 mods.immersiveengineering.ArcFurnace.addRecipe(<extendedcrafting:material>, <ore:ingotIron>, null, 100, 128,[<ore:dyeBlack>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<extendedcrafting:material:36>, <ore:ingotIron>, null, 100, 128,[<ore:enderpearl>]);
 
@@ -24,14 +23,14 @@ mods.extendedcrafting.EnderCrafting.addShaped(<minecraft:end_portal_frame>, [
 ]);
 
 recipes.remove(<industrialforegoing:black_hole_unit>);
-mods.extendedcrafting.EnderCrafting.addShaped(<industrialforegoing:black_hole_unit>, [
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialforegoing:black_hole_unit>*4, [
 	[<extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>], 
 	[<ore:pearlEnderEye>, <ore:enderpearl>, <ore:pearlEnderEye>], 
 	[<ore:chest>, <compactmachines3:machine:5>, <ore:chest>]
 ]);
 
 recipes.remove(<industrialforegoing:black_hole_tank>);
-mods.extendedcrafting.EnderCrafting.addShaped(<industrialforegoing:black_hole_tank>, [
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialforegoing:black_hole_tank>*4, [
 	[<extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>], 
 	[<ore:pearlEnderEye>, <ore:enderpearl>, <ore:pearlEnderEye>], 
 	[<minecraft:bucket>, <compactmachines3:machine:5>, <minecraft:bucket>]
@@ -81,6 +80,16 @@ mods.extendedcrafting.EnderCrafting.addShaped(<enderstorage:ender_pouch>, [
 	[<minecraft:blaze_powder>, <ore:leather>, <minecraft:blaze_powder>], 
 	[<ore:leather>, <ore:enderpearl>, <ore:leather>], 
 	[<minecraft:blaze_powder>, <ore:blockWool>, <minecraft:blaze_powder>]
+]);
+mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:fluid_block>*9, [
+	[<extrautils2:drum:3>, <evilcraft:bucket_eternal_water>, <extrautils2:drum:3>], 
+	[<botania:openbucket>, <compactmachines3:machine:5>, <minecraft:bucket>], 
+	[<extrautils2:drum:3>, <randomthings:enderbucket>, <extrautils2:drum:3>]
+]);
+mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:item_block>*9, [
+	[<actuallyadditions:block_giant_chest_large>, <appliedenergistics2:material:38>, <actuallyadditions:block_giant_chest_large>], 
+	[<storagedrawers:upgrade_storage:4>, <compactmachines3:machine:5>, <storagedrawers:upgrade_storage:4>], 
+	[<actuallyadditions:block_giant_chest_large>, <ore:chest>, <actuallyadditions:block_giant_chest_large>]
 ]);
 recipes.addShapeless(<enderstorage:ender_pouch>,[<enderstorage:ender_pouch:*>,<ore:dyeWhite>]);
 recipes.addShapeless(<enderstorage:ender_pouch:1>,[<enderstorage:ender_pouch:*>,<ore:dyeOrange>]);
@@ -258,13 +267,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<extendedcrafting:compressor>, [
 ]);
 
 mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:24>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:24>*6, [
 	[<extendedcrafting:material:10>, <ore:gemDarkPower>, <ore:gemDarkPower>, <ore:gemDarkPower>, <extendedcrafting:material:10>], 
 	[<extendedcrafting:material:10>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:10>], 
 	[<extendedcrafting:material:10>, <ore:gemAquamarine>, <ore:gemAquamarine>, <ore:gemAquamarine>, <extendedcrafting:material:10>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:upgrade_creative>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:upgrade_creative>*4, [
 	[<storagedrawers:upgrade_template>, <storagedrawers:quantify_key>, <storagedrawers:upgrade_storage:4>, <contenttweaker:sun_essence>, <storagedrawers:upgrade_storage:4>, <storagedrawers:quantify_key>, <storagedrawers:upgrade_template>], 
 	[<storagedrawers:upgrade_template>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_template>], 
 	[<storagedrawers:upgrade_template>, <storagedrawers:personal_key>, <storagedrawers:upgrade_storage:4>, <overloaded:hyper_item_sender>, <storagedrawers:upgrade_storage:4>, <storagedrawers:personal_key>, <storagedrawers:upgrade_template>], 
