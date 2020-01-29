@@ -23,6 +23,13 @@
         {
             "type": "item",
             "io-type": "output",
+            "item":"randomthings:beans@2",
+            "amount": 1,
+            "chance": 0.002
+        },
+        {
+            "type": "item",
+            "io-type": "output",
             "item":"minecraft:string@0",
             "amount": 1,
             "chance": 0.02
@@ -438,7 +445,7 @@
             "io-type": "output",
             "item":"botania_tweaks:compressed_tiny_potato_8@0",
             "amount": 1,
-            "chance": 0.00001
+            "chance": 0.000005
         },
         {
             "type": "item",

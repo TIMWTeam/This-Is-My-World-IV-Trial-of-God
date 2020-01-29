@@ -254,6 +254,13 @@
         {
             "type": "item",
             "io-type": "output",
+            "item":"randomthings:beans@2",
+            "amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "output",
             "item":"minecraft:sugar@0",
             "amount": 1,
             "chance": 0.02

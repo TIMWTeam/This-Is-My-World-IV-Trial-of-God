@@ -331,7 +331,7 @@
         {
             "type": "item",
             "io-type": "output",
-			"item":"ic2:resource@4",
+			"item":"techguns:basicore@4",
 			"amount": 1,
             "chance": 0.01
         },

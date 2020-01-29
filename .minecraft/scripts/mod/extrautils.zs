@@ -1,4 +1,11 @@
 //machine-craft
+recipes.remove(<extrautils2:rainbowgenerator:2>);
+recipes.addShaped(<extrautils2:rainbowgenerator:2>,[[<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}),<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}),<extrautils2:machine>.withTag({Type: "extrautils2:generator"})],[<extrautils2:machine>.withTag({Type: "extrautils2:generator_culinary"}),<advanced_solar_panels:crafting:13>,<extrautils2:machine>.withTag({Type: "extrautils2:generator_lava"})],[<extrautils2:machine>.withTag({Type: "extrautils2:generator_redstone"}),<extrautils2:machine>.withTag({Type: "extrautils2:generator_ender"}),<extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"})]]);
+recipes.remove(<extrautils2:rainbowgenerator:1>);
+recipes.addShaped(<extrautils2:rainbowgenerator:1>,[[<extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}),<extrautils2:machine>.withTag({Type: "extrautils2:generator_ice"}),<extrautils2:machine>.withTag({Type: "extrautils2:generator_death"})],[<extrautils2:machine>.withTag({Type: "extrautils2:generator_tnt"}),<advanced_solar_panels:crafting:13>,<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"})],[<extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}),<extrautils2:machine>.withTag({Type: "extrautils2:generator_dragonsbreath"}),<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"})]]);
+recipes.remove(<extrautils2:rainbowgenerator>);
+recipes.addShaped(<extrautils2:rainbowgenerator>,[[<ic2:nuclear:10>,<extrautils2:rainbowgenerator:2>,<ic2:nuclear:10>],[<ic2:nuclear:10>,<ic2:nuclear:10>,<ic2:nuclear:10>],[<ic2:nuclear:10>,<extrautils2:rainbowgenerator:1>,<ic2:nuclear:10>]]);
+
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.removeByRecipeName("extrautils2:machine_base");
 
@@ -21,7 +28,6 @@ recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_culin
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_culinary"}),[[<ore:listAllveggie>,<ore:listAllveggie>,<ore:listAllveggie>],[<ore:listAllveggie>,<ore:listAllmeatraw>,<ore:listAllveggie>],[<minecraft:redstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<minecraft:redstone>]]);
 //misc
 recipes.remove(<extrautils2:teleporter:1>);
-recipes.addShaped(<extrautils2:passivegenerator:8>,[[<extrautils2:decorativesolid:3>,<extrautils2:decorativesolid:3>,<extrautils2:decorativesolid:3>],[<extrautils2:ingredients:1>,<extrautils2:ingredients:2>,<extrautils2:ingredients:1>],[<extrautils2:decorativesolid:3>,<extrautils2:decorativesolid:3>,<extrautils2:decorativesolid:3>]]);
 
 mods.thaumcraft.Infusion.registerRecipe("enderlilly", "", <extrautils2:enderlilly>, 5, 
     [<aspect:alienis>*16, <aspect:herba>*8,<aspect:victus>*8], 

@@ -87,6 +87,7 @@ recipes.remove(<mysticalagriculture:dark_gem_seeds>);
 recipes.remove(<mysticalagriculture:tritanium_seeds>);
 recipes.remove(<mysticalagriculture:dilithium_seeds>);
 recipes.remove(<mysticalagriculture:menril_seeds>);
+recipes.addShaped(<mysticalagriculture:seed_reprocessor>,[[<ore:ingotIron>,<mysticalagriculture:crafting>,<ore:ingotIron>],[<ore:ingotIron>,<mysticalagriculture:mystical_machine_frame>,<ore:ingotIron>],[<ore:ingotIron>,<mysticalagriculture:ingot_storage:6>,<ore:ingotIron>]]);
 
 //基础种子合成
 mods.botania.Apothecary.addRecipe(<mysticalagriculture:crafting:17>,[<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting:5>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>]);
@@ -111,7 +112,7 @@ recipes.removeByRecipeName("mysticalagriculture:core/compression/intermedium_ess
 mods.bloodmagic.TartaricForge.addRecipe(<mysticalagriculture:crafting:2>,[<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>,<mysticalagriculture:crafting:1>],1024,20);
 mods.botaniatweaks.Agglomeration.addRecipe(<mysticalagriculture:storage:3>, 
     [<mysticalagriculture:storage:5>,<ic2:misc_resource:3>],
-    1000000, 0xff6600, 0x00aeff,
+    200000, 0xff6600, 0x00aeff,
     <mysticalagriculture:storage:5>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:5>,
     null,<minecraft:stone>,null);
 mods.thaumcraft.Infusion.registerRecipe("essence_supremium", "", <mysticalagriculture:crafting:4>, 5, [<aspect:ordo>*1, <aspect:perditio>*1,<aspect:aer>*1,<aspect:terra>*1,<aspect:ignis>*1,<aspect:aqua>*1], <mysticalagriculture:crafting:5>, [<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>]);
@@ -237,7 +238,7 @@ var essence_out = [<minecraft:iron_ore>*4,
     <thermalfoundation:ore:3>*2,
     <thermalfoundation:ore:2>*2,
     <techguns:basicore:3>,
-    <ic2:resource:4>,
+    <techguns:basicore:4>,
     <techreborn:ore:8>,
     <forestry:resources>*3,
     <actuallyadditions:block_misc:3>*3,

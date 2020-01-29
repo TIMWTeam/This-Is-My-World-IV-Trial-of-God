@@ -434,7 +434,6 @@
             "chance": 0.0025
         },
 	{"type": "item","io-type": "output","item":"thaumcraft:causality_collapser","amount": 1,"chance": 0.001},
-	{"type": "item","io-type": "output","item":"thaumcraft:primordial_pearl","amount": 1,"chance": 0.000625},
-	{"type": "item","io-type": "output","item":"thaumcraft:creative_flux_sponge","amount": 1,"chance": 0.00001}
+	{"type": "item","io-type": "output","item":"thaumcraft:creative_flux_sponge","amount": 1,"chance": 0.000005}
 	]
 }

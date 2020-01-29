@@ -153,7 +153,7 @@
       "emc": 16384
     },
     {
-      "item": "minecraft:dragon_breath",
+      "item": "minecraft:dragon_breath|0",
       "emc": 40960
     },
     {
@@ -259,6 +259,34 @@
     {
       "item": "extendedcrafting:material|48",
       "emc": 37696
+    },
+    {
+      "item": "thaumadditions:jar_brass|0",
+      "emc": 300
+    },
+    {
+      "item": "thaumadditions:jar_thaumium|0",
+      "emc": 813
+    },
+    {
+      "item": "thaumadditions:jar_eldritch|0",
+      "emc": 10813
+    },
+    {
+      "item": "thaumadditions:jar_mithrillium|0",
+      "emc": 200000
+    },
+    {
+      "item": "thaumadditions:jar_adaminite|0",
+      "emc": 1000000
+    },
+    {
+      "item": "thaumadditions:jar_mithminite|0",
+      "emc": 7500000
+    },
+    {
+      "item": "evilcraft:vengeance_pickaxe|0",
+      "emc": 0
     }
   ]
 }

@@ -323,8 +323,8 @@
         "energy": 20000000,
         "tier": 3,
         "ingredients": [
-            "ic2:resource,1,4",
-            "ic2:resource,1,4",
+            "techguns:basicore,1,4",
+            "techguns:basicore,1,4",
             "contenttweaker:sun_essence",
             "contenttweaker:sun_essence",
             "contenttweaker:moon_essence",
