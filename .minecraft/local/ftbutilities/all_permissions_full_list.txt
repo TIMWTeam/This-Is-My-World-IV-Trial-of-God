@@ -1,4 +1,4 @@
-14826 nodes in total
+14830 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -10496,6 +10496,10 @@ ftbutilities.claims.item.immersiveengineering.shield: ALL
 ftbutilities.claims.item.immersiveengineering.shovel_steel: ALL
 ftbutilities.claims.item.immersiveengineering.skyhook: ALL
 ftbutilities.claims.item.immersiveengineering.speedloader: ALL
+ftbutilities.claims.item.immersiveengineering.steel_armor_chest: ALL
+ftbutilities.claims.item.immersiveengineering.steel_armor_feet: ALL
+ftbutilities.claims.item.immersiveengineering.steel_armor_head: ALL
+ftbutilities.claims.item.immersiveengineering.steel_armor_legs: ALL
 ftbutilities.claims.item.immersiveengineering.steel_scaffolding_stairs0: ALL
 ftbutilities.claims.item.immersiveengineering.steel_scaffolding_stairs1: ALL
 ftbutilities.claims.item.immersiveengineering.steel_scaffolding_stairs2: ALL
@@ -14874,6 +14878,7 @@ command.botania_tweaks.botaniatweaks-reset-stats
 command.bq_standard.bqs_loot
 command.brandonscore.bcore_ticktime
 command.brandonscore.bcore_util
+command.brandonscore.tpx
 command.buildinggadgets.deleteblockmaps
 command.buildinggadgets.findblockmaps
 command.clear
